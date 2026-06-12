@@ -1,0 +1,1367 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2026 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the ROCm Documentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../about/license.md:7
+msgid "ROCm license"
+msgstr ""
+
+#: ../../../LICENSE:2
+msgid "MIT License"
+msgstr ""
+
+#: ../../../LICENSE:4
+msgid ""
+"Copyright (c) 2023 - 2025 Advanced Micro Devices, Inc. All rights "
+"reserved."
+msgstr ""
+
+#: ../../../LICENSE:6
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a "
+"copy of this software and associated documentation files (the "
+"\"Software\"), to deal in the Software without restriction, including "
+"without limitation the rights to use, copy, modify, merge, publish, "
+"distribute, sublicense, and/or sell copies of the Software, and to permit"
+" persons to whom the Software is furnished to do so, subject to the "
+"following conditions:"
+msgstr ""
+
+#: ../../../LICENSE:13
+msgid ""
+"The above copyright notice and this permission notice shall be included "
+"in all copies or substantial portions of the Software."
+msgstr ""
+
+#: ../../../LICENSE:16
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS"
+" OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF "
+"MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN"
+" NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,"
+" DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR "
+"OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE"
+" USE OR OTHER DEALINGS IN THE SOFTWARE."
+msgstr ""
+
+#: ../../about/license.md:13
+msgid ""
+"The preceding license applies to the [ROCm "
+"repository](https://github.com/ROCm/ROCm), which primarily contains "
+"documentation. For licenses related to other ROCm components, refer to "
+"the following section."
+msgstr ""
+
+#: ../../about/license.md:18
+msgid "ROCm component licenses"
+msgstr ""
+
+#: ../../about/license.md:20
+msgid ""
+"ROCm is released by Advanced Micro Devices, Inc. (AMD) and is licensed "
+"per component separately. The following table is a list of ROCm "
+"components with links to their respective license terms. These components"
+" may include third party components subject to additional licenses. "
+"Please review individual repositories for more information."
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "Component"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "License"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[AMD Compute Language Runtime (CLR)](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/clr)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/clr/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[AMD SMI](https://github.com/ROCm/amdsmi)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/amdsmi/blob/amd-staging/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[aomp](https://github.com/ROCm/aomp/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[Apache 2.0](https://github.com/ROCm/aomp/blob/aomp-dev/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[aomp-extras](https://github.com/ROCm/aomp-extras/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/aomp-extras/blob/aomp-dev/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[AQLprofile](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/aqlprofile/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/aqlprofile/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Code Object Manager (Comgr)](https://github.com/ROCm/llvm-project/tree"
+"/amd-staging/amd/comgr)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[The University of Illinois/NCSA](https://github.com/ROCm/llvm-"
+"project/blob/amd-staging/amd/comgr/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Composable Kernel](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/composablekernel)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/composablekernel/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[half](https://github.com/ROCm/half/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/half/blob/rocm/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[HIP](https://github.com/ROCm/rocm-systems/tree/develop/projects/hip/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/hip/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipamd](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/clr/hipamd/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/clr/hipamd/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipBLAS](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipblas/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipblas/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipBLASLt](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipblaslt/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipblaslt/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[HIPCC](https://github.com/ROCm/llvm-project/tree/amd-staging/amd/hipcc)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/llvm-project/blob/amd-"
+"staging/amd/hipcc/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipCUB](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipcub/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Custom](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipcub/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipFFT](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipfft/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipfft/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[hipfort](https://github.com/ROCm/hipfort/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/hipfort/blob/develop/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[HIPIFY](https://github.com/ROCm/HIPIFY/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/HIPIFY/blob/amd-staging/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipRAND](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hiprand/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hiprand/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipSOLVER](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipsolver/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipsolver/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipSPARSE](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipsparse/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipsparse/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipSPARSELt](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hipsparselt/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hipsparselt/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[hipTensor](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/hiptensor/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/hiptensor/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[llvm-project](https://github.com/ROCm/llvm-project/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Apache](https://github.com/ROCm/llvm-project/blob/amd-"
+"staging/LICENSE.TXT)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[llvm-project/flang](https://github.com/ROCm/llvm-project/tree/amd-"
+"staging/flang)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Apache 2.0](https://github.com/ROCm/llvm-project/blob/amd-"
+"staging/flang/LICENSE.TXT)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIGraphX](https://github.com/ROCm/AMDMIGraphX/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/AMDMIGraphX/blob/develop/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIOpen](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/miopen/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/miopen/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIVisionX](https://github.com/ROCm/MIVisionX/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/MIVisionX/blob/develop/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[rocAL](https://github.com/ROCm/rocAL)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocAL/blob/develop/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[rocALUTION](https://github.com/ROCm/rocALUTION/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocALUTION/blob/develop/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocBLAS](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocblas/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocblas/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCdbgapi](https://github.com/ROCm/ROCdbgapi/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/ROCdbgapi/blob/amd-staging/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocDecode](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocdecode)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocdecode/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocFFT](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocfft/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocfft/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCgdb](https://github.com/ROCm/ROCgdb/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[GNU General Public License v3.0](https://github.com/ROCm/ROCgdb/blob"
+"/amd-staging/COPYING3)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocJPEG](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocjpeg)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocjpeg/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCK-Kernel-Driver](https://github.com/ROCm/ROCK-Kernel-Driver/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[GPL 2.0 WITH Linux-syscall-note](https://github.com/ROCm/ROCK-Kernel-"
+"Driver/blob/master/COPYING)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocminfo](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocminfo/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[The University of Illinois/NCSA](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/rocminfo/License.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCm Bandwidth Test](https://github.com/ROCm/rocm_bandwidth_test/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocm_bandwidth_test/blob/master/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCm CMake](https://github.com/ROCm/rocm-cmake/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocm-cmake/blob/develop/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm Communication Collectives Library "
+"(RCCL)](https://github.com/ROCm/rccl/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[Custom](https://github.com/ROCm/rccl/blob/develop/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm-Core](https://github.com/ROCm/rocm-systems/tree/develop/projects"
+"/rocm-core/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-"
+"core/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm Compute Profiler](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocprofiler-compute/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
+"/rocprofiler-compute/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm Data Center (RDC)](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rdc/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/rdc/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm-Device-Libs](https://github.com/ROCm/llvm-project/tree/amd-"
+"staging/amd/device-libs)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[The University of Illinois/NCSA](https://github.com/ROCm/llvm-"
+"project/blob/amd-staging/amd/device-libs/LICENSE.TXT)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm-OpenCL-Runtime](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/clr/opencl/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/clr/opencl/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCm Performance Primitives (RPP)](https://github.com/ROCm/rpp)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rpp/blob/develop/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm SMI Lib](https://github.com/ROCm/rocm-systems/tree/develop/projects"
+"/rocm-smi-lib/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-"
+"smi-lib/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCm Systems Profiler](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocprofiler-systems/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
+"/rocprofiler-systems/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCm Validation Suite](https://github.com/ROCm/ROCmValidationSuite/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/ROCmValidationSuite/blob/master/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocPRIM](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocprim/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocprim/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCProfiler](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocprofiler/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/rocprofiler/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCprofiler-SDK](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/rocprofiler-sdk/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
+"/rocprofiler-sdk/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[rocPyDecode](https://github.com/ROCm/rocPyDecode)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocPyDecode/blob/develop/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocRAND](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocrand/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocrand/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[ROCr Debug Agent](https://github.com/ROCm/rocr_debug_agent/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[The University of "
+"Illinois/NCSA](https://github.com/ROCm/rocr_debug_agent/blob/amd-"
+"staging/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCR-Runtime](https://github.com/ROCm/rocm-systems/tree/develop/projects"
+"/rocr-runtime/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[The University of Illinois/NCSA](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/rocr-runtime/LICENSE.txt)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[rocSHMEM](https://github.com/ROCm/rocSHMEM/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/rocSHMEM/blob/develop/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocSOLVER](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocsolver/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[BSD-2-Clause](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocsolver/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocSPARSE](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocsparse/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocsparse/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocThrust](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocthrust/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Apache 2.0](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocthrust/LICENSE)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[ROCTracer](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/roctracer/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"systems/blob/develop/projects/roctracer/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[rocWMMA](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/projects/rocwmma/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/projects/rocwmma/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[Tensile](https://github.com/ROCm/rocm-"
+"libraries/tree/develop/shared/tensile/)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid ""
+"[MIT](https://github.com/ROCm/rocm-"
+"libraries/blob/develop/shared/tensile/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[TransferBench](https://github.com/ROCm/TransferBench)"
+msgstr ""
+
+#: ../../about/license.md:12
+msgid "[MIT](https://github.com/ROCm/TransferBench/blob/develop/LICENSE.md)"
+msgstr ""
+
+#: ../../about/license.md:93
+msgid ""
+"Open sourced ROCm components are released via public GitHub repositories,"
+" packages on [https://repo.radeon.com](https://repo.radeon.com) and other"
+" distribution channels. Proprietary products are only available on "
+"[https://repo.radeon.com](https://repo.radeon.com). Proprietary "
+"components are organized in a proprietary subdirectory in the package "
+"repositories to distinguish from open sourced packages."
+msgstr ""
+
+#: ../../about/license.md:100
+msgid ""
+"The following additional terms and conditions apply to your use of ROCm "
+"technical documentation."
+msgstr ""
+
+#: ../../about/license.md:103
+msgid "©2023 - 2025 Advanced Micro Devices, Inc. All rights reserved."
+msgstr ""
+
+#: ../../about/license.md:105
+msgid ""
+"The information presented in this document is for informational purposes "
+"only and may contain technical inaccuracies, omissions, and typographical"
+" errors. The information contained herein is subject to change and may be"
+" rendered inaccurate for many reasons, including but not limited to "
+"product and roadmap changes, component and motherboard version changes, "
+"new model and/or product releases, product differences between differing "
+"manufacturers, software changes, BIOS flashes, firmware upgrades, or the "
+"like. Any computer system has risks of security vulnerabilities that "
+"cannot be completely prevented or mitigated. AMD assumes no obligation to"
+" update or otherwise correct or revise this information. However, AMD "
+"reserves the right to revise this information and to make changes from "
+"time to time to the content hereof without obligation of AMD to notify "
+"any person of such revisions or changes."
+msgstr ""
+
+#: ../../about/license.md:118
+msgid ""
+"THIS INFORMATION IS PROVIDED “AS IS.” AMD MAKES NO REPRESENTATIONS OR "
+"WARRANTIES WITH RESPECT TO THE CONTENTS HEREOF AND ASSUMES NO "
+"RESPONSIBILITY FOR ANY INACCURACIES, ERRORS, OR OMISSIONS THAT MAY APPEAR"
+" IN THIS INFORMATION. AMD SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTIES "
+"OF NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR "
+"PURPOSE. IN NO EVENT WILL AMD BE LIABLE TO ANY PERSON FOR ANY RELIANCE, "
+"DIRECT, INDIRECT, SPECIAL, OR OTHER CONSEQUENTIAL DAMAGES ARISING FROM "
+"THE USE OF ANY INFORMATION CONTAINED HEREIN, EVEN IF AMD IS EXPRESSLY "
+"ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+
+#: ../../about/license.md:127
+msgid ""
+"AMD, the AMD Arrow logo, ROCm, and combinations thereof are trademarks of"
+" Advanced Micro Devices, Inc. Other product names used in this "
+"publication are for identification purposes only and may be trademarks of"
+" their respective companies."
+msgstr ""
+
+#: ../../about/license.md:132
+msgid "Package licensing"
+msgstr ""
+
+#: ../../about/license.md:135
+msgid ""
+"ROCprof Trace Decoder and AOCC CPU optimizations are provided in binary "
+"form, subject to the license agreement enclosed on "
+"[GitHub](https://github.com/ROCm/rocprof-trace-decoder/blob/amd-"
+"mainline/LICENSE) for ROCprof Trace Decoder, and [Developer "
+"Central](https://www.amd.com/en/developer/aocc.html) for AOCC. By using, "
+"installing, copying or distributing ROCprof Trace Decoder or AOCC CPU "
+"Optimizations, you agree to the terms and conditions of this license "
+"agreement. If you do not agree to the terms of this agreement, do not "
+"install, copy or use ROCprof Trace Decoder or the AOCC CPU Optimizations."
+msgstr ""
+
+#: ../../about/license.md:142
+msgid ""
+"For the rest of the ROCm packages, you can find the licensing information"
+" at the following location: `/opt/rocm/share/doc/<component-name>/` or in"
+" the locations specified in the preceding table."
+msgstr ""
+
+#: ../../about/license.md:146
+msgid ""
+"For example, you can fetch the licensing information of the `amd_comgr` "
+"component (Code Object Manager) from the "
+"`/opt/rocm/share/doc/amd_comgr/LICENSE.txt` file."
+msgstr ""
+
+#: ../../about/release-notes.md:14
+msgid "ROCm 7.2.4 release notes"
+msgstr ""
+
+#: ../../about/release-notes.md:16
+msgid ""
+"ROCm 7.2.4 is a quality release focused on performance and stability "
+"fixes for AI inference workloads on AMD Instinct GPUs."
+msgstr ""
+
+#: ../../about/release-notes.md:18 ../../about/release-notes.md:183
+msgid "Release highlights"
+msgstr ""
+
+#: ../../about/release-notes.md:20
+msgid "The following are the notable changes in ROCm 7.2.4."
+msgstr ""
+
+#: ../../about/release-notes.md:22
+msgid "Reduced hipGraphLaunch latency for multi-list graphs"
+msgstr ""
+
+#: ../../about/release-notes.md:24
+msgid ""
+"The HIP runtime's graph dispatch mechanism has been optimized, reducing "
+"launch latency for workloads using `hipGraphLaunch` with multi-list graph"
+" topologies."
+msgstr ""
+
+#: ../../about/release-notes.md:26
+msgid "Fixed H2D memory copy latency regression in CPX mode"
+msgstr ""
+
+#: ../../about/release-notes.md:28
+msgid ""
+"HIP runtime synchronization behavior has been corrected on AMD Instinct "
+"MI300 Series GPUs in CPX mode, restoring latency to previous levels for "
+"inference workloads that run multiple HIP streams with concurrent memory "
+"copies."
+msgstr ""
+
+#: ../../about/release-notes.md:30
+msgid "Reduced ROCprofiler-SDK profiling overhead"
+msgstr ""
+
+#: ../../about/release-notes.md:32
+msgid ""
+"Profiling stability has been improved for vLLM workloads traced with "
+"PyTorch `torch.profiler` using the ROCprofiler-SDK backend. The large, "
+"sporadic idle gaps that previously appeared between GPU kernels in the "
+"trace have been substantially reduced in common configurations, and the "
+"traces now more accurately reflect actual runtime behavior. Coverage may "
+"vary depending on model and parallelism settings."
+msgstr ""
+
+#: ../../about/release-notes.md:34
+msgid "Reduced copy overhead in MIGraphX concat operations"
+msgstr ""
+
+#: ../../about/release-notes.md:36
+msgid ""
+"MIGraphX now recognizes ONNX models that concatenate the same tensor "
+"multiple times and avoids redundant device-side copies, improving "
+"inference throughput at small batch sizes for the affected model class on"
+" AMD Instinct MI300X GPUs."
+msgstr ""
+
+#: ../../about/release-notes.md:38 ../../about/release-notes.md:200
+msgid "User space, driver, and firmware dependent changes"
+msgstr ""
+
+#: ../../about/release-notes.md:40 ../../about/release-notes.md:202
+msgid ""
+"The software for AMD Data Center GPU products requires maintaining a "
+"hardware and software stack with interdependencies among the GPU and "
+"baseboard firmware, AMD GPU drivers, and the ROCm user space software. "
+"While AMD publishes drivers and ROCm user space components, your server "
+"or infrastructure provider publishes the GPU and baseboard firmware by "
+"bundling AMD’s firmware releases via the AMD Platform Level Data Model "
+"(PLDM) bundle, which includes the Integrated Firmware Image (IFWI)."
+msgstr ""
+
+#: ../../about/release-notes.md:44 ../../about/release-notes.md:206
+msgid "GPU and baseboard firmware versioning might differ across GPU families."
+msgstr ""
+
+#: ../../about/release-notes.md:158
+msgid ""
+"ROCm 7.2.4 doesn't include any other significant changes or feature "
+"additions. For comprehensive changes, new features, and enhancements in "
+"ROCm 7.2.3, refer to the [ROCm 7.2.3 release notes](#rocm-7-2-3-release-"
+"notes) below."
+msgstr ""
+
+#: ../../about/release-notes.md:161
+msgid "ROCm 7.2.3 release notes"
+msgstr ""
+
+#: ../../about/release-notes.md:163
+msgid ""
+"The release notes provide a summary of notable changes since the previous"
+" ROCm release."
+msgstr ""
+
+#: ../../about/release-notes.md:165
+msgid "[Release highlights](#id1)"
+msgstr ""
+
+#: ../../about/release-notes.md:167
+msgid ""
+"[Supported hardware, operating system, and virtualization changes"
+"](#supported-hardware-operating-system-and-virtualization-changes)"
+msgstr ""
+
+#: ../../about/release-notes.md:169
+msgid ""
+"[User space, driver, and firmware dependent changes](#user-space-driver-"
+"and-firmware-dependent-changes)"
+msgstr ""
+
+#: ../../about/release-notes.md:171
+msgid "[ROCm components versioning](#rocm-components)"
+msgstr ""
+
+#: ../../about/release-notes.md:173
+msgid "[Detailed component changes](#detailed-component-changes)"
+msgstr ""
+
+#: ../../about/release-notes.md:175
+msgid "[ROCm known issues](#rocm-known-issues)"
+msgstr ""
+
+#: ../../about/release-notes.md:177
+msgid "[ROCm upcoming changes](#rocm-upcoming-changes)"
+msgstr ""
+
+#: ../../about/release-notes.md:180
+msgid ""
+"If you’re using AMD Radeon™ GPUs or Ryzen™ for graphics workloads, see "
+"the [Use ROCm on Radeon and Ryzen](https://rocm.docs.amd.com/projects"
+"/radeon-ryzen/en/latest/index.html) documentation to verify compatibility"
+" and system requirements."
+msgstr ""
+
+#: ../../about/release-notes.md:185
+msgid ""
+"The following are notable new features and improvements in ROCm 7.2.3. "
+"For changes to individual components, see [Detailed component changes"
+"](#detailed-component-changes)."
+msgstr ""
+
+#: ../../about/release-notes.md:188
+msgid "Supported hardware, operating system, and virtualization changes"
+msgstr ""
+
+#: ../../about/release-notes.md:190
+msgid ""
+"Hardware, operating system, and virtualization support remains unchanged "
+"in this release."
+msgstr ""
+
+#: ../../about/release-notes.md:192
+msgid "For more information about:"
+msgstr ""
+
+#: ../../about/release-notes.md:194
+msgid ""
+"AMD hardware, see [Supported GPUs "
+"(Linux)](https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.3/reference/system-requirements.html#supported-gpus)."
+msgstr ""
+
+#: ../../about/release-notes.md:196
+msgid ""
+"Operating systems, see [Supported operating "
+"systems](https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.3/reference/system-requirements.html#supported-"
+"operating-systems) and [ROCm installation for "
+"Linux](https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.3/)."
+msgstr ""
+
+#: ../../about/release-notes.md:198
+msgid ""
+"Virtualization support, see  [Virtualization "
+"support](https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.3/reference/system-requirements.html#virtualization-"
+"support)."
+msgstr ""
+
+#: ../../about/release-notes.md:319
+msgid "Improved profiling accuracy for vLLM workloads"
+msgstr ""
+
+#: ../../about/release-notes.md:321
+msgid ""
+"ROCm 7.2.3 improves profiling stability for vLLM workloads traced with "
+"PyTorch `torch.profiler`. The large, sporadic idle gaps that previously "
+"appeared between GPU kernels in the trace have been substantially reduced"
+" in common configurations, and the traces now more accurately reflect "
+"actual runtime behavior. Coverage may vary depending on model and "
+"parallelism settings; additional improvements are in progress."
+msgstr ""
+
+#: ../../about/release-notes.md:323
+msgid "MIGraphX update"
+msgstr ""
+
+#: ../../about/release-notes.md:325
+msgid ""
+"[MIGraphX](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/docs-7.2.3/index.html)"
+" has the following enhancements:"
+msgstr ""
+
+#: ../../about/release-notes.md:327
+msgid "Improved performance of the Gather operator"
+msgstr ""
+
+#: ../../about/release-notes.md:329
+msgid ""
+"Performance for embedding‑heavy inference workloads is improved by "
+"merging multiple independent gather operations from similar embedding "
+"tables into a single batched operation. Multi‑gather workloads now run "
+"more efficiently with fewer kernel launches and reduced memory traffic by"
+" adding horizontal fusion for cross-embedding gather operators. These "
+"gather operators have been updated to use "
+"`transpose`/`reshape`/`broadcast`/`slice`, enabling better optimization "
+"across different backends and data layouts."
+msgstr ""
+
+#: ../../about/release-notes.md:331
+msgid "ONNX Runtime reliability improvement"
+msgstr ""
+
+#: ../../about/release-notes.md:333
+msgid ""
+"ONNX Runtime workloads accelerated with MIGraphX now provide a more "
+"reliable experience through external stream support in the MIGraphX "
+"Execution Provider, with improved memory allocation and deallocation for "
+"multi-stream inference."
+msgstr ""
+
+#: ../../about/release-notes.md:335
+msgid "ROCm documentation updates"
+msgstr ""
+
+#: ../../about/release-notes.md:337
+#, python-brace-format
+msgid ""
+"ROCm documentation has been updated with ROCm XIO documentation. ROCm XIO"
+" provides an API for Accelerator-Initiated IO (XIO) for an AMD GPU "
+"`__device__` code. It enables AMD GPUs to perform direct IO operations to"
+" hardware devices without CPU intervention. ROCm XIO was initially "
+"released in April 2026 as an early-access software technology preview. "
+"Running production workloads is not recommended. For more information, "
+"see the [ROCm XIO documentation](https://rocm.docs.amd.com/projects/rocm-"
+"xio/en/beta-0.1.0/index.html) and {fab}`github` [ROCm/rocm-"
+"xio](https://github.com/ROCm/rocm-xio) GitHub repository."
+msgstr ""
+
+#: ../../about/release-notes.md:340
+msgid "ROCm components"
+msgstr ""
+
+#: ../../about/release-notes.md:342
+msgid ""
+"The following table lists the versions of ROCm components for ROCm 7.2.3,"
+" including any version changes from 7.2.2/7.2.1 to 7.2.3. Click the "
+"component's updated version to go to a list of its changes."
+msgstr ""
+
+#: ../../about/release-notes.md:345
+#, python-brace-format
+msgid "Click {fab}`github` to go to the component's source code on GitHub."
+msgstr ""
+
+#: ../../about/release-notes.md:670
+msgid "Detailed component changes"
+msgstr ""
+
+#: ../../about/release-notes.md:672
+msgid "The following sections describe key changes to ROCm components."
+msgstr ""
+
+#: ../../about/release-notes.md:675
+#, python-brace-format
+msgid ""
+"For a historical overview of ROCm component updates, see the {doc}`ROCm "
+"consolidated changelog </release/changelog>`."
+msgstr ""
+
+#: ../../about/release-notes.md:678
+msgid "**MIGraphX** (2.15.0)"
+msgstr ""
+
+#: ../../about/release-notes.md:680
+msgid "Added"
+msgstr ""
+
+#: ../../about/release-notes.md:682
+msgid ""
+"External stream support to the MIGraphX context, allowing external HIP "
+"streams to be used during execution."
+msgstr ""
+
+#: ../../about/release-notes.md:683
+msgid ""
+"Ability to return a vector for output alias, supporting operators like "
+"`make_tuple`."
+msgstr ""
+
+#: ../../about/release-notes.md:685
+msgid "Changed"
+msgstr ""
+
+#: ../../about/release-notes.md:687
+msgid "Refactored `move_output_instructions_after` into the module class."
+msgstr ""
+
+#: ../../about/release-notes.md:688
+msgid "Updated rocMLIR to fix `bert_squad` and `bert_tf` regressions."
+msgstr ""
+
+#: ../../about/release-notes.md:690
+msgid "Optimized"
+msgstr ""
+
+#: ../../about/release-notes.md:692
+msgid ""
+"Rewrote the `gather` operator to use "
+"`transpose`/`reshape`/`broadcast`/`slice` for improved performance."
+msgstr ""
+
+#: ../../about/release-notes.md:693
+msgid "Horizontally fuse cross-embedding `gather` operators."
+msgstr ""
+
+#: ../../about/release-notes.md:694
+msgid "Improved tuning for Split-K."
+msgstr ""
+
+#: ../../about/release-notes.md:695
+msgid ""
+"Removed extra assignments and inserts in `find_nop_reshapes` to reduce "
+"overhead."
+msgstr ""
+
+#: ../../about/release-notes.md:697
+msgid "Resolved issues"
+msgstr ""
+
+#: ../../about/release-notes.md:699
+msgid "The following issues have been fixed:"
+msgstr ""
+
+#: ../../about/release-notes.md:701
+msgid "`int` to `bf16`/`fp16` conversion errors."
+msgstr ""
+
+#: ../../about/release-notes.md:702
+msgid "Comparison logic in `find_concat_op` to match the correct I/O."
+msgstr ""
+
+#: ../../about/release-notes.md:703
+msgid ""
+"`shape_transform_descriptor::rebase` when flattening a broadcasted "
+"dimension."
+msgstr ""
+
+#: ../../about/release-notes.md:704
+msgid "An error with `rewrite_reshapes`."
+msgstr ""
+
+#: ../../about/release-notes.md:705
+msgid "A gather rewrite crash by validating the strided view element count."
+msgstr ""
+
+#: ../../about/release-notes.md:706
+msgid "A bug in gather rewrite with NHWC shapes."
+msgstr ""
+
+#: ../../about/release-notes.md:707
+msgid ""
+"A crash in rocMLIR with Inception v3 on RDNA3 architecture-based Radeon "
+"GPUs."
+msgstr ""
+
+#: ../../about/release-notes.md:708
+msgid "Filter zero-argument operators during ONNX parsing to prevent errors."
+msgstr ""
+
+#: ../../about/release-notes.md:709
+msgid "Conflict for missing `no_broadcast` parameter on ROCm 7.2.x."
+msgstr ""
+
+#: ../../about/release-notes.md:711
+msgid "ROCm known issues"
+msgstr ""
+
+#: ../../about/release-notes.md:713
+#, python-brace-format
+msgid ""
+"ROCm known issues are noted on {fab}`github` "
+"[GitHub](https://github.com/ROCm/ROCm/labels/Verified%20Issue). For known"
+" issues related to individual components, review the [Detailed component "
+"changes](#detailed-component-changes)."
+msgstr ""
+
+#: ../../about/release-notes.md:716
+msgid "Minor performance regression for MIGraphX with int8-quantized models"
+msgstr ""
+
+#: ../../about/release-notes.md:718
+msgid ""
+"You might observe a slight performance regression when running "
+"int8-quantized models with MIGraphX. This impact is generally minimal and"
+" does not affect correctness. However, workloads sensitive to peak "
+"throughput might have reduced performance when compared to non-quantized "
+"or alternative execution paths. This issue is currently under "
+"investigation and will be fixed in a future ROCm release. See [GitHub "
+"issue #6195](https://github.com/ROCm/ROCm/issues/6195)."
+msgstr ""
+
+#: ../../about/release-notes.md:720
+msgid "ROCm upcoming changes"
+msgstr ""
+
+#: ../../about/release-notes.md:722
+msgid ""
+"The following changes to the ROCm software stack are anticipated for "
+"future releases."
+msgstr ""
+
+#: ../../about/release-notes.md:724
+msgid "ROCTracer, ROCProfiler, rocprof, and rocprofv2 deprecation"
+msgstr ""
+
+#: ../../about/release-notes.md:726
+msgid ""
+"ROCTracer, ROCProfiler, `rocprof`, and `rocprofv2` are deprecated. It's "
+"strongly recommended to upgrade to the latest version of the "
+"[ROCprofiler-SDK](https://rocm.docs.amd.com/projects/rocprofiler-"
+"sdk/en/latest/) library and the (`rocprofv3`) tool to ensure continued "
+"support and access to new features."
+msgstr ""
+
+#: ../../about/release-notes.md:728
+msgid ""
+"To learn about key feature improvements and benefits of ROCprofiler-SDK "
+"over the deprecated ROCProfiler and ROCTracer, see [Comparing "
+"ROCprofiler-SDK to legacy ROCm profiling "
+"tools](https://rocm.docs.amd.com/projects/rocprofiler-"
+"sdk/en/latest/conceptual/comparing-with-legacy-tools.html)."
+msgstr ""
+
+#: ../../about/release-notes.md:730
+msgid ""
+"It's anticipated that ROCTracer, ROCProfiler, `rocprof`, and `rocprofv2` "
+"will reach end of support (EoS) by the end of 2026 Q2."
+msgstr ""
+
+#: ../../about/release-notes.md:732
+msgid "ROCm SMI deprecation"
+msgstr ""
+
+#: ../../about/release-notes.md:734
+msgid ""
+"[ROCm SMI](https://github.com/ROCm/rocm_smi_lib) will be phased out in an"
+" upcoming ROCm release and will enter maintenance mode. After this "
+"transition, only critical bug fixes will be addressed and no further "
+"feature development will take place."
+msgstr ""
+
+#: ../../about/release-notes.md:739
+msgid ""
+"It's strongly recommended to transition your projects to [AMD "
+"SMI](https://github.com/ROCm/rocm-systems/tree/develop/projects/amdsmi), "
+"the successor to ROCm SMI. AMD SMI includes all the features of the ROCm "
+"SMI and will continue to receive regular updates, new functionality, and "
+"ongoing support. For more information on AMD SMI, see the [AMD SMI "
+"documentation](https://rocm.docs.amd.com/projects/amdsmi/en/latest/)."
+msgstr ""
+
+#: ../../about/release-notes.md:745
+msgid "Changes to ROCm Object Tooling"
+msgstr ""
+
+#: ../../about/release-notes.md:747
+msgid ""
+"ROCm Object Tooling tools ``roc-obj-ls``, ``roc-obj-extract``, and ``roc-"
+"obj`` were deprecated in ROCm 6.4, and will be removed in a future "
+"release. Functionality has been added to the ``llvm-objdump "
+"--offloading`` tool option to extract all clang-offload-bundles into "
+"individual code objects found within the objects or executables passed as"
+" input.  The ``llvm-objdump --offloading`` tool option also supports the "
+"``--arch-name`` option, and only extracts code objects found with the "
+"specified target architecture. See [llvm-"
+"objdump](https://llvm.org/docs/CommandGuide/llvm-objdump.html) for more "
+"information."
+msgstr ""
+

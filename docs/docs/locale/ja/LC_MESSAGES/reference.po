@@ -1,0 +1,5743 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../reference/api-libraries.md:9
+msgid "ROCm libraries"
+msgstr ""
+
+#: ../../reference/api-libraries.md:16
+msgid "Machine Learning and Computer Vision"
+msgstr ""
+
+#: ../../reference/api-libraries.md:21
+#, python-brace-format
+msgid "{doc}`Composable Kernel <composable_kernel:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:22
+#, python-brace-format
+msgid "{doc}`MIGraphX <amdmigraphx:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:23
+#, python-brace-format
+msgid "{doc}`MIOpen <miopen:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:24
+#, python-brace-format
+msgid "{doc}`MIVisionX <mivisionx:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:25
+#, python-brace-format
+msgid "{doc}`rocAL <rocal:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:26
+#, python-brace-format
+msgid "{doc}`rocDecode <rocdecode:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:27
+#, python-brace-format
+msgid "{doc}`rocPyDecode <rocpydecode:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:28
+#, python-brace-format
+msgid "{doc}`rocJPEG <rocjpeg:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:29
+#, python-brace-format
+msgid "{doc}`ROCm Performance Primitives (RPP) <rpp:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:32
+msgid "Primitives"
+msgstr ""
+
+#: ../../reference/api-libraries.md:37
+#, python-brace-format
+msgid "{doc}`hipCUB <hipcub:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:38
+#, python-brace-format
+msgid "{doc}`hipTensor <hiptensor:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:39
+#, python-brace-format
+msgid "{doc}`rocPRIM <rocprim:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:40
+#, python-brace-format
+msgid "{doc}`rocThrust <rocthrust:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:43
+msgid "Communication"
+msgstr ""
+
+#: ../../reference/api-libraries.md:48
+#, python-brace-format
+msgid "{doc}`RCCL <rccl:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:49
+#, python-brace-format
+msgid "{doc}`rocSHMEM <rocshmem:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:52
+msgid "Math"
+msgstr ""
+
+#: ../../reference/api-libraries.md:57
+msgid "[half](https://github.com/ROCm/half)"
+msgstr ""
+
+#: ../../reference/api-libraries.md:58
+#, python-brace-format
+msgid "{doc}`hipBLAS <hipblas:index>` / {doc}`rocBLAS <rocblas:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:59
+#, python-brace-format
+msgid "{doc}`hipBLASLt <hipblaslt:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:60
+#, python-brace-format
+msgid "{doc}`hipFFT <hipfft:index>` / {doc}`rocFFT <rocfft:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:61
+#, python-brace-format
+msgid "{doc}`hipfort <hipfort:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:62
+#, python-brace-format
+msgid "{doc}`hipRAND <hiprand:index>` / {doc}`rocRAND <rocrand:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:63
+#, python-brace-format
+msgid "{doc}`hipSOLVER <hipsolver:index>` / {doc}`rocSOLVER <rocsolver:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:64
+#, python-brace-format
+msgid "{doc}`hipSPARSE <hipsparse:index>` / {doc}`rocSPARSE <rocsparse:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:65
+#, python-brace-format
+msgid "{doc}`hipSPARSELt <hipsparselt:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:66
+#, python-brace-format
+msgid "{doc}`rocALUTION <rocalution:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:67
+#, python-brace-format
+msgid "{doc}`rocWMMA <rocwmma:index>`"
+msgstr ""
+
+#: ../../reference/api-libraries.md:68
+#, python-brace-format
+msgid "{doc}`Tensile <tensile:src/index>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:-1
+msgid "Environment variables reference"
+msgstr ""
+
+#: ../../reference/env-variables.rst:-1
+msgid "AMD, ROCm, environment variables, environment, reference, settings"
+msgstr ""
+
+#: ../../reference/env-variables.rst:12
+msgid "ROCm environment variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:14
+msgid ""
+"ROCm provides a set of environment variables that allow users to "
+"configure and optimize their development and runtime experience. These "
+"variables define key settings such as installation paths, platform "
+"selection, and runtime behavior for applications running on AMD "
+"accelerators and GPUs."
+msgstr ""
+
+#: ../../reference/env-variables.rst:18
+msgid ""
+"This page outlines commonly used environment variables across different "
+"components of the ROCm software stack, including HIP and ROCR-Runtime. "
+"Understanding these variables can help streamline software development "
+"and execution in ROCm-based environments."
+msgstr ""
+
+#: ../../reference/env-variables.rst:23
+msgid "HIP environment variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:25
+msgid "The following tables list the HIP environment variables."
+msgstr ""
+
+#: ../../reference/env-variables.rst:28
+msgid "GPU isolation variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:38
+msgid "Profiling variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:48
+msgid "Debug variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:57
+msgid "Memory management related variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:66
+msgid "Other useful variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:75
+msgid "ROCR-Runtime environment variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:77
+msgid ""
+"The following table lists the :doc:`ROCR-Runtime <rocr-runtime:index>` "
+"environment variables:"
+msgstr ""
+
+#: ../../reference/env-variables.rst:87
+msgid "HIPCC environment variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:89
+msgid "This topic provides descriptions of the HIPCC environment variables."
+msgstr ""
+
+#: ../../reference/env-variables.rst:99
+msgid "Environment variables in ROCm libraries"
+msgstr ""
+
+#: ../../reference/env-variables.rst:101
+msgid ""
+"Many ROCm libraries define environment variables for specific tuning, "
+"debugging, or behavioral control. The table below provides an overview "
+"and links to further documentation."
+msgstr ""
+
+#: ../../reference/env-variables.rst:109
+msgid "Library"
+msgstr ""
+
+#: ../../reference/env-variables.rst:110
+msgid "Purpose of Environment Variables"
+msgstr ""
+
+#: ../../reference/env-variables.rst:112
+msgid ":doc:`hipBLASLt <hipblaslt:reference/env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:113
+msgid ""
+"Manage logging, debugging, offline tuning, and stream-K configuration for"
+" hipBLASLt."
+msgstr ""
+
+#: ../../reference/env-variables.rst:116
+msgid ":doc:`hipSPARSELt <hipsparselt:reference/env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:117
+msgid "Control logging, debugging and performance monitoring of hipSPARSELt."
+msgstr ""
+
+#: ../../reference/env-variables.rst:119
+msgid ":doc:`rocBLAS <rocblas:reference/env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:120
+msgid ""
+"Performance tuning, kernel selection, logging, and debugging for BLAS "
+"operations."
+msgstr ""
+
+#: ../../reference/env-variables.rst:123
+msgid ":doc:`rocSHMEM <rocshmem:api/env_variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:124
+msgid "Control the behavior of rocSHMEM."
+msgstr ""
+
+#: ../../reference/env-variables.rst:126
+msgid ":doc:`rocSOLVER <rocsolver:reference/env_variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:127
+msgid "Control logging of rocSOLVER."
+msgstr ""
+
+#: ../../reference/env-variables.rst:129
+msgid ":doc:`rocSPARSE <rocsparse:reference/env_variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:130
+msgid "Control logging of rocSPARSE."
+msgstr ""
+
+#: ../../reference/env-variables.rst:132
+msgid ":doc:`MIGraphX <amdmigraphx:reference/MIGraphX-dev-env-vars>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:133
+msgid ""
+"Control debugging, testing, and model performance tuning options for "
+"MIGraphX."
+msgstr ""
+
+#: ../../reference/env-variables.rst:136
+msgid ":doc:`MIOpen <miopen:reference/env_variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:137
+msgid ""
+"Control MIOpen logging and debugging, find mode and algorithm behavior "
+"and others."
+msgstr ""
+
+#: ../../reference/env-variables.rst:140
+msgid ":doc:`MIVisionX <mivisionx:reference/MIVisionX-env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:141
+msgid ""
+"Control core OpenVX, GPU/device and debugging/profiling, stitching and "
+"chroma key configurations, file I/O operations, model deployment, and "
+"neural network parameters of MIVisionX."
+msgstr ""
+
+#: ../../reference/env-variables.rst:145
+msgid ":doc:`RCCL <rccl:api-reference/env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:146
+msgid ""
+"Control the logging, debugging, compiler and assembly behavior, and cache"
+" of RPP."
+msgstr ""
+
+#: ../../reference/env-variables.rst:149
+msgid ":doc:`RPP <rpp:reference/rpp-env-variables>`"
+msgstr ""
+
+#: ../../reference/env-variables.rst:150
+msgid ""
+"Logging, debugging, compiler and assembly management, and cache control "
+"in RPP"
+msgstr ""
+
+#: ../../reference/env-variables.rst:152
+msgid ""
+"`Tensile "
+"<https://rocm.docs.amd.com/projects/Tensile/en/latest/src/reference"
+"/environment-variables.html>`_"
+msgstr ""
+
+#: ../../reference/env-variables.rst:153
+msgid ""
+"Enable testing, debugging, and experimental features for Tensile clients "
+"and applications"
+msgstr ""
+
+#: ../../reference/env-variables.rst:156
+msgid "Key single-variable details"
+msgstr ""
+
+#: ../../reference/env-variables.rst:158
+msgid ""
+"This section provides detailed descriptions, in the standard format, for "
+"ROCm libraries that feature a single, key environment variable (or a very"
+" minimal set) which is documented directly on this page for convenience."
+msgstr ""
+
+#: ../../reference/env-variables.rst:165
+msgid "rocALUTION"
+msgstr ""
+
+#: ../../reference/env-variables.rst:171
+msgid "Environment variable"
+msgstr ""
+
+#: ../../reference/env-variables.rst:172
+#: ../../reference/precision-support.rst:1102
+msgid "Value"
+msgstr ""
+
+#: ../../reference/env-variables.rst
+msgid "``ROCALUTION_LAYER``"
+msgstr ""
+
+#: ../../reference/env-variables.rst
+msgid ""
+"If set to ``1``, enable file logging. Logs each rocALUTION function call "
+"including object constructor/destructor, address of the object, memory "
+"allocation, data transfers, all function calls for matrices, vectors, "
+"solvers, and preconditioners. The log file is placed in the working "
+"directory."
+msgstr ""
+
+#: ../../reference/env-variables.rst
+msgid "``1`` (Enable trace file logging)"
+msgstr ""
+
+#: ../../reference/env-variables.rst
+msgid "Default: Not set."
+msgstr ""
+
+#: ../../reference/glossary.rst:-1
+msgid "AMD ROCm Glossary"
+msgstr ""
+
+#: ../../reference/glossary.rst:-1
+msgid ""
+"AMD, ROCm,  glossary, terminology, device hardware, device software, host"
+" software, performance"
+msgstr ""
+
+#: ../../reference/glossary.rst:10
+msgid "ROCm glossary"
+msgstr ""
+
+#: ../../reference/glossary.rst:12
+msgid ""
+"This glossary provides concise definitions of key terms and concepts in "
+"AMD ROCm programming. Each entry includes a brief description and a link "
+"to detailed documentation for in-depth information."
+msgstr ""
+
+#: ../../reference/glossary.rst:16
+msgid "The glossary is organized into four sections:"
+msgstr ""
+
+#: ../../reference/glossary.rst:18
+msgid ""
+":doc:`glossary/device-hardware` — Hardware components (for example, "
+"Compute Units, cores, memory)"
+msgstr ""
+
+#: ../../reference/glossary.rst:20
+msgid ""
+":doc:`glossary/device-software` — Software abstractions (programming "
+"model, ISA, thread hierarchy)"
+msgstr ""
+
+#: ../../reference/glossary.rst:22
+msgid ""
+":doc:`glossary/host-software` — Development tools (HIP, compilers, "
+"libraries, profilers)"
+msgstr ""
+
+#: ../../reference/glossary.rst:24
+msgid ""
+":doc:`glossary/performance` — Performance metrics and optimization "
+"concepts"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:-1
+msgid "Device hardware glossary for AMD GPUs"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:-1
+msgid ""
+"AMD, ROCm, GPU, device hardware, compute units, cores, MFMA, "
+"architecture, register file, cache, HBM"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:10
+msgid "Device hardware glossary"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:12
+msgid ""
+"This section provides concise definitions of hardware components and "
+"architectural features of AMD GPUs."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:233
+msgid "AccVGPR"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:235
+msgid ""
+"Accumulation General Purpose Vector Registers (AccVGPRs) are a special "
+"type of :term:`VGPRs <VGPR>` used exclusively for matrix operations."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:27
+msgid "ALU"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:29
+msgid ""
+"Arithmetic logic units (ALUs) are the primary arithmetic engines that "
+"execute mathematical and logical operations within :term:`compute units "
+"<Compute units>`. See :ref:`hip:valu` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:17
+msgid "AMD device architecture"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:19
+msgid ""
+"AMD device architecture is based on unified, programmable compute engines"
+" known as :term:`compute units (CUs) <Compute units>`. See "
+":ref:`hip:hardware_implementation` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:122
+msgid "Compute unit versioning"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:124
+msgid ""
+":term:`Compute units <Compute units>` are versioned with :term:`GFX IP "
+"<GFX IP>` identifiers that define their microarchitectural features and "
+"instruction set compatibility. See :ref:`hip:gfx_ip` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:22
+msgid "Compute units"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:24
+msgid ""
+"Compute units (CUs) are the fundamental programmable execution engines in"
+" AMD GPUs capable of running complex programs. See "
+":ref:`hip:compute_unit` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:95
+msgid "Data movement engine"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:97
+msgid ""
+"Data movement engines (DMEs) are specialized hardware units in AMD "
+"Instinct MI300 and MI350 series GPUs that accelerate multi-dimensional "
+"tensor data copies between global memory and on-chip memory. See "
+":ref:`hip:dme` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:242
+msgid "GCD"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:244
+msgid ""
+"On AMD Instinct MI100 and MI250 series GPUs and AMD Radeon GPUs, the "
+"Graphics Compute Die (GCD) contains the GPU's computational elements and "
+"lower levels of the cache hierarchy. See :doc:`../../conceptual/gpu-"
+"arch/mi250` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:101
+msgid "GFX IP"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:103
+msgid ""
+"GFX IP (Graphics IP) versions are identifiers that specify which "
+"instruction formats, memory models, and compute features are supported by"
+" each AMD GPU generation. See :ref:`hip:gfx_ip` for versioning "
+"information."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:107
+msgid "GFX IP major version"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:109
+msgid ""
+"The :term:`GFX IP <GFX IP>` major version represents the GPU's core "
+"instruction set and architecture. For example, a GFX IP `11` major "
+"version corresponds to the RDNA3 architecture, influencing driver support"
+" and available compute features. See :ref:`hip:gfx_ip` for versioning "
+"information."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:114
+msgid "GFX IP minor version"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:116
+msgid ""
+"The :term:`GFX IP <GFX IP>` minor version represents specific variations "
+"within a :term:`GFX IP <GFX IP>` major version and affects feature sets, "
+"optimizations, and driver behavior. Different GPU models within the same "
+"major version can have unique capabilities, impacting performance and "
+"supported instructions. See :ref:`hip:gfx_ip` for versioning information."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:204
+msgid "GPU RAM (VRAM)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:206
+msgid ""
+"GPU RAM, also known as :term:`global memory <Global memory>` in the HIP "
+"programming model, is the large, high-capacity off-chip memory subsystem "
+"accessible by all :term:`compute units <Compute units>`, forming the "
+"foundation of the device's :ref:`memory hierarchy <hip:hbm>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:186
+msgid "Graphics L1 cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:188
+msgid ""
+"On AMD Radeon GPUs, the read-only graphics level 1 (L1) cache is local to"
+" groups of :term:`WGPs <WGP>` called shader arrays, providing fast access"
+" to recently used data. AMD Instinct GPUs do not feature the graphics L1 "
+"cache."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:198
+msgid "Infinity Cache (L3 cache)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:200
+msgid ""
+"On AMD Instinct MI300 and MI350 series GPUs and AMD Radeon GPUs, the "
+"Infinity Cache is the last level cache of the cache hierarchy. It is "
+"shared by all :term:`compute units <Compute units>` and :term:`WGPs "
+"<WGP>` on the GPU."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:146
+msgid "L0 instruction cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:148
+msgid ""
+"On AMD Radeon GPUs, the level 0 (L0) instruction cache is local to each "
+":term:`WGP <WGP>` and thus shared between the WGP's :term:`compute units "
+"<Compute units>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:151
+msgid "L0 scalar cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:153
+msgid ""
+"On AMD Radeon GPUs, the level 0 (L0) scalar data cache is local to each "
+":term:`WGP <WGP>` and thus shared between the WGP's :term:`compute units "
+"<Compute units>`. It provides the :term:`scalar ALU <SALU>` with fast "
+"access to recently used data."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:157
+msgid "L0 vector cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:159
+msgid ""
+"On AMD Radeon GPUs, the level 0 (L0) vector data cache is local to each "
+":term:`WGP <WGP>` and thus shared between the WGP's :term:`compute units "
+"<Compute units>`. It provides the :term:`vector ALU <VALU>` with fast "
+"access to recently used data."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:163
+msgid "L1 instruction cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:165
+msgid ""
+"On AMD Instinct GPUs, the level 1 (L1) instruction cache is local to each"
+" :term:`compute unit <Compute units>`. On AMD Radeon GPUs, the L1 "
+"instruction cache does not exist as a separate cache level, and "
+"instructions are stored in the :term:`L0 instruction cache <L0 "
+"instruction cache>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:170
+msgid "L1 scalar cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:172
+msgid ""
+"On AMD Instinct GPUs, the level 1 (L1) scalar data cache is local to each"
+" :term:`compute unit <Compute units>`, providing the :term:`scalar ALU "
+"<SALU>` with fast access to recently used data. On AMD Radeon GPUs, the "
+"L1 scalar cache does not exist as a separate cache level, and recently "
+"used scalar data is stored in the :term:`L0 scalar cache <L0 scalar "
+"cache>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:178
+msgid "L1 vector cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:180
+msgid ""
+"On AMD Instinct GPUs, the level 1 (L1) vector data cache is local to each"
+" :term:`compute unit <Compute units>`, providing the :term:`vector ALU "
+"<VALU>` with fast access to recently used data. On AMD Radeon GPUs, the "
+"L1 vector cache does not exist as a separate cache level, and recently "
+"used vector data is stored in the :term:`L0 vector cache <L0 vector "
+"cache>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:192
+msgid "L2 cache"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:194
+msgid ""
+"On AMD Instinct MI100 series GPUs, the L2 cache is shared across the "
+"entire chip, while for all other AMD GPUs the L2 caches are shared by the"
+" :term:`compute units <Compute units>` on the same :term:`GCD <GCD>` or "
+":term:`XCD <XCD>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:46
+msgid "Load/store unit"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:48
+msgid ""
+"Load/store units (LSUs) handle data transfer between :term:`compute units"
+" <Compute units>` and the GPU's memory subsystems, managing thousands of "
+"concurrent memory operations. See :ref:`hip:lsu` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:210
+msgid "Local data share"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:212
+msgid ""
+"Local data share (LDS) is fast on-chip memory local to each "
+":term:`compute unit <Compute units>` and shared among :term:`work-items "
+"<Work-item (Thread)>` in a :term:`work-group <Work-group (Block)>`, "
+"enabling efficient coordination and data reuse. In the HIP programming "
+"model, the LDS is known as shared memory. See :ref:`hip:lds` for LDS "
+"programming details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:89
+msgid "Matrix cores (MFMA units)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:91
+msgid ""
+"Matrix cores (MFMA units) are specialized execution units that perform "
+"large-scale matrix operations in a single instruction, delivering high "
+"throughput for AI and HPC workloads. See :ref:`hip:mfma_units` for "
+"details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:128
+msgid "Register file"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:130
+msgid ""
+"The register file is the primary on-chip memory store in each "
+":term:`compute unit <Compute units>`, holding data between arithmetic and"
+" memory operations. See :ref:`hip:memory_hierarchy` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:218
+msgid "Registers"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:220
+msgid ""
+"Registers are the lowest level of the memory hierarchy, storing per-"
+"thread temporary variables and intermediate results. See "
+":ref:`hip:memory_hierarchy` for register usage details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:32
+msgid "SALU"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:34
+msgid ""
+"Scalar :term:`ALUs <ALU>` (SALUs) operate on a single value per "
+":term:`wavefront <Wavefront>` and manage all control flow."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:223
+msgid "SGPR"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:225
+msgid ""
+"Scalar general-purpose :term:`registers <Registers>` (SGPRs) hold data "
+"produced and consumed by a :term:`compute unit <Compute units>`'s "
+":term:`scalar ALU <SALU>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:133
+msgid "SGPR file"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:135
+msgid ""
+"The :term:`SGPR <SGPR>` file is the :term:`register file <Register file>`"
+" that holds data used by the :term:`scalar ALU <SALU>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:83
+msgid "SIMD core"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:85
+msgid ""
+"SIMD cores are execution lanes that perform scalar and vector arithmetic "
+"operations inside each :term:`compute unit <Compute unit>`. See "
+":ref:`hip:cdna_architecture` and :ref:`hip:rdna_architecture` for "
+"details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:41
+msgid "Special function unit"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:43
+msgid ""
+"Special function units (SFUs) accelerate transcendental and reciprocal "
+"mathematical functions such as ``exp``, ``log``, ``sin``, and ``cos``. "
+"See :ref:`hip:sfu` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:36
+msgid "VALU"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:38
+msgid ""
+"Vector :term:`ALUs <ALU>` (VALUs) perform an arithmetic or logical "
+"operation on data for each :term:`work-item <Work-item (Thread)>` in a "
+":term:`wavefront <Wavefront>`, enabling data-parallel execution."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:228
+msgid "VGPR"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:230
+msgid ""
+"Vector general-purpose :term:`registers <Registers>` (VGPRs) hold data "
+"produced and consumed by a :term:`compute unit <Compute units>`'s "
+":term:`vector ALU <VALU>`."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:138
+msgid "VGPR file"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:140
+msgid ""
+"The :term:`VGPR <VGPR>` file is the :term:`register file <Register file>`"
+" that holds data used by the :term:`vector ALU <VALU>`. GPUs with "
+":term:`matrix cores <Matrix cores (MFMA units)>` also have :term:`AccVGPR"
+" <AccVGPR>` files, used specifically for matrix instructions."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:64
+msgid "Wavefront (Warp)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:66
+msgid ""
+"A wavefront (also called a warp) is a group of :term:`work-items <Work-"
+"item (Thread)>` that execute in parallel on a single :term:`compute unit "
+"<Compute units>`, sharing one instruction stream. See "
+":ref:`hip:wavefront` for execution details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:70
+msgid "Wavefront scheduler"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:72
+msgid ""
+"The wavefront scheduler in each :term:`compute unit <Compute units>` "
+"decides which :term:`wavefront <wavefront>` to execute each clock cycle, "
+"enabling rapid context switching for latency hiding. See :ref:`hip:wave-"
+"scheduling` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:76
+msgid "Wavefront size"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:78
+msgid ""
+"The wavefront size is the number of :term:`work-items <Work-item "
+"(Thread)>` that execute together in a single :term:`wavefront <Wavefront "
+"(Warp)>`. For AMD Instinct GPUs, the wavefront size is 64 threads, while "
+"AMD Radeon GPUs have a wavefront size of 32 threads. See "
+":ref:`hip:wavefront` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:248
+msgid "WGP"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:250
+msgid ""
+"A Workgroup Processor (WGP) is a hardware unit on AMD Radeon GPUs that "
+"contains two :term:`compute units <Compute units>` and their associated "
+"resources, enabling efficient scheduling and execution of "
+":term:`wavefronts <wavefront>`. See :ref:`hip:rdna_architecture` for "
+"details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:52
+msgid "Work-group (Block)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:54
+msgid ""
+"A work-group (also called a block) is a collection of :term:`wavefronts "
+"<Wavefront (Warp)>` scheduled together on a single :term:`compute unit "
+"<Compute units>` that can coordinate through :term:`Local data share "
+"<Local data share>` memory. See "
+":ref:`hip:inherent_thread_hierarchy_block` for work-group details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:59
+msgid "Work-item (Thread)"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:61
+msgid ""
+"A work-item (also called a thread) is the smallest unit of execution on "
+"an AMD GPU and represents a single element of work. See :ref:`hip:work-"
+"item` for thread hierarchy details."
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:237
+msgid "XCD"
+msgstr ""
+
+#: ../../reference/glossary/device-hardware.rst:239
+msgid ""
+"On AMD Instinct MI300 and MI350 series GPUs, the Accelerator Complex Die "
+"(XCD) contains the GPU's computational elements and lower levels of the "
+"cache hierarchy. See :doc:`../../conceptual/gpu-arch/mi300` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:-1
+msgid "Device software glossary for AMD GPUs"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:-1
+msgid ""
+"AMD, ROCm, GPU, device software, programming model, AMDGPU, assembly, IR,"
+" GFX IP, wavefront, work-group, HIP kernel, thread hierarchy"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:10
+msgid "Device software glossary"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:12
+msgid ""
+"This section provides brief definitions of software abstractions and "
+"programming models that run on AMD GPUs."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:23
+msgid "AMDGPU assembly"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:25
+msgid ""
+"AMDGPU assembly (GFX ISA) is the low-level assembly format for programs "
+"running on AMD GPUs, generated by the :term:`ROCm compiler toolchain <HIP"
+" compiler>`. See :ref:`hip:amdgpu_assembly` for instruction set details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:29
+msgid "AMDGPU intermediate representation"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:31
+msgid ""
+"AMDGPU IR is an intermediate representation for GPU code, serving as a "
+"virtual instruction set between high-level languages and :term"
+":`architecture-specific assembly <AMDGPU assembly>`. See "
+":ref:`hip:amdgpu_ir` for compilation details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:69
+msgid "Global memory"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:71
+msgid ""
+"Global memory is the :term:`device-wide memory <GPU RAM (VRAM)>` "
+"accessible to all :term:`threads <Work-item (Thread)>`, physically "
+"implemented as HBM or GDDR. See :ref:`hip:memory_hierarchy` for global "
+"memory details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:42
+msgid "Grid"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:44
+msgid ""
+"A grid represents the collection of all :term:`work-groups <Work-group "
+"(Block)>` executing a single :term:`kernel <HIP kernel>` across the "
+"entire GPU. See :ref:`hip:inherent_thread_hierarchy_grid` for grid "
+"execution details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:48
+msgid "HIP kernel"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:50
+msgid ""
+"A HIP kernel is the unit of GPU code that executes in parallel across "
+"many :term:`threads <Work-item (Thread)>`, distributed across the GPU's "
+":term:`compute units <Compute units>`. See :ref:`hip:device_program` for "
+"kernel programming details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:62
+msgid "HIP memory hierarchy"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:64
+msgid ""
+"The memory hierarchy pairs each :term:`thread hierarchy <HIP thread "
+"hierarchy>` level with corresponding memory scopes, from :term:`private "
+"registers <Register>` to :term:`LDS <Local data share>` to :term:`GPU RAM"
+" <GPU RAM (VRAM)>`. See :ref:`hip:memory_hierarchy` for memory "
+"architecture details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:54
+msgid "HIP thread hierarchy"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:56
+msgid ""
+"The thread hierarchy structures parallel work from individual "
+":term:`threads <Work-item (Thread)>` to :term:`blocks <Work-group "
+"(Block)>` to :term:`grids <Grid>`, mapping onto hardware from :term:`SIMD"
+" lanes <SIMD core>` to :term:`compute units <Compute units>` to the "
+"entire GPU. See :ref:`hip:inherent_thread_model` for complete details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:35
+#: ../../reference/gpu-arch-specs.rst:29 ../../reference/gpu-arch-specs.rst:308
+#: ../../reference/gpu-arch-specs.rst:568
+#: ../../reference/gpu-arch-specs.rst:1026
+msgid "LLVM target name"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:37
+msgid ""
+"The LLVM target name is a string identifier corresponding to a specific "
+":term:`GFX IP <GFX IP>` version that is passed to the :term:`HIP compiler"
+" <HIP compiler>` toolchain to specify the target GPU architecture for "
+"code generation. See :doc:`llvm-project:reference/rocmcc` for details."
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:17
+msgid "ROCm programming model"
+msgstr ""
+
+#: ../../reference/glossary/device-software.rst:19
+msgid ""
+"The ROCm programming model defines how AMD GPUs execute massively "
+"parallel programs using hierarchical :term:`work-groups <Work-group "
+"(Block)>`, memory scopes, and barrier synchronization. See "
+":ref:`hip:programming_model` for complete details."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:-1
+msgid "Host software glossary for AMD GPUs"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:-1
+msgid ""
+"AMD, ROCm, GPU, host software, HIP, compiler, runtime, libraries, "
+"profiler, amd-smi"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:10
+msgid "Host software glossary"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:12
+msgid ""
+"This section provides brief definitions of development tools, compilers, "
+"libraries, and runtime environments for programming AMD GPUs."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:30
+msgid "AMD SMI"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:32
+msgid ""
+"The ``amd-smi`` command-line utility queries, monitors, and manages AMD "
+"GPU state, providing hardware information and performance metrics. See "
+":doc:`amdsmi:index` for detailed usage."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:23
+msgid "HIP C++ language extension"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:25
+msgid ""
+"HIP extends the C++ language with additional features designed for "
+"programming heterogeneous applications. These extensions mostly relate to"
+" the kernel language, but some can also be applied to host functionality."
+" See :doc:`hip:how-to/hip_cpp_language_extensions` for language "
+"fundamentals."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:40
+msgid "HIP compiler"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:42
+msgid ""
+"The HIP compiler ``amdclang++`` compiles HIP C++ programs into binaries "
+"that contain both host CPU and device GPU code. See :doc:`llvm-"
+"project:reference/rocmcc` for compiler flags and options."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:35
+msgid "HIP runtime API"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:37
+msgid ""
+"The HIP runtime API provides an interface for GPU programming, offering "
+"functions for memory management, kernel launches, and synchronization. "
+"See :ref:`hip:hip_runtime_api_how-to` for API overview."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:45
+msgid "HIP runtime compiler"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:47
+msgid ""
+"The HIP Runtime Compiler (HIPRTC) compiles HIP source code at runtime "
+"into :term:`AMDGPU <AMDGPU assembly>` binary code objects, enabling just-"
+"in-time kernel generation, device-specific optimization, and dynamic code"
+" creation for different GPUs. See :ref:`hip:hip_runtime_compiler_how-to` "
+"for API details."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:52
+msgid "ROCgdb"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:54
+msgid ""
+"ROCgdb is AMD's source-level debugger for HIP and ROCm applications, "
+"enabling debugging of both host CPU and GPU device code, including kernel"
+" breakpoints, stepping, and variable inspection. See :doc:`rocgdb:index` "
+"for usage and command reference."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:63
+msgid "ROCm and LLVM binary utilities"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:65
+msgid ""
+"ROCm and LLVM binary utilities are command-line tools for examining and "
+"manipulating GPU binaries and code objects. See "
+":ref:`hip:binary_utilities` for utility details."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:17
+msgid "ROCm software platform"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:19
+msgid ""
+"ROCm is AMD's GPU software stack, providing compiler toolchains, runtime "
+"environments, and performance libraries for HPC and AI applications. See "
+":doc:`../../what-is-rocm` for a complete component overview."
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:58
+msgid "rocprofv3"
+msgstr ""
+
+#: ../../reference/glossary/host-software.rst:60
+msgid ""
+"``rocprofv3`` is AMD's primary performance analysis tool, providing "
+"profiling, tracing, and performance counter collection. See :ref"
+":`rocprofiler-sdk:using-rocprofv3` for profiling workflows."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:-1
+msgid "Performance glossary for AMD GPUs"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:-1
+msgid ""
+"AMD, ROCm, GPU, performance, optimization, roofline, bottleneck, "
+"occupancy, bandwidth, latency hiding, divergence"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:10
+msgid "Performance analysis glossary"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:12
+msgid ""
+"This section provides brief definitions of performance analysis concepts "
+"and optimization techniques."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:73
+msgid "Active cycle"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:75
+msgid ""
+"An active cycle is a clock cycle in which a :term:`compute unit <Compute "
+"units>` has at least one active :term:`wavefront <Wavefront>` resident. "
+"See :ref:`hip:wavefront_execution` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:57
+msgid "Arithmetic bandwidth"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:59
+msgid ""
+"Arithmetic bandwidth is the peak rate at which arithmetic work can be "
+"performed, defining the compute roof in :term:`roofline models <Roofline "
+"model>`. See :ref:`hip:compute_bound` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:37
+msgid "Arithmetic intensity"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:39
+msgid ""
+"Arithmetic intensity is the ratio of arithmetic operations to memory "
+"operations in a kernel, and determines performance characteristics. See "
+":ref:`hip:arithmetic_intensity` for intensity analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:124
+msgid "Bank conflict"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:126
+msgid ""
+"A bank conflict occurs when multiple threads simultaneously access "
+"different addresses in the same :term:`LDS bank <Local data share>`, "
+"serializing accesses. See :ref:`hip:bank_conflicts_theory` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:112
+msgid "Branch efficiency"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:114
+msgid ""
+"Branch efficiency measures how often all threads within a "
+":term:`wavefront <Wavefront>` take the same execution path, quantifying "
+"control-flow uniformity. See :ref:`hip:branch_efficiency` for branch "
+"analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:23
+msgid "Compute-bound"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:25
+msgid ""
+"Compute-bound kernels are limited by the :term:`arithmetic bandwidth "
+"<Arithmetic bandwidth>` of the GPU's :term:`compute units <Compute "
+"units>` rather than :term:`memory bandwidth <Memory bandwidth>`. See "
+":ref:`hip:compute_bound` for compute-bound analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:101
+msgid "CU utilization"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:103
+msgid ""
+"CU utilization measures the percentage of time that :term:`compute units "
+"<Compute units>` are actively executing instructions. See "
+":ref:`hip:cu_utilization` for utilization analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:95
+msgid "Issue efficiency"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:97
+msgid ""
+"Issue efficiency measures how effectively the :term:`wavefront scheduler "
+"<Wavefront scheduler>` keeps execution pipelines busy by issuing "
+"instructions. See :ref:`hip:issue_efficiency` for efficiency metrics."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:63
+msgid "Latency hiding"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:65
+msgid ""
+"Latency hiding masks long-latency operations by running many concurrent "
+"threads, keeping execution pipelines busy. See :ref:`hip:latency_hiding` "
+"for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:47
+msgid "Little's Law"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:49
+msgid ""
+"Little's Law relates concurrency, latency, and throughput, determining "
+"how much independent work must be in flight to hide latency. See "
+":ref:`hip:littles_law` for latency hiding details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:52
+msgid "Memory bandwidth"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:54
+msgid ""
+"Memory bandwidth is the maximum rate at which data can be transferred "
+"between memory hierarchy levels, typically measured in bytes per second. "
+"See :ref:`hip:memory_bound` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:118
+msgid "Memory coalescing"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:120
+msgid ""
+"Memory coalescing improves :term:`memory bandwidth <Memory bandwidth>` by"
+" servicing many logical loads or stores with fewer physical memory "
+"transactions. See :ref:`hip:memory_coalescing_theory` for coalescing "
+"patterns."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:30
+msgid "Memory-bound"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:32
+msgid ""
+"Memory-bound kernels are limited by :term:`memory bandwidth <Memory "
+"bandwidth>` rather than :term:`arithmetic bandwidth <Arithmetic "
+"bandwidth>`, typically due to low :term:`arithmetic intensity <Arithmetic"
+" intensity>`. See :ref:`hip:memory_bound` for memory-bound analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:79
+msgid "Occupancy"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:81
+msgid ""
+"Occupancy is the ratio of active :term:`wavefronts <Wavefront>` to the "
+"maximum number of wavefronts that can be active on a :term:`compute unit "
+"<Compute units>`. See :ref:`hip:occupancy` for occupancy analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:42
+msgid "Overhead"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:44
+msgid ""
+"Overhead latency is the time spent with no useful work being done, often "
+"due to CPU-side bottlenecks or kernel launch delays. See "
+":ref:`hip:performance_bottlenecks` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:90
+msgid "Peak rate"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:92
+msgid ""
+"Peak rate is the theoretical maximum throughput at which a hardware "
+"system can complete work under ideal conditions. See "
+":ref:`hip:theoretical_performance_limits` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:85
+msgid "Pipe utilization"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:87
+msgid ""
+"Pipe utilization measures how effectively a kernel uses the execution "
+"pipelines within each :term:`compute unit <Compute units>`. See "
+":ref:`hip:pipe_utilization` for utilization details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:129
+msgid "Register pressure"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:131
+msgid ""
+"Register pressure occurs when excessive register demand limits the number"
+" of active :term:`wavefronts <Wavefront>` per :term:`compute unit "
+"<Compute units>`, reducing :term:`occupancy <Occupancy>`. See "
+":ref:`hip:register_pressure_theory` for details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:17
+msgid "Roofline model"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:19
+msgid ""
+"The roofline model is a visual performance model that determines whether "
+"a program is :term:`compute-bound <Compute-bound>` or :term:`memory-bound"
+" <Memory-bound>`. See :ref:`hip:roofline_model` for roofline analysis."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:106
+msgid "Wavefront divergence"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:108
+msgid ""
+"Wavefront divergence occurs when threads within a :term:`wavefront "
+"<Wavefront>` take different execution paths due to conditional "
+"statements. See :ref:`hip:branch_efficiency` for divergence handling "
+"details."
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:68
+msgid "Wavefront execution state"
+msgstr ""
+
+#: ../../reference/glossary/performance.rst:70
+msgid ""
+"Wavefront execution states (*active*, *stalled*, *eligible*, *selected*) "
+"describe the scheduling status of :term:`wavefronts <Wavefront>` on AMD "
+"GPUs. See :ref:`hip:wavefront_execution` for state definitions."
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:-1
+msgid ""
+"AMD Instinct™ GPU, AMD Radeon PRO™, and AMD Radeon™ GPU architecture "
+"information"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:-1
+msgid ""
+"Instinct, Radeon, accelerator, GCN, CDNA, RDNA, GPU, architecture, VRAM, "
+"Compute Units, Cache, Registers, LDS, Register File"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:6
+msgid "GPU hardware specifications"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:8
+msgid ""
+"The following tables provide an overview of the hardware specifications "
+"for AMD Instinct™ GPUs, AMD Radeon™ PRO and Radeon™ GPUs, and AMD Ryzen™ "
+"APUs."
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:10
+msgid ""
+"For more information about ROCm hardware compatibility, see the ROCm "
+"`Compatibility matrix <https://rocm.docs.amd.com/en/latest/compatibility"
+"/compatibility-matrix.html>`_."
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:12
+msgid ""
+"For a description of the terms used in the table, see the :ref:`ROCm "
+"glossary <glossary>`, or for more detailed information about GPU "
+"architecture and programming models, see the :ref:`specific documents and"
+" guides <gpu-arch-documentation>`, or :doc:`Understanding the HIP "
+"programming model<hip:understand/programming_model>`."
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst
+#: ../../reference/gpu-atomics-operation.rst:83
+#: ../../reference/gpu-atomics-operation.rst:310
+#: ../../reference/gpu-atomics-operation.rst:485
+#: ../../reference/gpu-atomics-operation.rst:663
+msgid "AMD Instinct GPUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:27 ../../reference/gpu-arch-specs.rst:306
+#: ../../reference/gpu-arch-specs.rst:566
+#: ../../reference/gpu-arch-specs.rst:1023
+msgid "Name"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:28 ../../reference/gpu-arch-specs.rst:307
+#: ../../reference/gpu-arch-specs.rst:567
+#: ../../reference/gpu-arch-specs.rst:1025
+msgid "Architecture"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:30 ../../reference/gpu-arch-specs.rst:310
+#: ../../reference/gpu-arch-specs.rst:569
+#: ../../reference/gpu-arch-specs.rst:1027
+msgid "VRAM (GiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:31 ../../reference/gpu-arch-specs.rst:311
+#: ../../reference/gpu-arch-specs.rst:570
+#: ../../reference/gpu-arch-specs.rst:1028
+msgid "Compute Units"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:32 ../../reference/gpu-arch-specs.rst:312
+#: ../../reference/gpu-arch-specs.rst:571
+#: ../../reference/gpu-arch-specs.rst:1029
+msgid "Wavefront Size"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:33 ../../reference/gpu-arch-specs.rst:313
+#: ../../reference/gpu-arch-specs.rst:572
+#: ../../reference/gpu-arch-specs.rst:1030
+msgid "LDS (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:34
+msgid "L3 Cache (MiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:35 ../../reference/gpu-arch-specs.rst:315
+#: ../../reference/gpu-arch-specs.rst:574
+#: ../../reference/gpu-arch-specs.rst:1032
+msgid "L2 Cache (MiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:36
+msgid "L1 Vector Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:37
+msgid "L1 Scalar Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:38
+msgid "L1 Instruction Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:39 ../../reference/gpu-arch-specs.rst:320
+#: ../../reference/gpu-arch-specs.rst:579
+#: ../../reference/gpu-arch-specs.rst:1037
+msgid "VGPR File (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:40 ../../reference/gpu-arch-specs.rst:321
+#: ../../reference/gpu-arch-specs.rst:580
+#: ../../reference/gpu-arch-specs.rst:1038
+msgid "SGPR File (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:41 ../../reference/gpu-arch-specs.rst:322
+#: ../../reference/gpu-arch-specs.rst:581
+#: ../../reference/gpu-arch-specs.rst:1039
+msgid "GFXIP Major version"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:42 ../../reference/gpu-arch-specs.rst:323
+#: ../../reference/gpu-arch-specs.rst:582
+#: ../../reference/gpu-arch-specs.rst:1040
+msgid "GFXIP Minor version"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:44
+msgid "MI355X"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:45 ../../reference/gpu-arch-specs.rst:62
+#: ../../reference/precision-support.rst:217
+#: ../../reference/precision-support.rst:422
+#: ../../reference/precision-support.rst:488
+#: ../../reference/precision-support.rst:558
+#: ../../reference/precision-support.rst:631
+#: ../../reference/precision-support.rst:697
+#: ../../reference/precision-support.rst:767
+#: ../../reference/precision-support.rst:894
+#: ../../reference/precision-support.rst:964
+msgid "CDNA4"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:46 ../../reference/gpu-arch-specs.rst:63
+msgid "gfx950"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:47 ../../reference/gpu-arch-specs.rst:64
+msgid "288"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:48 ../../reference/gpu-arch-specs.rst:65
+msgid "256 (32 per XCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:49 ../../reference/gpu-arch-specs.rst:66
+#: ../../reference/gpu-arch-specs.rst:83 ../../reference/gpu-arch-specs.rst:84
+#: ../../reference/gpu-arch-specs.rst:100
+#: ../../reference/gpu-arch-specs.rst:101
+#: ../../reference/gpu-arch-specs.rst:117
+#: ../../reference/gpu-arch-specs.rst:118
+#: ../../reference/gpu-arch-specs.rst:134
+#: ../../reference/gpu-arch-specs.rst:135
+#: ../../reference/gpu-arch-specs.rst:151
+#: ../../reference/gpu-arch-specs.rst:152
+#: ../../reference/gpu-arch-specs.rst:166
+#: ../../reference/gpu-arch-specs.rst:168
+#: ../../reference/gpu-arch-specs.rst:169
+#: ../../reference/gpu-arch-specs.rst:185
+#: ../../reference/gpu-arch-specs.rst:186
+#: ../../reference/gpu-arch-specs.rst:201
+#: ../../reference/gpu-arch-specs.rst:202
+#: ../../reference/gpu-arch-specs.rst:203
+#: ../../reference/gpu-arch-specs.rst:219
+#: ../../reference/gpu-arch-specs.rst:220
+#: ../../reference/gpu-arch-specs.rst:236
+#: ../../reference/gpu-arch-specs.rst:237
+#: ../../reference/gpu-arch-specs.rst:252
+#: ../../reference/gpu-arch-specs.rst:253
+#: ../../reference/gpu-arch-specs.rst:254
+#: ../../reference/gpu-arch-specs.rst:269
+#: ../../reference/gpu-arch-specs.rst:270
+#: ../../reference/gpu-arch-specs.rst:271
+#: ../../reference/gpu-arch-specs.rst:287
+#: ../../reference/gpu-arch-specs.rst:288
+#: ../../reference/gpu-arch-specs.rst:329
+#: ../../reference/gpu-arch-specs.rst:332
+#: ../../reference/gpu-arch-specs.rst:440
+#: ../../reference/gpu-arch-specs.rst:458
+#: ../../reference/gpu-arch-specs.rst:546
+#: ../../reference/gpu-arch-specs.rst:547
+#: ../../reference/gpu-arch-specs.rst:588
+#: ../../reference/gpu-arch-specs.rst:591
+#: ../../reference/gpu-arch-specs.rst:627
+#: ../../reference/gpu-arch-specs.rst:735
+#: ../../reference/gpu-arch-specs.rst:753
+#: ../../reference/gpu-arch-specs.rst:771
+#: ../../reference/gpu-arch-specs.rst:1003
+msgid "64"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:50 ../../reference/gpu-arch-specs.rst:67
+msgid "160"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:51 ../../reference/gpu-arch-specs.rst:68
+#: ../../reference/gpu-arch-specs.rst:81 ../../reference/gpu-arch-specs.rst:85
+#: ../../reference/gpu-arch-specs.rst:102
+#: ../../reference/gpu-arch-specs.rst:119
+#: ../../reference/gpu-arch-specs.rst:209
+#: ../../reference/gpu-arch-specs.rst:226
+#: ../../reference/gpu-arch-specs.rst:243
+#: ../../reference/gpu-arch-specs.rst:260
+#: ../../reference/gpu-arch-specs.rst:277
+#: ../../reference/gpu-arch-specs.rst:294
+#: ../../reference/gpu-arch-specs.rst:370
+#: ../../reference/gpu-arch-specs.rst:388
+#: ../../reference/gpu-arch-specs.rst:406
+#: ../../reference/gpu-arch-specs.rst:424
+#: ../../reference/gpu-arch-specs.rst:442
+#: ../../reference/gpu-arch-specs.rst:460
+#: ../../reference/gpu-arch-specs.rst:554
+#: ../../reference/gpu-arch-specs.rst:701
+#: ../../reference/gpu-arch-specs.rst:719
+#: ../../reference/gpu-arch-specs.rst:737
+#: ../../reference/gpu-arch-specs.rst:755
+#: ../../reference/gpu-arch-specs.rst:773
+#: ../../reference/gpu-arch-specs.rst:791
+#: ../../reference/gpu-arch-specs.rst:809
+#: ../../reference/gpu-arch-specs.rst:1011
+#: ../../reference/gpu-arch-specs.rst:1052
+#: ../../reference/gpu-arch-specs.rst:1071
+#: ../../reference/gpu-arch-specs.rst:1090
+#: ../../reference/gpu-arch-specs.rst:1109
+#: ../../reference/gpu-arch-specs.rst:1128
+msgid "256"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:52 ../../reference/gpu-arch-specs.rst:69
+#: ../../reference/gpu-arch-specs.rst:86 ../../reference/gpu-arch-specs.rst:103
+msgid "32 (4 per XCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:53 ../../reference/gpu-arch-specs.rst:70
+#: ../../reference/gpu-arch-specs.rst:87 ../../reference/gpu-arch-specs.rst:104
+#: ../../reference/gpu-arch-specs.rst:121
+#: ../../reference/gpu-arch-specs.rst:183
+#: ../../reference/gpu-arch-specs.rst:200
+#: ../../reference/gpu-arch-specs.rst:217
+#: ../../reference/gpu-arch-specs.rst:328
+#: ../../reference/gpu-arch-specs.rst:335
+#: ../../reference/gpu-arch-specs.rst:337
+#: ../../reference/gpu-arch-specs.rst:339
+#: ../../reference/gpu-arch-specs.rst:346
+#: ../../reference/gpu-arch-specs.rst:353
+#: ../../reference/gpu-arch-specs.rst:355
+#: ../../reference/gpu-arch-specs.rst:357
+#: ../../reference/gpu-arch-specs.rst:371
+#: ../../reference/gpu-arch-specs.rst:373
+#: ../../reference/gpu-arch-specs.rst:375
+#: ../../reference/gpu-arch-specs.rst:389
+#: ../../reference/gpu-arch-specs.rst:391
+#: ../../reference/gpu-arch-specs.rst:393
+#: ../../reference/gpu-arch-specs.rst:407
+#: ../../reference/gpu-arch-specs.rst:409
+#: ../../reference/gpu-arch-specs.rst:411
+#: ../../reference/gpu-arch-specs.rst:425
+#: ../../reference/gpu-arch-specs.rst:427
+#: ../../reference/gpu-arch-specs.rst:429
+#: ../../reference/gpu-arch-specs.rst:436
+#: ../../reference/gpu-arch-specs.rst:443
+#: ../../reference/gpu-arch-specs.rst:445
+#: ../../reference/gpu-arch-specs.rst:447
+#: ../../reference/gpu-arch-specs.rst:461
+#: ../../reference/gpu-arch-specs.rst:463
+#: ../../reference/gpu-arch-specs.rst:465
+#: ../../reference/gpu-arch-specs.rst:472
+#: ../../reference/gpu-arch-specs.rst:481
+#: ../../reference/gpu-arch-specs.rst:483
+#: ../../reference/gpu-arch-specs.rst:494
+#: ../../reference/gpu-arch-specs.rst:499
+#: ../../reference/gpu-arch-specs.rst:501
+#: ../../reference/gpu-arch-specs.rst:508
+#: ../../reference/gpu-arch-specs.rst:517
+#: ../../reference/gpu-arch-specs.rst:519
+#: ../../reference/gpu-arch-specs.rst:535
+#: ../../reference/gpu-arch-specs.rst:594
+#: ../../reference/gpu-arch-specs.rst:596
+#: ../../reference/gpu-arch-specs.rst:598
+#: ../../reference/gpu-arch-specs.rst:612
+#: ../../reference/gpu-arch-specs.rst:614
+#: ../../reference/gpu-arch-specs.rst:616
+#: ../../reference/gpu-arch-specs.rst:630
+#: ../../reference/gpu-arch-specs.rst:632
+#: ../../reference/gpu-arch-specs.rst:634
+#: ../../reference/gpu-arch-specs.rst:642
+#: ../../reference/gpu-arch-specs.rst:645
+#: ../../reference/gpu-arch-specs.rst:648
+#: ../../reference/gpu-arch-specs.rst:650
+#: ../../reference/gpu-arch-specs.rst:652
+#: ../../reference/gpu-arch-specs.rst:660
+#: ../../reference/gpu-arch-specs.rst:663
+#: ../../reference/gpu-arch-specs.rst:666
+#: ../../reference/gpu-arch-specs.rst:668
+#: ../../reference/gpu-arch-specs.rst:670
+#: ../../reference/gpu-arch-specs.rst:681
+#: ../../reference/gpu-arch-specs.rst:684
+#: ../../reference/gpu-arch-specs.rst:686
+#: ../../reference/gpu-arch-specs.rst:688
+#: ../../reference/gpu-arch-specs.rst:702
+#: ../../reference/gpu-arch-specs.rst:704
+#: ../../reference/gpu-arch-specs.rst:706
+#: ../../reference/gpu-arch-specs.rst:720
+#: ../../reference/gpu-arch-specs.rst:722
+#: ../../reference/gpu-arch-specs.rst:724
+#: ../../reference/gpu-arch-specs.rst:738
+#: ../../reference/gpu-arch-specs.rst:740
+#: ../../reference/gpu-arch-specs.rst:742
+#: ../../reference/gpu-arch-specs.rst:756
+#: ../../reference/gpu-arch-specs.rst:758
+#: ../../reference/gpu-arch-specs.rst:760
+#: ../../reference/gpu-arch-specs.rst:774
+#: ../../reference/gpu-arch-specs.rst:776
+#: ../../reference/gpu-arch-specs.rst:778
+#: ../../reference/gpu-arch-specs.rst:792
+#: ../../reference/gpu-arch-specs.rst:794
+#: ../../reference/gpu-arch-specs.rst:796
+#: ../../reference/gpu-arch-specs.rst:804
+#: ../../reference/gpu-arch-specs.rst:807
+#: ../../reference/gpu-arch-specs.rst:810
+#: ../../reference/gpu-arch-specs.rst:812
+#: ../../reference/gpu-arch-specs.rst:814
+#: ../../reference/gpu-arch-specs.rst:830
+#: ../../reference/gpu-arch-specs.rst:832
+#: ../../reference/gpu-arch-specs.rst:848
+#: ../../reference/gpu-arch-specs.rst:850
+#: ../../reference/gpu-arch-specs.rst:866
+#: ../../reference/gpu-arch-specs.rst:868
+#: ../../reference/gpu-arch-specs.rst:884
+#: ../../reference/gpu-arch-specs.rst:886
+#: ../../reference/gpu-arch-specs.rst:902
+#: ../../reference/gpu-arch-specs.rst:904
+#: ../../reference/gpu-arch-specs.rst:920
+#: ../../reference/gpu-arch-specs.rst:922
+#: ../../reference/gpu-arch-specs.rst:938
+#: ../../reference/gpu-arch-specs.rst:940
+#: ../../reference/gpu-arch-specs.rst:948
+#: ../../reference/gpu-arch-specs.rst:951
+#: ../../reference/gpu-arch-specs.rst:956
+#: ../../reference/gpu-arch-specs.rst:958
+#: ../../reference/gpu-arch-specs.rst:966
+#: ../../reference/gpu-arch-specs.rst:969
+#: ../../reference/gpu-arch-specs.rst:974
+#: ../../reference/gpu-arch-specs.rst:976
+#: ../../reference/gpu-arch-specs.rst:987
+#: ../../reference/gpu-arch-specs.rst:992
+#: ../../reference/gpu-arch-specs.rst:994
+#: ../../reference/gpu-arch-specs.rst:1053
+#: ../../reference/gpu-arch-specs.rst:1055
+#: ../../reference/gpu-arch-specs.rst:1057
+#: ../../reference/gpu-arch-specs.rst:1072
+#: ../../reference/gpu-arch-specs.rst:1074
+#: ../../reference/gpu-arch-specs.rst:1076
+#: ../../reference/gpu-arch-specs.rst:1091
+#: ../../reference/gpu-arch-specs.rst:1093
+#: ../../reference/gpu-arch-specs.rst:1095
+#: ../../reference/gpu-arch-specs.rst:1107
+#: ../../reference/gpu-arch-specs.rst:1110
+#: ../../reference/gpu-arch-specs.rst:1112
+#: ../../reference/gpu-arch-specs.rst:1114
+#: ../../reference/gpu-arch-specs.rst:1129
+#: ../../reference/gpu-arch-specs.rst:1131
+#: ../../reference/gpu-arch-specs.rst:1133
+#: ../../reference/precision-support.rst:1186
+msgid "32"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:54 ../../reference/gpu-arch-specs.rst:71
+#: ../../reference/gpu-arch-specs.rst:88 ../../reference/gpu-arch-specs.rst:105
+#: ../../reference/gpu-arch-specs.rst:122
+#: ../../reference/gpu-arch-specs.rst:139
+#: ../../reference/gpu-arch-specs.rst:156
+#: ../../reference/gpu-arch-specs.rst:173
+msgid "16 per 2 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:55 ../../reference/gpu-arch-specs.rst:72
+#: ../../reference/gpu-arch-specs.rst:89 ../../reference/gpu-arch-specs.rst:106
+#: ../../reference/gpu-arch-specs.rst:123
+msgid "64 per 2 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:56 ../../reference/gpu-arch-specs.rst:73
+#: ../../reference/gpu-arch-specs.rst:90 ../../reference/gpu-arch-specs.rst:107
+#: ../../reference/gpu-arch-specs.rst:124
+#: ../../reference/gpu-arch-specs.rst:141
+#: ../../reference/gpu-arch-specs.rst:158
+#: ../../reference/gpu-arch-specs.rst:175
+#: ../../reference/gpu-arch-specs.rst:482
+#: ../../reference/gpu-arch-specs.rst:500
+#: ../../reference/gpu-arch-specs.rst:518
+#: ../../reference/gpu-arch-specs.rst:536
+#: ../../reference/gpu-arch-specs.rst:813
+#: ../../reference/gpu-arch-specs.rst:831
+#: ../../reference/gpu-arch-specs.rst:849
+#: ../../reference/gpu-arch-specs.rst:867
+#: ../../reference/gpu-arch-specs.rst:885
+#: ../../reference/gpu-arch-specs.rst:903
+#: ../../reference/gpu-arch-specs.rst:921
+#: ../../reference/gpu-arch-specs.rst:939
+#: ../../reference/gpu-arch-specs.rst:957
+#: ../../reference/gpu-arch-specs.rst:975
+#: ../../reference/gpu-arch-specs.rst:993
+#: ../../reference/gpu-arch-specs.rst:1056
+#: ../../reference/gpu-arch-specs.rst:1075
+#: ../../reference/gpu-arch-specs.rst:1094
+#: ../../reference/gpu-arch-specs.rst:1132
+msgid "512"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:57 ../../reference/gpu-arch-specs.rst:74
+#: ../../reference/gpu-arch-specs.rst:91 ../../reference/gpu-arch-specs.rst:108
+#: ../../reference/gpu-arch-specs.rst:125
+#: ../../reference/gpu-arch-specs.rst:142
+#: ../../reference/gpu-arch-specs.rst:159
+#: ../../reference/gpu-arch-specs.rst:176
+#: ../../reference/gpu-arch-specs.rst:193
+#: ../../reference/gpu-arch-specs.rst:210
+#: ../../reference/gpu-arch-specs.rst:227
+#: ../../reference/gpu-arch-specs.rst:244
+#: ../../reference/gpu-arch-specs.rst:261
+#: ../../reference/gpu-arch-specs.rst:278
+#: ../../reference/gpu-arch-specs.rst:295
+#: ../../reference/gpu-arch-specs.rst:555
+#: ../../reference/gpu-arch-specs.rst:1012
+msgid "12.5"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:58 ../../reference/gpu-arch-specs.rst:75
+#: ../../reference/gpu-arch-specs.rst:92 ../../reference/gpu-arch-specs.rst:109
+#: ../../reference/gpu-arch-specs.rst:126
+#: ../../reference/gpu-arch-specs.rst:143
+#: ../../reference/gpu-arch-specs.rst:160
+#: ../../reference/gpu-arch-specs.rst:177
+#: ../../reference/gpu-arch-specs.rst:194
+#: ../../reference/gpu-arch-specs.rst:211
+#: ../../reference/gpu-arch-specs.rst:228
+#: ../../reference/gpu-arch-specs.rst:245
+#: ../../reference/gpu-arch-specs.rst:262
+#: ../../reference/gpu-arch-specs.rst:556
+#: ../../reference/gpu-arch-specs.rst:1013
+msgid "9"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:59 ../../reference/gpu-arch-specs.rst:76
+#: ../../reference/gpu-arch-specs.rst:1097
+#: ../../reference/gpu-arch-specs.rst:1116
+#: ../../reference/gpu-arch-specs.rst:1135
+msgid "5"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:61
+msgid "MI350X"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:78
+msgid "MI325X"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:79 ../../reference/gpu-arch-specs.rst:96
+#: ../../reference/gpu-arch-specs.rst:113
+#: ../../reference/precision-support.rst:216
+#: ../../reference/precision-support.rst:415
+#: ../../reference/precision-support.rst:480
+#: ../../reference/precision-support.rst:550
+#: ../../reference/precision-support.rst:624
+#: ../../reference/precision-support.rst:689
+#: ../../reference/precision-support.rst:759
+#: ../../reference/precision-support.rst:835
+#: ../../reference/precision-support.rst:886
+#: ../../reference/precision-support.rst:956
+msgid "CDNA3"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:80 ../../reference/gpu-arch-specs.rst:97
+#: ../../reference/gpu-arch-specs.rst:114
+msgid "gfx942"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:82 ../../reference/gpu-arch-specs.rst:99
+msgid "304 (38 per XCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:93 ../../reference/gpu-arch-specs.rst:110
+#: ../../reference/gpu-arch-specs.rst:127
+#: ../../reference/gpu-arch-specs.rst:205
+#: ../../reference/gpu-arch-specs.rst:222
+#: ../../reference/gpu-arch-specs.rst:239
+#: ../../reference/gpu-arch-specs.rst:256
+#: ../../reference/gpu-arch-specs.rst:268
+#: ../../reference/gpu-arch-specs.rst:369
+#: ../../reference/gpu-arch-specs.rst:459
+#: ../../reference/gpu-arch-specs.rst:477
+#: ../../reference/gpu-arch-specs.rst:513
+#: ../../reference/gpu-arch-specs.rst:531
+#: ../../reference/gpu-arch-specs.rst:549
+#: ../../reference/gpu-arch-specs.rst:646
+#: ../../reference/gpu-arch-specs.rst:664
+#: ../../reference/gpu-arch-specs.rst:682
+#: ../../reference/gpu-arch-specs.rst:754
+#: ../../reference/gpu-arch-specs.rst:772
+#: ../../reference/gpu-arch-specs.rst:790
+#: ../../reference/gpu-arch-specs.rst:826
+#: ../../reference/gpu-arch-specs.rst:844
+#: ../../reference/gpu-arch-specs.rst:862
+#: ../../reference/gpu-arch-specs.rst:880
+#: ../../reference/gpu-arch-specs.rst:1006
+msgid "4"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:95
+msgid "MI300X"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:98
+msgid "192"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:112
+#: ../../reference/gpu-atomics-operation.rst
+msgid "MI300A"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:115
+#: ../../reference/gpu-arch-specs.rst:132
+#: ../../reference/gpu-arch-specs.rst:149
+#: ../../reference/gpu-arch-specs.rst:331
+#: ../../reference/gpu-arch-specs.rst:349
+#: ../../reference/gpu-arch-specs.rst:367
+#: ../../reference/gpu-arch-specs.rst:385
+#: ../../reference/gpu-arch-specs.rst:403
+#: ../../reference/gpu-arch-specs.rst:421
+#: ../../reference/gpu-arch-specs.rst:439
+#: ../../reference/gpu-arch-specs.rst:457
+#: ../../reference/gpu-arch-specs.rst:475
+#: ../../reference/gpu-arch-specs.rst:476
+#: ../../reference/gpu-arch-specs.rst:478
+#: ../../reference/gpu-arch-specs.rst:493
+#: ../../reference/gpu-arch-specs.rst:496
+#: ../../reference/gpu-arch-specs.rst:511
+#: ../../reference/gpu-arch-specs.rst:512
+#: ../../reference/gpu-arch-specs.rst:514
+#: ../../reference/gpu-arch-specs.rst:529
+#: ../../reference/gpu-arch-specs.rst:532
+#: ../../reference/gpu-arch-specs.rst:590
+#: ../../reference/gpu-arch-specs.rst:608
+#: ../../reference/gpu-arch-specs.rst:626
+#: ../../reference/gpu-arch-specs.rst:644
+#: ../../reference/gpu-arch-specs.rst:662
+#: ../../reference/gpu-arch-specs.rst:680
+#: ../../reference/gpu-arch-specs.rst:698
+#: ../../reference/gpu-arch-specs.rst:716
+#: ../../reference/gpu-arch-specs.rst:734
+#: ../../reference/gpu-arch-specs.rst:752
+#: ../../reference/gpu-arch-specs.rst:770
+#: ../../reference/gpu-arch-specs.rst:788
+#: ../../reference/gpu-arch-specs.rst:806
+#: ../../reference/gpu-arch-specs.rst:824
+#: ../../reference/gpu-arch-specs.rst:825
+#: ../../reference/gpu-arch-specs.rst:827
+#: ../../reference/gpu-arch-specs.rst:842
+#: ../../reference/gpu-arch-specs.rst:843
+#: ../../reference/gpu-arch-specs.rst:845
+#: ../../reference/gpu-arch-specs.rst:860
+#: ../../reference/gpu-arch-specs.rst:861
+#: ../../reference/gpu-arch-specs.rst:863
+#: ../../reference/gpu-arch-specs.rst:878
+#: ../../reference/gpu-arch-specs.rst:879
+#: ../../reference/gpu-arch-specs.rst:881
+#: ../../reference/gpu-arch-specs.rst:896
+#: ../../reference/gpu-arch-specs.rst:899
+#: ../../reference/gpu-arch-specs.rst:914
+#: ../../reference/gpu-arch-specs.rst:917
+#: ../../reference/gpu-arch-specs.rst:932
+#: ../../reference/gpu-arch-specs.rst:935
+#: ../../reference/gpu-arch-specs.rst:950
+#: ../../reference/gpu-arch-specs.rst:953
+#: ../../reference/gpu-arch-specs.rst:968
+#: ../../reference/gpu-arch-specs.rst:971
+#: ../../reference/gpu-arch-specs.rst:986
+#: ../../reference/gpu-arch-specs.rst:989
+#: ../../reference/gpu-arch-specs.rst:1049
+#: ../../reference/gpu-arch-specs.rst:1068
+#: ../../reference/gpu-arch-specs.rst:1087
+#: ../../reference/gpu-arch-specs.rst:1106
+#: ../../reference/gpu-arch-specs.rst:1125
+msgid "128"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:116
+msgid "228 (38 per XCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:120
+msgid "24 (4 per XCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:129
+msgid "MI250X"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:130
+#: ../../reference/gpu-arch-specs.rst:147
+#: ../../reference/gpu-arch-specs.rst:164
+#: ../../reference/precision-support.rst:215
+#: ../../reference/precision-support.rst:408
+#: ../../reference/precision-support.rst:472
+#: ../../reference/precision-support.rst:542
+#: ../../reference/precision-support.rst:617
+#: ../../reference/precision-support.rst:681
+#: ../../reference/precision-support.rst:751
+#: ../../reference/precision-support.rst:829
+#: ../../reference/precision-support.rst:878
+#: ../../reference/precision-support.rst:948
+msgid "CDNA2"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:131
+#: ../../reference/gpu-arch-specs.rst:148
+#: ../../reference/gpu-arch-specs.rst:165
+msgid "gfx90a"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:133
+msgid "220 (110 per GCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:137
+#: ../../reference/gpu-arch-specs.rst:154
+msgid "16 (8 per GCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:138
+#: ../../reference/gpu-arch-specs.rst:155
+#: ../../reference/gpu-arch-specs.rst:172
+#: ../../reference/gpu-arch-specs.rst:189
+#: ../../reference/gpu-arch-specs.rst:206
+#: ../../reference/gpu-arch-specs.rst:223
+#: ../../reference/gpu-arch-specs.rst:234
+#: ../../reference/gpu-arch-specs.rst:240
+#: ../../reference/gpu-arch-specs.rst:251
+#: ../../reference/gpu-arch-specs.rst:257
+#: ../../reference/gpu-arch-specs.rst:274
+#: ../../reference/gpu-arch-specs.rst:285
+#: ../../reference/gpu-arch-specs.rst:291
+#: ../../reference/gpu-arch-specs.rst:336
+#: ../../reference/gpu-arch-specs.rst:354
+#: ../../reference/gpu-arch-specs.rst:372
+#: ../../reference/gpu-arch-specs.rst:390
+#: ../../reference/gpu-arch-specs.rst:408
+#: ../../reference/gpu-arch-specs.rst:426
+#: ../../reference/gpu-arch-specs.rst:444
+#: ../../reference/gpu-arch-specs.rst:454
+#: ../../reference/gpu-arch-specs.rst:462
+#: ../../reference/gpu-arch-specs.rst:479
+#: ../../reference/gpu-arch-specs.rst:480
+#: ../../reference/gpu-arch-specs.rst:497
+#: ../../reference/gpu-arch-specs.rst:498
+#: ../../reference/gpu-arch-specs.rst:515
+#: ../../reference/gpu-arch-specs.rst:516
+#: ../../reference/gpu-arch-specs.rst:533
+#: ../../reference/gpu-arch-specs.rst:534
+#: ../../reference/gpu-arch-specs.rst:544
+#: ../../reference/gpu-arch-specs.rst:551
+#: ../../reference/gpu-arch-specs.rst:587
+#: ../../reference/gpu-arch-specs.rst:595
+#: ../../reference/gpu-arch-specs.rst:605
+#: ../../reference/gpu-arch-specs.rst:613
+#: ../../reference/gpu-arch-specs.rst:623
+#: ../../reference/gpu-arch-specs.rst:631
+#: ../../reference/gpu-arch-specs.rst:641
+#: ../../reference/gpu-arch-specs.rst:649
+#: ../../reference/gpu-arch-specs.rst:659
+#: ../../reference/gpu-arch-specs.rst:667
+#: ../../reference/gpu-arch-specs.rst:685
+#: ../../reference/gpu-arch-specs.rst:703
+#: ../../reference/gpu-arch-specs.rst:721
+#: ../../reference/gpu-arch-specs.rst:731
+#: ../../reference/gpu-arch-specs.rst:739
+#: ../../reference/gpu-arch-specs.rst:749
+#: ../../reference/gpu-arch-specs.rst:757
+#: ../../reference/gpu-arch-specs.rst:767
+#: ../../reference/gpu-arch-specs.rst:775
+#: ../../reference/gpu-arch-specs.rst:793
+#: ../../reference/gpu-arch-specs.rst:811
+#: ../../reference/gpu-arch-specs.rst:821
+#: ../../reference/gpu-arch-specs.rst:828
+#: ../../reference/gpu-arch-specs.rst:829
+#: ../../reference/gpu-arch-specs.rst:839
+#: ../../reference/gpu-arch-specs.rst:846
+#: ../../reference/gpu-arch-specs.rst:847
+#: ../../reference/gpu-arch-specs.rst:857
+#: ../../reference/gpu-arch-specs.rst:864
+#: ../../reference/gpu-arch-specs.rst:865
+#: ../../reference/gpu-arch-specs.rst:875
+#: ../../reference/gpu-arch-specs.rst:882
+#: ../../reference/gpu-arch-specs.rst:883
+#: ../../reference/gpu-arch-specs.rst:900
+#: ../../reference/gpu-arch-specs.rst:901
+#: ../../reference/gpu-arch-specs.rst:918
+#: ../../reference/gpu-arch-specs.rst:919
+#: ../../reference/gpu-arch-specs.rst:936
+#: ../../reference/gpu-arch-specs.rst:937
+#: ../../reference/gpu-arch-specs.rst:954
+#: ../../reference/gpu-arch-specs.rst:955
+#: ../../reference/gpu-arch-specs.rst:972
+#: ../../reference/gpu-arch-specs.rst:973
+#: ../../reference/gpu-arch-specs.rst:990
+#: ../../reference/gpu-arch-specs.rst:991
+#: ../../reference/gpu-arch-specs.rst:1001
+#: ../../reference/gpu-arch-specs.rst:1008
+#: ../../reference/gpu-arch-specs.rst:1054
+#: ../../reference/gpu-arch-specs.rst:1073
+#: ../../reference/gpu-arch-specs.rst:1085
+#: ../../reference/gpu-arch-specs.rst:1092
+#: ../../reference/gpu-arch-specs.rst:1111
+#: ../../reference/gpu-arch-specs.rst:1130
+msgid "16"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:140
+#: ../../reference/gpu-arch-specs.rst:157
+#: ../../reference/gpu-arch-specs.rst:174
+msgid "32 per 2 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:144
+#: ../../reference/gpu-arch-specs.rst:161
+#: ../../reference/gpu-arch-specs.rst:178
+#: ../../reference/gpu-arch-specs.rst:195
+#: ../../reference/gpu-arch-specs.rst:212
+#: ../../reference/gpu-arch-specs.rst:229
+#: ../../reference/gpu-arch-specs.rst:246
+#: ../../reference/gpu-arch-specs.rst:263
+#: ../../reference/gpu-arch-specs.rst:280
+#: ../../reference/gpu-arch-specs.rst:297
+#: ../../reference/gpu-arch-specs.rst:341
+#: ../../reference/gpu-arch-specs.rst:359
+#: ../../reference/gpu-arch-specs.rst:377
+#: ../../reference/gpu-arch-specs.rst:395
+#: ../../reference/gpu-arch-specs.rst:413
+#: ../../reference/gpu-arch-specs.rst:431
+#: ../../reference/gpu-arch-specs.rst:449
+#: ../../reference/gpu-arch-specs.rst:467
+#: ../../reference/gpu-arch-specs.rst:557
+#: ../../reference/gpu-arch-specs.rst:600
+#: ../../reference/gpu-arch-specs.rst:618
+#: ../../reference/gpu-arch-specs.rst:636
+#: ../../reference/gpu-arch-specs.rst:654
+#: ../../reference/gpu-arch-specs.rst:672
+#: ../../reference/gpu-arch-specs.rst:690
+#: ../../reference/gpu-arch-specs.rst:708
+#: ../../reference/gpu-arch-specs.rst:726
+#: ../../reference/gpu-arch-specs.rst:744
+#: ../../reference/gpu-arch-specs.rst:762
+#: ../../reference/gpu-arch-specs.rst:780
+#: ../../reference/gpu-arch-specs.rst:798
+#: ../../reference/gpu-arch-specs.rst:816
+#: ../../reference/gpu-arch-specs.rst:1014
+#: ../../reference/gpu-arch-specs.rst:1059
+#: ../../reference/gpu-arch-specs.rst:1078
+#: ../../reference/precision-support.rst:1144
+msgid "0"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:146
+msgid "MI250"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:150
+msgid "208 (104 per GCD)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:163
+msgid "MI210"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:167
+msgid "104"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:171
+#: ../../reference/gpu-arch-specs.rst:188
+#: ../../reference/gpu-arch-specs.rst:279
+#: ../../reference/gpu-arch-specs.rst:296
+#: ../../reference/gpu-arch-specs.rst:333
+#: ../../reference/gpu-arch-specs.rst:351
+#: ../../reference/gpu-arch-specs.rst:490
+#: ../../reference/gpu-arch-specs.rst:526
+#: ../../reference/gpu-arch-specs.rst:592
+#: ../../reference/gpu-arch-specs.rst:628
+#: ../../reference/gpu-arch-specs.rst:677
+#: ../../reference/gpu-arch-specs.rst:803
+#: ../../reference/gpu-arch-specs.rst:947
+#: ../../reference/gpu-arch-specs.rst:965
+#: ../../reference/gpu-arch-specs.rst:983
+#: ../../reference/gpu-arch-specs.rst:1123
+#: ../../reference/precision-support.rst:1114
+msgid "8"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:180
+#: ../../reference/gpu-atomics-operation.rst
+#: ../../reference/gpu-atomics-operation.rst:21
+msgid "MI100"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:181
+msgid "CDNA"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:182
+msgid "gfx908"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:184
+msgid "120"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:190
+#: ../../reference/gpu-arch-specs.rst:207
+msgid "16 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:191
+#: ../../reference/gpu-arch-specs.rst:208
+msgid "32 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:192
+msgid "256 VGPR and 256 AccVGPR"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:197
+msgid "MI60"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:198
+#: ../../reference/gpu-arch-specs.rst:215
+#: ../../reference/gpu-arch-specs.rst:232
+#: ../../reference/gpu-arch-specs.rst:542
+#: ../../reference/gpu-arch-specs.rst:999
+msgid "GCN5.1"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:199
+#: ../../reference/gpu-arch-specs.rst:216
+#: ../../reference/gpu-arch-specs.rst:233
+#: ../../reference/gpu-arch-specs.rst:543
+#: ../../reference/gpu-arch-specs.rst:1000
+msgid "gfx906"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:214
+msgid "MI50 (32GB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:218
+#: ../../reference/gpu-arch-specs.rst:235
+#: ../../reference/gpu-arch-specs.rst:473
+#: ../../reference/gpu-arch-specs.rst:545
+#: ../../reference/gpu-arch-specs.rst:750
+#: ../../reference/gpu-arch-specs.rst:876
+#: ../../reference/gpu-arch-specs.rst:1002
+msgid "60"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:224
+#: ../../reference/gpu-arch-specs.rst:241
+#: ../../reference/gpu-arch-specs.rst:258
+#: ../../reference/gpu-arch-specs.rst:1009
+msgid "16 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:225
+#: ../../reference/gpu-arch-specs.rst:242
+#: ../../reference/gpu-arch-specs.rst:259
+#: ../../reference/gpu-arch-specs.rst:1010
+msgid "32 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:231
+msgid "MI50 (16GB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:248
+msgid "MI25"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:249
+msgid "GCN5.0"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:250
+msgid "gfx900"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:265
+msgid "MI8"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:266
+msgid "GCN3.0"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:267
+#: ../../reference/gpu-arch-specs.rst:284
+msgid "gfx803"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:273
+#: ../../reference/gpu-arch-specs.rst:290
+#: ../../reference/gpu-arch-specs.rst:495
+#: ../../reference/gpu-arch-specs.rst:808
+#: ../../reference/gpu-arch-specs.rst:952
+#: ../../reference/gpu-arch-specs.rst:970
+#: ../../reference/gpu-arch-specs.rst:988
+#: ../../reference/gpu-arch-specs.rst:1051
+#: ../../reference/gpu-arch-specs.rst:1070
+#: ../../reference/gpu-arch-specs.rst:1089
+#: ../../reference/gpu-arch-specs.rst:1108
+#: ../../reference/precision-support.rst:1156
+msgid "2"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:275
+#: ../../reference/gpu-arch-specs.rst:292
+msgid "16 per 4 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:276
+#: ../../reference/gpu-arch-specs.rst:293
+msgid "32 per 4 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:282
+msgid "MI6"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:283
+msgid "GCN4.0"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:286
+#: ../../reference/gpu-arch-specs.rst:930
+msgid "36"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst
+msgid "AMD Radeon PRO GPUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:314
+#: ../../reference/gpu-arch-specs.rst:573
+#: ../../reference/gpu-arch-specs.rst:1031
+msgid "Infinity Cache (MiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:316
+#: ../../reference/gpu-arch-specs.rst:575
+#: ../../reference/gpu-arch-specs.rst:1033
+msgid "Graphics L1 Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:317
+#: ../../reference/gpu-arch-specs.rst:576
+#: ../../reference/gpu-arch-specs.rst:1034
+msgid "L0 Vector Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:318
+#: ../../reference/gpu-arch-specs.rst:577
+#: ../../reference/gpu-arch-specs.rst:1035
+msgid "L0 Scalar Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:319
+#: ../../reference/gpu-arch-specs.rst:578
+#: ../../reference/gpu-arch-specs.rst:1036
+msgid "L0 Instruction Cache (KiB)"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:325
+msgid "Radeon AI PRO R9700"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:326
+#: ../../reference/gpu-arch-specs.rst:344
+#: ../../reference/gpu-arch-specs.rst:585
+#: ../../reference/gpu-arch-specs.rst:603
+#: ../../reference/gpu-arch-specs.rst:621
+#: ../../reference/gpu-arch-specs.rst:639
+#: ../../reference/gpu-arch-specs.rst:657
+#: ../../reference/gpu-arch-specs.rst:675
+#: ../../reference/precision-support.rst:220
+#: ../../reference/precision-support.rst:443
+#: ../../reference/precision-support.rst:512
+#: ../../reference/precision-support.rst:582
+#: ../../reference/precision-support.rst:652
+#: ../../reference/precision-support.rst:721
+#: ../../reference/precision-support.rst:791
+#: ../../reference/precision-support.rst:849
+#: ../../reference/precision-support.rst:918
+#: ../../reference/precision-support.rst:988
+msgid "RDNA4"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:327
+#: ../../reference/gpu-arch-specs.rst:345
+#: ../../reference/gpu-arch-specs.rst:586
+#: ../../reference/gpu-arch-specs.rst:604
+#: ../../reference/gpu-arch-specs.rst:622
+msgid "gfx1201"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:330
+#: ../../reference/gpu-arch-specs.rst:348
+#: ../../reference/gpu-arch-specs.rst:366
+#: ../../reference/gpu-arch-specs.rst:384
+#: ../../reference/gpu-arch-specs.rst:402
+#: ../../reference/gpu-arch-specs.rst:420
+#: ../../reference/gpu-arch-specs.rst:438
+#: ../../reference/gpu-arch-specs.rst:456
+#: ../../reference/gpu-arch-specs.rst:474
+#: ../../reference/gpu-arch-specs.rst:492
+#: ../../reference/gpu-arch-specs.rst:510
+#: ../../reference/gpu-arch-specs.rst:528
+#: ../../reference/gpu-arch-specs.rst:589
+#: ../../reference/gpu-arch-specs.rst:607
+#: ../../reference/gpu-arch-specs.rst:625
+#: ../../reference/gpu-arch-specs.rst:643
+#: ../../reference/gpu-arch-specs.rst:661
+#: ../../reference/gpu-arch-specs.rst:679
+#: ../../reference/gpu-arch-specs.rst:697
+#: ../../reference/gpu-arch-specs.rst:715
+#: ../../reference/gpu-arch-specs.rst:733
+#: ../../reference/gpu-arch-specs.rst:751
+#: ../../reference/gpu-arch-specs.rst:769
+#: ../../reference/gpu-arch-specs.rst:787
+#: ../../reference/gpu-arch-specs.rst:805
+#: ../../reference/gpu-arch-specs.rst:823
+#: ../../reference/gpu-arch-specs.rst:841
+#: ../../reference/gpu-arch-specs.rst:859
+#: ../../reference/gpu-arch-specs.rst:877
+#: ../../reference/gpu-arch-specs.rst:895
+#: ../../reference/gpu-arch-specs.rst:913
+#: ../../reference/gpu-arch-specs.rst:931
+#: ../../reference/gpu-arch-specs.rst:949
+#: ../../reference/gpu-arch-specs.rst:967
+#: ../../reference/gpu-arch-specs.rst:985
+#: ../../reference/gpu-arch-specs.rst:1048
+#: ../../reference/gpu-arch-specs.rst:1067
+#: ../../reference/gpu-arch-specs.rst:1086
+#: ../../reference/gpu-arch-specs.rst:1105
+#: ../../reference/gpu-arch-specs.rst:1124
+msgid "32 or 64"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:334
+#: ../../reference/gpu-arch-specs.rst:352
+#: ../../reference/gpu-arch-specs.rst:593
+#: ../../reference/gpu-arch-specs.rst:611
+#: ../../reference/gpu-arch-specs.rst:629
+#: ../../reference/gpu-arch-specs.rst:647
+#: ../../reference/gpu-arch-specs.rst:665
+#: ../../reference/gpu-arch-specs.rst:683
+#: ../../reference/gpu-arch-specs.rst:1050
+#: ../../reference/gpu-arch-specs.rst:1069
+#: ../../reference/gpu-arch-specs.rst:1088
+#: ../../reference/gpu-arch-specs.rst:1126
+msgid "N/A"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:338
+#: ../../reference/gpu-arch-specs.rst:356
+#: ../../reference/gpu-arch-specs.rst:374
+#: ../../reference/gpu-arch-specs.rst:392
+#: ../../reference/gpu-arch-specs.rst:410
+#: ../../reference/gpu-arch-specs.rst:428
+#: ../../reference/gpu-arch-specs.rst:446
+#: ../../reference/gpu-arch-specs.rst:464
+#: ../../reference/gpu-arch-specs.rst:597
+#: ../../reference/gpu-arch-specs.rst:615
+#: ../../reference/gpu-arch-specs.rst:633
+#: ../../reference/gpu-arch-specs.rst:651
+#: ../../reference/gpu-arch-specs.rst:669
+#: ../../reference/gpu-arch-specs.rst:687
+#: ../../reference/gpu-arch-specs.rst:705
+#: ../../reference/gpu-arch-specs.rst:723
+#: ../../reference/gpu-arch-specs.rst:741
+#: ../../reference/gpu-arch-specs.rst:759
+#: ../../reference/gpu-arch-specs.rst:777
+#: ../../reference/gpu-arch-specs.rst:795
+#: ../../reference/gpu-arch-specs.rst:1113
+msgid "768"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:340
+#: ../../reference/gpu-arch-specs.rst:358
+#: ../../reference/gpu-arch-specs.rst:599
+#: ../../reference/gpu-arch-specs.rst:617
+#: ../../reference/gpu-arch-specs.rst:635
+#: ../../reference/gpu-arch-specs.rst:653
+#: ../../reference/gpu-arch-specs.rst:671
+#: ../../reference/gpu-arch-specs.rst:689
+#: ../../reference/gpu-arch-specs.rst:785
+#: ../../reference/gpu-arch-specs.rst:893
+#: ../../reference/gpu-arch-specs.rst:911
+#: ../../reference/gpu-arch-specs.rst:1047
+#: ../../reference/gpu-arch-specs.rst:1066
+#: ../../reference/precision-support.rst:1138
+msgid "12"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:343
+msgid "Radeon AI PRO R9600D"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:347
+#: ../../reference/gpu-arch-specs.rst:350
+#: ../../reference/gpu-arch-specs.rst:382
+#: ../../reference/gpu-arch-specs.rst:400
+#: ../../reference/gpu-arch-specs.rst:418
+#: ../../reference/gpu-arch-specs.rst:455
+#: ../../reference/gpu-arch-specs.rst:606
+#: ../../reference/gpu-arch-specs.rst:609
+#: ../../reference/gpu-arch-specs.rst:789
+msgid "48"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:361
+msgid "Radeon PRO V710"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:362
+#: ../../reference/gpu-arch-specs.rst:380
+#: ../../reference/gpu-arch-specs.rst:398
+#: ../../reference/gpu-arch-specs.rst:416
+#: ../../reference/gpu-arch-specs.rst:434
+#: ../../reference/gpu-arch-specs.rst:452
+#: ../../reference/gpu-arch-specs.rst:693
+#: ../../reference/gpu-arch-specs.rst:711
+#: ../../reference/gpu-arch-specs.rst:729
+#: ../../reference/gpu-arch-specs.rst:747
+#: ../../reference/gpu-arch-specs.rst:765
+#: ../../reference/gpu-arch-specs.rst:783
+#: ../../reference/gpu-arch-specs.rst:801
+#: ../../reference/gpu-arch-specs.rst:1044
+#: ../../reference/gpu-arch-specs.rst:1063
+#: ../../reference/precision-support.rst:219
+#: ../../reference/precision-support.rst:436
+#: ../../reference/precision-support.rst:504
+#: ../../reference/precision-support.rst:574
+#: ../../reference/precision-support.rst:645
+#: ../../reference/precision-support.rst:713
+#: ../../reference/precision-support.rst:783
+#: ../../reference/precision-support.rst:842
+#: ../../reference/precision-support.rst:910
+#: ../../reference/precision-support.rst:980
+msgid "RDNA3"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:363
+#: ../../reference/gpu-arch-specs.rst:453
+#: ../../reference/gpu-arch-specs.rst:748
+#: ../../reference/gpu-arch-specs.rst:766
+#: ../../reference/gpu-arch-specs.rst:784
+msgid "gfx1101"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:364
+#: ../../reference/gpu-arch-specs.rst:491
+#: ../../reference/gpu-arch-specs.rst:678
+#: ../../reference/gpu-arch-specs.rst:984
+#: ../../reference/precision-support.rst:1168
+msgid "28"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:365
+#: ../../reference/gpu-arch-specs.rst:786
+msgid "54"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:368
+#: ../../reference/gpu-arch-specs.rst:624
+msgid "56"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:376
+#: ../../reference/gpu-arch-specs.rst:394
+#: ../../reference/gpu-arch-specs.rst:412
+#: ../../reference/gpu-arch-specs.rst:430
+#: ../../reference/gpu-arch-specs.rst:448
+#: ../../reference/gpu-arch-specs.rst:466
+#: ../../reference/gpu-arch-specs.rst:707
+#: ../../reference/gpu-arch-specs.rst:725
+#: ../../reference/gpu-arch-specs.rst:743
+#: ../../reference/gpu-arch-specs.rst:761
+#: ../../reference/gpu-arch-specs.rst:779
+#: ../../reference/gpu-arch-specs.rst:797
+#: ../../reference/gpu-arch-specs.rst:815
+#: ../../reference/gpu-arch-specs.rst:1058
+#: ../../reference/gpu-arch-specs.rst:1077
+#: ../../reference/gpu-arch-specs.rst:1096
+#: ../../reference/gpu-arch-specs.rst:1115
+#: ../../reference/gpu-arch-specs.rst:1134
+msgid "11"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:379
+msgid "Radeon PRO W7900 Dual Slot"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:381
+#: ../../reference/gpu-arch-specs.rst:399
+#: ../../reference/gpu-arch-specs.rst:417
+#: ../../reference/gpu-arch-specs.rst:435
+#: ../../reference/gpu-arch-specs.rst:694
+#: ../../reference/gpu-arch-specs.rst:712
+#: ../../reference/gpu-arch-specs.rst:730
+msgid "gfx1100"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:383
+#: ../../reference/gpu-arch-specs.rst:386
+#: ../../reference/gpu-arch-specs.rst:401
+#: ../../reference/gpu-arch-specs.rst:404
+#: ../../reference/gpu-arch-specs.rst:422
+#: ../../reference/gpu-arch-specs.rst:696
+#: ../../reference/gpu-arch-specs.rst:699
+#: ../../reference/gpu-arch-specs.rst:897
+#: ../../reference/gpu-arch-specs.rst:915
+msgid "96"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:387
+#: ../../reference/gpu-arch-specs.rst:405
+#: ../../reference/gpu-arch-specs.rst:423
+#: ../../reference/gpu-arch-specs.rst:441
+#: ../../reference/gpu-arch-specs.rst:610
+#: ../../reference/gpu-arch-specs.rst:700
+#: ../../reference/gpu-arch-specs.rst:718
+#: ../../reference/gpu-arch-specs.rst:736
+msgid "6"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:397
+msgid "Radeon PRO W7900"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:415
+msgid "Radeon PRO W7800 48GB"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:419
+#: ../../reference/gpu-arch-specs.rst:437
+msgid "70"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:433
+msgid "Radeon PRO W7800"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:451
+msgid "Radeon PRO W7700"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:469
+msgid "Radeon PRO W6800"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:470
+#: ../../reference/gpu-arch-specs.rst:488
+#: ../../reference/gpu-arch-specs.rst:506
+#: ../../reference/gpu-arch-specs.rst:819
+#: ../../reference/gpu-arch-specs.rst:837
+#: ../../reference/gpu-arch-specs.rst:855
+#: ../../reference/gpu-arch-specs.rst:873
+#: ../../reference/gpu-arch-specs.rst:891
+#: ../../reference/gpu-arch-specs.rst:909
+#: ../../reference/gpu-arch-specs.rst:927
+#: ../../reference/gpu-arch-specs.rst:945
+#: ../../reference/gpu-arch-specs.rst:963
+#: ../../reference/gpu-arch-specs.rst:981
+#: ../../reference/precision-support.rst:218
+#: ../../reference/precision-support.rst:429
+#: ../../reference/precision-support.rst:496
+#: ../../reference/precision-support.rst:566
+#: ../../reference/precision-support.rst:638
+#: ../../reference/precision-support.rst:705
+#: ../../reference/precision-support.rst:775
+#: ../../reference/precision-support.rst:902
+#: ../../reference/precision-support.rst:972
+msgid "RDNA2"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:471
+#: ../../reference/gpu-arch-specs.rst:507
+#: ../../reference/gpu-arch-specs.rst:820
+#: ../../reference/gpu-arch-specs.rst:838
+#: ../../reference/gpu-arch-specs.rst:856
+#: ../../reference/gpu-arch-specs.rst:874
+msgid "gfx1030"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:484
+#: ../../reference/gpu-arch-specs.rst:502
+#: ../../reference/gpu-arch-specs.rst:520
+#: ../../reference/gpu-arch-specs.rst:538
+#: ../../reference/gpu-arch-specs.rst:833
+#: ../../reference/gpu-arch-specs.rst:851
+#: ../../reference/gpu-arch-specs.rst:869
+#: ../../reference/gpu-arch-specs.rst:887
+#: ../../reference/gpu-arch-specs.rst:905
+#: ../../reference/gpu-arch-specs.rst:923
+#: ../../reference/gpu-arch-specs.rst:929
+#: ../../reference/gpu-arch-specs.rst:941
+#: ../../reference/gpu-arch-specs.rst:959
+#: ../../reference/gpu-arch-specs.rst:977
+#: ../../reference/gpu-arch-specs.rst:995
+#: ../../reference/precision-support.rst:1132
+msgid "10"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:485
+#: ../../reference/gpu-arch-specs.rst:503
+#: ../../reference/gpu-arch-specs.rst:521
+#: ../../reference/gpu-arch-specs.rst:834
+#: ../../reference/gpu-arch-specs.rst:852
+#: ../../reference/gpu-arch-specs.rst:870
+#: ../../reference/gpu-arch-specs.rst:888
+#: ../../reference/gpu-arch-specs.rst:898
+#: ../../reference/gpu-arch-specs.rst:906
+#: ../../reference/gpu-arch-specs.rst:916
+#: ../../reference/gpu-arch-specs.rst:924
+#: ../../reference/gpu-arch-specs.rst:934
+#: ../../reference/gpu-arch-specs.rst:942
+#: ../../reference/gpu-arch-specs.rst:960
+#: ../../reference/gpu-arch-specs.rst:978
+#: ../../reference/gpu-arch-specs.rst:996
+#: ../../reference/precision-support.rst:1108
+msgid "3"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:487
+msgid "Radeon PRO W6600"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:489
+#: ../../reference/gpu-arch-specs.rst:946
+#: ../../reference/gpu-arch-specs.rst:964
+#: ../../reference/gpu-arch-specs.rst:982
+msgid "gfx1032"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:505
+msgid "Radeon PRO V620"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:509
+#: ../../reference/gpu-arch-specs.rst:858
+msgid "72"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:523
+msgid "Radeon Pro W5500"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:524
+msgid "RDNA"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:525
+msgid "gfx1012"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:527
+#: ../../reference/precision-support.rst:1126
+msgid "22"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:537
+#: ../../reference/gpu-arch-specs.rst:713
+#: ../../reference/precision-support.rst:1120
+msgid "20"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:539
+#: ../../reference/gpu-arch-specs.rst:1127
+#: ../../reference/precision-support.rst:1150
+msgid "1"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:541
+msgid "Radeon Pro VII"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:552
+msgid "16 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:553
+msgid "32 per 3 CUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst
+msgid "AMD Radeon GPUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:584
+msgid "Radeon RX 9070 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:602
+msgid "Radeon RX 9070 GRE"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:620
+msgid "Radeon RX 9070"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:638
+msgid "Radeon RX 9060 XT LP"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:640
+#: ../../reference/gpu-arch-specs.rst:658
+#: ../../reference/gpu-arch-specs.rst:676
+msgid "gfx1200"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:656
+msgid "Radeon RX 9060 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:674
+msgid "Radeon RX 9060"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:692
+msgid "Radeon RX 7900 XTX"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:695
+msgid "24"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:710
+msgid "Radeon RX 7900 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:714
+msgid "84"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:717
+#: ../../reference/gpu-arch-specs.rst:732
+#: ../../reference/gpu-arch-specs.rst:822
+#: ../../reference/gpu-arch-specs.rst:840
+#: ../../reference/gpu-arch-specs.rst:933
+msgid "80"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:728
+msgid "Radeon RX 7900 GRE"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:746
+msgid "Radeon RX 7800 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:764
+msgid "Radeon RX 7700"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:768
+#: ../../reference/gpu-arch-specs.rst:894
+#: ../../reference/gpu-arch-specs.rst:912
+#: ../../reference/gpu-arch-specs.rst:1104
+msgid "40"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:782
+msgid "Radeon RX 7700 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:800
+msgid "Radeon RX 7600"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:802
+msgid "gfx1102"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:818
+msgid "Radeon RX 6950 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:836
+msgid "Radeon RX 6900 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:854
+msgid "Radeon RX 6800 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:872
+msgid "Radeon RX 6800"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:890
+msgid "Radeon RX 6750 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:892
+#: ../../reference/gpu-arch-specs.rst:910
+#: ../../reference/gpu-arch-specs.rst:928
+msgid "gfx1031"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:908
+msgid "Radeon RX 6700 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:926
+msgid "Radeon RX 6700"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:944
+msgid "Radeon RX 6650 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:962
+msgid "Radeon RX 6600 XT"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:980
+msgid "Radeon RX 6600"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:998
+msgid "Radeon VII"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1004
+msgid "64 per CU"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst
+msgid "AMD Ryzen APUs"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1024
+msgid "Graphics model"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1042
+msgid "AMD Ryzen 7 7840U"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1043
+#: ../../reference/gpu-arch-specs.rst:1062
+msgid "Radeon 780M"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1045
+#: ../../reference/gpu-arch-specs.rst:1064
+msgid "gfx1103"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1046
+#: ../../reference/gpu-arch-specs.rst:1065
+#: ../../reference/gpu-arch-specs.rst:1084
+#: ../../reference/gpu-arch-specs.rst:1103
+#: ../../reference/gpu-arch-specs.rst:1122
+msgid "Dynamic + carveout"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1061
+msgid "AMD Ryzen 9 270"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1080
+msgid "AMD Ryzen AI 9 HX 375"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1081
+msgid "Radeon 890M"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1082
+#: ../../reference/gpu-arch-specs.rst:1101
+#: ../../reference/gpu-arch-specs.rst:1120
+msgid "RDNA3.5"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1083
+msgid "gfx1150"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1099
+msgid "AMD Ryzen AI Max+ PRO 395"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1100
+msgid "Radeon 8060S"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1102
+msgid "gfx1151"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1118
+msgid "AMD Ryzen Al 7 350"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1119
+msgid "Radeon 860M"
+msgstr ""
+
+#: ../../reference/gpu-arch-specs.rst:1121
+msgid "gfx1152"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:-1
+msgid ""
+"AMD Instinct GPU, AMD Radeon PRO, and AMD Radeon GPU atomics operations "
+"information"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:-1
+msgid ""
+"Atomics operations, atomic bitwise functions, atomics add, atomics "
+"subtraction, atomics exchange, atomics min, atomics max"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:10
+msgid "Hardware atomics operation support"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:12
+msgid ""
+":ref:`Atomic operations <atomic functions>` guarantee that the operation "
+"is completed as an indivisible unit, preventing race conditions where "
+"simultaneous access to the same memory location could lead to incorrect "
+"or undefined behavior."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:17
+msgid ""
+"This topic summarizes the support of atomic read-modify-write (atomicRMW)"
+" operations on AMD GPUs. This includes gfx9, gfx10, gfx11, and gfx12 "
+"targets and the following Instinct™ Series:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:23
+msgid "MI200"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:25
+msgid "MI300"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:27
+msgid "MI350"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:29
+msgid ""
+"The atomics operation type behavior is affected by the memory locations, "
+"memory granularity, and scope of operations."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:32
+msgid "Memory locations:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:34
+msgid ""
+":ref:`Device memory <hip:device_memory>`, that is, VRAM, the RAM on a "
+"discrete GPU device or in framebuffer carveout for APUs. This includes "
+"peer-device memory within an Infinity Fabric™ hive."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:38
+msgid ""
+":ref:`Host memory <hip:host_memory>`: in DRAM associated with the CPU (or"
+" peer device memory using PCIe® (PCI Express) peer-to-peer). This can be "
+"two sub-types:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:41
+msgid ""
+"Migratable memory: memory that is currently residing in host DRAM, but "
+"which can be migrated back to device memory. For example, "
+"``hipMallocManaged()`` or :ref:`unified memory <hip:unified_memory>` "
+"allocations."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:46
+msgid ""
+":ref:`Pinned memory <hip:pinned_host_memory>`: memory that is in host "
+"memory and cannot be migrated to the device (not necessarily pinned to a "
+"particular physical address, but can't be moved to device memory). "
+"``hipHostMalloc()``, for example."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:51
+msgid "Memory granularity or :ref:`coherence <hip:coherence_control>`:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:53
+msgid "Coarse-grained memory"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:55
+msgid ""
+"This memory can be used for device-scope synchronization during the "
+"execution of a single GPU kernel. Any system-scope atomics sent to this "
+"type of memory will not achieve system-scope coherency and will instead "
+"be downgraded to device-scope as per the programming model."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:60
+msgid "This type of memory only available on AMD GPUs."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:62
+msgid "Fine-grained memory"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:64
+msgid ""
+"This memory can be used for device and system-scope synchronization "
+"during the execution of a single GPU kernel."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:67
+msgid "Scopes of operations:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:69
+msgid "Device-scope or agent-scope"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:71
+msgid ""
+"This atomic should happen atomically from the point of view of every "
+"thread within the device that the atomic-executing thread is in."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:74
+msgid "System-scope"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:76
+msgid ""
+"This atomic should happen atomically from the point of view of every "
+"thread in all devices and in the CPUs."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:80
+msgid "Support summary"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:85
+msgid "**MI300 and MI350 Series**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:87
+msgid "All atomicRMW operations are forwarded out to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:88
+msgid ""
+"Infinity Fabric supports common integer and bitwise atomics, FP32 atomic "
+"add, packed-FP16 atomic add, packed-BF16 atomic add, and FP64 add, min, "
+"and max."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:90
+msgid ""
+"In discrete GPUs (dGPUs), if the data is stored in host memory, the "
+"atomic will be forwarded from the Infinity Fabric to PCIe."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:92
+#: ../../reference/gpu-atomics-operation.rst:209
+msgid ""
+"If the PCIe bus does not support the requested atomic, the GPU's PCIe "
+"controller changes it into a load-op-store sequence. All waves on the "
+"chip submitting atomics to that address will stall waiting for the load-"
+"op-store. It will seem like atomics to the wave, but the CPU sees it as a"
+" non-atomic load-op-store sequence. This downgrades system-scope atomics "
+"to device-scope."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:98
+msgid "**MI200 Series**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:100
+#: ../../reference/gpu-atomics-operation.rst:122
+#: ../../reference/gpu-atomics-operation.rst:142
+#: ../../reference/gpu-atomics-operation.rst:153
+#: ../../reference/gpu-atomics-operation.rst:169
+#: ../../reference/gpu-atomics-operation.rst:185
+msgid ""
+"L2 cache and Infinity Fabric both support common integer and bitwise "
+"atomics."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:101
+msgid ""
+"L2 cache supports FP32 atomic add, packed-FP16 atomic add, and FP64 add, "
+"min, and max."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:103
+msgid ""
+"The Infinity Fabric does not support FP32 atomic add, packed-FP16 atomic "
+"add, and FP64 add, min, and max atomics and these commands cannot be sent"
+" to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:106
+#: ../../reference/gpu-atomics-operation.rst:127
+#: ../../reference/gpu-atomics-operation.rst:143
+#: ../../reference/gpu-atomics-operation.rst:154
+#: ../../reference/gpu-atomics-operation.rst:173
+#: ../../reference/gpu-atomics-operation.rst:190
+msgid ""
+"Coarse-grained memory is marked as cacheable, and atomic operations will "
+"be processed in the L2 cache."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:108
+msgid "Fine-grained memory is marked write-uncacheable through the page tables."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:109
+#: ../../reference/gpu-atomics-operation.rst:176
+#: ../../reference/gpu-atomics-operation.rst:195
+#: ../../reference/gpu-atomics-operation.rst:204
+msgid ""
+"Atomics that hit write-uncached memory are forwarded to the Infinity "
+"Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:110
+msgid ""
+"If the uncached data is stored in host memory on a PCIe system, the "
+"atomic will be forwarded from Infinity Fabric to PCIe. Any atomic not "
+"supported by the PCIe bus will be a NOP and give incorrect result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:113
+msgid ""
+"If the uncached data is stored in host memory on an A+A system (system "
+"with AMD CPU and AMD GPU connected via Infinity Fabric), the atomic "
+"operation will be forwarded to the remote location and will succeed if "
+"supported by Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:117
+msgid ""
+"If the float atomics access write-uncached memory, they cannot be "
+"forwarded to the Infinity Fabric, resulting in a NOP and an incorrect "
+"outcome."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:120
+msgid "**MI100**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:123
+msgid ""
+"L2 cache supports no returns (NoReturn) versions of packed-FP16 and FP32 "
+"atomic adds, that cannot return data."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:125
+msgid ""
+"The Infinity Fabric does not support packed-FP16 or FP32 atomic adds, "
+"preventing these commands from being transmitted through it."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:129
+#: ../../reference/gpu-atomics-operation.rst:145
+#: ../../reference/gpu-atomics-operation.rst:156
+#: ../../reference/gpu-atomics-operation.rst:175
+msgid "Fine-grained memory is marked uncacheable through the page tables."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:130
+#: ../../reference/gpu-atomics-operation.rst:146
+#: ../../reference/gpu-atomics-operation.rst:157
+msgid "Atomics that hit uncached memory are forwarded to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:131
+msgid ""
+"If the uncached data is stored in host memory, the atomic will be "
+"forwarded from Infinity Fabric to PCIe. Any atomic not supported by the "
+"PCIe bus will be a NOP and give incorrect result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:134
+msgid ""
+"If an float atomic add hits uncached memory, it cannot be forwarded to "
+"the Infinity Fabric so it will NOP and give incorrect result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:138
+#: ../../reference/gpu-atomics-operation.rst:377
+#: ../../reference/gpu-atomics-operation.rst:552
+#: ../../reference/gpu-atomics-operation.rst:730
+msgid "AMD gfx generic targets"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:140
+msgid "**gfx9**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:147
+msgid ""
+"In a dGPU: if the uncached data is stored in host memory, the atomic will"
+" be forwarded from Infinity Fabric to PCIe. Any atomic not supported by "
+"the PCIe bus will be a NOP and."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:151
+msgid "**gfx10**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:158
+#: ../../reference/gpu-atomics-operation.rst:177
+msgid ""
+"In a dGPU: if the uncached data is stored in host memory, the atomic will"
+" be forwarded from Infinity Fabric to PCIe. Any atomic not supported by "
+"the PCIe bus will be a NOP and give incorrect result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:161
+msgid "Supports floating-point atomic min/max."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:162
+msgid ""
+"The Infinity Fabric does not support floating-point atomic min/max "
+"atomics and these commands cannot be sent to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:164
+msgid ""
+"If the floating-point atomics hit uncached memory, they cannot be "
+"forwarded to the Infinity Fabric, so they will NOP and give incorrect "
+"result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:167
+msgid "**gfx11**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:170
+msgid "L2 cache supports FP32 atomic add, min and max."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:171
+msgid ""
+"The Infinity Fabric does not support FP32 atomic add, min and max atomics"
+" and these commands cannot be sent to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:180
+msgid ""
+"If the float atomics hit uncached memory, they cannot be forwarded to the"
+" Infinity Fabric, so they will NOP and give incorrect result."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:183
+msgid "**gfx12**"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:187
+msgid ""
+"L2 cache and Infinity Fabric both also support FP32 atomic add, min and "
+"max, and packed-FP16 atomic add, and packed-BF16 atomic add."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:193
+msgid "Fine-grained device memory is marked uncacheable through the page tables."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:197
+msgid "Fine-grained system memory is marked as cacheable through the page tables."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:199
+msgid "Device-scope atomic operations will process in the L2 cache."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:201
+msgid ""
+"System-scope atomic operations will bypass the L2 cache and be forwarded "
+"to the Infinity Fabric."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:206
+msgid ""
+"In dGPUs, if the data is stored in host memory, the atomic will be "
+"forwarded from the Infinity Fabric to PCIe."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:216
+msgid "GPUs atomics support"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:218
+msgid ""
+"This section presents a series of tables that show the level of atomic "
+"operations support for the different hardware devices described above, "
+"and different datatypes, different operations and different scopes."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:222
+msgid ""
+"Hardware atomics support refers to the ability of GPUs to natively "
+"perform atomic operations—special low-level operations that ensure data "
+"consistency when multiple threads access and modify memory concurrently."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:226
+msgid ""
+"CAS (Compare-and-Swap) atomic support refers to the hardware or software "
+"capability to perform an atomic Compare-and-Swap operation."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:229
+msgid ""
+"PCIe atomics are a feature of the PCIe interface that enable atomic "
+"operations between devices and hosts across the PCIe bus. For further "
+"information, please check `How ROCm uses PCIe atomics "
+"<https://instinct.docs.amd.com/projects/amdgpu-docs/en/latest/conceptual"
+"/pcie-atomics.html>`_."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:233
+msgid ""
+"The tables that follow show the correctness of atomics operations on the "
+"hardware using the following notations:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:236
+msgid "✅: Produces the correct answer."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:238
+msgid "⚠️: Produces the correct answer, but works only at a weaker scope."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:240
+msgid "❌: The atomics operation fails."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:242
+msgid ""
+"The tables show the different types of atomic operations used by specific"
+" devices:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:245
+msgid ""
+"Native: Computes the correct result using a hardware-native atomic "
+"instruction."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:248
+msgid ""
+"CAS: Generates the correct result, but the atomic operation is "
+"implemented by the compiler for this ISA using a compare-and-swap "
+"emulation loop."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:251
+msgid ""
+"✅ NoReturn: Produces the correct correct result but does not precisely "
+"conform to the atomic API."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:254
+msgid ""
+"Scope Downgrade: Generates the correct result but operates at a weaker "
+"scope than requested. For example, if a user specifies a system-scope "
+"atomic, the operation may only function at the device scope."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:258
+msgid ""
+"NOP: The atomic operation is not executed on the target location, and the"
+" requesting thread receives back 0 as a return value."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:261
+msgid ""
+"n/a: The atomic type is not supported and cannot be executed on the "
+"specific hardware."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:264
+msgid "The tables selectors or options are the following:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:266
+msgid "Highest level option:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:268
+msgid "\"HW atomics\", where software attempts to use hardware atomics."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:270
+msgid "\"CAS emulation\", where software attempts to use CAS emulation."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:272
+msgid "Second-level option:"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:274
+msgid ""
+"\"No PCIe atomics\" means the system does not support PCIe atomics "
+"between the GPU and peer/host-memory."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:277
+msgid ""
+"\"PCIe atomics\" means the system supports PCIe atomics between the GPU "
+"and peer/host-memory."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:280
+msgid "The third-level option is the memory granularity of the memory target."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:282
+msgid "The final option is the scope of atomic access."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:285
+msgid "Integer atomics operations"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:287
+msgid ""
+"The integer type atomic operations that are supported by different "
+"hardware."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:289
+msgid "32 bit integer"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:291
+#: ../../reference/gpu-atomics-operation.rst:303
+#: ../../reference/gpu-atomics-operation.rst:632
+#: ../../reference/gpu-atomics-operation.rst:640
+#: ../../reference/gpu-atomics-operation.rst:648
+#: ../../reference/gpu-atomics-operation.rst:652
+#: ../../reference/gpu-atomics-operation.rst:656
+#: ../../reference/gpu-atomics-operation.rst:660
+msgid "Add"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:293
+msgid "Subtract"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:295
+#: ../../reference/gpu-atomics-operation.rst:305
+#: ../../reference/gpu-atomics-operation.rst:634
+#: ../../reference/gpu-atomics-operation.rst:642
+msgid "Min"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:297
+#: ../../reference/gpu-atomics-operation.rst:307
+#: ../../reference/gpu-atomics-operation.rst:636
+#: ../../reference/gpu-atomics-operation.rst:644
+msgid "Max"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:299
+msgid "IncDec"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:301
+msgid "64 bit integer"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:312
+msgid ""
+"The integer type atomic operations that are supported by different AMD "
+"Instinct GPUs listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "HW atomics"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "No PCIe atomics"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Device DRAM"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Coarse-grained"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Device"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "﻿Atomic"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "MI200 PCIe"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "MI200 A+A"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "MI300X Series"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "MI350X Series"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "✅ Native"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicSub"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicMin"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicMax"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicInc"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicDec"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicMin"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicMax"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "System"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Fine-grained"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Migratable Host DRAM"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "❌ NOP"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "⚠️ Scope Downgrade"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "Pinned Host DRAM"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "PCIe atomics"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "CAS emulation"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "✅ CAS"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "⚠️ Scope Downgrade - CAS"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:379
+msgid ""
+"The integer type atomic operations that are supported by different gfx "
+"generic targets listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx9 dGPU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx9 APU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx10 dGPU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx11 dGPU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx11 APU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "gfx12 dGPU"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:451
+msgid "Bitwise atomics operations"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:453
+msgid "The bitwise atomic operations that are supported by different hardware."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:455
+msgid "32 bit bitwise"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:457
+#: ../../reference/gpu-atomics-operation.rst:469
+msgid "Exchange"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:459
+msgid "Compare-and-Swap (CAS)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:461
+#: ../../reference/gpu-atomics-operation.rst:473
+msgid "AND"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:463
+#: ../../reference/gpu-atomics-operation.rst:475
+msgid "OR"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:465
+#: ../../reference/gpu-atomics-operation.rst:477
+msgid "XOR"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:467
+msgid "64 bit bitwise"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:471
+msgid "CAS"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:482
+msgid "128-bit bitwise Exchange and CAS are not supported on AMD GPUs"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:487
+msgid ""
+"The bitwise atomic operations that are supported by different AMD "
+"Instinct GPUs listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atoimcExch"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicCAS"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicAnd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicOr"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit atomicXor"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicExch"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicCAS"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicAnd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicOr"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit atomicXor"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:554
+msgid ""
+"The bitwise atomic operations that are supported by different AMD gfx "
+"generic targets listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:626
+msgid "Float atomics operations"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:628
+msgid ""
+"The float types atomic operations that are supported by different "
+"hardware."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:630
+msgid "32-bit IEEE 754 floating point ('single precision', FP32)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:638
+msgid "64-bit IEEE 754 floating point ('double precision', FP64)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:646
+msgid "16-bit IEEE 754 floating point ('half precision\", FP16)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:650
+msgid "2xPacked 16-bit IEEE 754 floating point ('half precision', FP16)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:654
+msgid "BrainFloat-16 floating point (BF16)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:658
+msgid "2xPacked BrainFloat-16 floating point (BF16)"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:665
+msgid ""
+"The float type atomic operations that are supported by different AMD "
+"Instinct GPUs listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit float atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "✅ NoReturn"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit float atomicMin"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "32 bit float atomicMax"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit float atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit float atomicMin"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "64 bit float atomicMax"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "16bx2 half2 atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "16bx2 bfloat162 atomicAdd"
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst:732
+msgid ""
+"The float types atomic operations that are supported by different AMD gfx"
+" generic targets listed in the following table."
+msgstr ""
+
+#: ../../reference/gpu-atomics-operation.rst
+msgid "n/a"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:-1
+msgid "This page lists supported graph safe ROCm libraries."
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:-1
+msgid "AMD, ROCm, HIP, hipGRAPH"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:7
+msgid "Graph-safe support for ROCm libraries"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:9
+msgid ""
+"HIP graph-safe libraries operate safely in HIP execution graphs. "
+":ref:`hip:how_to_HIP_graph` are an alternative way of executing tasks on "
+"a GPU that can provide performance benefits over launching kernels using "
+"the standard method via streams."
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:14
+msgid ""
+"Functions and routines from graph-safe libraries shouldn’t result in "
+"issues like race conditions, deadlocks, or unintended dependencies."
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:17
+msgid "The following table shows whether a ROCm library is graph-safe."
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:23
+msgid "ROCm library"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:24
+msgid "Graph safe support"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:26
+msgid "`Composable Kernel <https://github.com/ROCm/composable_kernel>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:27
+#: ../../reference/graph-safe-support.rst:54
+#: ../../reference/graph-safe-support.rst:57
+#: ../../reference/graph-safe-support.rst:63
+#: ../../reference/graph-safe-support.rst:66
+#: ../../reference/graph-safe-support.rst:72
+#: ../../reference/graph-safe-support.rst:78
+#: ../../reference/graph-safe-support.rst:81
+#: ../../reference/graph-safe-support.rst:96
+#: ../../reference/graph-safe-support.rst:99
+#: ../../reference/precision-support.rst:163
+#: ../../reference/precision-support.rst:264
+#: ../../reference/precision-support.rst:265
+#: ../../reference/precision-support.rst:266
+#: ../../reference/precision-support.rst:268
+#: ../../reference/precision-support.rst:269
+#: ../../reference/precision-support.rst:270
+#: ../../reference/precision-support.rst:274
+#: ../../reference/precision-support.rst:275
+#: ../../reference/precision-support.rst:276
+#: ../../reference/precision-support.rst:278
+#: ../../reference/precision-support.rst:279
+#: ../../reference/precision-support.rst:280
+#: ../../reference/precision-support.rst:284
+#: ../../reference/precision-support.rst:285
+#: ../../reference/precision-support.rst:286
+#: ../../reference/precision-support.rst:288
+#: ../../reference/precision-support.rst:289
+#: ../../reference/precision-support.rst:290
+#: ../../reference/precision-support.rst:294
+#: ../../reference/precision-support.rst:295
+#: ../../reference/precision-support.rst:297
+#: ../../reference/precision-support.rst:298
+#: ../../reference/precision-support.rst:299
+#: ../../reference/precision-support.rst:300
+#: ../../reference/precision-support.rst:304
+#: ../../reference/precision-support.rst:305
+#: ../../reference/precision-support.rst:307
+#: ../../reference/precision-support.rst:308
+#: ../../reference/precision-support.rst:309
+#: ../../reference/precision-support.rst:310
+#: ../../reference/precision-support.rst:314
+#: ../../reference/precision-support.rst:315
+#: ../../reference/precision-support.rst:316
+#: ../../reference/precision-support.rst:318
+#: ../../reference/precision-support.rst:319
+#: ../../reference/precision-support.rst:324
+#: ../../reference/precision-support.rst:325
+#: ../../reference/precision-support.rst:326
+#: ../../reference/precision-support.rst:328
+#: ../../reference/precision-support.rst:329
+#: ../../reference/precision-support.rst:465
+#: ../../reference/precision-support.rst:466
+#: ../../reference/precision-support.rst:467
+#: ../../reference/precision-support.rst:468
+#: ../../reference/precision-support.rst:469
+#: ../../reference/precision-support.rst:473
+#: ../../reference/precision-support.rst:474
+#: ../../reference/precision-support.rst:475
+#: ../../reference/precision-support.rst:476
+#: ../../reference/precision-support.rst:477
+#: ../../reference/precision-support.rst:481
+#: ../../reference/precision-support.rst:482
+#: ../../reference/precision-support.rst:483
+#: ../../reference/precision-support.rst:484
+#: ../../reference/precision-support.rst:485
+#: ../../reference/precision-support.rst:489
+#: ../../reference/precision-support.rst:490
+#: ../../reference/precision-support.rst:491
+#: ../../reference/precision-support.rst:492
+#: ../../reference/precision-support.rst:493
+#: ../../reference/precision-support.rst:497
+#: ../../reference/precision-support.rst:498
+#: ../../reference/precision-support.rst:499
+#: ../../reference/precision-support.rst:500
+#: ../../reference/precision-support.rst:501
+#: ../../reference/precision-support.rst:505
+#: ../../reference/precision-support.rst:506
+#: ../../reference/precision-support.rst:507
+#: ../../reference/precision-support.rst:508
+#: ../../reference/precision-support.rst:509
+#: ../../reference/precision-support.rst:513
+#: ../../reference/precision-support.rst:514
+#: ../../reference/precision-support.rst:515
+#: ../../reference/precision-support.rst:516
+#: ../../reference/precision-support.rst:517
+#: ../../reference/precision-support.rst:537
+#: ../../reference/precision-support.rst:545
+#: ../../reference/precision-support.rst:553
+#: ../../reference/precision-support.rst:561
+#: ../../reference/precision-support.rst:569
+#: ../../reference/precision-support.rst:577
+#: ../../reference/precision-support.rst:585
+#: ../../reference/precision-support.rst:612
+#: ../../reference/precision-support.rst:613
+#: ../../reference/precision-support.rst:614
+#: ../../reference/precision-support.rst:619
+#: ../../reference/precision-support.rst:620
+#: ../../reference/precision-support.rst:621
+#: ../../reference/precision-support.rst:626
+#: ../../reference/precision-support.rst:627
+#: ../../reference/precision-support.rst:628
+#: ../../reference/precision-support.rst:633
+#: ../../reference/precision-support.rst:634
+#: ../../reference/precision-support.rst:635
+#: ../../reference/precision-support.rst:640
+#: ../../reference/precision-support.rst:641
+#: ../../reference/precision-support.rst:642
+#: ../../reference/precision-support.rst:647
+#: ../../reference/precision-support.rst:648
+#: ../../reference/precision-support.rst:649
+#: ../../reference/precision-support.rst:654
+#: ../../reference/precision-support.rst:655
+#: ../../reference/precision-support.rst:656
+#: ../../reference/precision-support.rst:674
+#: ../../reference/precision-support.rst:675
+#: ../../reference/precision-support.rst:676
+#: ../../reference/precision-support.rst:677
+#: ../../reference/precision-support.rst:678
+#: ../../reference/precision-support.rst:682
+#: ../../reference/precision-support.rst:683
+#: ../../reference/precision-support.rst:684
+#: ../../reference/precision-support.rst:685
+#: ../../reference/precision-support.rst:686
+#: ../../reference/precision-support.rst:690
+#: ../../reference/precision-support.rst:691
+#: ../../reference/precision-support.rst:692
+#: ../../reference/precision-support.rst:706
+#: ../../reference/precision-support.rst:707
+#: ../../reference/precision-support.rst:708
+#: ../../reference/precision-support.rst:709
+#: ../../reference/precision-support.rst:710
+#: ../../reference/precision-support.rst:714
+#: ../../reference/precision-support.rst:715
+#: ../../reference/precision-support.rst:716
+#: ../../reference/precision-support.rst:717
+#: ../../reference/precision-support.rst:718
+#: ../../reference/precision-support.rst:722
+#: ../../reference/precision-support.rst:723
+#: ../../reference/precision-support.rst:724
+#: ../../reference/precision-support.rst:746
+#: ../../reference/precision-support.rst:748
+#: ../../reference/precision-support.rst:754
+#: ../../reference/precision-support.rst:778
+#: ../../reference/precision-support.rst:779
+#: ../../reference/precision-support.rst:780
+#: ../../reference/precision-support.rst:786
+#: ../../reference/precision-support.rst:787
+#: ../../reference/precision-support.rst:788
+#: ../../reference/precision-support.rst:794
+#: ../../reference/precision-support.rst:795
+#: ../../reference/precision-support.rst:796
+#: ../../reference/precision-support.rst:824
+#: ../../reference/precision-support.rst:825
+#: ../../reference/precision-support.rst:830
+#: ../../reference/precision-support.rst:831
+#: ../../reference/precision-support.rst:836
+#: ../../reference/precision-support.rst:837
+#: ../../reference/precision-support.rst:843
+#: ../../reference/precision-support.rst:844
+#: ../../reference/precision-support.rst:850
+#: ../../reference/precision-support.rst:851
+#: ../../reference/precision-support.rst:871
+#: ../../reference/precision-support.rst:872
+#: ../../reference/precision-support.rst:873
+#: ../../reference/precision-support.rst:874
+#: ../../reference/precision-support.rst:875
+#: ../../reference/precision-support.rst:879
+#: ../../reference/precision-support.rst:880
+#: ../../reference/precision-support.rst:881
+#: ../../reference/precision-support.rst:882
+#: ../../reference/precision-support.rst:883
+#: ../../reference/precision-support.rst:887
+#: ../../reference/precision-support.rst:888
+#: ../../reference/precision-support.rst:889
+#: ../../reference/precision-support.rst:890
+#: ../../reference/precision-support.rst:891
+#: ../../reference/precision-support.rst:895
+#: ../../reference/precision-support.rst:896
+#: ../../reference/precision-support.rst:897
+#: ../../reference/precision-support.rst:898
+#: ../../reference/precision-support.rst:899
+#: ../../reference/precision-support.rst:903
+#: ../../reference/precision-support.rst:904
+#: ../../reference/precision-support.rst:905
+#: ../../reference/precision-support.rst:906
+#: ../../reference/precision-support.rst:907
+#: ../../reference/precision-support.rst:911
+#: ../../reference/precision-support.rst:912
+#: ../../reference/precision-support.rst:913
+#: ../../reference/precision-support.rst:914
+#: ../../reference/precision-support.rst:915
+#: ../../reference/precision-support.rst:919
+#: ../../reference/precision-support.rst:920
+#: ../../reference/precision-support.rst:921
+#: ../../reference/precision-support.rst:922
+#: ../../reference/precision-support.rst:923
+#: ../../reference/precision-support.rst:943
+#: ../../reference/precision-support.rst:945
+#: ../../reference/precision-support.rst:951
+#: ../../reference/precision-support.rst:959
+#: ../../reference/precision-support.rst:967
+#: ../../reference/precision-support.rst:973
+#: ../../reference/precision-support.rst:974
+#: ../../reference/precision-support.rst:975
+#: ../../reference/precision-support.rst:977
+#: ../../reference/precision-support.rst:981
+#: ../../reference/precision-support.rst:982
+#: ../../reference/precision-support.rst:983
+#: ../../reference/precision-support.rst:985
+#: ../../reference/precision-support.rst:991
+#: ../../reference/precision-support.rst:993
+msgid "❌"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:29
+msgid "`hipBLAS <https://github.com/ROCm/hipBLAS>`_"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/graph-safe-support.rst:30
+#: ../../reference/graph-safe-support.rst:36
+#: ../../reference/graph-safe-support.rst:42
+#: ../../reference/graph-safe-support.rst:48
+#: ../../reference/graph-safe-support.rst:60
+#: ../../reference/graph-safe-support.rst:84
+#: ../../reference/graph-safe-support.rst:87
+#: ../../reference/graph-safe-support.rst:105
+#: ../../reference/precision-support.rst:171
+#: ../../reference/precision-support.rst:224
+#: ../../reference/precision-support.rst:225
+#: ../../reference/precision-support.rst:226
+#: ../../reference/precision-support.rst:227
+#: ../../reference/precision-support.rst:228
+#: ../../reference/precision-support.rst:229
+#: ../../reference/precision-support.rst:230
+#: ../../reference/precision-support.rst:234
+#: ../../reference/precision-support.rst:235
+#: ../../reference/precision-support.rst:236
+#: ../../reference/precision-support.rst:237
+#: ../../reference/precision-support.rst:238
+#: ../../reference/precision-support.rst:239
+#: ../../reference/precision-support.rst:240
+#: ../../reference/precision-support.rst:244
+#: ../../reference/precision-support.rst:245
+#: ../../reference/precision-support.rst:246
+#: ../../reference/precision-support.rst:247
+#: ../../reference/precision-support.rst:248
+#: ../../reference/precision-support.rst:249
+#: ../../reference/precision-support.rst:250
+#: ../../reference/precision-support.rst:254
+#: ../../reference/precision-support.rst:255
+#: ../../reference/precision-support.rst:256
+#: ../../reference/precision-support.rst:257
+#: ../../reference/precision-support.rst:258
+#: ../../reference/precision-support.rst:259
+#: ../../reference/precision-support.rst:260
+#: ../../reference/precision-support.rst:267
+#: ../../reference/precision-support.rst:277
+#: ../../reference/precision-support.rst:287
+#: ../../reference/precision-support.rst:296
+#: ../../reference/precision-support.rst:306
+#: ../../reference/precision-support.rst:317
+#: ../../reference/precision-support.rst:320
+#: ../../reference/precision-support.rst:327
+#: ../../reference/precision-support.rst:330
+#: ../../reference/precision-support.rst:334
+#: ../../reference/precision-support.rst:335
+#: ../../reference/precision-support.rst:336
+#: ../../reference/precision-support.rst:337
+#: ../../reference/precision-support.rst:338
+#: ../../reference/precision-support.rst:339
+#: ../../reference/precision-support.rst:340
+#: ../../reference/precision-support.rst:344
+#: ../../reference/precision-support.rst:345
+#: ../../reference/precision-support.rst:346
+#: ../../reference/precision-support.rst:347
+#: ../../reference/precision-support.rst:348
+#: ../../reference/precision-support.rst:349
+#: ../../reference/precision-support.rst:350
+#: ../../reference/precision-support.rst:354
+#: ../../reference/precision-support.rst:355
+#: ../../reference/precision-support.rst:356
+#: ../../reference/precision-support.rst:357
+#: ../../reference/precision-support.rst:358
+#: ../../reference/precision-support.rst:359
+#: ../../reference/precision-support.rst:360
+#: ../../reference/precision-support.rst:364
+#: ../../reference/precision-support.rst:365
+#: ../../reference/precision-support.rst:366
+#: ../../reference/precision-support.rst:367
+#: ../../reference/precision-support.rst:368
+#: ../../reference/precision-support.rst:369
+#: ../../reference/precision-support.rst:370
+#: ../../reference/precision-support.rst:402
+#: ../../reference/precision-support.rst:403
+#: ../../reference/precision-support.rst:404
+#: ../../reference/precision-support.rst:405
+#: ../../reference/precision-support.rst:409
+#: ../../reference/precision-support.rst:410
+#: ../../reference/precision-support.rst:411
+#: ../../reference/precision-support.rst:412
+#: ../../reference/precision-support.rst:416
+#: ../../reference/precision-support.rst:417
+#: ../../reference/precision-support.rst:418
+#: ../../reference/precision-support.rst:419
+#: ../../reference/precision-support.rst:423
+#: ../../reference/precision-support.rst:424
+#: ../../reference/precision-support.rst:425
+#: ../../reference/precision-support.rst:426
+#: ../../reference/precision-support.rst:430
+#: ../../reference/precision-support.rst:431
+#: ../../reference/precision-support.rst:432
+#: ../../reference/precision-support.rst:433
+#: ../../reference/precision-support.rst:437
+#: ../../reference/precision-support.rst:438
+#: ../../reference/precision-support.rst:439
+#: ../../reference/precision-support.rst:440
+#: ../../reference/precision-support.rst:444
+#: ../../reference/precision-support.rst:445
+#: ../../reference/precision-support.rst:446
+#: ../../reference/precision-support.rst:447
+#: ../../reference/precision-support.rst:535
+#: ../../reference/precision-support.rst:536
+#: ../../reference/precision-support.rst:538
+#: ../../reference/precision-support.rst:539
+#: ../../reference/precision-support.rst:543
+#: ../../reference/precision-support.rst:544
+#: ../../reference/precision-support.rst:546
+#: ../../reference/precision-support.rst:547
+#: ../../reference/precision-support.rst:551
+#: ../../reference/precision-support.rst:552
+#: ../../reference/precision-support.rst:554
+#: ../../reference/precision-support.rst:555
+#: ../../reference/precision-support.rst:559
+#: ../../reference/precision-support.rst:560
+#: ../../reference/precision-support.rst:562
+#: ../../reference/precision-support.rst:563
+#: ../../reference/precision-support.rst:567
+#: ../../reference/precision-support.rst:568
+#: ../../reference/precision-support.rst:570
+#: ../../reference/precision-support.rst:571
+#: ../../reference/precision-support.rst:575
+#: ../../reference/precision-support.rst:576
+#: ../../reference/precision-support.rst:578
+#: ../../reference/precision-support.rst:579
+#: ../../reference/precision-support.rst:583
+#: ../../reference/precision-support.rst:584
+#: ../../reference/precision-support.rst:586
+#: ../../reference/precision-support.rst:587
+#: ../../reference/precision-support.rst:611
+#: ../../reference/precision-support.rst:618
+#: ../../reference/precision-support.rst:625
+#: ../../reference/precision-support.rst:632
+#: ../../reference/precision-support.rst:639
+#: ../../reference/precision-support.rst:646
+#: ../../reference/precision-support.rst:653
+#: ../../reference/precision-support.rst:693
+#: ../../reference/precision-support.rst:694
+#: ../../reference/precision-support.rst:698
+#: ../../reference/precision-support.rst:699
+#: ../../reference/precision-support.rst:700
+#: ../../reference/precision-support.rst:701
+#: ../../reference/precision-support.rst:702
+#: ../../reference/precision-support.rst:725
+#: ../../reference/precision-support.rst:726
+#: ../../reference/precision-support.rst:744
+#: ../../reference/precision-support.rst:745
+#: ../../reference/precision-support.rst:747
+#: ../../reference/precision-support.rst:752
+#: ../../reference/precision-support.rst:753
+#: ../../reference/precision-support.rst:755
+#: ../../reference/precision-support.rst:756
+#: ../../reference/precision-support.rst:760
+#: ../../reference/precision-support.rst:761
+#: ../../reference/precision-support.rst:762
+#: ../../reference/precision-support.rst:763
+#: ../../reference/precision-support.rst:764
+#: ../../reference/precision-support.rst:768
+#: ../../reference/precision-support.rst:769
+#: ../../reference/precision-support.rst:770
+#: ../../reference/precision-support.rst:771
+#: ../../reference/precision-support.rst:772
+#: ../../reference/precision-support.rst:776
+#: ../../reference/precision-support.rst:777
+#: ../../reference/precision-support.rst:784
+#: ../../reference/precision-support.rst:785
+#: ../../reference/precision-support.rst:792
+#: ../../reference/precision-support.rst:793
+#: ../../reference/precision-support.rst:826
+#: ../../reference/precision-support.rst:827
+#: ../../reference/precision-support.rst:832
+#: ../../reference/precision-support.rst:833
+#: ../../reference/precision-support.rst:838
+#: ../../reference/precision-support.rst:839
+#: ../../reference/precision-support.rst:845
+#: ../../reference/precision-support.rst:846
+#: ../../reference/precision-support.rst:852
+#: ../../reference/precision-support.rst:853
+#: ../../reference/precision-support.rst:941
+#: ../../reference/precision-support.rst:942
+#: ../../reference/precision-support.rst:944
+#: ../../reference/precision-support.rst:949
+#: ../../reference/precision-support.rst:950
+#: ../../reference/precision-support.rst:952
+#: ../../reference/precision-support.rst:953
+#: ../../reference/precision-support.rst:957
+#: ../../reference/precision-support.rst:958
+#: ../../reference/precision-support.rst:960
+#: ../../reference/precision-support.rst:961
+#: ../../reference/precision-support.rst:965
+#: ../../reference/precision-support.rst:966
+#: ../../reference/precision-support.rst:968
+#: ../../reference/precision-support.rst:969
+#: ../../reference/precision-support.rst:976
+#: ../../reference/precision-support.rst:984
+#: ../../reference/precision-support.rst:989
+#: ../../reference/precision-support.rst:990
+#: ../../reference/precision-support.rst:992
+msgid "✅"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:32
+msgid "`hipBLASLt <https://github.com/ROCm/hipBLASLt>`_"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/graph-safe-support.rst:33
+#: ../../reference/graph-safe-support.rst:102
+#: ../../reference/precision-support.rst:167
+msgid "⚠️"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:35
+msgid "`hipCUB <https://github.com/ROCm/hipCUB>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:38
+msgid "`hipFFT <https://github.com/ROCm/hipFFT>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:39
+msgid "✅ (see :ref:`details <hipfft:hip-graph-support-for-hipfft>`)"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:41
+msgid "`hipRAND <https://github.com/ROCm/hipRAND>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:44
+msgid "`hipSOLVER <https://github.com/ROCm/hipSOLVER>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:45
+#: ../../reference/graph-safe-support.rst:51
+#: ../../reference/graph-safe-support.rst:90
+#: ../../reference/graph-safe-support.rst:93
+msgid "⚠️ (experimental)"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:47
+msgid "`hipSPARSE <https://github.com/ROCm/hipSPARSE>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:50
+msgid "`hipSPARSELt <https://github.com/ROCm/hipSPARSELt>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:53
+msgid "`hipTensor <https://github.com/ROCm/hipTensor>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:56
+msgid "`MIOpen <https://github.com/ROCm/MIOpen>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:59
+msgid "`RCCL <https://github.com/ROCm/rccl>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:62
+msgid "`rocAL <https://github.com/ROCm/rocAL>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:65
+msgid "`rocALUTION <https://github.com/ROCm/rocALUTION>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:68
+msgid "`rocBLAS <https://github.com/ROCm/rocBLAS>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:69
+msgid "✅ (see :doc:`details <rocblas:reference/beta-features>`)"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:71
+msgid "`rocDecode <https://github.com/ROCm/rocDecode>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:74
+msgid "`rocFFT <https://github.com/ROCm/rocFFT>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:75
+msgid "✅ (see :ref:`details <rocfft:hip-graph-support-for-rocfft>`)"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:77
+msgid "`rocHPCG <https://github.com/ROCm/rocHPCG>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:80
+msgid "`rocJPEG <https://github.com/ROCm/rocJPEG>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:83
+msgid "`rocPRIM <https://github.com/ROCm/rocPRIM>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:86
+msgid "`rocRAND <https://github.com/ROCm/rocRAND>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:89
+msgid "`rocSOLVER <https://github.com/ROCm/rocSOLVER>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:92
+msgid "`rocSPARSE <https://github.com/ROCm/rocSPARSE>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:95
+msgid "`rocThrust <https://github.com/ROCm/rocThrust>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:98
+msgid "`rocWMMA <https://github.com/ROCm/rocWMMA>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:101
+msgid "`RPP <https://github.com/ROCm/rpp>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:104
+msgid "`Tensile <https://github.com/ROCm/Tensile>`_"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:107
+msgid "✅: full support"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:109
+msgid "⚠️: partial support"
+msgstr ""
+
+#: ../../reference/graph-safe-support.rst:111
+msgid "❌: not supported"
+msgstr ""
+
+#: ../../reference/precision-support.rst:-1
+msgid "Supported data types of AMD GPUs and libraries in ROCm."
+msgstr ""
+
+#: ../../reference/precision-support.rst:-1
+msgid ""
+"precision, data types, HIP types, int8, float8, float8 (E4M3), float8 "
+"(E5M2), bfloat8, float16, half, bfloat16, tensorfloat32, float, float32, "
+"float64, double, AMD data types, HIP data types, ROCm precision, ROCm "
+"data types"
+msgstr ""
+
+#: ../../reference/precision-support.rst:10
+msgid "Data types and precision support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:12
+msgid ""
+"This topic summarizes the data types supported on AMD GPUs and ROCm "
+"libraries, along with corresponding :doc:`HIP <hip:index>` data types."
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:16
+msgid "Integral types"
+msgstr ""
+
+#: ../../reference/precision-support.rst:18
+msgid ""
+"The signed and unsigned integral types supported by ROCm are listed in "
+"the following table."
+msgstr ""
+
+#: ../../reference/precision-support.rst:26
+#: ../../reference/precision-support.rst:61
+#: ../../reference/precision-support.rst:394
+#: ../../reference/precision-support.rst:456
+#: ../../reference/precision-support.rst:526
+#: ../../reference/precision-support.rst:603
+#: ../../reference/precision-support.rst:665
+#: ../../reference/precision-support.rst:735
+#: ../../reference/precision-support.rst:817
+#: ../../reference/precision-support.rst:862
+#: ../../reference/precision-support.rst:932
+msgid "Type name"
+msgstr ""
+
+#: ../../reference/precision-support.rst:27
+#: ../../reference/precision-support.rst:62
+#: ../../reference/precision-support.rst:1101
+msgid "HIP type"
+msgstr ""
+
+#: ../../reference/precision-support.rst:28
+#: ../../reference/precision-support.rst:63
+#: ../../reference/precision-support.rst:1103
+msgid "Description"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:30
+#: ../../reference/precision-support.rst:395
+#: ../../reference/precision-support.rst:604
+#: ../../reference/precision-support.rst:818
+msgid "int8"
+msgstr ""
+
+#: ../../reference/precision-support.rst:31
+#: ../../reference/precision-support.rst:223
+msgid "``int8_t``, ``uint8_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:32
+msgid "A signed or unsigned 8-bit integer"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:34
+#: ../../reference/precision-support.rst:396
+#: ../../reference/precision-support.rst:605
+#: ../../reference/precision-support.rst:819
+msgid "int16"
+msgstr ""
+
+#: ../../reference/precision-support.rst:35
+#: ../../reference/precision-support.rst:233
+msgid "``int16_t``, ``uint16_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:36
+msgid "A signed or unsigned 16-bit integer"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:38
+#: ../../reference/precision-support.rst:397
+#: ../../reference/precision-support.rst:606
+#: ../../reference/precision-support.rst:820
+msgid "int32"
+msgstr ""
+
+#: ../../reference/precision-support.rst:39
+#: ../../reference/precision-support.rst:243
+msgid "``int32_t``, ``uint32_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:40
+msgid "A signed or unsigned 32-bit integer"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:42
+#: ../../reference/precision-support.rst:398
+#: ../../reference/precision-support.rst:607
+#: ../../reference/precision-support.rst:821
+msgid "int64"
+msgstr ""
+
+#: ../../reference/precision-support.rst:43
+#: ../../reference/precision-support.rst:253
+msgid "``int64_t``, ``uint64_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:44
+msgid "A signed or unsigned 64-bit integer"
+msgstr ""
+
+#: ../../reference/precision-support.rst:49
+msgid "Floating-point types"
+msgstr ""
+
+#: ../../reference/precision-support.rst:51
+msgid ""
+"The floating-point types supported by ROCm are listed in the following "
+"table."
+msgstr ""
+
+#: ../../reference/precision-support.rst:53
+msgid "Supported floating-point types"
+msgstr ""
+
+#: ../../reference/precision-support.rst:66
+msgid "float4 (E2M1)"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:263
+#: ../../reference/precision-support.rst:1191
+msgid "``__hip_fp4_e2m1``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:68
+msgid ""
+"A 4-bit floating-point number with **E2M1** bit layout, as described in "
+":doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:72
+#: ../../reference/precision-support.rst:459
+#: ../../reference/precision-support.rst:668
+#: ../../reference/precision-support.rst:865
+msgid "float6 (E3M2)"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:283
+#: ../../reference/precision-support.rst:1185
+msgid "``__hip_fp6_e3m2``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:74
+msgid ""
+"A 6-bit floating-point number with **E3M2** bit layout, as described in "
+":doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:78
+#: ../../reference/precision-support.rst:458
+#: ../../reference/precision-support.rst:667
+#: ../../reference/precision-support.rst:864
+msgid "float6 (E2M3)"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:273
+#: ../../reference/precision-support.rst:1179
+msgid "``__hip_fp6_e2m3``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:80
+msgid ""
+"A 6-bit floating-point number with **E2M3** bit layout, as described in "
+":doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:84
+#: ../../reference/precision-support.rst:460
+#: ../../reference/precision-support.rst:669
+#: ../../reference/precision-support.rst:866
+msgid "float8 (E4M3)"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+msgid "``__hip_fp8_e4m3_fnuz``,"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:313
+#: ../../reference/precision-support.rst:1167
+msgid "``__hip_fp8_e4m3``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:87
+msgid ""
+"An 8-bit floating-point number with **E4M3** bit layout, as described in "
+":doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>`. The FNUZ variant has expanded range with "
+"no infinity or signed zero (NaN represented as negative zero), while the "
+"OCP variant follows the Open Compute Project specification."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:92
+#: ../../reference/precision-support.rst:461
+#: ../../reference/precision-support.rst:670
+#: ../../reference/precision-support.rst:867
+msgid "float8 (E5M2)"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+msgid "``__hip_fp8_e5m2_fnuz``,"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+#: ../../reference/precision-support.rst:323
+#: ../../reference/precision-support.rst:1173
+msgid "``__hip_fp8_e5m2``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:95
+msgid ""
+"An 8-bit floating-point number with **E5M2** bit layout, as described in "
+":doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>`. The FNUZ variant has expanded range with "
+"no infinity or signed zero (NaN represented as negative zero), while the "
+"OCP variant follows the Open Compute Project specification."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:100
+#: ../../reference/precision-support.rst:527
+#: ../../reference/precision-support.rst:736
+msgid "float16"
+msgstr ""
+
+#: ../../reference/precision-support.rst:101
+#: ../../reference/precision-support.rst:333
+#: ../../reference/precision-support.rst:1155
+msgid "``half``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:102
+msgid ""
+"A 16-bit floating-point number that conforms to the IEEE 754-2008 half-"
+"precision storage format."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:106
+#: ../../reference/precision-support.rst:528
+#: ../../reference/precision-support.rst:737
+msgid "bfloat16"
+msgstr ""
+
+#: ../../reference/precision-support.rst:107
+#: ../../reference/precision-support.rst:343
+#: ../../reference/precision-support.rst:1161
+msgid "``bfloat16``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:108
+msgid ""
+"A shortened 16-bit version of the IEEE 754 single-precision storage "
+"format."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:112
+#: ../../reference/precision-support.rst:529
+#: ../../reference/precision-support.rst:738
+#: ../../reference/precision-support.rst:935
+msgid "tensorfloat32"
+msgstr ""
+
+#: ../../reference/precision-support.rst:113
+msgid "Not available"
+msgstr ""
+
+#: ../../reference/precision-support.rst:114
+msgid ""
+"A floating-point number that occupies 32 bits or less of storage, "
+"providing improved range compared to half (16-bit) format, at "
+"(potentially) greater throughput than single-precision (32-bit) formats."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:119
+#: ../../reference/precision-support.rst:530
+#: ../../reference/precision-support.rst:739
+#: ../../reference/precision-support.rst:936
+msgid "float32"
+msgstr ""
+
+#: ../../reference/precision-support.rst:120
+#: ../../reference/precision-support.rst:353
+#: ../../reference/precision-support.rst:1143
+msgid "``float``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:121
+msgid ""
+"A 32-bit floating-point number that conforms to the IEEE 754 single-"
+"precision storage format."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:125
+#: ../../reference/precision-support.rst:531
+#: ../../reference/precision-support.rst:740
+#: ../../reference/precision-support.rst:937
+msgid "float64"
+msgstr ""
+
+#: ../../reference/precision-support.rst:126
+#: ../../reference/precision-support.rst:363
+#: ../../reference/precision-support.rst:1149
+msgid "``double``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:127
+msgid ""
+"A 64-bit floating-point number that conforms to the IEEE 754 double-"
+"precision storage format."
+msgstr ""
+
+#: ../../reference/precision-support.rst:132
+msgid ""
+"The float8 and tensorfloat32 types are internal types used in "
+"calculations in Matrix Cores and can be stored in any type of the same "
+"size."
+msgstr ""
+
+#: ../../reference/precision-support.rst:135
+msgid ""
+"CDNA3 natively supports FP8 FNUZ (E4M3 and E5M2), which differs from the "
+"customized FP8 format used with NVIDIA H100 (`FP8 Formats for Deep "
+"Learning <https://arxiv.org/abs/2209.05433>`_)."
+msgstr ""
+
+#: ../../reference/precision-support.rst:139
+msgid ""
+"In some AMD documents and articles, float8 (E5M2) is referred to as "
+"bfloat8."
+msgstr ""
+
+#: ../../reference/precision-support.rst:141
+msgid ""
+"The :doc:`low precision floating point types page "
+"<hip:reference/low_fp_types>` describes how to use these types in HIP "
+"with examples."
+msgstr ""
+
+#: ../../reference/precision-support.rst:145
+msgid "Level of support definitions"
+msgstr ""
+
+#: ../../reference/precision-support.rst:147
+msgid ""
+"In the following sections, icons represent the level of support. These "
+"icons, described in the following table, are also used in the library "
+"data type support pages."
+msgstr ""
+
+#: ../../reference/precision-support.rst:155
+msgid "Icon"
+msgstr ""
+
+#: ../../reference/precision-support.rst:156
+msgid "Definition"
+msgstr ""
+
+#: ../../reference/precision-support.rst:159
+msgid "NA"
+msgstr ""
+
+#: ../../reference/precision-support.rst:160
+msgid "Not applicable"
+msgstr ""
+
+#: ../../reference/precision-support.rst:164
+msgid "Not supported"
+msgstr ""
+
+#: ../../reference/precision-support.rst:168
+msgid "Partial support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:172
+msgid "Full support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:176
+msgid ""
+"Full support means that the type is supported natively or with hardware "
+"emulation."
+msgstr ""
+
+#: ../../reference/precision-support.rst:179
+msgid ""
+"Native support means that the operations for that type are implemented in"
+" hardware. Types that are not natively supported are emulated with the "
+"available hardware. The performance of non-natively supported types can "
+"differ from the full instruction throughput rate. For example, 16-bit "
+"integer operations can be performed on the 32-bit integer ALUs at full "
+"rate; however, 64-bit integer operations might need several instructions "
+"on the 32-bit integer ALUs."
+msgstr ""
+
+#: ../../reference/precision-support.rst:187
+msgid ""
+"Any type can be emulated by software, but this page does not cover such "
+"cases."
+msgstr ""
+
+#: ../../reference/precision-support.rst:191
+msgid "Data type support by hardware architecture"
+msgstr ""
+
+#: ../../reference/precision-support.rst:193
+msgid "AMD's GPU lineup spans multiple architecture generations:"
+msgstr ""
+
+#: ../../reference/precision-support.rst:195
+msgid "CDNA1 such as MI100"
+msgstr ""
+
+#: ../../reference/precision-support.rst:196
+msgid "CDNA2 such as MI210, MI250, and MI250X"
+msgstr ""
+
+#: ../../reference/precision-support.rst:197
+msgid "CDNA3 such as MI300A, MI300X, and MI325X"
+msgstr ""
+
+#: ../../reference/precision-support.rst:198
+msgid "CDNA4 such as MI350X and MI355X"
+msgstr ""
+
+#: ../../reference/precision-support.rst:199
+msgid "RDNA2 such as PRO W6800 and PRO V620"
+msgstr ""
+
+#: ../../reference/precision-support.rst:200
+msgid "RDNA3 such as RX 7900XT and RX 7900XTX"
+msgstr ""
+
+#: ../../reference/precision-support.rst:201
+msgid "RDNA4 such as RX 9070 and RX 9070XT"
+msgstr ""
+
+#: ../../reference/precision-support.rst:204
+msgid "HIP C++ type implementation support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:206
+msgid ""
+"The HIP C++ types available on different hardware platforms are listed in"
+" the following table."
+msgstr ""
+
+#: ../../reference/precision-support.rst:213
+msgid "HIP C++ Type"
+msgstr ""
+
+#: ../../reference/precision-support.rst:214
+#: ../../reference/precision-support.rst:401
+#: ../../reference/precision-support.rst:464
+#: ../../reference/precision-support.rst:534
+#: ../../reference/precision-support.rst:610
+#: ../../reference/precision-support.rst:673
+#: ../../reference/precision-support.rst:743
+#: ../../reference/precision-support.rst:823
+#: ../../reference/precision-support.rst:870
+#: ../../reference/precision-support.rst:940
+msgid "CDNA1"
+msgstr ""
+
+#: ../../reference/precision-support.rst:293
+#: ../../reference/precision-support.rst:1197
+msgid "``__hip_fp8_e4m3_fnuz``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:303
+#: ../../reference/precision-support.rst:1203
+msgid "``__hip_fp8_e5m2_fnuz``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:374
+msgid ""
+"Library support for specific data types is contingent upon hardware "
+"support. Even if a ROCm library indicates support for a particular data "
+"type, that type will only be fully functional if the underlying hardware "
+"architecture (as shown in the table above) also supports it. For example,"
+" fp8 types are only available on architectures shown with a checkmark in "
+"the relevant rows."
+msgstr ""
+
+#: ../../reference/precision-support.rst:381
+msgid "Compute units support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:383
+msgid "The following table lists data type support for compute units."
+msgstr ""
+
+#: ../../reference/precision-support.rst
+msgid "Low precision floating-point types"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+#: ../../reference/precision-support.rst:457
+#: ../../reference/precision-support.rst:666
+#: ../../reference/precision-support.rst:863
+msgid "float4"
+msgstr ""
+
+#: ../../reference/precision-support.rst
+msgid "High precision floating-point types"
+msgstr ""
+
+#: ../../reference/precision-support.rst:590
+msgid "Matrix core support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:592
+msgid "The following table lists data type support for AMD GPU matrix cores."
+msgstr ""
+
+#: ../../reference/precision-support.rst:799
+msgid "Atomic operations support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:801
+msgid ""
+"The following table lists which data types are supported for atomic "
+"operations on AMD GPUs. The atomics operation type behavior is affected "
+"by the memory locations, memory granularity, or scope of operations. For "
+"detailed various support of atomic read-modify-write (atomicRMW) "
+"operations collected on the :ref:`Hardware atomics operation support "
+"<hw_atomics_operation_support>` page."
+msgstr ""
+
+#: ../../reference/precision-support.rst:933
+msgid "2 x float16"
+msgstr ""
+
+#: ../../reference/precision-support.rst:934
+msgid "2 x bfloat16"
+msgstr ""
+
+#: ../../reference/precision-support.rst:997
+msgid ""
+"You can emulate atomic operations using software for cases that are not "
+"natively supported. Software-emulated atomic operations have a high "
+"negative performance impact when they frequently access the same memory "
+"address."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1002
+msgid "Data type support in ROCm libraries"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1004
+msgid ""
+"ROCm library support for int8, float8 (E4M3), float8 (E5M2), int16, "
+"float16, bfloat16, int32, tensorfloat32, float32, int64, and float64 is "
+"listed in the following tables."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1009
+msgid "Libraries input/output type support"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1011
+msgid ""
+"The following tables list ROCm library support for specific input and "
+"output data types. Select a library from the below table to view the "
+"supported data types."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`Composable Kernel "
+"<composable_kernel:reference/Composable_Kernel_supported_scalar_types>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid "Data Type"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid "Support"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`MIGraphX <amdmigraphx:reference"
+"/MIGraphX-cpp>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`MIOpen "
+"<miopen:reference/datatypes>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`RCCL <rccl:api-reference"
+"/library-specification>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipBLAS <hipblas:reference/data-"
+"type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipBLASLt <hipblaslt:reference"
+"/data-type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipFFT <hipfft:reference/fft-"
+"api-usage>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipRAND <hiprand:api-reference"
+"/data-type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid "Output only"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipSOLVER "
+"<hipsolver:reference/precision>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipSPARSE "
+"<hipsparse:reference/precision>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipSPARSELt "
+"<hipsparselt:reference/data-type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocBLAS <rocblas:reference/data-"
+"type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid "For more information, please visit :doc:`rocFFT <rocfft:reference/api>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocRAND <rocrand:api-reference"
+"/data-type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocSOLVER "
+"<rocsolver:reference/precision>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocSPARSE "
+"<rocsparse:reference/precision>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocWMMA <rocwmma:api-reference"
+"/api-reference-guide>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid "Input only"
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`Tensile <tensile:src/reference"
+"/precision-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipCUB <hipcub:api-reference"
+"/data-type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`hipTensor <hiptensor:api-"
+"reference/api-reference>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocPRIM <rocprim:reference/data-"
+"type-support>`."
+msgstr ""
+
+#: ../../../../../../../../data/reference/precision-support/precision-support.yaml:1
+msgid ""
+"For more information, please visit :doc:`rocThrust <rocthrust:data-type-"
+"support>`."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1068
+msgid ""
+"The meaning of partial support depends on the library. Please refer to "
+"the individual libraries' documentation for more information."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1073
+msgid ""
+"As random number generation libraries, rocRAND and hipRAND only specify "
+"output data types for the random values they generate, with no need for "
+"input data types."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1079
+msgid ""
+"hipBLASLt supports additional data types as internal compute types, which"
+" may differ from the supported input/output types shown in the tables "
+"above. While TensorFloat32 is not supported as an input or output type in"
+" this library, it is available as an internal compute type. For complete "
+"details on supported compute types, refer to the :doc:`hipBLASLt "
+"<hipblaslt:reference/data-type-support>` documentation."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1087
+msgid "hipDataType enumeration"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1089
+msgid ""
+"The ``hipDataType`` enumeration defines data precision types and is "
+"primarily used when the data reference itself does not include type "
+"information, such as in ``void*`` pointers. This enumeration is mainly "
+"utilized in BLAS libraries. The HIP type equivalents of the "
+"``hipDataType`` enumeration are listed in the following table with "
+"descriptions and values."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1100
+msgid "hipDataType"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1106
+msgid "``HIP_R_8I``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1107
+msgid "``int8_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1109
+msgid "8-bit real signed integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1112
+msgid "``HIP_R_8U``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1113
+msgid "``uint8_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1115
+msgid "8-bit real unsigned integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1118
+msgid "``HIP_R_16I``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1119
+msgid "``int16_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1121
+msgid "16-bit real signed integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1124
+msgid "``HIP_R_16U``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1125
+msgid "``uint16_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1127
+msgid "16-bit real unsigned integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1130
+msgid "``HIP_R_32I``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1131
+msgid "``int32_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1133
+msgid "32-bit real signed integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1136
+msgid "``HIP_R_32U``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1137
+msgid "``uint32_t``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1139
+msgid "32-bit real unsigned integer."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1142
+msgid "``HIP_R_32F``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1145
+msgid "32-bit real single precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1148
+msgid "``HIP_R_64F``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1151
+msgid "64-bit real double precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1154
+msgid "``HIP_R_16F``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1157
+msgid "16-bit real half precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1160
+msgid "``HIP_R_16BF``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1162
+msgid "14"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1163
+msgid "16-bit real bfloat16 precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1166
+msgid "``HIP_R_8F_E4M3``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1169
+msgid "8-bit real float8 precision floating-point (OCP version)."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1172
+msgid "``HIP_R_8F_E5M2``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1174
+msgid "29"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1175
+msgid "8-bit real bfloat8 precision floating-point (OCP version)."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1178
+msgid "``HIP_R_6F_E2M3``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1180
+msgid "31"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1181
+msgid "6-bit real float6 precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1184
+msgid "``HIP_R_6F_E3M2``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1187
+msgid "6-bit real bfloat6 precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1190
+msgid "``HIP_R_4F_E2M1``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1192
+msgid "33"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1193
+msgid "4-bit real float4 precision floating-point."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1196
+msgid "``HIP_R_8F_E4M3_FNUZ``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1198
+msgid "1000"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1199
+msgid "8-bit real float8 precision floating-point (FNUZ version)."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1202
+msgid "``HIP_R_8F_E5M2_FNUZ``"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1204
+msgid "1001"
+msgstr ""
+
+#: ../../reference/precision-support.rst:1205
+msgid "8-bit real bfloat8 precision floating-point (FNUZ version)."
+msgstr ""
+
+#: ../../reference/precision-support.rst:1207
+msgid ""
+"The full list of the ``hipDataType`` enumeration listed in "
+"`library_types.h <https://github.com/ROCm/hip/blob/amd-"
+"staging/include/hip/library_types.h>`_."
+msgstr ""
+
+#: ../../reference/rocm-tools.md:9
+msgid "ROCm tools, compilers, and runtime API"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:16
+msgid "System Management"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:21
+#, python-brace-format
+msgid "{doc}`AMD SMI <amdsmi:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:22
+#, python-brace-format
+msgid "{doc}`ROCm Data Center Tool <rdc:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:23
+#, python-brace-format
+msgid "{doc}`rocminfo <rocminfo:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:24
+#, python-brace-format
+msgid "{doc}`ROCm SMI <rocm_smi_lib:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:25
+#, python-brace-format
+msgid "{doc}`ROCm Validation Suite <rocmvalidationsuite:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:28
+msgid "Performance"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:33
+#, python-brace-format
+msgid "{doc}`ROCm Bandwidth Test <rocm_bandwidth_test:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:34
+#, python-brace-format
+msgid "{doc}`ROCm Compute Profiler <rocprofiler-compute:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:35
+#, python-brace-format
+msgid "{doc}`ROCm Systems Profiler <rocprofiler-systems:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:36
+#, python-brace-format
+msgid "{doc}`ROCProfiler <rocprofiler:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:37
+#, python-brace-format
+msgid "{doc}`ROCprofiler-SDK <rocprofiler-sdk:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:38
+#, python-brace-format
+msgid "{doc}`ROCTracer <roctracer:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:41
+msgid "Development"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:46
+#, python-brace-format
+msgid "{doc}`ROCm CMake <rocmcmakebuildtools:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:47
+#, python-brace-format
+msgid "{doc}`HIPIFY <hipify:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:48
+#, python-brace-format
+msgid "{doc}`ROCdbgapi <rocdbgapi:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:49
+#, python-brace-format
+msgid "{doc}`ROCm Debugger (ROCgdb) <rocgdb:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:50
+#, python-brace-format
+msgid "{doc}`ROCr Debug Agent <rocr_debug_agent:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:53
+msgid "Compilers"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:58
+#, python-brace-format
+msgid "{doc}`ROCm Compilers <llvm-project:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:59
+#, python-brace-format
+msgid "{doc}`HIPCC <hipcc:index>`"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:60
+msgid "[FLANG](https://github.com/ROCm/flang/)"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:63
+msgid "Runtime API"
+msgstr ""
+
+#: ../../reference/rocm-tools.md:68
+#, python-brace-format
+msgid "{doc}`HIP <hip:index>`"
+msgstr ""
+

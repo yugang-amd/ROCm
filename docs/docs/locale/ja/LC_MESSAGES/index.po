@@ -1,0 +1,212 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../index.md:1 ../../index.md:33
+msgid "Install"
+msgstr ""
+
+#: ../../index.md:1 ../../index.md:43
+msgid "How to"
+msgstr ""
+
+#: ../../index.md:1 ../../index.md:58
+msgid "Conceptual"
+msgstr ""
+
+#: ../../index.md:1 ../../index.md:68
+msgid "Reference"
+msgstr ""
+
+#: ../../index.md:1
+msgid "Contribute"
+msgstr ""
+
+#: ../../index.md
+msgid ""
+"Start building for HPC and AI with the performance-first AMD ROCm "
+"software stack. Explore how-to guides and reference docs."
+msgstr ""
+
+#: ../../index.md
+msgid ""
+"Radeon, open, compute, platform, install, how, conceptual, reference, "
+"home, docs"
+msgstr ""
+
+#: ../../index.md:8
+msgid "AMD ROCm documentation"
+msgstr ""
+
+#: ../../index.md:10
+msgid ""
+"ROCm is an open-source software platform optimized to extract HPC and AI "
+"workload performance from AMD Instinct GPUs and AMD Radeon GPUs while "
+"maintaining compatibility with industry software frameworks. For more "
+"information, see [What is ROCm?](./what-is-rocm.rst)"
+msgstr ""
+
+#: ../../index.md:15
+#, python-brace-format
+msgid ""
+"ROCm supports multiple programming languages and programming interfaces "
+"such as {doc}`HIP <hip:index>`, OpenCL, and OpenMP, as explained in the "
+"[Programming guide](./how-to/programming_guide.rst)."
+msgstr ""
+
+#: ../../index.md:18
+#, python-brace-format
+msgid ""
+"If you're using AMD Radeon™ GPUs or Ryzen™ APUs for graphics workloads, "
+"see the {doc}`ROCm on Radeon and Ryzen <radeon:index>` documentation."
+msgstr ""
+
+#: ../../index.md:21
+msgid ""
+"The [AMD ROCm Programming Guide](https://rocm-handbook.amd.com/projects"
+"/amd-rocm-programming-guide/en/latest/) presents key ROCm concepts in a "
+"structured, book-style format, a helpful starting point for those new to "
+"GPU programming."
+msgstr ""
+
+#: ../../index.md:26
+msgid "ROCm documentation is organized into the following categories:"
+msgstr ""
+
+#: ../../index.md:36
+#, python-brace-format
+msgid "{doc}`ROCm on Linux <rocm-install-on-linux:reference/system-requirements>`"
+msgstr ""
+
+#: ../../index.md:37
+#, python-brace-format
+msgid ""
+"{doc}`HIP SDK on Windows <rocm-install-on-windows:reference/system-"
+"requirements>`"
+msgstr ""
+
+#: ../../index.md:38
+#, python-brace-format
+msgid "{doc}`ROCm on Radeon and Ryzen<radeon:index>`"
+msgstr ""
+
+#: ../../index.md:39
+#, python-brace-format
+msgid "{doc}`Deep learning frameworks </how-to/deep-learning-rocm>`"
+msgstr ""
+
+#: ../../index.md:40
+#, python-brace-format
+msgid "{doc}`Build from source </how-to/build-rocm>`"
+msgstr ""
+
+#: ../../index.md:46
+msgid "[Use ROCm for AI](./how-to/rocm-for-ai/index.rst)"
+msgstr ""
+
+#: ../../index.md:47
+msgid ""
+"[AI tutorials](https://rocm.docs.amd.com/projects/ai-developer-"
+"hub/en/latest/)"
+msgstr ""
+
+#: ../../index.md:48
+msgid "[Use ROCm for HPC](./how-to/rocm-for-hpc/index.rst)"
+msgstr ""
+
+#: ../../index.md:49
+msgid "[System optimization](./how-to/system-optimization/index.rst)"
+msgstr ""
+
+#: ../../index.md:50
+msgid ""
+"[AMD Instinct MI300X performance validation and tuning](./how-to/tuning-"
+"guides/mi300x/index.rst)"
+msgstr ""
+
+#: ../../index.md:51
+msgid "[System debugging](./how-to/system-debugging.md)"
+msgstr ""
+
+#: ../../index.md:52
+msgid "[Use advanced compiler features](./conceptual/compiler-topics.md)"
+msgstr ""
+
+#: ../../index.md:53
+msgid "[Set the number of CUs](./how-to/setting-cus)"
+msgstr ""
+
+#: ../../index.md:54
+msgid "[Troubleshoot BAR access limitation](./how-to/Bar-Memory.rst)"
+msgstr ""
+
+#: ../../index.md:55
+msgid "[ROCm examples](https://github.com/amd/rocm-examples)"
+msgstr ""
+
+#: ../../index.md:61
+msgid "[GPU architecture overview](./conceptual/gpu-arch.md)"
+msgstr ""
+
+#: ../../index.md:62
+msgid "[File structure (Linux FHS)](./conceptual/file-reorg.md)"
+msgstr ""
+
+#: ../../index.md:63
+msgid "[GPU isolation techniques](./conceptual/gpu-isolation.md)"
+msgstr ""
+
+#: ../../index.md:64
+msgid "[Using CMake](./conceptual/cmake-packages.rst)"
+msgstr ""
+
+#: ../../index.md:65
+msgid "[Inception v3 with PyTorch](./conceptual/ai-pytorch-inception.md)"
+msgstr ""
+
+#: ../../index.md:71
+msgid "[ROCm libraries](./reference/api-libraries.md)"
+msgstr ""
+
+#: ../../index.md:72
+msgid "[ROCm tools, compilers, and runtime API](./reference/rocm-tools.md)"
+msgstr ""
+
+#: ../../index.md:73
+msgid "[GPU hardware specifications](./reference/gpu-arch-specs.rst)"
+msgstr ""
+
+#: ../../index.md:74
+msgid ""
+"[Hardware atomics operation support](./reference/gpu-atomics-"
+"operation.rst)"
+msgstr ""
+
+#: ../../index.md:75
+msgid "[Environment variables](./reference/env-variables.rst)"
+msgstr ""
+
+#: ../../index.md:76
+msgid "[Data types and precision support](./reference/precision-support.rst)"
+msgstr ""
+
+#: ../../index.md:77
+msgid "[Graph safe support](./reference/graph-safe-support.rst)"
+msgstr ""
+
+#: ../../index.md:78
+msgid "[ROCm glossary](./reference/glossary.rst)"
+msgstr ""
+

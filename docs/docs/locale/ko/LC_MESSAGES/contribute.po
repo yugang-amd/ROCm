@@ -1,0 +1,574 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ko\n"
+"Language-Team: ko <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: ../../contribute/building.md:8
+msgid "Building documentation"
+msgstr ""
+
+#: ../../contribute/building.md:10
+msgid "GitHub"
+msgstr ""
+
+#: ../../contribute/building.md:12
+msgid ""
+"If you open a pull request and scroll down to the summary panel, there is"
+" a commit status section. Next to the line `docs/readthedocs.com"
+":advanced-micro-devices-demo`, there is a `Details` link. If you click "
+"this, it takes you to the Read the Docs build for your pull request."
+msgstr ""
+
+#: ../../contribute/building.md:17
+msgid "![GitHub PR commit status](../data/contribute/commit-status.png)"
+msgstr ""
+
+#: ../../contribute/building.md:17
+msgid "GitHub PR commit status"
+msgstr ""
+
+#: ../../contribute/building.md:19
+msgid ""
+"If you don't see this line, click `Show all checks` to get an itemized "
+"view."
+msgstr ""
+
+#: ../../contribute/building.md:21
+msgid "Command line"
+msgstr ""
+
+#: ../../contribute/building.md:23
+msgid "You can build our documentation via the command line using Python."
+msgstr ""
+
+#: ../../contribute/building.md:25
+msgid ""
+"See the `build.tools.python` setting in the [Read the Docs configuration "
+"file](https://github.com/ROCm/ROCm/blob/develop/.readthedocs.yaml) for "
+"the Python version used by Read the Docs to build documentation."
+msgstr ""
+
+#: ../../contribute/building.md:27
+msgid ""
+"See the [Python requirements "
+"file](https://github.com/ROCm/ROCm/blob/develop/docs/sphinx/requirements.txt)"
+" for Python packages needed to build the documentation."
+msgstr ""
+
+#: ../../contribute/building.md:29
+msgid ""
+"Use the Python Virtual Environment (`venv`) and run the following "
+"commands from the project root:"
+msgstr ""
+
+#: ../../contribute/building.md
+msgid "Linux and WSL"
+msgstr ""
+
+#: ../../contribute/building.md
+msgid "Windows"
+msgstr ""
+
+#: ../../contribute/building.md:56
+msgid "Navigate to `_build/html/index.html` and open this file in a web browser."
+msgstr ""
+
+#: ../../contribute/building.md:58
+msgid "Visual Studio Code"
+msgstr ""
+
+#: ../../contribute/building.md:60
+msgid ""
+"With the help of a few extensions, you can create a productive "
+"environment to author and test documentation locally using Visual Studio "
+"(VS) Code. Follow these steps to configure VS Code:"
+msgstr ""
+
+#: ../../contribute/building.md:63
+msgid "Install the required extensions:"
+msgstr ""
+
+#: ../../contribute/building.md:65
+msgid "Python: `(ms-python.python)`"
+msgstr ""
+
+#: ../../contribute/building.md:66
+msgid "Live Server: `(ritwickdey.LiveServer)`"
+msgstr ""
+
+#: ../../contribute/building.md:68
+msgid "Add the following entries to `.vscode/settings.json`."
+msgstr ""
+
+#: ../../contribute/building.md:78
+msgid ""
+"`liveServer.settings.root`: Sets the root of the output website for live "
+"previews. Must be changed alongside the `tasks.json` command."
+msgstr ""
+
+#: ../../contribute/building.md:80
+msgid ""
+"`liveServer.settings.wait`: Tells the live server to wait with the update"
+" in order to give Sphinx time to regenerate the site contents and not "
+"refresh before the build is complete."
+msgstr ""
+
+#: ../../contribute/building.md:82
+msgid ""
+"`python.terminal.activateEnvInCurrentTerminal`: Activates the automatic "
+"virtual environment, so you can build the site from the integrated "
+"terminal."
+msgstr ""
+
+#: ../../contribute/building.md:85
+msgid "Add the following tasks to `.vscode/tasks.json`."
+msgstr ""
+
+#: ../../contribute/building.md:145
+msgid ""
+"Implementation detail: two problem matchers were needed to be defined, "
+"because VS Code doesn't tolerate some problem information being "
+"potentially absent. While a single regex could match all types of errors,"
+" if a capture group remains empty (the line number doesn't show up in all"
+" warning/error messages) but the `pattern` references said empty capture "
+"group, VS Code discards the message completely."
+msgstr ""
+
+#: ../../contribute/building.md:152
+msgid "Configure the Python virtual environment (`venv`)."
+msgstr ""
+
+#: ../../contribute/building.md:154
+msgid ""
+"From the Command Palette, run `Python: Create Environment`. Select `venv`"
+" environment and  `docs/sphinx/requirements.txt`."
+msgstr ""
+
+#: ../../contribute/building.md:157
+msgid "Build the docs."
+msgstr ""
+
+#: ../../contribute/building.md:159
+msgid "Launch the default build task using one of the following options:"
+msgstr ""
+
+#: ../../contribute/building.md:161
+msgid "A hotkey (the default is `Ctrl+Shift+B`)"
+msgstr ""
+
+#: ../../contribute/building.md:162
+msgid "Issuing the `Tasks: Run Build Task` from the Command Palette"
+msgstr ""
+
+#: ../../contribute/building.md:164
+msgid "Open the live preview."
+msgstr ""
+
+#: ../../contribute/building.md:166
+msgid ""
+"Navigate to the site output within VS Code: right-click on "
+"`.vscode/build/html/index.html` and  select `Open with Live Server`. The "
+"contents should update on every rebuild without having to  refresh the "
+"browser."
+msgstr ""
+
+#: ../../contribute/contributing.md:7
+msgid "Contributing to ROCm documentation"
+msgstr ""
+
+#: ../../contribute/contributing.md:9
+msgid ""
+"ROCm documentation is open source and available on GitHub. You can "
+"contribute to ROCm documentation by cloning the appropriate repository, "
+"making your changes, and opening a pull request."
+msgstr ""
+
+#: ../../contribute/contributing.md:12
+msgid ""
+"To provide feedback on the ROCm documentation without contributing to it,"
+" see [Providing feedback about the ROCm documentation](./feedback.md)."
+msgstr ""
+
+#: ../../contribute/contributing.md:15
+msgid ""
+"The documentation for ROCm and for all ROCm components is under their "
+"respective `docs` folders. The `docs` folders for all components across "
+"ROCm have the same structure:"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Sub-folder name"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Documentation type"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`install`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Installation instructions, build instructions, and prerequisites"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`conceptual`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Important concepts"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`how-to`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "How to implement specific use cases"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`tutorials`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Tutorials"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`reference`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "API references and other reference resources"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`sphinx`"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "`_toc.yaml.in` file"
+msgstr ""
+
+#: ../../contribute/contributing.md:26
+msgid "ROCm stack documentation differs from this structure."
+msgstr ""
+
+#: ../../contribute/contributing.md:28
+msgid ""
+"Most documentation topics are written in [reStructuredText "
+"(rst)](https://www.sphinx-"
+"doc.org/en/master/usage/restructuredtext/index.html), with some topics "
+"written in Markdown. Only use reStructuredText when adding new topics. "
+"Only use Markdown if the topic you are editing is already in Markdown."
+msgstr ""
+
+#: ../../contribute/contributing.md:30
+msgid ""
+"To edit or add to the documentation, first clone the appropriate "
+"repository, ensuring that you follow the repository recommendations as "
+"outlined in their respective README files:"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Module"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "Repository"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "ROCm stack"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "[https://github.com/ROCm/ROCm](https://github.com/ROCm/ROCm)"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "ROCm libraries"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid ""
+"[https://github.com/ROCm/rocm-libraries](https://github.com/ROCm/rocm-"
+"libraries)"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid "ROCm systems projects"
+msgstr ""
+
+#: ../../contribute/contributing.md:11
+msgid ""
+"[https://github.com/ROCm/rocm-systems](https://github.com/ROCm/rocm-"
+"systems)"
+msgstr ""
+
+#: ../../contribute/contributing.md:39
+msgid ""
+"Individual components in the ROCm libraries and the ROCm systems projects"
+" repositories are located under the `projects` folder. Some components "
+"have their own individual repositories. Each component has a link to its "
+"GitHub location from its documentation."
+msgstr ""
+
+#: ../../contribute/contributing.md:42
+msgid ""
+"Cut a local branch from the `develop` branch of the repository and make "
+"your changes. Your changes must adhere to the [Google developer "
+"documentation style "
+"guide](https://developers.google.com/style/highlights). If you're adding "
+"a topic, provide a link to it from the `index.rst` and `_toc.yaml.in` "
+"files."
+msgstr ""
+
+#: ../../contribute/contributing.md:44
+msgid "Build the documentation locally to verify your changes."
+msgstr ""
+
+#: ../../contribute/contributing.md:47
+msgid ""
+"If you're making changes to the Doxygen comments within the source code, "
+"delete the `docs/doxygen/xml` and `docs/doxygen/html` folders between "
+"each build."
+msgstr ""
+
+#: ../../contribute/contributing.md:50
+msgid "From within the `docs` directory, run:"
+msgstr ""
+
+#: ../../contribute/contributing.md:56
+msgid ""
+"The output will be saved to the `docs/_build` folder. Open "
+"`docs/_build/html/index.html` to view the documentation."
+msgstr ""
+
+#: ../../contribute/contributing.md:59
+msgid "If your build returns an error due to missing packages, run"
+msgstr ""
+
+#: ../../contribute/contributing.md:61
+msgid "`pip3 install -r sphinx/requirements.txt`"
+msgstr ""
+
+#: ../../contribute/contributing.md:63
+msgid "This command only needs to be run once."
+msgstr ""
+
+#: ../../contribute/contributing.md:66
+msgid ""
+"Once you've verified your changes, push your branch and create a pull "
+"request. Your pull request will be reviewed by a member of the ROCm "
+"documentation team."
+msgstr ""
+
+#: ../../contribute/contributing.md:68
+msgid ""
+"For information about how to clone a repository, or how to create and "
+"push a local branch, see the [GitHub "
+"documentation](https://docs.github.com/en)."
+msgstr ""
+
+#: ../../contribute/contributing.md:70
+msgid ""
+"For information about ROCm build tools, see [Documentation "
+"toolchain](toolchain.md)."
+msgstr ""
+
+#: ../../contribute/contributing.md:73
+msgid ""
+"By creating a pull request (PR), you agree to allow your contribution to "
+"be licensed under the terms of the LICENSE.txt file in the corresponding "
+"repository. Different repositories can use different licenses."
+msgstr ""
+
+#: ../../contribute/feedback.md:7
+msgid "Providing feedback about the ROCm documentation"
+msgstr ""
+
+#: ../../contribute/feedback.md:9
+msgid ""
+"Feedback about the ROCm documentation is welcome. You can provide "
+"feedback about the ROCm documentation either through GitHub Discussions "
+"or GitHub Issues."
+msgstr ""
+
+#: ../../contribute/feedback.md:11
+msgid "Participating in discussions through GitHub Discussions"
+msgstr ""
+
+#: ../../contribute/feedback.md:13
+msgid ""
+"You can ask questions, view announcements, suggest new features, and "
+"communicate with other members of the community through [GitHub "
+"Discussions](https://github.com/ROCm/ROCm/discussions)."
+msgstr ""
+
+#: ../../contribute/feedback.md:15
+msgid "Submitting issues through GitHub Issues"
+msgstr ""
+
+#: ../../contribute/feedback.md:17
+msgid ""
+"You can submit issues through [GitHub "
+"Issues](https://github.com/ROCm/ROCm/issues)."
+msgstr ""
+
+#: ../../contribute/feedback.md:19
+msgid "When creating a new issue, follow the following guidelines:"
+msgstr ""
+
+#: ../../contribute/feedback.md:21
+msgid ""
+"Always do a search to see if the same issue already exists. If the issue "
+"already exists, upvote it, and comment or post to provide any additional "
+"details you might have."
+msgstr ""
+
+#: ../../contribute/feedback.md:22
+msgid ""
+"If you find an issue that is similar to your issue, log your issue, then "
+"add a comment that includes a link to the similar issue, as well as its "
+"issue number."
+msgstr ""
+
+#: ../../contribute/feedback.md:23
+msgid ""
+"Always provide as much information as possible. This helps reduce the "
+"time required to reproduce the issue."
+msgstr ""
+
+#: ../../contribute/feedback.md:25
+msgid ""
+"After creating your issue, make sure to check it regularly for any "
+"requests for additional information."
+msgstr ""
+
+#: ../../contribute/feedback.md:27
+msgid ""
+"For information about contributing content to the ROCm documentation, see"
+" [Contributing to the ROCm documentation](./contributing.md)."
+msgstr ""
+
+#: ../../contribute/toolchain.md:7
+msgid "ROCm documentation toolchain"
+msgstr ""
+
+#: ../../contribute/toolchain.md:9
+msgid "The ROCm documentation relies on several open source toolchains and sites."
+msgstr ""
+
+#: ../../contribute/toolchain.md:11
+msgid "rocm-docs-core"
+msgstr ""
+
+#: ../../contribute/toolchain.md:13
+msgid ""
+"[rocm-docs-core](https://github.com/ROCm/rocm-docs-core) is an AMD-"
+"maintained project that applies customizations for the ROCm "
+"documentation. This project is the tool most ROCm repositories use as "
+"part of their documentation build pipeline. It is available as a [pip "
+"package on PyPI](https://pypi.org/project/rocm-docs-core/)."
+msgstr ""
+
+#: ../../contribute/toolchain.md:16
+#, python-brace-format
+msgid ""
+"See the user and developer guides for rocm-docs-core at {doc}`rocm-docs-"
+"core documentation<rocm-docs-core:index>`."
+msgstr ""
+
+#: ../../contribute/toolchain.md:19
+msgid "Sphinx"
+msgstr ""
+
+#: ../../contribute/toolchain.md:21
+msgid ""
+"[Sphinx](https://www.sphinx-doc.org/en/master/) is a documentation "
+"generator originally used for Python. It is now widely used in the open "
+"source community."
+msgstr ""
+
+#: ../../contribute/toolchain.md:23
+msgid "Sphinx External ToC"
+msgstr ""
+
+#: ../../contribute/toolchain.md:25
+msgid ""
+"[Sphinx External ToC](https://sphinx-external-"
+"toc.readthedocs.io/en/latest/intro.html) is a Sphinx extension used for "
+"ROCm documentation navigation. This tool generates a navigation menu on "
+"the left based on a YAML file (`_toc.yml.in`) that contains the table of "
+"contents."
+msgstr ""
+
+#: ../../contribute/toolchain.md:28
+msgid "Sphinx-book-theme"
+msgstr ""
+
+#: ../../contribute/toolchain.md:30
+msgid ""
+"[Sphinx-book-theme](https://sphinx-book-theme.readthedocs.io/en/latest/) "
+"is a Sphinx theme that defines the base appearance for ROCm "
+"documentation. ROCm documentation applies some customization, such as a "
+"custom header and footer, on top of the Sphinx Book Theme."
+msgstr ""
+
+#: ../../contribute/toolchain.md:32
+msgid "Sphinx Design"
+msgstr ""
+
+#: ../../contribute/toolchain.md:34
+msgid ""
+"[Sphinx design](https://sphinx-"
+"design.readthedocs.io/en/latest/index.html) is a Sphinx extension that "
+"adds design functionality. ROCm documentation uses Sphinx Design for "
+"grids, cards, and synchronized tabs."
+msgstr ""
+
+#: ../../contribute/toolchain.md:36
+msgid "Doxygen"
+msgstr ""
+
+#: ../../contribute/toolchain.md:38
+msgid ""
+"[Doxygen](https://www.doxygen.nl/) is a documentation generator that "
+"extracts information from in-code comments. It is used for API "
+"documentation."
+msgstr ""
+
+#: ../../contribute/toolchain.md:40
+msgid "Breathe"
+msgstr ""
+
+#: ../../contribute/toolchain.md:42
+msgid ""
+"[Breathe](https://www.breathe-doc.org/) is a Sphinx plugin for "
+"integrating Doxygen content."
+msgstr ""
+
+#: ../../contribute/toolchain.md:44
+msgid "Read the Docs"
+msgstr ""
+
+#: ../../contribute/toolchain.md:46
+msgid ""
+"[Read the Docs](https://docs.readthedocs.io/en/stable/) is the service "
+"that builds and hosts the HTML version of the ROCm documentation."
+msgstr ""
+
