@@ -5,35 +5,38 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ROCm Documentation 7.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 15:07-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-06-14 16:28+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"Language-Team: Japanese <http://localhost/projects/rocm-documentation-2/rocm-"
+"documentation-2/ja/>\n"
 "Language: ja\n"
-"Language-Team: ja <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../what-is-rocm.rst:-1
 msgid "What is ROCm"
-msgstr ""
+msgstr "ROCmとは何か"
 
 #: ../../what-is-rocm.rst:-1
 msgid ""
 "ROCm components, ROCm projects, introduction, ROCm, AMD, runtimes, "
 "compilers, tools, libraries, API"
 msgstr ""
+"ROCmコンポーネント、ROCmプロジェクト、概要、ROCm、AMD、ランタイム、コンパイラ"
+"、ツール、ライブラリ、API"
 
 #: ../../what-is-rocm.rst:7
 msgid "What is ROCm?"
-msgstr ""
+msgstr "ROCmとは何ですか？"
 
 #: ../../what-is-rocm.rst:9
 msgid ""
@@ -41,10 +44,14 @@ msgid ""
 "that provides the tools for programming AMD Graphics Processing Units "
 "(GPUs), from low-level kernels to high-level end-user applications."
 msgstr ""
+"ROCmは、主にオープンソースソフトウェアで構成されるソフトウェアスタックであり"
+"、低レベルのカーネルから高レベルのエンドユーザー向けアプリケーションに至るま"
+"で、AMDのグラフィックスプロセッシングユニット（GPU）をプログラミングするため"
+"のツールを提供します。"
 
 #: ../../what-is-rocm.rst:13
 msgid "AMD's ROCm software stack and enabling technologies."
-msgstr ""
+msgstr "AMDのROCmソフトウェアスタックおよび基盤技術。"
 
 #: ../../what-is-rocm.rst:18
 msgid ""
@@ -52,10 +59,13 @@ msgid ""
 "and OpenMP. These include compilers, libraries for high-level functions, "
 "debuggers, profilers and runtimes."
 msgstr ""
+"具体的には、ROCmは:doc:`、HIP（ <hip:index>`）、OpenCL、およびOpenMP向けの"
+"ツールを提供しています。これらには、コンパイラ、高レベル関数用のライブラリ、"
+"デバッガ、プロファイラ、およびランタイムが含まれます。"
 
 #: ../../what-is-rocm.rst:24
 msgid "ROCm components"
-msgstr ""
+msgstr "ROCmコンポーネント"
 
 #: ../../what-is-rocm.rst:26
 msgid ""
@@ -63,100 +73,109 @@ msgid ""
 " associated with each component, see :doc:`ROCm licensing "
 "<./about/license>`."
 msgstr ""
+"ROCmは以下のコンポーネントで構成されています。各コンポーネントのライセンスに"
+"関する詳細については、:doc:` ROCm licensing  <./about/license>` を参照してく"
+"ださい。"
 
 #: ../../what-is-rocm.rst:30
 msgid "Libraries"
-msgstr ""
+msgstr "図書館"
 
 #: ../../what-is-rocm.rst:33
 msgid "Machine Learning & Computer Vision"
-msgstr ""
+msgstr "機械学習とコンピュータビジョン"
 
 #: ../../what-is-rocm.rst:1
 msgid "Component"
-msgstr ""
+msgstr "コンポーネント"
 
 #: ../../what-is-rocm.rst:1
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`Composable Kernel <composable_kernel:index>`"
-msgstr ""
+msgstr ":doc:` コンポーザブル・カーネル  <composable_kernel:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Provides a programming model for writing performance critical kernels for"
 " machine learning workloads across multiple architectures"
 msgstr ""
+"複数のアーキテクチャにわたる機械学習ワークロード向けに、パフォーマンスが重要"
+"なカーネルを作成するためのプログラミングモデルを提供します"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIGraphX <amdmigraphx:index>`"
-msgstr ""
+msgstr ":doc:` MIGraphX  <amdmigraphx:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Graph inference engine that accelerates machine learning model inference"
-msgstr ""
+msgstr "機械学習モデルの推論を高速化するグラフ推論エンジン"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIOpen <miopen:index>`"
-msgstr ""
+msgstr ":doc:` MIOpen  <miopen:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "An open source deep-learning library"
-msgstr ""
+msgstr "オープンソースのディープラーニングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIVisionX <mivisionx:index>`"
-msgstr ""
+msgstr ":doc:` MIVisionX  <mivisionx:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Set of comprehensive computer vision and machine learning libraries, "
 "utilities, and applications"
 msgstr ""
+"コンピュータビジョンおよび機械学習に関する包括的なライブラリ、ユーティリティ"
+"、アプリケーションのセット"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Performance Primitives (RPP) <rpp:index>`"
-msgstr ""
+msgstr ":doc:` ROCm Performance Primitives (RPP) <rpp:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Comprehensive high-performance computer vision library for AMD processors"
 " with HIP/OpenCL/CPU back-ends"
 msgstr ""
+"HIP/OpenCL/CPUバックエンドに対応した、AMDプロセッサ向けの包括的な高性能"
+"コンピュータビジョンライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocAL <rocal:index>`"
-msgstr ""
+msgstr ":doc:` rocAL  <rocal:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "An augmentation library designed to decode and process images and videos"
-msgstr ""
+msgstr "画像や動画をデコードおよび処理するために設計された拡張ライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocDecode <rocdecode:index>`"
-msgstr ""
+msgstr ":doc:` rocDecode  <rocdecode:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "High-performance SDK for access to video decoding features on AMD GPUs"
-msgstr ""
+msgstr "AMD GPUのビデオデコード機能を利用するための高性能SDK"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocJPEG <rocjpeg:index>`"
-msgstr ""
+msgstr ":doc:` rocJPEG  <rocjpeg:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Library for decoding JPG images on AMD GPUs"
-msgstr ""
+msgstr "AMD GPU上でJPG画像をデコードするためのライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocPyDecode <rocpydecode:index>`"
-msgstr ""
+msgstr ":doc:` rocPyDecode  <rocpydecode:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Provides access to rocDecode APIs in both Python and C/C++ languages"
-msgstr ""
+msgstr "PythonおよびC/C++の両言語でrocDecode APIを利用できるようにします"
 
 #: ../../what-is-rocm.rst:50
 msgid ""
@@ -165,38 +184,46 @@ msgid ""
 "processing. rocCV is in an early access state. Using it on production "
 "workloads is not recommended."
 msgstr ""
+"` rocCV <https://rocm.docs.amd.com/projects/rocCV/en/latest/index.html> `_ は"
+"、画像の前処理および後処理のための、GPU アクセラレーションに対応した高効率な"
+"ライブラリです。rocCV は現在、早期アクセス段階にあります。本番環境での使用は"
+"推奨されません。"
 
 #: ../../what-is-rocm.rst:53
 msgid "Communication"
-msgstr ""
+msgstr "コミュニケーション"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`RCCL <rccl:index>`"
-msgstr ""
+msgstr ":doc:` RCCL  <rccl:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Standalone library that provides multi-GPU and multi-node collective "
 "communication primitives"
 msgstr ""
+"マルチGPUおよびマルチノードの集合通信プリミティブを提供する"
+"スタンドアロンライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSHMEM <rocshmem:index>`"
-msgstr ""
+msgstr ":doc:` rocSHMEM  <rocshmem:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An intra-kernel networking library that provides GPU-centric networking "
 "through an OpenSHMEM-like interface"
 msgstr ""
+"OpenSHMEM風のインターフェースを通じてGPU中心のネットワーク機能を提供する"
+"カーネル内ネットワークライブラリ"
 
 #: ../../what-is-rocm.rst:62
 msgid "Math"
-msgstr ""
+msgstr "数学"
 
 #: ../../what-is-rocm.rst:1
 msgid "`half <https://github.com/ROCm/half/>`_"
-msgstr ""
+msgstr "` half <https://github.com/ROCm/half/> `_"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -204,132 +231,150 @@ msgid ""
 "half-precision floating-point type, along with corresponding arithmetic "
 "operators, type conversions, and common mathematical functions"
 msgstr ""
+"IEEE 754に準拠した16ビット半精度浮動小数点型、およびそれに対応する算術演算子"
+"、型変換、一般的な数学関数を提供するC++のヘッダーオンリーライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipBLAS <hipblas:index>`"
-msgstr ""
+msgstr ":doc:` hipBLAS  <hipblas:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "BLAS-marshaling library that supports :doc:`rocBLAS <rocblas:index>` and "
 "cuBLAS backends"
 msgstr ""
+":doc:`、rocBLAS、 <rocblas:index>`、cuBLASの各バックエンドをサポートするBLAS"
+"マーシャリングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipBLASLt <hipblaslt:index>`"
-msgstr ""
+msgstr ":doc:` hipBLASLt  <hipblaslt:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Provides general matrix-matrix operations with a flexible API and extends"
 " functionalities beyond traditional BLAS library"
 msgstr ""
+"柔軟なAPIを備えた一般的な行列演算機能を提供し、従来のBLASライブラリを超える機"
+"能を拡張しています"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipFFT <hipfft:index>`"
-msgstr ""
+msgstr ":doc:` hipFFT  <hipfft:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Fast Fourier transforms (FFT)-marshalling library that supports rocFFT or"
 " cuFFT backends"
 msgstr ""
+"rocFFT または cuFFT バックエンドをサポートする高速フーリエ変換（FFT）"
+"マーシャリングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipfort <hipfort:index>`"
-msgstr ""
+msgstr ":doc:` hipfort  <hipfort:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Fortran interface library for accessing GPU Kernels"
-msgstr ""
+msgstr "GPUカーネルにアクセスするためのFortranインターフェースライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipRAND <hiprand:index>`"
-msgstr ""
+msgstr ":doc:` hipRAND  <hiprand:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Ports CUDA applications that use the cuRAND library into the HIP layer"
-msgstr ""
+msgstr "cuRANDライブラリを使用するCUDAアプリケーションをHIPレイヤーに移植する"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSOLVER <hipsolver:index>`"
-msgstr ""
+msgstr ":doc:` hipSOLVER  <hipsolver:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An LAPACK-marshalling library that supports :doc:`rocSOLVER "
 "<rocsolver:index>` and cuSOLVER backends"
 msgstr ""
+":doc:`、rocSOLVER、 <rocsolver:index>`、およびcuSOLVERの各バックエンドを"
+"サポートするLAPACKマーシャリングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSPARSE <hipsparse:index>`"
-msgstr ""
+msgstr ":doc:` hipSPARSE  <hipsparse:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "SPARSE-marshalling library that supports :doc:`rocSPARSE "
 "<rocsparse:index>` and cuSPARSE backends"
 msgstr ""
+":doc:`、rocSPARSE、 <rocsparse:index>`、cuSPARSEの各バックエンドをサポートす"
+"るSPARSEマシュリングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSPARSELt <hipsparselt:index>`"
-msgstr ""
+msgstr ":doc:` hipSPARSELt  <hipsparselt:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "SPARSE-marshalling library with multiple supported backends"
-msgstr ""
+msgstr "複数のバックエンドに対応したSPARSEマシュリングライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocALUTION <rocalution:index>`"
-msgstr ""
+msgstr ":doc:` rocALUTION  <rocalution:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Sparse linear algebra library for exploring fine-grained parallelism on "
 "ROCm runtime and toolchains"
 msgstr ""
+"ROCmランタイムおよびツールチェーンにおける微細な並列性を探索するための疎行列"
+"線形代数ライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocBLAS <rocblas:index>`"
-msgstr ""
+msgstr ":doc:` rocBLAS  <rocblas:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "BLAS implementation (in the HIP programming language) on the ROCm runtime"
 " and toolchains"
 msgstr ""
+"ROCmランタイムおよびツールチェーンにおけるBLASの実装（HIPプログラミング言語に"
+"よる）"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocFFT <rocfft:index>`"
-msgstr ""
+msgstr ":doc:` rocFFT  <rocfft:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Software library for computing fast Fourier transforms (FFTs) written in "
 "HIP"
-msgstr ""
+msgstr "HIPで記述された高速フーリエ変換（FFT）を計算するためのソフトウェアライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocRAND <rocrand:index>`"
-msgstr ""
+msgstr ":doc:` rocRAND  <rocrand:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Provides functions that generate pseudorandom and quasirandom numbers"
-msgstr ""
+msgstr "擬似乱数および準乱数を生成する関数を提供します"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSOLVER <rocsolver:index>`"
-msgstr ""
+msgstr ":doc:` rocSOLVER  <rocsolver:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An implementation of LAPACK routines on ROCm software, implemented in the"
 " HIP programming language and optimized for AMD's latest discrete GPUs"
 msgstr ""
+"ROCmソフトウェアにおけるLAPACKルーチンの実装。HIPプログラミング言語で実装され"
+"、AMDの最新ディスクリートGPU向けに最適化されている。"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSPARSE <rocsparse:index>`"
-msgstr ""
+msgstr ":doc:` rocSPARSE  <rocsparse:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -337,34 +382,38 @@ msgid ""
 "implemented on ROCm runtime and toolchains (in the HIP programming "
 "language)"
 msgstr ""
+"ROCmランタイムおよびツールチェーン上で実装された疎行列計算用のBLASを提供する"
+"共通インターフェースを公開します（HIPプログラミング言語を使用）。"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocWMMA <rocwmma:index>`"
-msgstr ""
+msgstr ":doc:` rocWMMA  <rocwmma:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "C++ library for accelerating mixed-precision matrix multiply-accumulate "
 "(MMA) operations"
-msgstr ""
+msgstr "混合精度行列乗算積和（MMA）演算を高速化するC++ライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`Tensile <tensile:src/index>`"
-msgstr ""
+msgstr ":doc:` 引張試験  <tensile:src/index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Creates benchmark-driven backend libraries for GEMMs, GEMM-like problems,"
 " and general N-dimensional tensor contractions"
 msgstr ""
+"GEMM、GEMM類似の問題、および一般的なN次元テンソル収縮のための、ベンチマークに"
+"基づいたバックエンドライブラリを作成する"
 
 #: ../../what-is-rocm.rst:86
 msgid "Primitives"
-msgstr ""
+msgstr "プリミティブ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipCUB <hipcub:index>`"
-msgstr ""
+msgstr ":doc:` hipCUB  <hipcub:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -372,148 +421,168 @@ msgid ""
 " or CUB that allows project porting using the CUB library to the HIP "
 "layer"
 msgstr ""
+":doc:`、rocPRIM、 <rocprim:index>`、またはCUBを基盤とした、軽量なヘッダーのみ"
+"のラッパーライブラリであり、CUBライブラリを使用してプロジェクトをHIPレイヤー"
+"へ移植することを可能にする"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipTensor <hiptensor:index>`"
-msgstr ""
+msgstr ":doc:` hipTensor  <hiptensor:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "AMD's C++ library for accelerating tensor primitives based on the "
 "composable kernel library"
 msgstr ""
+"コンポーザブルカーネルライブラリに基づく、テンソルプリミティブを高速化するた"
+"めのAMDのC++ライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocPRIM <rocprim:index>`"
-msgstr ""
+msgstr ":doc:` rocPRIM  <rocprim:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Header-only library for HIP parallel primitives"
-msgstr ""
+msgstr "HIP並列プリミティブ専用のヘッダーライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocThrust <rocthrust:index>`"
-msgstr ""
+msgstr ":doc:` rocThrust  <rocthrust:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Parallel algorithm library"
-msgstr ""
+msgstr "並列アルゴリズムライブラリ"
 
 #: ../../what-is-rocm.rst:97
 msgid "Tools"
-msgstr ""
+msgstr "ツール"
 
 #: ../../what-is-rocm.rst:100
 msgid "System Management"
-msgstr ""
+msgstr "システム管理"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`AMD SMI <amdsmi:index>`"
-msgstr ""
+msgstr ":doc:` AMD SMI  <amdsmi:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "System management interface to control AMD GPU settings, monitor "
 "performance, and retrieve device and process information"
 msgstr ""
+"AMD GPUの設定制御、パフォーマンスの監視、およびデバイスやプロセスの情報の取得"
+"を行うシステム管理インターフェース"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Data Center Tool <rdc:index>`"
-msgstr ""
+msgstr ":doc:` ROCm Data Center Tool  <rdc:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Simplifies administration and addresses key infrastructure challenges in "
 "AMD GPUs in cluster and data-center environments"
 msgstr ""
+"クラスタおよびデータセンター環境におけるAMD GPUの管理を簡素化し、主要な"
+"インフラストラクチャ上の課題に対処します"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocminfo <rocminfo:index>`"
-msgstr ""
+msgstr ":doc:` rocminfo  <rocminfo:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Reports system information"
-msgstr ""
+msgstr "システム情報を表示する"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm SMI <rocm_smi_lib:index>`"
-msgstr ""
+msgstr ":doc:` ROCm SMI  <rocm_smi_lib:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "C library for Linux that provides a user space interface for applications"
 " to monitor and control GPU applications"
 msgstr ""
+"アプリケーションがGPUアプリケーションを監視・制御するためのユーザー空間"
+"インターフェースを提供する、Linux用Cライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Validation Suite <rocmvalidationsuite:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 検証スイート  <rocmvalidationsuite:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Detects and troubleshoots common problems affecting AMD GPUs running in a"
 " high-performance computing environment"
 msgstr ""
+"高性能コンピューティング環境で動作するAMD GPUに影響を及ぼす一般的な問題を検出"
+"し、トラブルシューティングを行います"
 
 #: ../../what-is-rocm.rst:112
 msgid "Performance"
-msgstr ""
+msgstr "パフォーマンス"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Bandwidth Test <rocm_bandwidth_test:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 帯域幅テスト  <rocm_bandwidth_test:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Captures the performance characteristics of buffer copying and kernel "
 "read/write operations"
-msgstr ""
+msgstr "バッファコピーおよびカーネルの読み書き操作の動作特性を記録する"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Compute Profiler <rocprofiler-compute:index>`"
-msgstr ""
+msgstr ":doc:` ROCm コンピュート・プロファイラー  <rocprofiler-compute:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Kernel-level profiling for machine learning and high performance "
 "computing (HPC) workloads"
 msgstr ""
+"機械学習およびハイパフォーマンス・コンピューティング（HPC）ワークロード向けの"
+"カーネルレベルのプロファイリング"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Systems Profiler <rocprofiler-systems:index>`"
-msgstr ""
+msgstr ":doc:` ROCm Systems プロファイラ  <rocprofiler-systems:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Comprehensive profiling and tracing of applications running on the CPU or"
 " the CPU and GPU"
 msgstr ""
+"CPU、またはCPUとGPU上で実行されているアプリケーションの包括的な"
+"プロファイリングとトレース"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCProfiler <rocprofiler:index>`"
-msgstr ""
+msgstr ":doc:` ROCProfiler  <rocprofiler:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Profiling tool for HIP applications"
-msgstr ""
+msgstr "HIP用途向けプロファイリングツール"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCprofiler-SDK <rocprofiler-sdk:index>`"
-msgstr ""
+msgstr ":doc:` ROCprofiler-SDK  <rocprofiler-sdk:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Toolkit for developing analysis tools for profiling and tracing GPU "
 "compute applications. This toolkit is in beta and subject to change"
 msgstr ""
+"GPUコンピューティングアプリケーションのプロファイリングおよびトレースを行う分"
+"析ツールを開発するためのツールキットです。本ツールキットはベータ版であり、仕"
+"様は変更される可能性があります。"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCTracer <roctracer:index>`"
-msgstr ""
+msgstr ":doc:` ROCTracer  <roctracer:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Intercepts runtime API calls and traces asynchronous activity"
-msgstr ""
+msgstr "実行時のAPI呼び出しをインターセプトし、非同期処理を追跡します"
 
 #: ../../what-is-rocm.rst:126
 msgid ""
@@ -525,60 +594,68 @@ msgid ""
 "mainline/>`_ is in an early access state. Running production workloads is"
 " not recommended."
 msgstr ""
+"` ROCprof Compute Viewer <https://rocm.docs.amd.com/projects/rocprof-compute-"
+"viewer/en/amd-mainline/> `_ は、:doc:` rocprofv3  <rocprofiler-sdk:index>` を"
+"使用して収集した GPU スレッドトレースデータを可視化および分析するためのツール"
+"です。なお、` ROCprof Compute Viewer <https://rocm.docs.amd.com/projects/"
+"rocprof-compute-viewer/en/amd-mainline/> `_ は現在、早期アクセス段階にありま"
+"す。本番環境でのワークロードの実行は推奨されません。"
 
 #: ../../what-is-rocm.rst:129
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIPIFY <hipify:index>`"
-msgstr ""
+msgstr ":doc:` HIPIFY  <hipify:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Translates CUDA source code into portable HIP C++"
-msgstr ""
+msgstr "CUDAソースコードを移植性の高いHIP C++に変換する"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm CMake <rocmcmakebuildtools:index>`"
-msgstr ""
+msgstr ":doc:` ROCm CMake  <rocmcmakebuildtools:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Collection of CMake modules for common build and development tasks"
-msgstr ""
+msgstr "一般的なビルドおよび開発タスク向けのCMakeモジュール集"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCdbgapi <rocdbgapi:index>`"
-msgstr ""
+msgstr ":doc:` ROCdbgapi  <rocdbgapi:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "ROCm debugger API library"
-msgstr ""
+msgstr "ROCm デバッガー API ライブラリ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Debugger (ROCgdb) <rocgdb:index>`"
-msgstr ""
+msgstr ":doc:` ROCm デバッガー (ROCgdb) <rocgdb:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Source-level debugger for Linux, based on the GNU Debugger (GDB)"
-msgstr ""
+msgstr "GNUデバッガー（GDB）をベースにした、Linux用のソースレベルデバッガー"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCr Debug Agent <rocr_debug_agent:index>`"
-msgstr ""
+msgstr ":doc:` ROCr デバッグエージェント  <rocr_debug_agent:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Prints the state of all AMD GPU wavefronts that caused a queue error by "
 "sending a SIGQUIT signal to the process while the program is running"
 msgstr ""
+"プログラムの実行中に、プロセスに対してSIGQUITシグナルを送信してキューエラーを"
+"引き起こしたすべてのAMD GPUウェーブフロントの状態を出力します"
 
 #: ../../what-is-rocm.rst:141
 msgid "Compilers"
-msgstr ""
+msgstr "コンパイラ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIPCC <hipcc:index>`"
-msgstr ""
+msgstr ":doc:` HIPCC  <hipcc:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -586,32 +663,33 @@ msgid ""
 "include and library options for the target compiler and HIP "
 "infrastructure"
 msgstr ""
+"Clang を呼び出し、ターゲットコンパイラおよび HIP インフラストラクチャに適した"
+"インクルードおよびライブラリオプションを渡すコンパイラドライバユーティリティ"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm compilers <llvm-project:index>`"
-msgstr ""
+msgstr ":doc:` ROCmコンパイラ  <llvm-project:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "ROCm LLVM compiler infrastructure"
-msgstr ""
+msgstr "ROCm LLVM コンパイラインフラストラクチャ"
 
 #: ../../what-is-rocm.rst:1
 msgid "`FLANG <https://github.com/ROCm/flang/>`_"
-msgstr ""
+msgstr "` FLANG <https://github.com/ROCm/flang/> `_"
 
 #: ../../what-is-rocm.rst:1
 msgid "An out-of-tree Fortran compiler targeting LLVM"
-msgstr ""
+msgstr "LLVMを対象とした、メインツリー外（out-of-tree）のFortranコンパイラ"
 
 #: ../../what-is-rocm.rst:151
 msgid "Runtime API"
-msgstr ""
+msgstr "ランタイムAPI"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIP <hip:index>`"
-msgstr ""
+msgstr ":doc:` HIP  <hip:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "HIP is a C++ runtime API and kernel language for AMD GPUs"
-msgstr ""
-
+msgstr "HIPは、AMD GPU向けのC++ランタイムAPIおよびカーネル言語です"
