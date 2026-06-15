@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: ROCm Documentation 7.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 15:07-0400\n"
-"PO-Revision-Date: 2026-06-15 14:12+0000\n"
-"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"PO-Revision-Date: 2026-06-16 15:43+0000\n"
+"Last-Translator: Weblate Admin <yugang.wang@amd.com>\n"
 "Language-Team: Chinese (Simplified Han script) <http://localhost/projects/"
 "rocm-documentation-3/rocm-documentation-3/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../what-is-rocm.rst:30
 msgid "Libraries"
-msgstr "图书馆"
+msgstr "库"
 
 #: ../../what-is-rocm.rst:33
 msgid "Machine Learning & Computer Vision"
