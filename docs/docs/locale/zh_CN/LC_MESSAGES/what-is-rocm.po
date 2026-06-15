@@ -5,35 +5,36 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ROCm Documentation 7.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 15:07-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-06-15 14:12+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"Language-Team: Chinese (Simplified Han script) <http://localhost/projects/"
+"rocm-documentation-3/rocm-documentation-3/zh_Hans/>\n"
 "Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 "Generated-By: Babel 2.15.0\n"
 
 #: ../../what-is-rocm.rst:-1
 msgid "What is ROCm"
-msgstr ""
+msgstr "什么是 ROCm"
 
 #: ../../what-is-rocm.rst:-1
 msgid ""
 "ROCm components, ROCm projects, introduction, ROCm, AMD, runtimes, "
 "compilers, tools, libraries, API"
-msgstr ""
+msgstr "ROCm 组件、ROCm 项目、简介、ROCm、AMD、运行时、编译器、工具、库、API"
 
 #: ../../what-is-rocm.rst:7
 msgid "What is ROCm?"
-msgstr ""
+msgstr "什么是 ROCm？"
 
 #: ../../what-is-rocm.rst:9
 msgid ""
@@ -41,10 +42,12 @@ msgid ""
 "that provides the tools for programming AMD Graphics Processing Units "
 "(GPUs), from low-level kernels to high-level end-user applications."
 msgstr ""
+"ROCm 是一个主要由开源软件组成的软件堆栈，为编程 AMD 图形处理单元（GPU）提供了"
+"从底层内核到高级终端用户应用程序的各种工具。"
 
 #: ../../what-is-rocm.rst:13
 msgid "AMD's ROCm software stack and enabling technologies."
-msgstr ""
+msgstr "AMD的ROCm软件栈及相关支持技术。"
 
 #: ../../what-is-rocm.rst:18
 msgid ""
@@ -52,10 +55,12 @@ msgid ""
 "and OpenMP. These include compilers, libraries for high-level functions, "
 "debuggers, profilers and runtimes."
 msgstr ""
+"具体而言，ROCm 为 :doc:` HIP  <hip:index>`、OpenCL 和 OpenMP 提供了相关工具。"
+"这些工具包括编译器、用于高级函数的库、调试器、分析器和运行时环境。"
 
 #: ../../what-is-rocm.rst:24
 msgid "ROCm components"
-msgstr ""
+msgstr "ROCm 组件"
 
 #: ../../what-is-rocm.rst:26
 msgid ""
@@ -63,100 +68,104 @@ msgid ""
 " associated with each component, see :doc:`ROCm licensing "
 "<./about/license>`."
 msgstr ""
+"ROCm 由以下组件构成。有关各组件相关许可的信息，请参阅 :doc:` ROCm 许可  <./"
+"about/license>`。"
 
 #: ../../what-is-rocm.rst:30
 msgid "Libraries"
-msgstr ""
+msgstr "图书馆"
 
 #: ../../what-is-rocm.rst:33
 msgid "Machine Learning & Computer Vision"
-msgstr ""
+msgstr "机器学习与计算机视觉"
 
 #: ../../what-is-rocm.rst:1
 msgid "Component"
-msgstr ""
+msgstr "组件"
 
 #: ../../what-is-rocm.rst:1
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`Composable Kernel <composable_kernel:index>`"
-msgstr ""
+msgstr ":doc:` 可组合内核  <composable_kernel:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Provides a programming model for writing performance critical kernels for"
 " machine learning workloads across multiple architectures"
 msgstr ""
+"提供了一种编程模型，用于为跨多种架构的机器学习工作负载编写对性能要求极高的内"
+"核"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIGraphX <amdmigraphx:index>`"
-msgstr ""
+msgstr ":doc:` MIGraphX  <amdmigraphx:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Graph inference engine that accelerates machine learning model inference"
-msgstr ""
+msgstr "一种可加速机器学习模型推理的图推理引擎"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIOpen <miopen:index>`"
-msgstr ""
+msgstr ":doc:` MIOpen  <miopen:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "An open source deep-learning library"
-msgstr ""
+msgstr "一个开源深度学习库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`MIVisionX <mivisionx:index>`"
-msgstr ""
+msgstr ":doc:` MIVisionX  <mivisionx:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Set of comprehensive computer vision and machine learning libraries, "
 "utilities, and applications"
-msgstr ""
+msgstr "一套全面的计算机视觉和机器学习库、工具及应用程序"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Performance Primitives (RPP) <rpp:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 性能原语 (RPP) <rpp:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Comprehensive high-performance computer vision library for AMD processors"
 " with HIP/OpenCL/CPU back-ends"
-msgstr ""
+msgstr "适用于 AMD 处理器的全面高性能计算机视觉库，支持 HIP/OpenCL/CPU 后端"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocAL <rocal:index>`"
-msgstr ""
+msgstr ":doc:` rocAL  <rocal:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "An augmentation library designed to decode and process images and videos"
-msgstr ""
+msgstr "一个专为解码和处理图像及视频而设计的增强库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocDecode <rocdecode:index>`"
-msgstr ""
+msgstr ":doc:` rocDecode  <rocdecode:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "High-performance SDK for access to video decoding features on AMD GPUs"
-msgstr ""
+msgstr "用于访问 AMD GPU 视频解码功能的高性能 SDK"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocJPEG <rocjpeg:index>`"
-msgstr ""
+msgstr ":doc:` rocJPEG  <rocjpeg:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Library for decoding JPG images on AMD GPUs"
-msgstr ""
+msgstr "用于在 AMD GPU 上解码 JPG 图像的库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocPyDecode <rocpydecode:index>`"
-msgstr ""
+msgstr ":doc:` rocPyDecode  <rocpydecode:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Provides access to rocDecode APIs in both Python and C/C++ languages"
-msgstr ""
+msgstr "提供 Python 和 C/C++ 语言的 rocDecode API 接口"
 
 #: ../../what-is-rocm.rst:50
 msgid ""
@@ -165,38 +174,41 @@ msgid ""
 "processing. rocCV is in an early access state. Using it on production "
 "workloads is not recommended."
 msgstr ""
+"` rocCV <https://rocm.docs.amd.com/projects/rocCV/en/latest/index.html> `_ 是"
+"一个用于图像预处理和后处理的高效 GPU 加速库。rocCV 目前处于早期访问阶段。不建"
+"议将其用于生产环境的工作负载。"
 
 #: ../../what-is-rocm.rst:53
 msgid "Communication"
-msgstr ""
+msgstr "沟通"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`RCCL <rccl:index>`"
-msgstr ""
+msgstr ":doc:` RCCL  <rccl:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Standalone library that provides multi-GPU and multi-node collective "
 "communication primitives"
-msgstr ""
+msgstr "一个提供多GPU和多节点集体通信原语的独立库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSHMEM <rocshmem:index>`"
-msgstr ""
+msgstr ":doc:` rocSHMEM  <rocshmem:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An intra-kernel networking library that provides GPU-centric networking "
 "through an OpenSHMEM-like interface"
-msgstr ""
+msgstr "一个内核内部网络库，通过类似 OpenSHMEM 的接口提供以 GPU 为中心的网络功能"
 
 #: ../../what-is-rocm.rst:62
 msgid "Math"
-msgstr ""
+msgstr "数学"
 
 #: ../../what-is-rocm.rst:1
 msgid "`half <https://github.com/ROCm/half/>`_"
-msgstr ""
+msgstr "` half <https://github.com/ROCm/half/> `_"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -204,132 +216,136 @@ msgid ""
 "half-precision floating-point type, along with corresponding arithmetic "
 "operators, type conversions, and common mathematical functions"
 msgstr ""
+"一个仅包含头文件的 C++ 库，提供符合 IEEE 754 标准的 16 位半精度浮点数类型，以"
+"及相应的算术运算符、类型转换和常用数学函数"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipBLAS <hipblas:index>`"
-msgstr ""
+msgstr ":doc:` hipBLAS  <hipblas:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "BLAS-marshaling library that supports :doc:`rocBLAS <rocblas:index>` and "
 "cuBLAS backends"
-msgstr ""
+msgstr "支持:doc:`、rocBLAS、 <rocblas:index>`和cuBLAS后端的BLAS数据类型转换库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipBLASLt <hipblaslt:index>`"
-msgstr ""
+msgstr ":doc:` hipBLASLt  <hipblaslt:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Provides general matrix-matrix operations with a flexible API and extends"
 " functionalities beyond traditional BLAS library"
-msgstr ""
+msgstr "提供了一套具备灵活API的通用矩阵运算功能，并将功能扩展到了传统BLAS库之外"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipFFT <hipfft:index>`"
-msgstr ""
+msgstr ":doc:` hipFFT  <hipfft:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Fast Fourier transforms (FFT)-marshalling library that supports rocFFT or"
 " cuFFT backends"
-msgstr ""
+msgstr "支持 rocFFT 或 cuFFT 后端的快速傅里叶变换（FFT）序列化库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipfort <hipfort:index>`"
-msgstr ""
+msgstr ":doc:` hipfort  <hipfort:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Fortran interface library for accessing GPU Kernels"
-msgstr ""
+msgstr "用于访问 GPU 内核的 Fortran 接口库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipRAND <hiprand:index>`"
-msgstr ""
+msgstr ":doc:` hipRAND  <hiprand:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Ports CUDA applications that use the cuRAND library into the HIP layer"
-msgstr ""
+msgstr "将使用 cuRAND 库的 CUDA 应用程序移植到 HIP 层"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSOLVER <hipsolver:index>`"
-msgstr ""
+msgstr ":doc:` hipSOLVER  <hipsolver:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An LAPACK-marshalling library that supports :doc:`rocSOLVER "
 "<rocsolver:index>` and cuSOLVER backends"
-msgstr ""
+msgstr "一个支持:doc:`、rocSOLVER、 <rocsolver:index>`和cuSOLVER后端的LAPACK序列化库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSPARSE <hipsparse:index>`"
-msgstr ""
+msgstr ":doc:` hipSPARSE  <hipsparse:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "SPARSE-marshalling library that supports :doc:`rocSPARSE "
 "<rocsparse:index>` and cuSPARSE backends"
-msgstr ""
+msgstr "支持:doc:`、rocSPARSE、 <rocsparse:index>`和cuSPARSE后端的SPARSE序列化库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipSPARSELt <hipsparselt:index>`"
-msgstr ""
+msgstr ":doc:` hipSPARSELt  <hipsparselt:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "SPARSE-marshalling library with multiple supported backends"
-msgstr ""
+msgstr "支持多种后端的 SPARSE 序列化库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocALUTION <rocalution:index>`"
-msgstr ""
+msgstr ":doc:` rocALUTION  <rocalution:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Sparse linear algebra library for exploring fine-grained parallelism on "
 "ROCm runtime and toolchains"
-msgstr ""
+msgstr "用于探索 ROCm 运行时和工具链上细粒度并行性的稀疏线性代数库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocBLAS <rocblas:index>`"
-msgstr ""
+msgstr ":doc:` rocBLAS  <rocblas:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "BLAS implementation (in the HIP programming language) on the ROCm runtime"
 " and toolchains"
-msgstr ""
+msgstr "在 ROCm 运行时环境和工具链上实现 BLAS（使用 HIP 编程语言）"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocFFT <rocfft:index>`"
-msgstr ""
+msgstr ":doc:` rocFFT  <rocfft:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Software library for computing fast Fourier transforms (FFTs) written in "
 "HIP"
-msgstr ""
+msgstr "用 HIP 语言编写的用于计算快速傅里叶变换（FFT）的软件库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocRAND <rocrand:index>`"
-msgstr ""
+msgstr ":doc:` rocRAND  <rocrand:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Provides functions that generate pseudorandom and quasirandom numbers"
-msgstr ""
+msgstr "提供用于生成伪随机数和准随机数的函数"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSOLVER <rocsolver:index>`"
-msgstr ""
+msgstr ":doc:` rocSOLVER  <rocsolver:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "An implementation of LAPACK routines on ROCm software, implemented in the"
 " HIP programming language and optimized for AMD's latest discrete GPUs"
 msgstr ""
+"在 ROCm 软件上实现的 LAPACK 例程，采用 HIP 编程语言编写，并针对 AMD 最新的独"
+"立显卡进行了优化"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocSPARSE <rocsparse:index>`"
-msgstr ""
+msgstr ":doc:` rocSPARSE  <rocsparse:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -337,34 +353,36 @@ msgid ""
 "implemented on ROCm runtime and toolchains (in the HIP programming "
 "language)"
 msgstr ""
+"提供了一个通用接口，该接口基于 ROCm 运行时和工具链（使用 HIP 编程语言），为稀"
+"疏计算提供 BLAS 支持"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocWMMA <rocwmma:index>`"
-msgstr ""
+msgstr ":doc:` rocWMMA  <rocwmma:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "C++ library for accelerating mixed-precision matrix multiply-accumulate "
 "(MMA) operations"
-msgstr ""
+msgstr "用于加速混合精度矩阵乘积累加（MMA）运算的 C++ 库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`Tensile <tensile:src/index>`"
-msgstr ""
+msgstr ":doc:` 拉伸  <tensile:src/index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Creates benchmark-driven backend libraries for GEMMs, GEMM-like problems,"
 " and general N-dimensional tensor contractions"
-msgstr ""
+msgstr "为GEMM、类似GEMM的问题以及一般的N维张量缩并操作创建基于基准测试的后端库"
 
 #: ../../what-is-rocm.rst:86
 msgid "Primitives"
-msgstr ""
+msgstr "基本类型"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipCUB <hipcub:index>`"
-msgstr ""
+msgstr ":doc:` hipCUB  <hipcub:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -372,148 +390,154 @@ msgid ""
 " or CUB that allows project porting using the CUB library to the HIP "
 "layer"
 msgstr ""
+"基于:doc:`、rocPRIM、 <rocprim:index>`或CUB构建的轻量级纯头文件封装库，支持利"
+"用CUB库将项目移植到HIP层"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`hipTensor <hiptensor:index>`"
-msgstr ""
+msgstr ":doc:` hipTensor  <hiptensor:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "AMD's C++ library for accelerating tensor primitives based on the "
 "composable kernel library"
-msgstr ""
+msgstr "AMD 用于加速张量原语的 C++ 库，基于可组合内核库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocPRIM <rocprim:index>`"
-msgstr ""
+msgstr ":doc:` rocPRIM  <rocprim:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Header-only library for HIP parallel primitives"
-msgstr ""
+msgstr "HIP并行原语的仅头文件库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocThrust <rocthrust:index>`"
-msgstr ""
+msgstr ":doc:` rocThrust  <rocthrust:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Parallel algorithm library"
-msgstr ""
+msgstr "并行算法库"
 
 #: ../../what-is-rocm.rst:97
 msgid "Tools"
-msgstr ""
+msgstr "工具"
 
 #: ../../what-is-rocm.rst:100
 msgid "System Management"
-msgstr ""
+msgstr "系统管理"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`AMD SMI <amdsmi:index>`"
-msgstr ""
+msgstr ":doc:` AMD SMI  <amdsmi:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "System management interface to control AMD GPU settings, monitor "
 "performance, and retrieve device and process information"
-msgstr ""
+msgstr "用于控制 AMD GPU 设置、监控性能以及获取设备和进程信息的系统管理界面"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Data Center Tool <rdc:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 数据中心工具  <rdc:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Simplifies administration and addresses key infrastructure challenges in "
 "AMD GPUs in cluster and data-center environments"
-msgstr ""
+msgstr "简化了管理流程，并解决了 AMD GPU 在集群和数据中心环境中的关键基础设施挑战"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`rocminfo <rocminfo:index>`"
-msgstr ""
+msgstr ":doc:` rocminfo  <rocminfo:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Reports system information"
-msgstr ""
+msgstr "报告系统信息"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm SMI <rocm_smi_lib:index>`"
-msgstr ""
+msgstr ":doc:` ROCm SMI  <rocm_smi_lib:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "C library for Linux that provides a user space interface for applications"
 " to monitor and control GPU applications"
 msgstr ""
+"一款适用于 Linux 的 C 库，为应用程序提供用户空间接口，用于监控和控制 GPU 应用"
+"程序"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Validation Suite <rocmvalidationsuite:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 验证套件  <rocmvalidationsuite:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Detects and troubleshoots common problems affecting AMD GPUs running in a"
 " high-performance computing environment"
-msgstr ""
+msgstr "检测并排查在高性能计算环境中运行的 AMD GPU 所遇到的常见问题"
 
 #: ../../what-is-rocm.rst:112
 msgid "Performance"
-msgstr ""
+msgstr "演出"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Bandwidth Test <rocm_bandwidth_test:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 带宽测试  <rocm_bandwidth_test:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Captures the performance characteristics of buffer copying and kernel "
 "read/write operations"
-msgstr ""
+msgstr "记录缓冲区复制和内核读写操作的性能特征"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Compute Profiler <rocprofiler-compute:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 计算分析器  <rocprofiler-compute:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Kernel-level profiling for machine learning and high performance "
 "computing (HPC) workloads"
-msgstr ""
+msgstr "针对机器学习和高性能计算（HPC）工作负载的内核级性能分析"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Systems Profiler <rocprofiler-systems:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 系统分析器  <rocprofiler-systems:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Comprehensive profiling and tracing of applications running on the CPU or"
 " the CPU and GPU"
-msgstr ""
+msgstr "对在 CPU 上或 CPU 和 GPU 上运行的应用程序进行全面的性能分析与追踪"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCProfiler <rocprofiler:index>`"
-msgstr ""
+msgstr ":doc:` ROCProfiler  <rocprofiler:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Profiling tool for HIP applications"
-msgstr ""
+msgstr "用于HIP应用的分析工具"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCprofiler-SDK <rocprofiler-sdk:index>`"
-msgstr ""
+msgstr ":doc:` ROCprofiler-SDK  <rocprofiler-sdk:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Toolkit for developing analysis tools for profiling and tracing GPU "
 "compute applications. This toolkit is in beta and subject to change"
 msgstr ""
+"用于开发分析工具的工具包，旨在对 GPU 计算应用程序进行性能分析和跟踪。该工具包"
+"目前处于测试阶段，内容可能会有变动"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCTracer <roctracer:index>`"
-msgstr ""
+msgstr ":doc:` ROCTracer  <roctracer:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Intercepts runtime API calls and traces asynchronous activity"
-msgstr ""
+msgstr "拦截运行时 API 调用并追踪异步操作"
 
 #: ../../what-is-rocm.rst:126
 msgid ""
@@ -525,60 +549,67 @@ msgid ""
 "mainline/>`_ is in an early access state. Running production workloads is"
 " not recommended."
 msgstr ""
+"` ROCprof Compute Viewer <https://rocm.docs.amd.com/projects/rocprof-compute-"
+"viewer/en/amd-mainline/> `_ 是一款用于可视化和分析通过 :doc:` rocprofv3  "
+"<rocprofiler-sdk:index>` 收集的 GPU 线程跟踪数据的工具。请注意，` ROCprof "
+"Compute Viewer <https://rocm.docs.amd.com/projects/rocprof-compute-viewer/en/"
+"amd-mainline/> `_ 目前处于早期访问阶段。不建议在生产环境中运行工作负载。"
 
 #: ../../what-is-rocm.rst:129
 msgid "Development"
-msgstr ""
+msgstr "开发"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIPIFY <hipify:index>`"
-msgstr ""
+msgstr ":doc:` HIPIFY  <hipify:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Translates CUDA source code into portable HIP C++"
-msgstr ""
+msgstr "将 CUDA 源代码编译为可移植的 HIP C++ 代码"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm CMake <rocmcmakebuildtools:index>`"
-msgstr ""
+msgstr ":doc:` ROCm CMake  <rocmcmakebuildtools:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Collection of CMake modules for common build and development tasks"
-msgstr ""
+msgstr "用于常见构建和开发任务的 CMake 模块集合"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCdbgapi <rocdbgapi:index>`"
-msgstr ""
+msgstr ":doc:` ROCdbgapi  <rocdbgapi:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "ROCm debugger API library"
-msgstr ""
+msgstr "ROCm 调试器 API 库"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm Debugger (ROCgdb) <rocgdb:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 调试器 (ROCgdb) <rocgdb:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "Source-level debugger for Linux, based on the GNU Debugger (GDB)"
-msgstr ""
+msgstr "基于 GNU 调试器 (GDB) 的 Linux 源代码级调试器"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCr Debug Agent <rocr_debug_agent:index>`"
-msgstr ""
+msgstr ":doc:` ROCr 调试代理  <rocr_debug_agent:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
 "Prints the state of all AMD GPU wavefronts that caused a queue error by "
 "sending a SIGQUIT signal to the process while the program is running"
 msgstr ""
+"在程序运行期间，打印所有因向进程发送 SIGQUIT 信号而导致队列错误的 AMD GPU 波"
+"前状态"
 
 #: ../../what-is-rocm.rst:141
 msgid "Compilers"
-msgstr ""
+msgstr "编译器"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIPCC <hipcc:index>`"
-msgstr ""
+msgstr ":doc:` HIPCC  <hipcc:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid ""
@@ -586,32 +617,33 @@ msgid ""
 "include and library options for the target compiler and HIP "
 "infrastructure"
 msgstr ""
+"一种编译器驱动程序实用工具，用于调用 Clang 并为目标编译器和 HIP 基础设施传递"
+"相应的包含文件和库选项"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`ROCm compilers <llvm-project:index>`"
-msgstr ""
+msgstr ":doc:` ROCm 编译器  <llvm-project:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "ROCm LLVM compiler infrastructure"
-msgstr ""
+msgstr "ROCm LLVM 编译器基础设施"
 
 #: ../../what-is-rocm.rst:1
 msgid "`FLANG <https://github.com/ROCm/flang/>`_"
-msgstr ""
+msgstr "` FLANG <https://github.com/ROCm/flang/> `_"
 
 #: ../../what-is-rocm.rst:1
 msgid "An out-of-tree Fortran compiler targeting LLVM"
-msgstr ""
+msgstr "一个面向 LLVM 的树外 Fortran 编译器"
 
 #: ../../what-is-rocm.rst:151
 msgid "Runtime API"
-msgstr ""
+msgstr "运行时 API"
 
 #: ../../what-is-rocm.rst:1
 msgid ":doc:`HIP <hip:index>`"
-msgstr ""
+msgstr ":doc:` HIP  <hip:index>`"
 
 #: ../../what-is-rocm.rst:1
 msgid "HIP is a C++ runtime API and kernel language for AMD GPUs"
-msgstr ""
-
+msgstr "HIP 是面向 AMD GPU 的 C++ 运行时 API 和内核语言"
