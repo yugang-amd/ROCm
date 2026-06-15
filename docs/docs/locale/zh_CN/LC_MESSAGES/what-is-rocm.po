@@ -1,0 +1,617 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) Copyright (c) 2026 Advanced Micro Devices, Inc. All rights
+# reserved.
+# This file is distributed under the same license as the ROCm Documentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../what-is-rocm.rst:-1
+msgid "What is ROCm"
+msgstr ""
+
+#: ../../what-is-rocm.rst:-1
+msgid ""
+"ROCm components, ROCm projects, introduction, ROCm, AMD, runtimes, "
+"compilers, tools, libraries, API"
+msgstr ""
+
+#: ../../what-is-rocm.rst:7
+msgid "What is ROCm?"
+msgstr ""
+
+#: ../../what-is-rocm.rst:9
+msgid ""
+"ROCm is a software stack, composed primarily of open-source software, "
+"that provides the tools for programming AMD Graphics Processing Units "
+"(GPUs), from low-level kernels to high-level end-user applications."
+msgstr ""
+
+#: ../../what-is-rocm.rst:13
+msgid "AMD's ROCm software stack and enabling technologies."
+msgstr ""
+
+#: ../../what-is-rocm.rst:18
+msgid ""
+"Specifically, ROCm provides the tools for :doc:`HIP <hip:index>`, OpenCL "
+"and OpenMP. These include compilers, libraries for high-level functions, "
+"debuggers, profilers and runtimes."
+msgstr ""
+
+#: ../../what-is-rocm.rst:24
+msgid "ROCm components"
+msgstr ""
+
+#: ../../what-is-rocm.rst:26
+msgid ""
+"ROCm consists of the following components. For information on the license"
+" associated with each component, see :doc:`ROCm licensing "
+"<./about/license>`."
+msgstr ""
+
+#: ../../what-is-rocm.rst:30
+msgid "Libraries"
+msgstr ""
+
+#: ../../what-is-rocm.rst:33
+msgid "Machine Learning & Computer Vision"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Component"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Description"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`Composable Kernel <composable_kernel:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Provides a programming model for writing performance critical kernels for"
+" machine learning workloads across multiple architectures"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`MIGraphX <amdmigraphx:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Graph inference engine that accelerates machine learning model inference"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`MIOpen <miopen:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "An open source deep-learning library"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`MIVisionX <mivisionx:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Set of comprehensive computer vision and machine learning libraries, "
+"utilities, and applications"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Performance Primitives (RPP) <rpp:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Comprehensive high-performance computer vision library for AMD processors"
+" with HIP/OpenCL/CPU back-ends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocAL <rocal:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "An augmentation library designed to decode and process images and videos"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocDecode <rocdecode:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "High-performance SDK for access to video decoding features on AMD GPUs"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocJPEG <rocjpeg:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Library for decoding JPG images on AMD GPUs"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocPyDecode <rocpydecode:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Provides access to rocDecode APIs in both Python and C/C++ languages"
+msgstr ""
+
+#: ../../what-is-rocm.rst:50
+msgid ""
+"`rocCV <https://rocm.docs.amd.com/projects/rocCV/en/latest/index.html>`_"
+"  is an efficient GPU-accelerated library for image pre- and post-"
+"processing. rocCV is in an early access state. Using it on production "
+"workloads is not recommended."
+msgstr ""
+
+#: ../../what-is-rocm.rst:53
+msgid "Communication"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`RCCL <rccl:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Standalone library that provides multi-GPU and multi-node collective "
+"communication primitives"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocSHMEM <rocshmem:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"An intra-kernel networking library that provides GPU-centric networking "
+"through an OpenSHMEM-like interface"
+msgstr ""
+
+#: ../../what-is-rocm.rst:62
+msgid "Math"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "`half <https://github.com/ROCm/half/>`_"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"C++ header-only library that provides an IEEE 754 conformant, 16-bit "
+"half-precision floating-point type, along with corresponding arithmetic "
+"operators, type conversions, and common mathematical functions"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipBLAS <hipblas:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"BLAS-marshaling library that supports :doc:`rocBLAS <rocblas:index>` and "
+"cuBLAS backends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipBLASLt <hipblaslt:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Provides general matrix-matrix operations with a flexible API and extends"
+" functionalities beyond traditional BLAS library"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipFFT <hipfft:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Fast Fourier transforms (FFT)-marshalling library that supports rocFFT or"
+" cuFFT backends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipfort <hipfort:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Fortran interface library for accessing GPU Kernels"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipRAND <hiprand:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Ports CUDA applications that use the cuRAND library into the HIP layer"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipSOLVER <hipsolver:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"An LAPACK-marshalling library that supports :doc:`rocSOLVER "
+"<rocsolver:index>` and cuSOLVER backends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipSPARSE <hipsparse:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"SPARSE-marshalling library that supports :doc:`rocSPARSE "
+"<rocsparse:index>` and cuSPARSE backends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipSPARSELt <hipsparselt:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "SPARSE-marshalling library with multiple supported backends"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocALUTION <rocalution:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Sparse linear algebra library for exploring fine-grained parallelism on "
+"ROCm runtime and toolchains"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocBLAS <rocblas:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"BLAS implementation (in the HIP programming language) on the ROCm runtime"
+" and toolchains"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocFFT <rocfft:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Software library for computing fast Fourier transforms (FFTs) written in "
+"HIP"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocRAND <rocrand:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Provides functions that generate pseudorandom and quasirandom numbers"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocSOLVER <rocsolver:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"An implementation of LAPACK routines on ROCm software, implemented in the"
+" HIP programming language and optimized for AMD's latest discrete GPUs"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocSPARSE <rocsparse:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Exposes a common interface that provides BLAS for sparse computation "
+"implemented on ROCm runtime and toolchains (in the HIP programming "
+"language)"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocWMMA <rocwmma:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"C++ library for accelerating mixed-precision matrix multiply-accumulate "
+"(MMA) operations"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`Tensile <tensile:src/index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Creates benchmark-driven backend libraries for GEMMs, GEMM-like problems,"
+" and general N-dimensional tensor contractions"
+msgstr ""
+
+#: ../../what-is-rocm.rst:86
+msgid "Primitives"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipCUB <hipcub:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Thin header-only wrapper library on top of :doc:`rocPRIM <rocprim:index>`"
+" or CUB that allows project porting using the CUB library to the HIP "
+"layer"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`hipTensor <hiptensor:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"AMD's C++ library for accelerating tensor primitives based on the "
+"composable kernel library"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocPRIM <rocprim:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Header-only library for HIP parallel primitives"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocThrust <rocthrust:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Parallel algorithm library"
+msgstr ""
+
+#: ../../what-is-rocm.rst:97
+msgid "Tools"
+msgstr ""
+
+#: ../../what-is-rocm.rst:100
+msgid "System Management"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`AMD SMI <amdsmi:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"System management interface to control AMD GPU settings, monitor "
+"performance, and retrieve device and process information"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Data Center Tool <rdc:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Simplifies administration and addresses key infrastructure challenges in "
+"AMD GPUs in cluster and data-center environments"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`rocminfo <rocminfo:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Reports system information"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm SMI <rocm_smi_lib:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"C library for Linux that provides a user space interface for applications"
+" to monitor and control GPU applications"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Validation Suite <rocmvalidationsuite:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Detects and troubleshoots common problems affecting AMD GPUs running in a"
+" high-performance computing environment"
+msgstr ""
+
+#: ../../what-is-rocm.rst:112
+msgid "Performance"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Bandwidth Test <rocm_bandwidth_test:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Captures the performance characteristics of buffer copying and kernel "
+"read/write operations"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Compute Profiler <rocprofiler-compute:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Kernel-level profiling for machine learning and high performance "
+"computing (HPC) workloads"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Systems Profiler <rocprofiler-systems:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Comprehensive profiling and tracing of applications running on the CPU or"
+" the CPU and GPU"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCProfiler <rocprofiler:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Profiling tool for HIP applications"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCprofiler-SDK <rocprofiler-sdk:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Toolkit for developing analysis tools for profiling and tracing GPU "
+"compute applications. This toolkit is in beta and subject to change"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCTracer <roctracer:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Intercepts runtime API calls and traces asynchronous activity"
+msgstr ""
+
+#: ../../what-is-rocm.rst:126
+msgid ""
+"`ROCprof Compute Viewer <https://rocm.docs.amd.com/projects/rocprof-"
+"compute-viewer/en/amd-mainline/>`_ is a tool for visualizing and "
+"analyzing GPU thread trace data collected using :doc:`rocprofv3 "
+"<rocprofiler-sdk:index>`. Note that `ROCprof Compute Viewer "
+"<https://rocm.docs.amd.com/projects/rocprof-compute-viewer/en/amd-"
+"mainline/>`_ is in an early access state. Running production workloads is"
+" not recommended."
+msgstr ""
+
+#: ../../what-is-rocm.rst:129
+msgid "Development"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`HIPIFY <hipify:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Translates CUDA source code into portable HIP C++"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm CMake <rocmcmakebuildtools:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Collection of CMake modules for common build and development tasks"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCdbgapi <rocdbgapi:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "ROCm debugger API library"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm Debugger (ROCgdb) <rocgdb:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "Source-level debugger for Linux, based on the GNU Debugger (GDB)"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCr Debug Agent <rocr_debug_agent:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Prints the state of all AMD GPU wavefronts that caused a queue error by "
+"sending a SIGQUIT signal to the process while the program is running"
+msgstr ""
+
+#: ../../what-is-rocm.rst:141
+msgid "Compilers"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`HIPCC <hipcc:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ""
+"Compiler driver utility that calls Clang and passes the appropriate "
+"include and library options for the target compiler and HIP "
+"infrastructure"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`ROCm compilers <llvm-project:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "ROCm LLVM compiler infrastructure"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "`FLANG <https://github.com/ROCm/flang/>`_"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "An out-of-tree Fortran compiler targeting LLVM"
+msgstr ""
+
+#: ../../what-is-rocm.rst:151
+msgid "Runtime API"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid ":doc:`HIP <hip:index>`"
+msgstr ""
+
+#: ../../what-is-rocm.rst:1
+msgid "HIP is a C++ runtime API and kernel language for AMD GPUs"
+msgstr ""
+

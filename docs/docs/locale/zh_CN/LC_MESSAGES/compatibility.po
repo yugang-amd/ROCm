@@ -1,0 +1,5549 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ROCm Documentation 7.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-12 15:07-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.15.0\n"
+
+#: ../../compatibility/compatibility-matrix.rst:-1
+msgid "ROCm compatibility matrix"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:-1
+msgid ""
+"GPU, architecture, hardware, compatibility, system, requirements, "
+"components, libraries"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:7
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:42
+msgid "Compatibility matrix"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:9
+msgid ""
+"Use this matrix to view the ROCm compatibility and system requirements "
+"across successive major and minor releases."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:11
+msgid ""
+"You can also refer to the :ref:`past versions of ROCm compatibility "
+"matrix<past-rocm-compatibility-matrix>`."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:13
+msgid ""
+"GPUs listed in the following table support compute workloads (no display "
+"information or graphics). If you’re using ROCm with AMD Radeon GPUs or "
+"Ryzen APUs for graphics workloads, see the :doc:`Use ROCm on Radeon and "
+"Ryzen <radeon:index>` to verify compatibility and system requirements."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "ROCm Version"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.2.4/7.2.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.2.2/7.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ""
+":ref:`Operating systems & kernels <OS-kernel-versions>` [#os-"
+"compatibility]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Ubuntu 24.04.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Ubuntu 24.04.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Ubuntu 22.04.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RHEL 10.1, 10.0, |br| 9.7, 9.6, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RHEL 10.0, 9.6, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RHEL 8.10"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "SLES 15 SP7"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Oracle Linux 10, 9, 8"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Debian 13, 12"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Rocky Linux 9"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`Architecture <rocm-install-on-linux:reference/system-requirements>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "CDNA4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "CDNA3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "CDNA2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "CDNA"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RDNA4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RDNA3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RDNA2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ""
+":doc:`GPU / LLVM target <rocm-install-on-linux:reference/system-"
+"requirements>`  [#gpu-compatibility]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx950"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx1201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx1200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx1101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx1100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx1030"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx942"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx90a"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "gfx908"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "FRAMEWORK SUPPORT"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`PyTorch <../compatibility/ml-compatibility/pytorch-compatibility>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.9.1, 2.8.0, 2.7.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.8, 2.7, 2.6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ""
+":doc:`TensorFlow <../compatibility/ml-compatibility/tensorflow-"
+"compatibility>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.20.0, 2.19.1, 2.18.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`JAX <../compatibility/ml-compatibility/jax-compatibility>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:59
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:60
+msgid "0.8.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:65
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:66
+msgid "0.7.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`ONNX Runtime <https://onnxruntime.ai/docs/build/eps.html#amd-migraphx>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.23.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.22.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "THIRD PARTY COMMS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`UCC <https://github.com/ROCm/ucc>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ">=1.6.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ">=1.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`UCX <https://github.com/ROCm/ucx>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ">=1.17.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "THIRD PARTY ALGORITHM"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "Thrust"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.8.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "CUB"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "DRIVER & USER SPACE [#kfd_support]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ""
+":doc:`AMD GPU Driver <rocm-install-on-linux:reference/user-kernel-space-"
+"compat-matrix>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "30.30.x, 30.20.x [#mi325x_KVM]_, |br| 30.10.x [#driver_patch]_, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "30.20.0 [#mi325x_KVM]_, 30.10.x [#driver_patch]_, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "ML & COMPUTER VISION"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`Composable Kernel <composable_kernel:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:171
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:172
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:249
+msgid "1.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`MIGraphX <amdmigraphx:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.15.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.14.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`MIOpen <miopen:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "3.5.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`MIVisionX <mivisionx:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:219
+msgid "3.5.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:188
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:220
+msgid "3.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocAL <rocal:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.5.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:177
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:201
+msgid "2.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocDecode <rocdecode:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:263
+msgid "1.7.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:253
+msgid "1.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocJPEG <rocjpeg:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocPyDecode <rocpydecode:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:250
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:62
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:63
+msgid "0.8.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.7.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`RPP <rpp:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "COMMUNICATION"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`RCCL <rccl:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.27.7"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocSHMEM <rocshmem:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:206
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:230
+msgid "3.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:176
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:196
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:200
+msgid "3.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "MATH LIBS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`half <https://github.com/ROCm/half>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.12.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipBLAS <hipblas:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "3.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipBLASLt <hipblaslt:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.2.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipFFT <hipfft:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.0.22"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.0.21"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipfort <hipfort:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipRAND <hiprand:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipSOLVER <hipsolver:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipSPARSE <hipsparse:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipSPARSELt <hipsparselt:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.2.6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.2.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocALUTION <rocalution:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:205
+msgid "4.0.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocBLAS <rocblas:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "5.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "5.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocFFT <rocfft:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.0.36"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.0.35"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocRAND <rocrand:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocSOLVER <rocsolver:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "3.32.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "3.31.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocSPARSE <rocsparse:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocWMMA <rocwmma:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:235
+msgid "2.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:215
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:253
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:262
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:189
+msgid "2.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`Tensile <tensile:src/index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.45.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.44.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "PRIMITIVES"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipCUB <hipcub:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipTensor <hiptensor:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocPRIM <rocprim:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocThrust <rocthrust:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "SUPPORT LIBS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`hipother <https://github.com/ROCm/hipother>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.2.53211"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.1.25424"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`rocm-core <https://github.com/ROCm/rocm-core>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`ROCT-Thunk-Interface <https://github.com/ROCm/ROCT-Thunk-Interface>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "N/A [#ROCT-rocr]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "SYSTEM MGMT TOOLS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`AMD SMI <amdsmi:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "26.2.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "26.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Data Center Tool <rdc:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`rocminfo <rocminfo:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:181
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:244
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:157
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:161
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:165
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:169
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:173
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:177
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:181
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:185
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:193
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:197
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:201
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:205
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:209
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:213
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:217
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:221
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:225
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:229
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:233
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:237
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:249
+msgid "1.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm SMI <rocm_smi_lib:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "7.8.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Validation Suite <rocmvalidationsuite:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "PERFORMANCE TOOLS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Bandwidth Test <rocm_bandwidth_test:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.6.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Compute Profiler <rocprofiler-compute:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:229
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:234
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:258
+msgid "3.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Systems Profiler <rocprofiler-systems:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCProfiler <rocprofiler:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.0.70204/2.0.70203"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.0.70202/2.0.70201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "2.0.70100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCprofiler-SDK <rocprofiler-sdk:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCTracer <roctracer:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.1.70204/4.1.70203"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.1.70202/4.1.70201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "4.1.70100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "DEVELOPMENT TOOLS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`HIPIFY <hipify:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "22.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "20.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm CMake <rocmcmakebuildtools:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.14.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCdbgapi <rocdbgapi:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.77.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCm Debugger (ROCgdb) <rocgdb:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "16.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`rocprofiler-register <https://github.com/ROCm/rocprofiler-register>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "0.5.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCr Debug Agent <rocr_debug_agent:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "COMPILERS"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`hipCC <hipcc:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`Flang <https://github.com/ROCm/flang>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "22.0.0.26084"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "20.0.025425"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`llvm-project <llvm-project:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`OpenMP <https://github.com/ROCm/llvm-project/tree/amd-staging/openmp>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "RUNTIMES"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`AMD CLR <hip:understand/amd_clr>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`HIP <hip:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "`OpenCL Runtime <https://github.com/ROCm/clr/tree/develop/opencl>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid ":doc:`ROCr Runtime <rocr-runtime:index>`"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/compatibility-matrix.rst:1
+msgid "1.18.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst
+#: ../../compatibility/compatibility-matrix.rst:154
+msgid "Footnotes"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:155
+msgid ""
+"Some operating systems are supported on specific GPUs. For detailed "
+"information about operating systems supported on ROCm 7.2.4/7.2.3, see "
+"the latest :ref:`supported_distributions`. For version specific "
+"information, see `ROCm 7.2.2/7.2.1 <https://rocm.docs.amd.com/projects"
+"/install-on-linux/en/docs-7.2.2/reference/system-requirements.html"
+"#supported-operating-systems>`__, and `ROCm 7.1.0 "
+"<https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.1.0/reference/system-requirements.html#supported-"
+"operating-systems>`__."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:156
+msgid ""
+"Some GPUs have limited operating system support. For detailed information"
+" about GPUs supporting ROCm 7.2.4/7.2.3, see the latest "
+":ref:`supported_GPUs`. For version specific information, see `ROCm "
+"7.2.2/7.2.1 <https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.2/reference/system-requirements.html#supported-"
+"gpus>`__, and `ROCm 7.1.0 <https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.1.0/reference/system-requirements.html#supported-"
+"gpus>`__."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:157
+#: ../../compatibility/compatibility-matrix.rst:203
+msgid ""
+"For AMD Instinct MI325X KVM SR-IOV users, do not use AMD GPU Driver "
+"(amdgpu) 30.20.0."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:158
+#: ../../compatibility/compatibility-matrix.rst:204
+msgid ""
+"AMD GPU Driver (amdgpu) 30.10.1 is a quality release that resolves an "
+"issue identified in the 30.10 release. There are no other significant "
+"changes or feature additions in ROCm 7.0.1 from ROCm 7.0.0. AMD GPU "
+"Driver (amdgpu) 30.10.1 is compatible with ROCm 7.0.1 and ROCm 7.0.0."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:159
+#: ../../compatibility/compatibility-matrix.rst:205
+msgid ""
+"As of ROCm 6.4.0, forward and backward compatibility between the AMD GPU "
+"Driver (amdgpu) and its user space software is provided up to a year "
+"apart. For earlier ROCm releases, the compatibility is provided for +/- 2"
+" releases. The supported user space versions on this page were accurate "
+"as of the time of initial ROCm release. For the most up-to-date "
+"information, see the latest version of this information at `User and AMD "
+"GPU Driver support matrix <https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/latest/reference/user-kernel-space-compat-matrix.html>`_."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:160
+#: ../../compatibility/compatibility-matrix.rst:206
+msgid ""
+"Starting from ROCm 6.3.0, the ROCT Thunk Interface is included as part of"
+" the ROCr runtime package."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:165
+msgid "Operating systems, kernel and Glibc versions"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:167
+msgid ""
+"For detailed information on operating system supported on ROCm "
+"7.2.4/7.2.3 and associated Kernel and Glibc version, see the latest "
+":ref:`supported_distributions`. For version specific information, see "
+"`ROCm 7.2.2/7.2.1 <https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.2.2/reference/system-requirements.html#supported-"
+"operating-systems>`__, and `ROCm 7.1.0 "
+"<https://rocm.docs.amd.com/projects/install-on-"
+"linux/en/docs-7.1.0/reference/system-requirements.html#supported-"
+"operating-systems>`__."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:171
+msgid ""
+"See `Red Hat Enterprise Linux Release Dates "
+"<https://access.redhat.com/articles/3078>`_ to learn about the specific "
+"kernel versions supported on Red Hat Enterprise Linux (RHEL)."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:172
+msgid ""
+"See `List of SUSE Linux Enterprise Server kernel "
+"<https://www.suse.com/support/kb/doc/?id=000019587>`_ to learn about the "
+"specific kernel version supported on SUSE Linux Enterprise Server (SLES)."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:184
+msgid "Past versions of ROCm compatibility matrix"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:186
+msgid "Expand for full historical view of:"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst
+msgid "ROCm 6.0 - Present"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:190
+msgid ""
+"You can `download the entire .csv <../downloads/compatibility-matrix-"
+"historical-6.0.csv>`_ for offline reference."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:64
+msgid "7.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.0.1/7.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+":ref:`Operating systems & kernels <OS-kernel-versions>` [#os-"
+"compatibility-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 24.04.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 24.04.1, 24.04"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 24.04"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 22.04.5, 22.04.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 22.04.5, 22.04.4, 22.04.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 22.04.4, 22.04.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 22.04.4, 22.04.3, 22.04.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Ubuntu 20.04.6, 20.04.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 10.1, 10.0, 9.7, 9.6, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.6, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.6, 9.5, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.5, 9.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.4, 9.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.4, 9.3, 9.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 9.3, 9.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 8.10, 8.9"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "RHEL 8.9, 8.8"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "SLES 15 SP7, SP6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "SLES 15 SP6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "SLES 15 SP6, SP5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "SLES 15 SP5, SP4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "CentOS 7.9"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Oracle Linux 9, 8"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Oracle Linux 8.10"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Oracle Linux 8.9"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Debian 12"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "Azure Linux 3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+":doc:`GPU / LLVM target <rocm-install-on-linux:reference/system-"
+"requirements>`  [#gpu-compatibility-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.9, 2.8, 2.7"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.7, 2.6, 2.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.6, 2.5, 2.4, 2.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.4, 2.3, 2.2, 1.13"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.4, 2.3, 2.2, 2.1, 2.0, 1.13"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.3, 2.2, 2.1, 2.0, 1.13"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.1, 2.0, 1.13"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.19.1, 2.18.1, 2.17.1 [#tf-mi350-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.18.1, 2.17.1, 2.16.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.17.0, 2.16.2, 2.15.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.16.1, 2.15.1, 2.14.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.15.0, 2.14.0, 2.13.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.14.0, 2.13.1, 2.12.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.6.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.4.35"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.4.31"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.4.26"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+":doc:`DGL <../compatibility/ml-compatibility/dgl-compatibility>` "
+"[#dgl_compat-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "N/A"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.23.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.20.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.17.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.14.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ">=1.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ">=1.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ">=1.15.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ">=1.14.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.3.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "DRIVER & USER SPACE [#kfd_support-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+"30.30.x, 30.20.x [#mi325x_KVM-past-60]_, 30.10.x [#driver_patch-"
+"past-60]_, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+"30.30.0, 30.20.1, 30.20.0 [#mi325x_KVM-past-60]_, 30.10.2, 30.10.1 "
+"[#driver_patch-past-60]_, 30.10, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+"30.20.1, 30.20.0 [#mi325x_KVM-past-60]_, 30.10.2, 30.10.1 [#driver_patch-"
+"past-60]_, 30.10, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid ""
+"30.20.0 [#mi325x_KVM-past-60]_, 30.10.2, 30.10.1 [#driver_patch-"
+"past-60]_, 30.10, 6.4.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "30.10.2, 30.10.1 [#driver_patch-past-60]_, 30.10, 6.4.x, 6.3.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "30.10.1 [#driver_patch-past-60]_, 30.10, 6.4.x, 6.3.x, 6.2.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.x, 6.3.x, 6.2.x, 6.1.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.x, 6.3.x, 6.2.x, 6.1.x, 6.0.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.x, 6.3.x, 6.2.x, 6.1.x, 6.0.x, 5.7.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.x, 6.1.x, 6.0.x, 5.7.x, 5.6.x"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:224
+msgid "2.13.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:197
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:225
+msgid "2.12.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.11.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.10.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.9.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.8.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:216
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:241
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:245
+msgid "1.5.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:245
+msgid "0.10.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.3.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:254
+msgid "1.9.10"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.9.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.8.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:239
+msgid "2.26.6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:240
+msgid "2.22.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.21.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.20.5"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.18.6"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.18.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.12.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:182
+msgid "0.12.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:192
+msgid "1.0.20"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:193
+msgid "1.0.18"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.17"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.16"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.15"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.14"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.13"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.5.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.11.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.10.16"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.1.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.0.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:210
+msgid "0.2.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:211
+msgid "0.2.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.2.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:187
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:257
+msgid "4.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.2.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.2.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.0.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "5.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "5.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "5.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.4.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.2.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.34"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.32"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.31"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.30"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.29"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.28"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.27"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.26"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.25"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.23"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.10.17"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.30.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.30.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.28.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.28.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.27.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.26.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.26.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.25.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.24.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.6.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.43.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.42.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.41.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.40.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.39.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.4.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.2.26015"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.1.52802"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.0.51831"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.0.51830"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.43483"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.43482"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.42134"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.42133"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.3.42131"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.41134"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.2.41133"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.40093"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.40092"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.40091"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.32831"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.1.32830"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "N/A [#ROCT-rocr-past-60]_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20240607.5.7"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20240607.4.05"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20240607.1.4246"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20240125.5.08"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20240125.3.30"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20231016.2.245"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "26.2.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "26.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "26.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "26.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "25.5.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "25.4.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "25.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "24.7.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "24.6.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "24.6.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "24.5.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "24.4.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "23.4.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.7.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.5.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.4.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.3.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "7.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60204"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60202"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60105"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60102"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60002"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.60000"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "3.3.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.0.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.1.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.1.1"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.11.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.70200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.70101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.70002"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.70000"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60403"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60402"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60401"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60400"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60303"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60302"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60301"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60300"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60204"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60202"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60105"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60102"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60002"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.60000"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.70200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.70101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.70002"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.70000"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60403"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60402"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60401"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60400"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60303"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60302"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60301"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60300"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60204"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60202"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60201"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60200"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60105"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60102"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60101"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60100"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60002"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "4.1.60000"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "19.0.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.25012"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.24491"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.24455"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.24392"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.24355"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "18.0.0.24232"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "17.0.0.24193"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "17.0.0.24154"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "17.0.0.24103"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "17.0.0.24012"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "17.0.0.23483"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.13.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.11.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.77.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.77.2"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.77.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.76.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "0.71.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "15.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "14.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "14.1.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "13.2.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.4"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "2.0.3"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "`clang-ocl <https://github.com/ROCm/clang-ocl>`_"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "22.0.0.26014"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20.0.025444"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20.0.0.25385"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "20.0.0.25314"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "19.0.0.25224"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "19.0.0.25184"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "19.0.0.25133"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "6.4.43484"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.15.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.14.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix-historical-6.0.csv:1
+msgid "1.13.0"
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:199
+msgid ""
+"Some operating systems are supported on specific GPUs. For detailed "
+"information, see :ref:`supported_distributions` and select the required "
+"ROCm version for version specific support."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:200
+msgid ""
+"Some GPUs have limited operating system support. For detailed "
+"information, see :ref:`supported_GPUs` and select the required ROCm "
+"version for version specific support."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:201
+msgid ""
+"TensorFlow 2.17.1 is not supported on AMD Instinct MI350 Series GPUs. Use"
+" TensorFlow 2.19.1 or 2.18.1 with MI350 Series GPUs instead."
+msgstr ""
+
+#: ../../compatibility/compatibility-matrix.rst:202
+msgid "DGL is supported only on ROCm 7.0.0, ROCm 6.4.3, and ROCm 6.4.0."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:-1
+msgid "Deep Graph Library (DGL) compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:-1
+msgid "GPU, CPU, deep graph library, DGL, deep learning, framework compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:11
+msgid "DGL compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:13
+msgid ""
+"Deep Graph Library (`DGL <https://www.dgl.ai/>`__) is an easy-to-use, "
+"high-performance, and scalable Python package for deep learning on "
+"graphs. DGL is framework agnostic, meaning that if a deep graph model is "
+"a component in an end-to-end application, the rest of the logic is "
+"implemented using PyTorch."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:18
+msgid ""
+"DGL provides a high-performance graph object that can reside on either "
+"CPUs or GPUs. It bundles structural data features for better control and "
+"provides a variety of functions for computing with graph objects, "
+"including efficient and customizable message passing primitives for Graph"
+" Neural Networks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:24
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:23
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:26
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:20
+msgid "Support overview"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:26
+msgid ""
+"The ROCm-supported version of DGL is maintained in the official "
+"`https://github.com/ROCm/dgl <https://github.com/ROCm/dgl>`__ repository,"
+" which differs from the `https://github.com/dmlc/dgl "
+"<https://github.com/dmlc/dgl>`__ upstream repository."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:30
+msgid ""
+"To get started and install DGL on ROCm, use the prebuilt :ref:`Docker "
+"images <dgl-docker-compat>`, which include ROCm, DGL, and all required "
+"dependencies."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:33
+msgid ""
+"See the :doc:`ROCm DGL installation guide <rocm-install-on-linux:install"
+"/3rd-party/dgl-install>` for installation and setup instructions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:36
+msgid ""
+"You can also consult the upstream `Installation guide "
+"<https://www.dgl.ai/pages/start.html>`__ for additional context."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:48
+msgid ""
+"AMD validates and publishes `DGL images "
+"<https://hub.docker.com/r/rocm/dgl/tags>`__ with ROCm backends on Docker "
+"Hub. The following Docker image tags and associated inventories represent"
+" the latest available DGL version from the official Docker Hub. Click the"
+" |docker-icon| to view the image on Docker Hub."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:57
+msgid "Docker image"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:58
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:58
+msgid "ROCm"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:59
+msgid "DGL"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:60
+msgid "PyTorch"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:61
+msgid "Ubuntu"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:62
+msgid "Python"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:63
+msgid "GPU"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:69
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:80
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:91
+msgid "`7.0.0 <https://repo.radeon.com/rocm/apt/7.0/>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:70
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:81
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:92
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:103
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:114
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:125
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:136
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:147
+msgid "`2.4.0 <https://github.com/dmlc/dgl/releases/tag/v2.4.0>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:71
+msgid "`2.8.0 <https://github.com/pytorch/pytorch/releases/tag/v2.8.0>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:72
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:83
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:105
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:116
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:127
+msgid "24.04"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:73
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:84
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:106
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:117
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:128
+msgid "`3.12.9 <https://www.python.org/downloads/release/python-3129/>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:74
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:85
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:96
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:107
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:118
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:129
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:140
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:151
+msgid "MI300X, MI250X"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:82
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:104
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:115
+msgid "`2.6.0 <https://github.com/pytorch/pytorch/releases/tag/v2.6.0>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:93
+msgid "`2.7.1 <https://github.com/pytorch/pytorch/releases/tag/v2.7.1>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:94
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:138
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:149
+msgid "22.04"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:95
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:139
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:150
+msgid "`3.10.16 <https://www.python.org/downloads/release/python-31016/>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:102
+msgid "`6.4.3 <https://repo.radeon.com/rocm/apt/6.4.3/>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:113
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:124
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:135
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:146
+msgid "`6.4.0 <https://repo.radeon.com/rocm/apt/6.4/>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:126
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:137
+msgid "`2.4.1 <https://github.com/pytorch/pytorch/releases/tag/v2.4.1>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:148
+msgid "`2.3.0 <https://github.com/pytorch/pytorch/releases/tag/v2.3.0>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:157
+msgid "Key ROCm libraries for DGL"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:159
+msgid ""
+"DGL on ROCm depends on specific libraries that affect its features and "
+"performance. Using the DGL Docker container or building it with the "
+"provided Docker file or a ROCm base image is recommended. If you prefer "
+"to build it yourself, ensure the following dependencies are installed:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:166
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:134
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:111
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:70
+msgid "ROCm library"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:167
+msgid "ROCm 7.0.0 Version"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:168
+msgid "ROCm 6.4.x Version"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:169
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:136
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:113
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:72
+msgid "Purpose"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:170
+msgid "`Composable Kernel <https://github.com/ROCm/composable_kernel>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:173
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:117
+msgid ""
+"Enables faster execution of core operations like matrix multiplication "
+"(GEMM), convolutions and transformations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:175
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:137
+msgid "`hipBLAS <https://github.com/ROCm/hipBLAS>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:178
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:139
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:124
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:76
+msgid ""
+"Provides GPU-accelerated Basic Linear Algebra Subprograms (BLAS) for "
+"matrix and vector operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:180
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:141
+msgid "`hipBLASLt <https://github.com/ROCm/hipBLASLt>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:183
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:131
+msgid ""
+"hipBLASLt is an extension of the hipBLAS library, providing additional "
+"features like epilogues fused into the matrix multiplication kernel or "
+"use of integer tensor cores."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:186
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:146
+msgid "`hipCUB <https://github.com/ROCm/hipCUB>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:189
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:148
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:138
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:88
+msgid ""
+"Provides a C++ template library for parallel algorithms for reduction, "
+"scan, sort and select."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:191
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:150
+msgid "`hipFFT <https://github.com/ROCm/hipFFT>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:194
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:152
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:145
+msgid "Provides GPU-accelerated Fast Fourier Transform (FFT) operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:195
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:153
+msgid "`hipRAND <https://github.com/ROCm/hipRAND>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:198
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:155
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:149
+msgid "Provides fast random number generation for GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:199
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:156
+msgid "`hipSOLVER <https://github.com/ROCm/hipSOLVER>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:202
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:158
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:154
+msgid ""
+"Provides GPU-accelerated solvers for linear systems, eigenvalues, and "
+"singular value decompositions (SVD)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:204
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:160
+msgid "`hipSPARSE <https://github.com/ROCm/hipSPARSE>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:207
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:212
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:162
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:166
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:160
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:165
+msgid ""
+"Accelerates operations on sparse matrices, such as sparse matrix-vector "
+"or matrix-matrix products."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:209
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:164
+msgid "`hipSPARSELt <https://github.com/ROCm/hipSPARSELt>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:214
+msgid "`hipTensor <https://github.com/ROCm/hipTensor>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:217
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:170
+msgid "Optimizes for high-performance tensor operations, such as contractions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:218
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:168
+msgid "`MIOpen <https://github.com/ROCm/MIOpen>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:221
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:175
+msgid ""
+"Optimizes deep learning primitives such as convolutions, pooling, "
+"normalization, and activation functions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:223
+msgid "`MIGraphX <https://github.com/ROCm/AMDMIGraphX>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:226
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:182
+msgid ""
+"Adds graph-level optimizations, ONNX models and mixed precision support "
+"and enable Ahead-of-Time (AOT) Compilation."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:228
+msgid "`MIVisionX <https://github.com/ROCm/MIVisionX>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:231
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:189
+msgid ""
+"Optimizes acceleration for computer vision and AI workloads like "
+"preprocessing, augmentation, and inferencing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:233
+msgid "`rocAL <https://github.com/ROCm/rocAL>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:236
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:196
+msgid ""
+"Accelerates the data pipeline by offloading intensive preprocessing and "
+"augmentation tasks. rocAL is part of MIVisionX."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:238
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:172
+msgid "`RCCL <https://github.com/ROCm/rccl>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:241
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:202
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:120
+msgid ""
+"Optimizes for multi-GPU communication for operations like AllReduce and "
+"Broadcast."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:243
+msgid "`rocDecode <https://github.com/ROCm/rocDecode>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:246
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:208
+msgid ""
+"Provides hardware-accelerated data decoding capabilities, particularly "
+"for image, video, and other dataset formats."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:248
+msgid "`rocJPEG <https://github.com/ROCm/rocJPEG>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:251
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:214
+msgid "Provides hardware-accelerated JPEG image decoding and encoding."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:252
+msgid "`RPP <https://github.com/ROCm/RPP>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:255
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:220
+msgid ""
+"Speeds up data augmentation, transformation, and other preprocessing "
+"steps."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:256
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:176
+msgid "`rocThrust <https://github.com/ROCm/rocThrust>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:259
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:178
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:225
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:126
+msgid ""
+"Provides a C++ template library for parallel algorithms like sorting, "
+"reduction, and scanning."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:261
+msgid "`rocWMMA <https://github.com/ROCm/rocWMMA>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:264
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:231
+msgid ""
+"Accelerates warp-level matrix-multiply and matrix-accumulate to speed up "
+"matrix multiplication (GEMM) and accumulation operations with mixed "
+"precision support."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:271
+msgid "Supported features with ROCm 7.0.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:273
+msgid ""
+"Many functions and methods available upstream are also supported in DGL "
+"on ROCm. Instead of listing them all, support is grouped into the "
+"following categories to provide a general overview."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:276
+msgid "DGL Base"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:277
+msgid "DGL Backend"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:278
+msgid "DGL Data"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:279
+msgid "DGL Dataloading"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:280
+msgid "DGL Graph"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:281
+msgid "DGL Function"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:282
+msgid "DGL Ops"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:283
+msgid "DGL Sampling"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:284
+msgid "DGL Transforms"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:285
+msgid "DGL Utils"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:286
+msgid "DGL Distributed"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:287
+msgid "DGL Geometry"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:288
+msgid "DGL Mpops"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:289
+msgid "DGL NN"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:290
+msgid "DGL Optim"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:291
+msgid "DGL Sparse"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:292
+msgid "GraphBolt"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:297
+msgid "Unsupported features with ROCm 7.0.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:299
+msgid "TF32 Support (only supported for PyTorch 2.7 and above)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:300
+msgid "Kineto/ROCTracer integration"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:305
+msgid "Unsupported functions with ROCm 7.0.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:307
+msgid "``bfs``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:308
+msgid "``format``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:309
+msgid "``multiprocess_sparse_adam_state_dict``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:310
+msgid "``half_spmm``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:311
+msgid "``segment_mm``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:312
+msgid "``gather_mm_idx_b``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:313
+msgid "``sample_labors_prob``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:314
+msgid "``sample_labors_noprob``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:315
+msgid "``sparse_admin``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:320
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:70
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:58
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:414
+msgid "Use cases and recommendations"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:322
+msgid ""
+"DGL can be used for Graph Learning, and building popular graph models "
+"like GAT, GCN, and GraphSage. Using these models, a variety of use cases "
+"are supported:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:325
+msgid "Recommender systems"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:326
+msgid "Network Optimization and Analysis"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:327
+msgid "1D (Temporal) and 2D (Image) Classification"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:328
+msgid "Drug Discovery"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:330
+msgid ""
+"For use cases and recommendations, refer to the `AMD ROCm blog "
+"<https://rocm.blogs.amd.com/>`__, where you can search for DGL examples "
+"and best practices to optimize your workloads on AMD GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:333
+msgid ""
+"Although multiple use cases of DGL have been tested and verified, a few "
+"have been outlined in the `DGL in the Real World: Running GNNs on Real "
+"Use Cases <https://rocm.blogs.amd.com/artificial-"
+"intelligence/dgl_blog2/README.html>`__ blog post, which walks through "
+"four real-world graph neural network (GNN) workloads implemented with the"
+" Deep Graph Library on ROCm. It covers tasks ranging from heterogeneous "
+"e-commerce graphs and multiplex networks (GATNE) to molecular graph "
+"regression (GNN-FiLM) and EEG-based neurological diagnosis (EEG-GCNN). "
+"For each use case, the authors detail: the dataset and task, how DGL is "
+"used, and their experience porting to ROCm. It is shown that DGL "
+"codebases often run without modification, with seamless integration of "
+"graph operations, message passing, sampling, and convolution."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:344
+msgid ""
+"The `Graph Neural Networks (GNNs) at Scale: DGL with ROCm on AMD Hardware"
+" <https://rocm.blogs.amd.com/artificial-intelligence/why-graph-"
+"neural/README.html>`__ blog post introduces the Deep Graph Library (DGL) "
+"and its enablement on the AMD ROCm platform, bringing high-performance "
+"graph neural network (GNN) training to AMD GPUs. DGL bridges the gap "
+"between dense tensor frameworks and the irregular nature of graph data "
+"through a graph-first, message-passing abstraction. Its design ensures "
+"scalability, flexibility, and interoperability across frameworks like "
+"PyTorch and TensorFlow. AMD’s ROCm integration enables DGL to run "
+"efficiently on HIP-based GPUs, supported by prebuilt Docker containers "
+"and open-source repositories. This marks a major step in AMD's mission to"
+" advance open, scalable AI ecosystems beyond traditional architectures."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:355
+msgid "You can pre-process datasets and begin training on AMD GPUs through:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:357
+msgid "Single-GPU training/inference"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:358
+msgid "Multi-GPU training"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:362
+msgid "Previous versions"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/dgl-compatibility.rst:363
+msgid ""
+"See :doc:`rocm-install-on-linux:install/3rd-party/previous-versions/dgl-"
+"history` to find documentation for previous releases of the ``ROCm/dgl`` "
+"Docker image."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:-1
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:11
+msgid "JAX compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:-1
+msgid "GPU, JAX, deep learning, framework compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:13
+msgid ""
+"`JAX <https://docs.jax.dev/en/latest/notebooks/thinking_in_jax.html>`__ "
+"is a library for array-oriented numerical computation (similar to NumPy),"
+" with automatic differentiation and just-in-time (JIT) compilation to "
+"enable high-performance machine learning research."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:17
+msgid ""
+"JAX provides an API that combines automatic differentiation and the "
+"Accelerated Linear Algebra (XLA) compiler to achieve high-performance "
+"machine learning at scale. JAX uses composable transformations of Python "
+"and NumPy through JIT compilation, automatic vectorization, and "
+"parallelization."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:25
+msgid ""
+"The ROCm-supported version of JAX is maintained in the official "
+"`https://github.com/ROCm/rocm-jax <https://github.com/ROCm/rocm-jax>`__ "
+"repository, which differs from the `https://github.com/jax-ml/jax "
+"<https://github.com/jax-ml/jax>`__ upstream repository."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:29
+msgid ""
+"To get started and install JAX on ROCm, use the prebuilt :ref:`Docker "
+"images <jax-docker-compat>`, which include ROCm, JAX, and all required "
+"dependencies."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:32
+msgid ""
+"See the :doc:`ROCm JAX installation guide <rocm-install-on-linux:install"
+"/3rd-party/jax-install>` for installation and setup instructions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:35
+msgid ""
+"You can also consult the upstream `Installation guide "
+"<https://jax.readthedocs.io/en/latest/installation.html#amd-gpu-linux>`__"
+" for additional context."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:39
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:50
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:36
+msgid "Version support"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:41
+msgid ""
+"AMD releases official `ROCm JAX Docker images "
+"<https://hub.docker.com/r/rocm/jax/tags>`_ quarterly alongside new ROCm "
+"releases. These images undergo full AMD testing. `Community ROCm JAX "
+"Docker images <https://hub.docker.com/r/rocm/jax-community/tags>`_ follow"
+" upstream JAX releases and use the latest available ROCm version."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:47
+msgid "JAX Plugin-PJRT with JAX/JAXLIB compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:49
+msgid ""
+"Portable JIT Runtime (PJRT) is an open, stable interface for device "
+"runtime and compiler. The following table details the ROCm version "
+"compatibility matrix between JAX Plugin–PJRT and JAX/JAXLIB."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:56
+msgid "JAX Plugin-PJRT"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:57
+msgid "JAX/JAXLIB"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:61
+msgid "7.2.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:67
+msgid "7.1.1, 7.1.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:72
+msgid ""
+"The `nanoGPT in JAX <https://rocm.blogs.amd.com/artificial-intelligence"
+"/nanoGPT-JAX/README.html>`_ blog explores the implementation and training"
+" of a Generative Pre-trained Transformer (GPT) model in JAX, inspired by "
+"Andrej Karpathy’s JAX-based nanoGPT. Comparing how essential GPT "
+"components—such as self-attention mechanisms and optimizers—are realized "
+"in JAX and JAX, also highlights JAX’s unique features."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:79
+msgid ""
+"The `Optimize GPT Training: Enabling Mixed Precision Training in JAX "
+"using ROCm on AMD GPUs <https://rocm.blogs.amd.com/artificial-"
+"intelligence/jax-mixed-precision/README.html>`_ blog post provides a "
+"comprehensive guide on enhancing the training efficiency of GPT models by"
+" implementing mixed precision techniques in JAX, specifically tailored "
+"for AMD GPUs utilizing the ROCm platform."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:85
+msgid ""
+"The `Supercharging JAX with Triton Kernels on AMD GPUs "
+"<https://rocm.blogs.amd.com/artificial-intelligence/jax-"
+"triton/README.html>`_ blog demonstrates how to develop a custom fused "
+"dropout-activation kernel for matrices using Triton, integrate it with "
+"JAX, and benchmark its performance using ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:90
+msgid ""
+"The `Distributed fine-tuning with JAX on AMD GPUs "
+"<https://rocm.blogs.amd.com/artificial-intelligence/distributed-sft-"
+"jax/README.html>`_ outlines the process of fine-tuning a Bidirectional "
+"Encoder Representations from Transformers (BERT)-based large language "
+"model (LLM) using JAX for a text classification task. The blog post "
+"discusses techniques for parallelizing the fine-tuning across multiple "
+"AMD GPUs and assess the model's performance on a holdout dataset. During "
+"the fine-tuning, a BERT-base-cased transformer model and the General "
+"Language Understanding Evaluation (GLUE) benchmark dataset was used on a "
+"multi-GPU setup."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:99
+msgid ""
+"The `MI300X workload optimization guide "
+"<https://rocm.docs.amd.com/en/latest/how-to/tuning-"
+"guides/mi300x/workload.html>`_ provides detailed guidance on optimizing "
+"workloads for the AMD Instinct MI300X GPU using ROCm. The page is aimed "
+"at helping users achieve optimal performance for deep learning and other "
+"high-performance computing tasks on the MI300X GPU."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:105
+msgid ""
+"For more use cases and recommendations, see `ROCm JAX blog posts "
+"<https://rocm.blogs.amd.com/blog/tag/jax.html>`_."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:110
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:92
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:46
+msgid "Docker image compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:112
+msgid ""
+"AMD validates and publishes `JAX images "
+"<https://hub.docker.com/r/rocm/jax/tags>`__ with ROCm backends on Docker "
+"Hub."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:115
+msgid ""
+"For ``jax-community`` images, see `rocm/jax-community "
+"<https://hub.docker.com/r/rocm/jax-community/tags>`__ on Docker Hub."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:118
+msgid ""
+"To find the right image tag, see the :ref:`JAX on ROCm installation "
+"documentation <rocm-install-on-linux:jax-docker-support>` for a list of "
+"available ``rocm/jax`` images."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:125
+msgid "Key ROCm libraries for JAX"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:127
+msgid ""
+"The following ROCm libraries represent potential targets that could be "
+"utilized by JAX on ROCm for various computational tasks. The actual "
+"libraries used will depend on the specific implementation and operations "
+"performed."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:135
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:112
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:71
+msgid "Version"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:138
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:123
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:75
+msgid ":version-ref:`hipBLAS rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:142
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:130
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:81
+msgid ":version-ref:`hipBLASLt rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:143
+msgid ""
+"hipBLASLt is an extension of hipBLAS, providing additional features like "
+"epilogues fused into the matrix multiplication kernel or use of integer "
+"tensor cores."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:147
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:137
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:87
+msgid ":version-ref:`hipCUB rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:151
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:144
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:94
+msgid ":version-ref:`hipFFT rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:154
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:148
+msgid ":version-ref:`hipRAND rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:157
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:153
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:99
+msgid ":version-ref:`hipSOLVER rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:161
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:159
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:105
+msgid ":version-ref:`hipSPARSE rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:165
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:164
+msgid ":version-ref:`hipSPARSELt rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:169
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:174
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:111
+msgid ":version-ref:`MIOpen rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:170
+msgid ""
+"Optimized for deep learning primitives such as convolutions, pooling, "
+"normalization, and activation functions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:173
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:201
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:119
+msgid ":version-ref:`RCCL rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:174
+msgid ""
+"Optimized for multi-GPU communication for operations like  all-reduce, "
+"broadcast, and scatter."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:177
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:224
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:125
+msgid ":version-ref:`rocThrust rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:183
+msgid ""
+"This table shows ROCm libraries that could potentially be utilized by "
+"JAX. Not all libraries may be used in every configuration, and the actual"
+" library usage will depend on the specific operations and implementation "
+"details."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:188
+msgid "Supported data types and modules"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:190
+msgid ""
+"The following tables lists the supported public JAX API data types and "
+"modules."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:193
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:246
+msgid "Supported data types"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:195
+msgid ""
+"ROCm supports all the JAX data types of `jax.dtypes "
+"<https://docs.jax.dev/en/latest/jax.dtypes.html>`_ module, "
+"`jax.numpy.dtype "
+"<https://docs.jax.dev/en/latest/_autosummary/jax.numpy.dtype.html>`_ and "
+"`default_dtype <https://docs.jax.dev/en/latest/default_dtypes.html>`_ . "
+"The ROCm supported data types in JAX are collected in the following "
+"table."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:203
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:257
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:151
+msgid "Data type"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:204
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:258
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:340
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:152
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:266
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:358
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:402
+msgid "Description"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:206
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:155
+msgid "``bfloat16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:207
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:156
+msgid "16-bit bfloat (brain floating point)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:209
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:159
+msgid "``bool``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:210
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:160
+msgid "Boolean."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:212
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:163
+msgid "``complex128``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:213
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:164
+msgid "128-bit complex."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:215
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:167
+msgid "``complex64``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:216
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:168
+msgid "64-bit complex."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:218
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:175
+msgid "``float16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:219
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:228
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:176
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:188
+msgid "16-bit (half precision) floating-point."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:221
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:179
+msgid "``float32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:222
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:180
+msgid "32-bit (single precision) floating-point."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:224
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:183
+msgid "``float64``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:225
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:172
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:184
+msgid "64-bit (double precision) floating-point."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:227
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:187
+msgid "``half``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:230
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:191
+msgid "``int16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:231
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:192
+msgid "Signed 16-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:233
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:195
+msgid "``int32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:234
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:196
+msgid "Signed 32-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:236
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:199
+msgid "``int64``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:237
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:200
+msgid "Signed 64-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:239
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:203
+msgid "``int8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:240
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:204
+msgid "Signed 8-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:242
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:235
+msgid "``uint16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:243
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:236
+msgid "Unsigned 16-bit (word) integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:245
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:239
+msgid "``uint32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:246
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:240
+msgid "Unsigned 32-bit (dword) integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:248
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:243
+msgid "``uint64``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:249
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:244
+msgid "Unsigned 64-bit (qword) integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:251
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:247
+msgid "``uint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:252
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:248
+msgid "Unsigned 8-bit (byte) integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:256
+msgid ""
+"JAX data type support is affected by the :ref:`key_rocm_libraries` and "
+"it's collected on :doc:`ROCm data types and precision support "
+"<rocm:reference/precision-support>` page."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:261
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:316
+msgid "Supported modules"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:263
+msgid ""
+"For a complete and up-to-date list of JAX public modules (for example, "
+"``jax.numpy``, ``jax.scipy``, ``jax.lax``), their descriptions, and "
+"usage, please refer directly to the `official JAX API documentation "
+"<https://jax.readthedocs.io/en/latest/jax.html>`_."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:269
+msgid ""
+"Since version 0.1.56, JAX has full support for ROCm, and the :ref:`Known "
+"issues and important notes <jax_comp_known_issues>` section contains "
+"details about limitations specific to the ROCm backend. The list of JAX "
+"API modules are maintained by the JAX project and is subject to change. "
+"Refer to the official Jax documentation for the most up-to-date "
+"information."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:276
+msgid "Key features and enhancements for ROCm 7.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:278
+msgid "Enabled compilation of multihost HLO runner Python bindings."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:280
+msgid ""
+"Backported multihost HLO runner bindings and some related changes to "
+":code:`FunctionalHloRunner`."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:283
+msgid "Added :code:`requirements_lock_3_12` to enable building for Python 3.12."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:285
+msgid ""
+"Removed hardcoded NHWC convolution layout for ``fp16`` precision to "
+"address the performance drops for ``fp16`` precision on gfx12xx GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:288
+msgid "ROCprofiler-SDK integration:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:290
+msgid ""
+"Integrated ROCprofiler-SDK (v3) to XLA to improve profiling of GPU "
+"events, support both time-based and step-based profiling."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:293
+msgid "Added unit tests for :code:`rocm_collector` and :code:`rocm_tracer`."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:295
+msgid ""
+"Added Triton unsupported conversion from ``f8E4M3FNUZ`` to ``fp16`` with "
+"rounding mode."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:298
+msgid ""
+"Introduced :code:`CudnnFusedConvDecomposer` to revert fused convolutions "
+"when :code:`ConvAlgorithmPicker` fails to find a fused algorithm, and "
+"removed unfused fallback paths from :code:`RocmFusedConvRunner`."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:303
+msgid "Key features and enhancements for ROCm 7.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:305
+msgid ""
+"Upgraded XLA backend: Integrates a newer XLA version, enabling better "
+"optimizations, broader operator support, and potential performance gains."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:308
+msgid ""
+"RNN support: Native RNN support (including LSTMs via "
+"``jax.experimental.rnn``) now available on ROCm, aiding sequence model "
+"development."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:311
+msgid ""
+"Comprehensive linear algebra capabilities: Offers robust ``jax.linalg`` "
+"operations, essential for scientific and machine learning tasks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:314
+msgid ""
+"Expanded AMD GPU architecture support: Provides ongoing support for "
+"gfx1101 GPUs and introduces support for gfx950 and gfx12xx GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:317
+msgid ""
+"Mixed FP8 precision support: Enables ``lax.dot_general`` operations with "
+"mixed FP8 types, offering pathways for memory and compute efficiency."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:320
+msgid ""
+"Streamlined PyPi packaging: Provides reliable PyPi wheels for JAX on "
+"ROCm, simplifying the installation process."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:323
+msgid ""
+"Pallas experimental kernel development: Continued Pallas framework "
+"enhancements for custom GPU kernels, including new intrinsics (specific "
+"kernel behaviors under review)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:327
+msgid ""
+"Improved build system and CI: Enhanced ROCm build system and CI for "
+"greater reliability and maintainability."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:330
+msgid ""
+"Enhanced distributed computing setup: Improved JAX setup in multi-GPU "
+"distributed environments."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:336
+msgid "Known issues and notes for ROCm 7.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:338
+msgid ""
+"``nn.dot_product_attention``: Certain configurations of "
+"``jax.nn.dot_product_attention`` may cause segmentation faults, though "
+"the majority of use cases work correctly."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:341
+msgid ""
+"SVD with dynamic shapes: SVD on inputs with dynamic/symbolic shapes might"
+" result in an error. SVD with static shapes is unaffected."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:344
+msgid ""
+"QR decomposition with symbolic shapes: QR decomposition operations may "
+"fail when using symbolic/dynamic shapes in shape polymorphic contexts."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/jax-compatibility.rst:347
+msgid ""
+"Pallas kernels: Specific advanced Pallas kernels may exhibit variations "
+"in numerical output or resource usage. These are actively reviewed as "
+"part of Pallas's experimental development."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:-1
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:11
+msgid "PyTorch compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:-1
+msgid "GPU, PyTorch, deep learning, framework compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:13
+msgid ""
+"`PyTorch <https://pytorch.org/>`__ is an open-source tensor library "
+"designed for deep learning. PyTorch on ROCm provides mixed-precision and "
+"large-scale training using `MIOpen <https://github.com/ROCm/MIOpen>`__ "
+"and `RCCL <https://github.com/ROCm/rccl>`__ libraries."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:18
+msgid "PyTorch provides two high-level features:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:20
+msgid "Tensor computation (like NumPy) with strong GPU acceleration"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:22
+msgid ""
+"Deep neural networks built on a tape-based autograd system (rapid "
+"computation of multiple partial derivatives or gradients)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:28
+msgid ""
+"ROCm support for PyTorch is upstreamed into the official PyTorch "
+"repository. ROCm development is aligned with the stable release of "
+"PyTorch, while upstream PyTorch testing uses the stable release of ROCm "
+"to maintain consistency:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:32
+msgid ""
+"The ROCm-supported version of PyTorch is maintained in the official "
+"`https://github.com/ROCm/pytorch <https://github.com/ROCm/pytorch>`__ "
+"repository, which differs from the `https://github.com/pytorch/pytorch "
+"<https://github.com/pytorch/pytorch>`__ upstream repository."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:36
+msgid ""
+"To get started and install PyTorch on ROCm, use the prebuilt :ref:`Docker"
+" images <pytorch-docker-compat>`, which include ROCm, PyTorch, and all "
+"required dependencies."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:39
+msgid ""
+"See the :doc:`ROCm PyTorch installation guide <rocm-install-on-"
+"linux:install/3rd-party/pytorch-install>` for installation and setup "
+"instructions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:42
+msgid ""
+"You can also consult the upstream `Installation guide "
+"<https://pytorch.org/get-started/locally/>`__ or `Previous versions "
+"<https://pytorch.org/get-started/previous-versions/>`__ for additional "
+"context."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:45
+msgid ""
+"PyTorch includes tooling that generates HIP source code from the CUDA "
+"backend. This approach allows PyTorch to support ROCm without requiring "
+"manual code modifications. For more information, see :doc:`HIPIFY "
+"<hipify:index>`."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:52
+msgid ""
+"AMD releases official `ROCm PyTorch Docker images "
+"<https://hub.docker.com/r/rocm/pytorch/tags>`_ quarterly alongside new "
+"ROCm releases. These images undergo full AMD testing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:60
+msgid ""
+":doc:`Using ROCm for AI: training a model </how-to/rocm-for-ai/training"
+"/benchmark-docker/pytorch-training>` guides how to leverage the ROCm "
+"platform for training AI models. It covers the steps, tools, and best "
+"practices for optimizing training workflows on AMD GPUs using PyTorch "
+"features."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:65
+msgid ""
+":doc:`Single-GPU fine-tuning and inference </how-to/rocm-for-ai/fine-"
+"tuning/single-gpu-fine-tuning-and-inference>` describes and demonstrates "
+"how to use the ROCm platform for the fine-tuning and inference of machine"
+" learning models, particularly large language models (LLMs), on systems "
+"with a single GPU. This topic provides a detailed guide for setting up, "
+"optimizing, and executing fine-tuning and inference workflows in such "
+"environments."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:72
+msgid ""
+":doc:`Multi-GPU fine-tuning and inference optimization </how-to/rocm-for-"
+"ai/fine-tuning/multi-gpu-fine-tuning-and-inference>` describes and "
+"demonstrates the fine-tuning and inference of machine learning models on "
+"systems with multiple GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:76
+msgid ""
+"The :doc:`Instinct MI300X workload optimization guide </how-to/rocm-for-"
+"ai/inference-optimization/workload>` provides detailed guidance on "
+"optimizing workloads for the AMD Instinct MI300X GPU using ROCm. This "
+"guide helps users achieve optimal performance for deep learning and other"
+" high-performance computing tasks on the MI300X GPU."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:82
+msgid ""
+"The :doc:`Inception with PyTorch documentation </conceptual/ai-pytorch-"
+"inception>` describes how PyTorch integrates with ROCm for AI workloads. "
+"It outlines the use of PyTorch on the ROCm platform and focuses on "
+"efficiently leveraging AMD GPU hardware for training and inference tasks "
+"in AI applications."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:87
+msgid ""
+"For more use cases and recommendations, see `ROCm PyTorch blog posts "
+"<https://rocm.blogs.amd.com/blog/tag/pytorch.html>`__."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:94
+msgid ""
+"AMD validates and publishes `PyTorch images "
+"<https://hub.docker.com/r/rocm/pytorch/tags>`__ with ROCm backends on "
+"Docker Hub."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:97
+msgid ""
+"To find the right image tag, see the :ref:`PyTorch on ROCm installation "
+"documentation <rocm-install-on-linux:pytorch-docker-support>` for a list "
+"of available ``rocm/pytorch`` images."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:102
+msgid "Key ROCm libraries for PyTorch"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:104
+msgid ""
+"PyTorch functionality on ROCm is determined by its underlying library "
+"dependencies. These ROCm components affect the capabilities, performance,"
+" and feature set available to developers."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:114
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:73
+msgid "Used in"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:115
+msgid "`Composable Kernel <https://github.com/ROCm/composable_kernel>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:116
+msgid ":version-ref:`\"Composable Kernel\" rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:119
+msgid ""
+"Speeds up ``torch.permute``, ``torch.view``, ``torch.matmul``, "
+"``torch.mm``, ``torch.bmm``, ``torch.nn.Conv2d``, ``torch.nn.Conv3d`` and"
+" ``torch.nn.MultiheadAttention``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:122
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:74
+msgid "`hipBLAS <https://github.com/ROCm/hipBLAS>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:126
+msgid ""
+"Supports operations such as matrix multiplication, matrix-vector "
+"products, and tensor contractions. Utilized in both dense and batched "
+"linear algebra operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:129
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:80
+msgid "`hipBLASLt <https://github.com/ROCm/hipBLASLt>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:134
+msgid ""
+"Accelerates operations such as ``torch.matmul``, ``torch.mm``, and the "
+"matrix multiplications used in convolutional and linear layers."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:136
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:86
+msgid "`hipCUB <https://github.com/ROCm/hipCUB>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:140
+msgid ""
+"Supports operations such as ``torch.sum``, ``torch.cumsum``, "
+"``torch.sort`` irregular shapes often involve scanning, sorting, and "
+"filtering, which hipCUB handles efficiently."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:143
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:93
+msgid "`hipFFT <https://github.com/ROCm/hipFFT>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:146
+msgid "Used in functions like the ``torch.fft`` module."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:147
+msgid "`hipRAND <https://github.com/ROCm/hipRAND>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:150
+msgid ""
+"The ``torch.rand``, ``torch.randn``, and stochastic layers like "
+"``torch.nn.Dropout`` rely on hipRAND."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:152
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:98
+msgid "`hipSOLVER <https://github.com/ROCm/hipSOLVER>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:156
+msgid ""
+"Supports functions like ``torch.linalg.solve``, ``torch.linalg.eig``, and"
+" ``torch.linalg.svd``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:158
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:104
+msgid "`hipSPARSE <https://github.com/ROCm/hipSPARSE>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:162
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:167
+msgid "Sparse tensor operations ``torch.sparse``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:163
+msgid "`hipSPARSELt <https://github.com/ROCm/hipSPARSELt>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:168
+msgid "`hipTensor <https://github.com/ROCm/hipTensor>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:169
+msgid ":version-ref:`hipTensor rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:171
+msgid ""
+"Accelerates tensor algebra, especially in deep learning and scientific "
+"computing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:173
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:110
+msgid "`MIOpen <https://github.com/ROCm/MIOpen>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:177
+msgid ""
+"Speeds up convolutional neural networks (CNNs), recurrent neural networks"
+" (RNNs), and other layers. Used in operations like ``torch.nn.Conv2d``, "
+"``torch.nn.ReLU``, and ``torch.nn.LSTM``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:180
+msgid "`MIGraphX <https://github.com/ROCm/AMDMIGraphX>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:181
+msgid ":version-ref:`MIGraphX rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:184
+msgid ""
+"Speeds up inference models and executes ONNX models for compatibility "
+"with other frameworks. ``torch.nn.Conv2d``, ``torch.nn.ReLU``, and "
+"``torch.nn.LSTM``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:187
+msgid "`MIVisionX <https://github.com/ROCm/MIVisionX>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:188
+msgid ":version-ref:`MIVisionX rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:191
+msgid ""
+"Faster data preprocessing and augmentation pipelines for datasets like "
+"ImageNet or COCO and easy to integrate into PyTorch's "
+"``torch.utils.data`` and ``torchvision`` workflows."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:194
+msgid "`rocAL <https://github.com/ROCm/rocAL>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:195
+msgid ":version-ref:`rocAL rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:198
+msgid ""
+"Easy to integrate into PyTorch's ``torch.utils.data`` and ``torchvision``"
+" data load workloads."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:200
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:118
+msgid "`RCCL <https://github.com/ROCm/rccl>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:204
+msgid ""
+"Distributed data parallel training "
+"(``torch.nn.parallel.DistributedDataParallel``). Handles communication in"
+" multi-GPU setups."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:206
+msgid "`rocDecode <https://github.com/ROCm/rocDecode>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:207
+msgid ":version-ref:`rocDecode rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:210
+msgid ""
+"Can be integrated in ``torch.utils.data``, ``torchvision.transforms`` and"
+" ``torch.distributed``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:212
+msgid "`rocJPEG <https://github.com/ROCm/rocJPEG>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:213
+msgid ":version-ref:`rocJPEG rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:215
+msgid ""
+"GPU accelerated ``torchvision.io.decode_jpeg`` and "
+"``torchvision.io.encode_jpeg`` and can be integrated in "
+"``torch.utils.data`` and ``torchvision``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:218
+msgid "`RPP <https://github.com/ROCm/RPP>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:219
+msgid ":version-ref:`RPP rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:221
+msgid ""
+"Easy to integrate into PyTorch's ``torch.utils.data`` and ``torchvision``"
+" data load workloads to speed up data processing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:223
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:124
+msgid "`rocThrust <https://github.com/ROCm/rocThrust>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:227
+msgid ""
+"Utilized in backend operations for tensor computations requiring parallel"
+" processing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:229
+msgid "`rocWMMA <https://github.com/ROCm/rocWMMA>`__"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:230
+msgid ":version-ref:`rocWMMA rocm_version`"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:234
+msgid ""
+"Linear layers (``torch.nn.Linear``), convolutional layers "
+"(``torch.nn.Conv2d``), attention layers, general tensor operations that "
+"involve matrix products, such as ``torch.matmul``, ``torch.bmm``, and "
+"more."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:240
+msgid "Supported modules and data types"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:242
+msgid ""
+"The following section outlines the supported data types, modules, and "
+"domain libraries available in PyTorch on ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:248
+msgid ""
+"The tensor data type is specified using the ``dtype`` attribute or "
+"argument. PyTorch supports many data types for different use cases."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:251
+msgid ""
+"The following table lists `torch.Tensor "
+"<https://pytorch.org/docs/stable/tensors.html>`__ single data types:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:259
+msgid "``torch.float8_e4m3fn``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:260
+msgid "8-bit floating point, e4m3"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:261
+msgid "``torch.float8_e5m2``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:262
+msgid "8-bit floating point, e5m2"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:263
+msgid "``torch.float16`` or ``torch.half``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:264
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:266
+msgid "16-bit floating point"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:265
+msgid "``torch.bfloat16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:267
+msgid "``torch.float32`` or ``torch.float``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:268
+msgid "32-bit floating point"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:269
+msgid "``torch.float64`` or ``torch.double``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:270
+msgid "64-bit floating point"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:271
+msgid "``torch.complex32`` or ``torch.chalf``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:272
+msgid "32-bit complex numbers"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:273
+msgid "``torch.complex64`` or ``torch.cfloat``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:274
+msgid "64-bit complex numbers"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:275
+msgid "``torch.complex128`` or ``torch.cdouble``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:276
+msgid "128-bit complex numbers"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:277
+msgid "``torch.uint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:278
+msgid "8-bit integer (unsigned)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:279
+msgid "``torch.uint16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:280
+msgid "16-bit integer (unsigned); Not natively supported in ROCm"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:282
+msgid "``torch.uint32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:283
+msgid "32-bit integer (unsigned); Not natively supported in ROCm"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:285
+msgid "``torch.uint64``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:286
+msgid "64-bit integer (unsigned); Not natively supported in ROCm"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:288
+msgid "``torch.int8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:289
+msgid "8-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:290
+msgid "``torch.int16`` or ``torch.short``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:291
+msgid "16-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:292
+msgid "``torch.int32`` or ``torch.int``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:293
+msgid "32-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:294
+msgid "``torch.int64`` or ``torch.long``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:295
+msgid "64-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:296
+msgid "``torch.bool``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:297
+msgid "Boolean"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:298
+msgid "``torch.quint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:299
+msgid "Quantized 8-bit integer (unsigned)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:300
+msgid "``torch.qint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:301
+msgid "Quantized 8-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:302
+msgid "``torch.qint32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:303
+msgid "Quantized 32-bit integer (signed)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:304
+msgid "``torch.quint4x2``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:305
+msgid "Quantized 4-bit integer (unsigned)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:309
+msgid ""
+"Unsigned types, except ``uint8``, have limited support in eager mode. "
+"They primarily exist to assist usage with ``torch.compile``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:312
+msgid ""
+"See :doc:`ROCm precision support <rocm:reference/precision-support>` for "
+"the native hardware support of data types."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:318
+msgid ""
+"For a complete and up-to-date list of PyTorch core modules (for example.,"
+" ``torch``, ``torch.nn``, ``torch.cuda``, ``torch.backends.cuda`` and "
+"``torch.backends.cudnn``), their descriptions, and usage, please refer "
+"directly to the `official PyTorch documentation "
+"<https://pytorch.org/docs/stable/index.html>`_."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:323
+msgid ""
+"Core PyTorch functionality on ROCm includes tensor operations, neural "
+"network layers, automatic differentiation, distributed training, mixed-"
+"precision training, compilation features, and domain-specific libraries "
+"for audio, vision, text processing, and more."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:329
+msgid "Supported domain libraries"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:331
+msgid ""
+"PyTorch offers specialized `domain libraries "
+"<https://pytorch.org/domains/>`_ with GPU acceleration that build on its "
+"core features to support specific application areas. The table below "
+"lists the PyTorch domain libraries that are compatible with ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:339
+msgid "Library"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:342
+msgid "`torchaudio <https://docs.pytorch.org/audio/stable/index.html>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:343
+msgid ""
+"Audio and signal processing library for PyTorch. Provides utilities for "
+"audio I/O, signal and data processing functions, datasets, model "
+"implementations, and application components for audio and speech "
+"processing tasks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:348
+msgid ""
+"**Note:** To ensure GPU-acceleration with ``torchaudio.transforms``, you "
+"need to explicitly move audio data (waveform tensor) to GPU using "
+"``.to('cuda')``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:352
+msgid "`torchtune <https://meta-pytorch.org/torchtune/stable/index.html>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:353
+msgid ""
+"PyTorch-native library designed for fine-tuning large language models "
+"(LLMs). Provides supports the full fine-tuning workflow and offers "
+"compatibility with popular production inference systems."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:357
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:392
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:400
+msgid "**Note:** Only official release exists."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:359
+msgid "`torchvision <https://docs.pytorch.org/vision/stable/index.html>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:360
+msgid ""
+"Computer vision library that is part of the PyTorch project. Provides "
+"popular datasets, model architectures, and common image transformations "
+"for computer vision applications."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:364
+msgid "`torchdata <https://meta-pytorch.org/data/beta/index.html#torchdata>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:365
+msgid ""
+"Beta library of common modular data loading primitives for easily "
+"constructing flexible and performant data pipelines, with features still "
+"in prototype stage."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:369
+msgid "`torchrec <https://meta-pytorch.org/torchrec/>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:370
+msgid ""
+"PyTorch domain library for common sparsity and parallelism primitives "
+"needed for large-scale recommender systems, enabling authors to train "
+"models with large embedding tables shared across many GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:374
+msgid ""
+"**Note:** ``torchrec`` does not implement ROCm-specific kernels. ROCm "
+"acceleration is provided through the underlying PyTorch framework and "
+"ROCm library integration."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:378
+msgid "`torchserve <https://docs.pytorch.org/serve/>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:379
+msgid ""
+"Performant, flexible and easy-to-use tool for serving PyTorch models in "
+"production, providing features for model management, batch processing, "
+"and scalable deployment."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:383
+msgid ""
+"**Note:** `torchserve <https://docs.pytorch.org/serve/>`_ is no longer "
+"actively maintained. Last official release is sent out with PyTorch 2.4."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:386
+msgid "`torchrl <https://docs.pytorch.org/rl/stable/index.html>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:387
+msgid ""
+"Open-source, Python-first Reinforcement Learning library for PyTorch with"
+" a focus on high modularity and good runtime performance, providing low "
+"and high-level RL abstractions and reusable functionals for cost "
+"functions, returns, and data processing."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:394
+msgid "`tensordict <https://docs.pytorch.org/tensordict/stable/index.html>`_"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:395
+msgid ""
+"Dictionary-like class that simplifies operations on batches of tensors, "
+"enhancing code readability, compactness, and modularity by abstracting "
+"tailored operations and reducing errors through automatic operation "
+"dispatching."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:403
+msgid "Key features and enhancements for PyTorch 2.9 with ROCm 7.2.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:404
+msgid ""
+"Added Triton 3.6.x performance optimization for reduction, POI, and GEMM "
+"kernels."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:406
+msgid "Updated native reduction kernel config for better performance on AMD GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:408
+msgid "Optimized single-block TopK kernels with warp-level compaction."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:410
+msgid "Optimized Radix Select by caching data on shared memory."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:412
+msgid "Optimized Flex-Attention occupancy for head_dim=128."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:414
+msgid "Enabled hipSOLVER path for linalg operations - cholesky, lstsq, and gels."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:417
+msgid "Key features and enhancements for PyTorch 2.9 with ROCm 7.1.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:418
+msgid ""
+"Scaled Dot Product Attention (SDPA) upgraded to use AOTriton version "
+"0.11b."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:420
+msgid ""
+"Default hipBLASLt support enabled for gfx908 architecture on ROCm 6.3 and"
+" later."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:422
+msgid ""
+"MIOpen now supports channels last memory format for 3D convolutions and "
+"batch normalization."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:424
+msgid ""
+"NHWC convolution operations in MIOpen optimized by eliminating "
+"unnecessary transpose operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:426
+msgid "Improved tensor.item() performance by removing redundant synchronization."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:428
+msgid "Enhanced performance for element-wise operations and reduction kernels."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:430
+msgid ""
+"Added support for grouped GEMM operations through fbgemm_gpu generative "
+"AI components."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:432
+msgid "Resolved device error in Inductor when using CUDA graph trees with HIP."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:434
+msgid "Corrected logsumexp scaling in AOTriton-based SDPA implementation."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:436
+msgid ""
+"Added stream graph capture status validation in memory copy "
+"synchronization functions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:439
+msgid "Key features and enhancements for PyTorch 2.8 with ROCm 7.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:441
+msgid ""
+"MIOpen deep learning optimizations: Further optimized NHWC BatchNorm "
+"feature."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:443
+msgid ""
+"Added float8 support for the DeepSpeed extension, allowing for decreased "
+"memory footprint and increased throughput in training and inference "
+"workloads."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:446
+msgid ""
+"``torch.nn.functional.scaled_dot_product_attention`` now calling "
+"optimized flash attention kernel automatically."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:450
+msgid "Key features and enhancements for PyTorch 2.7/2.8 with ROCm 7.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:452
+msgid ""
+"Enhanced TunableOp framework: Introduces ``tensorfloat32`` support for "
+"TunableOp operations, improved offline tuning for ScaledGEMM operations, "
+"submatrix offline tuning capabilities, and better logging for BLAS "
+"operations without bias vectors."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:457
+msgid ""
+"Expanded GPU architecture support: Provides optimized support for newer "
+"GPU architectures, including gfx1200 and gfx1201 with preferred hipBLASLt"
+" backend selection, along with improvements for gfx950 and gfx1100 Series"
+" GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:461
+msgid ""
+"Advanced Triton Integration: AOTriton 0.10b introduces official support "
+"for gfx950 and gfx1201, along with experimental support for gfx1101, "
+"gfx1151, gfx1150, and gfx1200."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:465
+msgid ""
+"Improved element-wise kernel performance: Delivers enhanced vectorized "
+"element-wise kernels with better support for heterogeneous tensor types "
+"and optimized input vectorization for tensors with mixed data types."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:469
+msgid ""
+"MIOpen deep learning optimizations: Enables NHWC BatchNorm by default on "
+"ROCm 7.0+, provides ``maxpool`` forward and backward performance "
+"improvements targeting ResNet scenarios, and includes updated launch "
+"configurations for better performance."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:474
+msgid ""
+"Enhanced memory and tensor operations: Features fixes for in-place "
+"``aten`` sum operations with specialized templated kernels, improved 3D "
+"tensor performance with NHWC format, and better handling of memory-bound "
+"matrix multiplication operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:479
+msgid ""
+"Robust testing and quality improvements: Includes comprehensive test "
+"suite updates with improved tolerance handling for Navi3x architectures, "
+"generalized ROCm-specific test conditions, and enhanced unit test "
+"coverage for Flash Attention and Memory Efficient operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:484
+msgid ""
+"Composable Kernel (CK) updates: Features updated CK submodule integration"
+" with the latest optimizations and performance improvements for core "
+"mathematical operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:488
+msgid ""
+"Development and debugging enhancements: Includes improved source handling"
+" for dynamic compilation, better error handling for atomic operations, "
+"and enhanced state checking for trace operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:492
+msgid ""
+"Integrate APEX fused layer normalization, which can have positive impact "
+"on text-to-video models."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:495
+msgid ""
+"Integrate APEX distributed fused LAMB and distributed fused ADAM, which "
+"can have positive impact on BERT-L and Llama2-SFT."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:498
+msgid "FlashAttention v3 has been integrated for AMD GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:500
+msgid ""
+"`Pytorch C++ extensions "
+"<https://pytorch.org/tutorials/advanced/cpp_extension.html>`_ provide a "
+"mechanism for compiling custom operations that can be used during network"
+" training or inference. For AMD platforms, ``amdclang++`` has been "
+"validated as the supported compiler for building these extensions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:506
+msgid "Known issues and notes for PyTorch 2.7/2.8 with ROCm 7.0 and ROCm 7.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/pytorch-compatibility.rst:508
+msgid ""
+"The ``matmul.allow_fp16_reduced_precision_reduction`` and "
+"``matmul.allow_bf16_reduced_precision_reduction`` options under "
+"``torch.backends.cuda`` are not supported. As a result, reduced-precision"
+" reductions using FP16 or BF16 accumulation types are not available."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:-1
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:11
+msgid "TensorFlow compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:-1
+msgid "GPU, TensorFlow, deep learning, framework compatibility"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:13
+msgid ""
+"`TensorFlow <https://www.tensorflow.org/>`__ is an open-source library "
+"for solving machine learning, deep learning, and AI problems. It can "
+"solve many problems across different sectors and industries, but "
+"primarily focuses on neural network training and inference. It is one of "
+"the most popular deep learning frameworks and is very active in open-"
+"source development."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:22
+msgid ""
+"The ROCm-supported version of TensorFlow is maintained in the official "
+"`https://github.com/ROCm/tensorflow-upstream <https://github.com/ROCm"
+"/tensorflow-upstream>`__ repository, which differs from the "
+"`https://github.com/tensorflow/tensorflow "
+"<https://github.com/tensorflow/tensorflow>`__ upstream repository."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:26
+msgid ""
+"To get started and install TensorFlow on ROCm, use the prebuilt "
+":ref:`Docker images <tensorflow-docker-compat>`, which include ROCm, "
+"TensorFlow, and all required dependencies."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:29
+msgid ""
+"See the :doc:`ROCm TensorFlow installation guide <rocm-install-on-"
+"linux:install/3rd-party/tensorflow-install>` for installation and setup "
+"instructions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:32
+msgid ""
+"You can also consult the `TensorFlow API versions "
+"<https://www.tensorflow.org/versions>`__ list for additional context."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:38
+msgid ""
+"The `official TensorFlow repository "
+"<http://github.com/tensorflow/tensorflow>`__ includes full ROCm support. "
+"AMD maintains a TensorFlow `ROCm repository <http://github.com/rocm"
+"/tensorflow-upstream>`__ in order to quickly add bug fixes, updates, and "
+"support for the latest ROCm versions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:48
+msgid ""
+"AMD provides preconfigured Docker images with TensorFlow and the ROCm "
+"backend. These images are published on `Docker Hub "
+"<https://hub.docker.com/r/rocm/tensorflow>`__ and are the recommended way"
+" to get started with deep learning with TensorFlow on ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:52
+msgid ""
+"To find the right image tag, see the :ref:`TensorFlow on ROCm "
+"installation documentation <rocm-install-on-linux:tensorflow-docker-"
+"support>` for a list of available ``rocm/tensorflow`` images."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:58
+msgid "Critical ROCm libraries for TensorFlow"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:60
+msgid ""
+"TensorFlow depends on multiple components and the supported features of "
+"those components can affect the TensorFlow ROCm supported feature set. "
+"The versions in the following table refer to the first TensorFlow version"
+" where the ROCm library was introduced as a dependency. The versions "
+"described are available in ROCm :version:`rocm_version`."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:78
+msgid ""
+"Accelerates operations like ``tf.matmul``, ``tf.linalg.matmul``, and "
+"other matrix multiplications commonly used in neural network layers."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:82
+msgid ""
+"Extends hipBLAS with additional optimizations like fused kernels and "
+"integer tensor cores."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:84
+msgid ""
+"Optimizes matrix multiplications and linear algebra operations used in "
+"layers like dense, convolutional, and RNNs in TensorFlow."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:90
+msgid ""
+"Supports operations like ``tf.reduce_sum``, ``tf.cumsum``, ``tf.sort`` "
+"and other tensor operations in TensorFlow, especially those involving "
+"scanning, sorting, and filtering."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:95
+msgid "Accelerates Fast Fourier Transforms (FFT) for signal processing tasks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:96
+msgid ""
+"Used for operations like signal processing, image filtering, and certain "
+"types of neural networks requiring FFT-based transformations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:100
+msgid ""
+"Provides GPU-accelerated direct linear solvers for dense and sparse "
+"systems."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:102
+msgid ""
+"Optimizes linear algebra functions such as solving systems of linear "
+"equations, often used in optimization and training tasks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:106
+msgid ""
+"Optimizes sparse matrix operations for efficient computations on sparse "
+"data."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:108
+msgid ""
+"Accelerates sparse matrix operations in models with sparse weight "
+"matrices or activations, commonly used in neural networks."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:112
+msgid ""
+"Provides optimized deep learning primitives such as convolutions, "
+"pooling, normalization, and activation functions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:115
+msgid ""
+"Speeds up convolutional neural networks (CNNs) and other layers. Used in "
+"TensorFlow for layers like ``tf.nn.conv2d``, ``tf.nn.relu``, and "
+"``tf.nn.lstm_cell``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:122
+msgid ""
+"Distributed data parallel training (``tf.distribute.MirroredStrategy``). "
+"Handles communication in multi-GPU setups."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:128
+msgid ""
+"Reduction operations like ``tf.reduce_sum``, ``tf.cumsum`` for computing "
+"the cumulative sum of elements along a given axis or ``tf.unique`` to "
+"finds unique elements in a tensor can use rocThrust."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:133
+msgid "Supported and unsupported features"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:135
+msgid ""
+"The following section maps supported data types and GPU-accelerated "
+"TensorFlow features to their minimum supported ROCm and TensorFlow "
+"versions."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:139
+msgid "Data types"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:141
+msgid ""
+"The data type of a tensor is specified using the ``dtype`` attribute or "
+"argument, and TensorFlow supports a wide range of data types for "
+"different use cases."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:145
+msgid ""
+"The basic, single data types of `tf.dtypes "
+"<https://www.tensorflow.org/api_docs/python/tf/dtypes>`__ are as follows:"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:153
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:267
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:359
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:403
+msgid "Since TensorFlow"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:154
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:268
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:360
+msgid "Since ROCm"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:158
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:162
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:166
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:170
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:174
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:178
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:182
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:186
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:194
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:198
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:202
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:206
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:210
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:214
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:218
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:222
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:226
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:230
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:234
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:238
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:242
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:246
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:250
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:254
+msgid "1.7"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:171
+msgid "``double``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:190
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:363
+msgid "2.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:207
+msgid "``qint16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:208
+msgid "Signed quantized 16-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:211
+msgid "``qint32``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:212
+msgid "Signed quantized 32-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:215
+msgid "``qint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:216
+msgid "Signed quantized 8-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:219
+msgid "``quint16``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:220
+msgid "Unsigned quantized 16-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:223
+msgid "``quint8``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:224
+msgid "Unsigned quantized 8-bit integer."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:227
+msgid "``resource``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:228
+msgid "Handle to a mutable, dynamically allocated resource."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:231
+msgid "``string``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:232
+msgid "Variable-length string, represented as byte array."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:251
+msgid "``variant``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:252
+msgid "Data of arbitrary type (known at runtime)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:257
+msgid "Features"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:259
+msgid ""
+"This table provides an overview of key features in TensorFlow and their "
+"availability in ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:265
+msgid "Module"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:269
+msgid "``tf.linalg`` (Linear Algebra)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:270
+msgid ""
+"Operations for matrix and tensor computations, such as "
+"``tf.linalg.matmul`` (matrix multiplication), ``tf.linalg.inv`` (matrix "
+"inversion) and ``tf.linalg.cholesky`` (Cholesky decomposition). These "
+"leverage GPUs for high-performance linear algebra operations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:274
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:295
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:311
+msgid "1.4"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:275
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:282
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:289
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:296
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:302
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:312
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:325
+msgid "1.8.2"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:276
+msgid "``tf.nn`` (Neural Network Operations)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:277
+msgid ""
+"GPU-accelerated building blocks for deep learning models, such as 2D "
+"convolutions with ``tf.nn.conv2d``, max pooling operations with "
+"``tf.nn.max_pool``, activation functions like ``tf.nn.relu`` or softmax "
+"for output layers with ``tf.nn.softmax``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:281
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:324
+msgid "1.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:283
+msgid "``tf.image`` (Image Processing)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:284
+msgid ""
+"GPU-accelerated functions for image preprocessing and augmentations, such"
+" as resize images with ``tf.image.resize``, flip images horizontally with"
+" ``tf.image.flip_left_right`` and adjust image brightness randomly with "
+"``tf.image.random_brightness``."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:288
+msgid "1.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:290
+msgid "``tf.keras`` (High-Level API)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:291
+msgid ""
+"GPU acceleration for Keras layers and models, including dense layers "
+"(``tf.keras.layers.Dense``), convolutional layers "
+"(``tf.keras.layers.Conv2D``) and recurrent layers "
+"(``tf.keras.layers.LSTM``)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:297
+msgid "``tf.math`` (Mathematical Operations)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:298
+msgid ""
+"GPU-accelerated mathematical operations, such as sum across dimensions "
+"with ``tf.math.reduce_sum``, elementwise exponentiation with "
+"``tf.math.exp`` and sigmoid activation (``tf.math.sigmoid``)."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:301
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:367
+msgid "1.5"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:303
+msgid "``tf.signal`` (Signal Processing)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:304
+msgid "Functions for spectral analysis and signal transformations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:305
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:316
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:337
+msgid "1.13"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:306
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:317
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:338
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:375
+msgid "2.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:307
+msgid "``tf.data`` (Data Input Pipeline)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:308
+msgid ""
+"GPU-accelerated data preprocessing for efficient input pipelines, "
+"Prefetching with ``tf.data.experimental.AUTOTUNE``. GPU-enabled "
+"transformations like map and batch."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:313
+msgid "``tf.distribute`` (Distributed Training)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:314
+msgid ""
+"Enabling to scale computations across multiple devices on a single "
+"machine or across multiple machines."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:318
+msgid "``tf.random`` (Random Number Generation)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:319
+msgid "GPU-accelerated random number generation"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:320
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:345
+msgid "1.12"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:321
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:346
+msgid "1.9.2"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:322
+msgid "``tf.TensorArray`` (Dynamic Array Operations)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:323
+msgid "Enables dynamic tensor manipulation on GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:326
+msgid "``tf.sparse`` (Sparse Tensor Operations)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:327
+msgid "GPU-accelerated sparse matrix manipulations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:328
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:371
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:411
+msgid "1.9"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:329
+msgid "1.9.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:330
+msgid "``tf.experimental.numpy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:331
+msgid "GPU-accelerated NumPy-like API for numerical computations."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:332
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:342
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:408
+msgid "2.4"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:333
+msgid "4.1.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:334
+msgid "``tf.RaggedTensor``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:335
+msgid "Handling of variable-length sequences and ragged tensors with GPU support."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:339
+msgid "``tf.function`` with XLA (Accelerated Linear Algebra)"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:340
+msgid "Enable GPU-accelerated functions in optimization."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:341
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:384
+msgid "1.14"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:343
+msgid "``tf.quantization``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:344
+msgid "Quantized operations for inference, accelerated on GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:349
+msgid "Distributed library features"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:351
+msgid ""
+"Enables developers to scale computations across multiple devices on a "
+"single machine or across multiple machines."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:357
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:401
+msgid "Feature"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:361
+msgid "``MultiWorkerMirroredStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:362
+msgid "Synchronous training across multiple workers using mirrored variables."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:364
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:390
+msgid "3.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:365
+msgid "``MirroredStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:366
+msgid "Synchronous training across multiple GPUs on one machine."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:368
+msgid "2.5"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:369
+msgid "``TPUStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:370
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:410
+msgid "Efficiently trains models on Google TPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:372
+msgid "❌"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:373
+msgid "``ParameterServerStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:374
+msgid "Asynchronous training using parameter servers for variable management."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:376
+msgid "4.0"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:377
+msgid "``CentralStorageStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:378
+msgid ""
+"Keeps variables on a single device and performs computation on multiple "
+"devices."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:380
+msgid "2.3"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:381
+msgid "4.1"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:382
+msgid "``CollectiveAllReduceStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:383
+msgid "Synchronous training across multiple devices and hosts."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:385
+msgid "3.5"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:386
+msgid "Distribution Strategies API"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:387
+msgid ""
+"High-level API to simplify distributed training configuration and "
+"execution."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:389
+msgid "1.10"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:393
+msgid "Unsupported TensorFlow features"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:395
+msgid ""
+"The following are GPU-accelerated TensorFlow features not currently "
+"supported by ROCm."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:404
+msgid "Mixed Precision with TF32"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:405
+msgid ""
+"Mixed precision with TF32 is used for matrix multiplications, "
+"convolutions, and other linear algebra operations, particularly in deep "
+"learning workloads like CNNs and transformers."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:409
+msgid "``tf.distribute.TPUStrategy``"
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:416
+msgid ""
+"The `Training a Neural Collaborative Filtering (NCF) Recommender on an "
+"AMD GPU <https://rocm.blogs.amd.com/artificial-"
+"intelligence/ncf/README.html>`__ blog post discusses training an NCF "
+"recommender system using TensorFlow. It explains how NCF improves "
+"traditional collaborative filtering methods by leveraging neural networks"
+" to model non-linear user-item interactions. The post outlines the "
+"implementation using the recommenders library, focusing on the use of "
+"implicit data (for example, user interactions like viewing or purchasing)"
+" and how it addresses challenges like the lack of negative values."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:425
+msgid ""
+"The `Creating a PyTorch/TensorFlow code environment on AMD GPUs "
+"<https://rocm.blogs.amd.com/software-tools-optimization/pytorch-"
+"tensorflow-env/README.html>`__ blog post provides instructions for "
+"creating a machine learning environment for PyTorch and TensorFlow on AMD"
+" GPUs using ROCm. It covers steps like installing the libraries, cloning "
+"code repositories, installing dependencies, and troubleshooting potential"
+" issues with CUDA-based code. Additionally, it explains how to HIPify "
+"code (port CUDA code to HIP) and manage Docker images for a better "
+"experience on AMD GPUs. This guide aims to help data scientists and ML "
+"practitioners adapt their code for AMD GPUs."
+msgstr ""
+
+#: ../../compatibility/ml-compatibility/tensorflow-compatibility.rst:435
+msgid ""
+"For more use cases and recommendations, see the `ROCm Tensorflow blog "
+"posts <https://rocm.blogs.amd.com/blog/tag/tensorflow.html>`__."
+msgstr ""
+
