@@ -5,35 +5,36 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: ROCm Documentation 7.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-12 15:07-0400\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-06-16 20:46+0000\n"
+"Last-Translator: DeepL <noreply-mt-deepl@weblate.org>\n"
+"Language-Team: Korean <http://localhost/projects/rocm-documentation-3/about/"
+"ko/>\n"
 "Language: ko\n"
-"Language-Team: ko <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../about/license.md:7
 msgid "ROCm license"
-msgstr ""
+msgstr "ROCm 라이선스"
 
 #: ../../../LICENSE:2
 msgid "MIT License"
-msgstr ""
+msgstr "MIT 라이선스"
 
 #: ../../../LICENSE:4
 msgid ""
 "Copyright (c) 2023 - 2025 Advanced Micro Devices, Inc. All rights "
 "reserved."
-msgstr ""
+msgstr "저작권 (c) 2023 - 2025 Advanced Micro Devices, Inc. 모든 권리 보유."
 
 #: ../../../LICENSE:6
 msgid ""
@@ -45,12 +46,20 @@ msgid ""
 " persons to whom the Software is furnished to do so, subject to the "
 "following conditions:"
 msgstr ""
+"본 소프트웨어 및 관련 문서 파일(이하 “소프트웨어”)의 사본을 입수한 모든 "
+"사람에게, 소프트웨어의 사본을 사용, 복제, 수정, 병합, 출판, 배포, 재라이선스 "
+"부여 및/또는 판매할 권리를 포함하되 이에 국한되지 않는, 제한 없이 "
+"소프트웨어를 취급할 수 있는 권한이 무상으로 부여되며, 또한, 본 소프트웨어가 "
+"제공된 자들이 위와 같은 행위를 할 수 있도록 허용할 수 있는 권리를 포함하되 "
+"이에 국한되지 않는 모든 권리를 부여하며, 이는 다음 조건을 따릅니다:"
 
 #: ../../../LICENSE:13
 msgid ""
 "The above copyright notice and this permission notice shall be included "
 "in all copies or substantial portions of the Software."
 msgstr ""
+"상기 저작권 고지 및 본 사용 허가 고지는 소프트웨어의 모든 복제본 또는 그 "
+"상당 부분에 포함되어야 합니다."
 
 #: ../../../LICENSE:16
 msgid ""
@@ -62,6 +71,12 @@ msgid ""
 "OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE"
 " USE OR OTHER DEALINGS IN THE SOFTWARE."
 msgstr ""
+"본 소프트웨어는 “있는 그대로” 제공되며, 명시적이든 묵시적이든 어떠한 종류의 "
+"보증도 없이, 상품성, 특정 목적에 대한 적합성 및 비침해성에 대한 보증을 "
+"포함하되 이에 국한되지 않습니다. 어떠한 경우에도 저작자 또는 저작권자는 "
+"계약, 불법행위 또는 기타 사유에 관계없이, 본 소프트웨어 또는 본 소프트웨어의 "
+"사용, 기타 거래와 관련하여 발생하거나 발생하거나 이와 관련된 어떠한 청구에 "
+"대해서도 책임을 지지 않습니다."
 
 #: ../../about/license.md:13
 msgid ""
@@ -70,10 +85,13 @@ msgid ""
 "documentation. For licenses related to other ROCm components, refer to "
 "the following section."
 msgstr ""
+"앞서 언급한 라이선스는 주로 문서를 포함하고 있는 [ROCm 저장소](https://"
+"github.com/ROCm/ROCm)에 적용됩니다. 다른 ROCm 구성 요소와 관련된 라이선스에 "
+"대해서는 다음 섹션을 참조하십시오."
 
 #: ../../about/license.md:18
 msgid "ROCm component licenses"
-msgstr ""
+msgstr "ROCm 구성 요소 라이선스"
 
 #: ../../about/license.md:20
 msgid ""
@@ -83,590 +101,733 @@ msgid ""
 " may include third party components subject to additional licenses. "
 "Please review individual repositories for more information."
 msgstr ""
+"ROCm은 Advanced Micro Devices, Inc. (AMD)에서 배포하며, 각 구성 요소별로 "
+"별도로 라이선스가 부여됩니다. 다음 표는 ROCm 구성 요소 목록과 각 구성 요소의 "
+"라이선스 약관 링크를 보여줍니다. 이러한 구성 요소에는 추가 라이선스가 "
+"적용되는 타사 구성 요소가 포함될 수 있습니다. 자세한 내용은 각 리포지토리를 "
+"확인하시기 바랍니다."
 
 #: ../../about/license.md:12
 msgid "Component"
-msgstr ""
+msgstr "구성 요소"
 
 #: ../../about/license.md:12
 msgid "License"
-msgstr ""
+msgstr "라이선스"
 
 #: ../../about/license.md:12
 msgid ""
 "[AMD Compute Language Runtime (CLR)](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/clr)"
 msgstr ""
+"[AMD 컴퓨트 언어 런타임(CLR)](https://github.com/ROCm/rocm-systems/tree/"
+"develop/projects/clr)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/clr/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/clr/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[AMD SMI](https://github.com/ROCm/amdsmi)"
-msgstr ""
+msgstr "[AMD SMI](https://github.com/ROCm/amdsmi)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/amdsmi/blob/amd-staging/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/amdsmi/blob/amd-staging/LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[aomp](https://github.com/ROCm/aomp/)"
-msgstr ""
+msgstr "[aomp](https://github.com/ROCm/aomp/)"
 
 #: ../../about/license.md:12
 msgid "[Apache 2.0](https://github.com/ROCm/aomp/blob/aomp-dev/LICENSE)"
-msgstr ""
+msgstr "[Apache 2.0](https://github.com/ROCm/aomp/blob/aomp-dev/LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[aomp-extras](https://github.com/ROCm/aomp-extras/)"
-msgstr ""
+msgstr "[aomp-extras](https://github.com/ROCm/aomp-extras/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/aomp-extras/blob/aomp-dev/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/aomp-extras/blob/aomp-dev/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[AQLprofile](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/aqlprofile/)"
 msgstr ""
+"[AQLprofile](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"aqlprofile/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/aqlprofile/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/aqlprofile/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Code Object Manager (Comgr)](https://github.com/ROCm/llvm-project/tree"
 "/amd-staging/amd/comgr)"
 msgstr ""
+"[코드 객체 관리자 (Comgr)](https://github.com/ROCm/llvm-project/tree/amd-"
+"staging/amd/comgr)"
 
 #: ../../about/license.md:12
 msgid ""
 "[The University of Illinois/NCSA](https://github.com/ROCm/llvm-"
 "project/blob/amd-staging/amd/comgr/LICENSE.txt)"
 msgstr ""
+"[일리노이 대학교/NCSA](https://github.com/ROCm/llvm-project/blob/amd-staging/"
+"amd/comgr/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Composable Kernel](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/composablekernel)"
 msgstr ""
+"[Composable Kernel](https://github.com/ROCm/rocm-libraries/tree/develop/"
+"projects/composablekernel)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/composablekernel/LICENSE)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"composablekernel/LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[half](https://github.com/ROCm/half/)"
-msgstr ""
+msgstr "[반쪽](https://github.com/ROCm/half/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/half/blob/rocm/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/half/blob/rocm/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid "[HIP](https://github.com/ROCm/rocm-systems/tree/develop/projects/hip/)"
-msgstr ""
+msgstr "[HIP](https://github.com/ROCm/rocm-systems/tree/develop/projects/hip/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/hip/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/hip/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipamd](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/clr/hipamd/)"
 msgstr ""
+"[hipamd](https://github.com/ROCm/rocm-systems/tree/develop/projects/clr/"
+"hipamd/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/clr/hipamd/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/clr/hipamd/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipBLAS](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipblas/)"
 msgstr ""
+"[hipBLAS](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipblas/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipblas/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hipblas/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipBLASLt](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipblaslt/)"
 msgstr ""
+"[hipBLASLt](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipblaslt/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipblaslt/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hipblaslt/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[HIPCC](https://github.com/ROCm/llvm-project/tree/amd-staging/amd/hipcc)"
 msgstr ""
+"[HIPCC](https://github.com/ROCm/llvm-project/tree/amd-staging/amd/hipcc)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/llvm-project/blob/amd-"
 "staging/amd/hipcc/LICENSE.txt)"
 msgstr ""
+"[MIT](https://github.com/ROCm/llvm-project/blob/amd-staging/amd/hipcc/"
+"LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipCUB](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipcub/)"
 msgstr ""
+"[hipCUB](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipcub/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Custom](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipcub/LICENSE.txt)"
 msgstr ""
+"[사용자 지정](https://github.com/ROCm/rocm-libraries/blob/develop/projects/"
+"hipcub/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipFFT](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipfft/)"
 msgstr ""
+"[hipFFT](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipfft/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipfft/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hipfft/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[hipfort](https://github.com/ROCm/hipfort/)"
-msgstr ""
+msgstr "[hipfort](https://github.com/ROCm/hipfort/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/hipfort/blob/develop/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/hipfort/blob/develop/LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[HIPIFY](https://github.com/ROCm/HIPIFY/)"
-msgstr ""
+msgstr "[HIPIFY](https://github.com/ROCm/HIPIFY/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/HIPIFY/blob/amd-staging/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/HIPIFY/blob/amd-staging/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipRAND](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hiprand/)"
 msgstr ""
+"[hipRAND](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hiprand/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hiprand/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hiprand/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipSOLVER](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipsolver/)"
 msgstr ""
+"[hipSOLVER](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipsolver/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipsolver/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hipsolver/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipSPARSE](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipsparse/)"
 msgstr ""
+"[hipSPARSE](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipsparse/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipsparse/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hipsparse/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipSPARSELt](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hipsparselt/)"
 msgstr ""
+"[hipSPARSELt](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hipsparselt/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hipsparselt/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/"
+"hipsparselt/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[hipTensor](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/hiptensor/)"
 msgstr ""
+"[hipTensor](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"hiptensor/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/hiptensor/LICENSE)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/hiptensor/"
+"LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[llvm-project](https://github.com/ROCm/llvm-project/)"
-msgstr ""
+msgstr "[llvm-project](https://github.com/ROCm/llvm-project/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Apache](https://github.com/ROCm/llvm-project/blob/amd-"
 "staging/LICENSE.TXT)"
 msgstr ""
+"[Apache](https://github.com/ROCm/llvm-project/blob/amd-staging/LICENSE.TXT)"
 
 #: ../../about/license.md:12
 msgid ""
 "[llvm-project/flang](https://github.com/ROCm/llvm-project/tree/amd-"
 "staging/flang)"
 msgstr ""
+"[llvm-project/flang](https://github.com/ROCm/llvm-project/tree/amd-staging/"
+"flang)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Apache 2.0](https://github.com/ROCm/llvm-project/blob/amd-"
 "staging/flang/LICENSE.TXT)"
 msgstr ""
+"[Apache 2.0](https://github.com/ROCm/llvm-project/blob/amd-staging/flang/"
+"LICENSE.TXT)"
 
 #: ../../about/license.md:12
 msgid "[MIGraphX](https://github.com/ROCm/AMDMIGraphX/)"
-msgstr ""
+msgstr "[MIGraphX](https://github.com/ROCm/AMDMIGraphX/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/AMDMIGraphX/blob/develop/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/AMDMIGraphX/blob/develop/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIOpen](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/miopen/)"
 msgstr ""
+"[MIOpen](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"miopen/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/miopen/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/miopen/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[MIVisionX](https://github.com/ROCm/MIVisionX/)"
-msgstr ""
+msgstr "[MIVisionX](https://github.com/ROCm/MIVisionX/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/MIVisionX/blob/develop/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/MIVisionX/blob/develop/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid "[rocAL](https://github.com/ROCm/rocAL)"
-msgstr ""
+msgstr "[rocAL](https://github.com/ROCm/rocAL)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocAL/blob/develop/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rocAL/blob/develop/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid "[rocALUTION](https://github.com/ROCm/rocALUTION/)"
-msgstr ""
+msgstr "[rocALUTION](https://github.com/ROCm/rocALUTION/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocALUTION/blob/develop/LICENSE.md)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rocALUTION/blob/develop/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocBLAS](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocblas/)"
 msgstr ""
+"[rocBLAS](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocblas/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocblas/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocblas/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[ROCdbgapi](https://github.com/ROCm/ROCdbgapi/)"
-msgstr ""
+msgstr "[ROCdbgapi](https://github.com/ROCm/ROCdbgapi/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/ROCdbgapi/blob/amd-staging/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/ROCdbgapi/blob/amd-staging/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocDecode](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocdecode)"
 msgstr ""
+"[rocDecode](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"rocdecode)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocdecode/LICENSE)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/tree/develop/projects/rocdecode/"
+"LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocFFT](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocfft/)"
 msgstr ""
+"[rocFFT](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocfft/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocfft/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocfft/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[ROCgdb](https://github.com/ROCm/ROCgdb/)"
-msgstr ""
+msgstr "[ROCgdb](https://github.com/ROCm/ROCgdb/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[GNU General Public License v3.0](https://github.com/ROCm/ROCgdb/blob"
 "/amd-staging/COPYING3)"
 msgstr ""
+"[GNU 일반 공중 사용 허가서 v3.0](https://github.com/ROCm/ROCgdb/blob/amd-"
+"staging/COPYING3)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocJPEG](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocjpeg)"
 msgstr ""
+"[rocJPEG](https://github.com/ROCm/rocm-systems/tree/develop/projects/rocjpeg)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocjpeg/LICENSE)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/tree/develop/projects/rocjpeg/"
+"LICENSE)"
 
 #: ../../about/license.md:12
 msgid "[ROCK-Kernel-Driver](https://github.com/ROCm/ROCK-Kernel-Driver/)"
-msgstr ""
+msgstr "[ROCK-Kernel-Driver](https://github.com/ROCm/ROCK-Kernel-Driver/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[GPL 2.0 WITH Linux-syscall-note](https://github.com/ROCm/ROCK-Kernel-"
 "Driver/blob/master/COPYING)"
 msgstr ""
+"[GPL 2.0 (Linux 시스템 호출 관련 주의사항 포함)](https://github.com/ROCm/"
+"ROCK-Kernel-Driver/blob/master/COPYING)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocminfo](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocminfo/)"
 msgstr ""
+"[rocminfo](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"rocminfo/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[The University of Illinois/NCSA](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/rocminfo/License.txt)"
 msgstr ""
+"[일리노이 대학교/NCSA](https://github.com/ROCm/rocm-systems/blob/develop/"
+"projects/rocminfo/License.txt)"
 
 #: ../../about/license.md:12
 msgid "[ROCm Bandwidth Test](https://github.com/ROCm/rocm_bandwidth_test/)"
-msgstr ""
+msgstr "[ROCm 대역폭 테스트](https://github.com/ROCm/rocm_bandwidth_test/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocm_bandwidth_test/blob/master/LICENSE.txt)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm_bandwidth_test/blob/master/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid "[ROCm CMake](https://github.com/ROCm/rocm-cmake/)"
-msgstr ""
+msgstr "[ROCm CMake](https://github.com/ROCm/rocm-cmake/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocm-cmake/blob/develop/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rocm-cmake/blob/develop/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm Communication Collectives Library "
 "(RCCL)](https://github.com/ROCm/rccl/)"
-msgstr ""
+msgstr "[ROCm 커뮤니케이션 컬렉티브 라이브러리 (RCCL)](https://github.com/ROCm/rccl/)"
 
 #: ../../about/license.md:12
 msgid "[Custom](https://github.com/ROCm/rccl/blob/develop/LICENSE.txt)"
-msgstr ""
+msgstr "[사용자 지정](https://github.com/ROCm/rccl/blob/develop/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm-Core](https://github.com/ROCm/rocm-systems/tree/develop/projects"
 "/rocm-core/)"
 msgstr ""
+"[ROCm-Core](https://github.com/ROCm/rocm-systems/tree/develop/projects/rocm-"
+"core/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-"
 "core/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-core/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm Compute Profiler](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocprofiler-compute/)"
 msgstr ""
+"[ROCm 컴퓨트 프로파일러](https://github.com/ROCm/rocm-systems/tree/develop/"
+"projects/rocprofiler-compute/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
 "/rocprofiler-compute/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocprofiler-"
+"compute/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm Data Center (RDC)](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rdc/)"
 msgstr ""
+"[ROCm 데이터 센터 (RDC)](https://github.com/ROCm/rocm-systems/tree/develop/"
+"projects/rdc/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/rdc/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rdc/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm-Device-Libs](https://github.com/ROCm/llvm-project/tree/amd-"
 "staging/amd/device-libs)"
 msgstr ""
+"[ROCm-Device-Libs](https://github.com/ROCm/llvm-project/tree/amd-staging/amd/"
+"device-libs)"
 
 #: ../../about/license.md:12
 msgid ""
 "[The University of Illinois/NCSA](https://github.com/ROCm/llvm-"
 "project/blob/amd-staging/amd/device-libs/LICENSE.TXT)"
 msgstr ""
+"[일리노이 대학교/NCSA](https://github.com/ROCm/llvm-project/blob/amd-staging/"
+"amd/device-libs/LICENSE.TXT)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm-OpenCL-Runtime](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/clr/opencl/)"
 msgstr ""
+"[ROCm-OpenCL-Runtime](https://github.com/ROCm/rocm-systems/tree/develop/"
+"projects/clr/opencl/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/clr/opencl/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/clr/opencl/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[ROCm Performance Primitives (RPP)](https://github.com/ROCm/rpp)"
-msgstr ""
+msgstr "[ROCm 성능 프리미티브(RPP)](https://github.com/ROCm/rpp)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rpp/blob/develop/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rpp/blob/develop/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm SMI Lib](https://github.com/ROCm/rocm-systems/tree/develop/projects"
 "/rocm-smi-lib/)"
 msgstr ""
+"[ROCm SMI 라이브러리](https://github.com/ROCm/rocm-systems/tree/develop/"
+"projects/rocm-smi-lib/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-"
 "smi-lib/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocm-smi-"
+"lib/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCm Systems Profiler](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocprofiler-systems/)"
 msgstr ""
+"[ROCm 시스템 프로파일러](https://github.com/ROCm/rocm-systems/tree/develop/"
+"projects/rocprofiler-systems/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
 "/rocprofiler-systems/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocprofiler-"
+"systems/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[ROCm Validation Suite](https://github.com/ROCm/ROCmValidationSuite/)"
-msgstr ""
+msgstr "[ROCm 검증 모음](https://github.com/ROCm/ROCmValidationSuite/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/ROCmValidationSuite/blob/master/LICENSE)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/ROCmValidationSuite/blob/master/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocPRIM](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocprim/)"
 msgstr ""
+"[rocPRIM](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocprim/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocprim/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocprim/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCProfiler](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocprofiler/)"
 msgstr ""
+"[ROCProfiler](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"rocprofiler/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/rocprofiler/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocprofiler/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCprofiler-SDK](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/rocprofiler-sdk/)"
 msgstr ""
+"[ROCprofiler-SDK](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"rocprofiler-sdk/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects"
 "/rocprofiler-sdk/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/rocprofiler-"
+"sdk/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[rocPyDecode](https://github.com/ROCm/rocPyDecode)"
-msgstr ""
+msgstr "[rocPyDecode](https://github.com/ROCm/rocPyDecode)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocPyDecode/blob/develop/LICENSE.txt)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rocPyDecode/blob/develop/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocRAND](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocrand/)"
 msgstr ""
+"[rocRAND](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocrand/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocrand/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocrand/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[ROCr Debug Agent](https://github.com/ROCm/rocr_debug_agent/)"
-msgstr ""
+msgstr "[ROCr 디버그 에이전트](https://github.com/ROCm/rocr_debug_agent/)"
 
 #: ../../about/license.md:12
 msgid ""
@@ -674,106 +835,135 @@ msgid ""
 "Illinois/NCSA](https://github.com/ROCm/rocr_debug_agent/blob/amd-"
 "staging/LICENSE.txt)"
 msgstr ""
+"[일리노이 대학교/NCSA](https://github.com/ROCm/rocr_debug_agent/blob/amd-"
+"staging/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCR-Runtime](https://github.com/ROCm/rocm-systems/tree/develop/projects"
 "/rocr-runtime/)"
 msgstr ""
+"[ROCR-Runtime](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"rocr-runtime/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[The University of Illinois/NCSA](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/rocr-runtime/LICENSE.txt)"
 msgstr ""
+"[일리노이 대학교/NCSA](https://github.com/ROCm/rocm-systems/blob/develop/"
+"projects/rocr-runtime/LICENSE.txt)"
 
 #: ../../about/license.md:12
 msgid "[rocSHMEM](https://github.com/ROCm/rocSHMEM/)"
-msgstr ""
+msgstr "[rocSHMEM](https://github.com/ROCm/rocSHMEM/)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/rocSHMEM/blob/develop/LICENSE.md)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/rocSHMEM/blob/develop/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocSOLVER](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocsolver/)"
 msgstr ""
+"[rocSOLVER](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocsolver/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[BSD-2-Clause](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocsolver/LICENSE.md)"
 msgstr ""
+"[BSD-2-Clause](https://github.com/ROCm/rocm-libraries/blob/develop/projects/"
+"rocsolver/LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocSPARSE](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocsparse/)"
 msgstr ""
+"[rocSPARSE](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocsparse/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocsparse/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocsparse/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocThrust](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocthrust/)"
 msgstr ""
+"[rocThrust](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocthrust/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Apache 2.0](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocthrust/LICENSE)"
 msgstr ""
+"[Apache 2.0](https://github.com/ROCm/rocm-libraries/blob/develop/projects/"
+"rocthrust/LICENSE)"
 
 #: ../../about/license.md:12
 msgid ""
 "[ROCTracer](https://github.com/ROCm/rocm-"
 "systems/tree/develop/projects/roctracer/)"
 msgstr ""
+"[ROCTracer](https://github.com/ROCm/rocm-systems/tree/develop/projects/"
+"roctracer/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "systems/blob/develop/projects/roctracer/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-systems/blob/develop/projects/roctracer/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[rocWMMA](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/projects/rocwmma/)"
 msgstr ""
+"[rocWMMA](https://github.com/ROCm/rocm-libraries/tree/develop/projects/"
+"rocwmma/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/projects/rocwmma/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/projects/rocwmma/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid ""
 "[Tensile](https://github.com/ROCm/rocm-"
 "libraries/tree/develop/shared/tensile/)"
 msgstr ""
+"[인장](https://github.com/ROCm/rocm-libraries/tree/develop/shared/tensile/)"
 
 #: ../../about/license.md:12
 msgid ""
 "[MIT](https://github.com/ROCm/rocm-"
 "libraries/blob/develop/shared/tensile/LICENSE.md)"
 msgstr ""
+"[MIT](https://github.com/ROCm/rocm-libraries/blob/develop/shared/tensile/"
+"LICENSE.md)"
 
 #: ../../about/license.md:12
 msgid "[TransferBench](https://github.com/ROCm/TransferBench)"
-msgstr ""
+msgstr "[TransferBench](https://github.com/ROCm/TransferBench)"
 
 #: ../../about/license.md:12
 msgid "[MIT](https://github.com/ROCm/TransferBench/blob/develop/LICENSE.md)"
-msgstr ""
+msgstr "[MIT](https://github.com/ROCm/TransferBench/blob/develop/LICENSE.md)"
 
 #: ../../about/license.md:93
 msgid ""
@@ -784,16 +974,21 @@ msgid ""
 "components are organized in a proprietary subdirectory in the package "
 "repositories to distinguish from open sourced packages."
 msgstr ""
+"오픈 소스 ROCm 구성 요소는 공개 GitHub 저장소, [https://repo.radeon.com]"
+"(https://repo.radeon.com)의 패키지 및 기타 배포 채널을 통해 공개됩니다. 독점 "
+"제품은 [https://repo.radeon.com](https://repo.radeon.com)에서만 제공됩니다. "
+"독점 구성 요소는 오픈 소스 패키지와 구별하기 위해 패키지 저장소 내의 ‘"
+"proprietary’ 하위 디렉터리에 정리되어 있습니다."
 
 #: ../../about/license.md:100
 msgid ""
 "The following additional terms and conditions apply to your use of ROCm "
 "technical documentation."
-msgstr ""
+msgstr "ROCm 기술 문서를 이용하실 때 다음의 추가 이용 약관이 적용됩니다."
 
 #: ../../about/license.md:103
 msgid "©2023 - 2025 Advanced Micro Devices, Inc. All rights reserved."
-msgstr ""
+msgstr "©2023 - 2025 Advanced Micro Devices, Inc. 모든 권리 보유."
 
 #: ../../about/license.md:105
 msgid ""
@@ -811,6 +1006,15 @@ msgid ""
 "time to time to the content hereof without obligation of AMD to notify "
 "any person of such revisions or changes."
 msgstr ""
+"본 문서에 제시된 정보는 참고용으로만 제공되며, 기술적 부정확성, 누락 및 "
+"오타가 포함될 수 있습니다. 본 문서에 포함된 정보는 변경될 수 있으며, 제품 및 "
+"로드맵 변경, 부품 및 마더보드 버전 변경, 신모델 및/또는 신제품 출시, "
+"제조사별 제품 차이, 소프트웨어 변경, BIOS 플래시, 펌웨어 업그레이드 등을 "
+"포함하되 이에 국한되지 않는 다양한 이유로 인해 부정확해질 수 있습니다. 모든 "
+"컴퓨터 시스템에는 완전히 방지하거나 완화할 수 없는 보안 취약점의 위험이 "
+"있습니다. AMD는 이 정보를 업데이트하거나 수정 또는 개정할 의무를 지지 "
+"않습니다. 그러나 AMD는 이 정보를 개정하고 수시로 내용을 변경할 권리를 "
+"보유하며, 이러한 개정이나 변경 사항을 누구에게도 통지할 의무는 없습니다."
 
 #: ../../about/license.md:118
 msgid ""
@@ -824,6 +1028,14 @@ msgid ""
 "THE USE OF ANY INFORMATION CONTAINED HEREIN, EVEN IF AMD IS EXPRESSLY "
 "ADVISED OF THE POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"본 정보는 “있는 그대로” 제공됩니다. AMD는 본 정보의 내용에 대해 어떠한 "
+"진술이나 보증도 하지 않으며, 본 정보에 포함될 수 있는 부정확성, 오류 또는 "
+"누락에 대해 어떠한 책임도 지지 않습니다. AMD는 비침해성, 상품성 또는 특정 "
+"목적에 대한 적합성에 대한 묵시적 보증을 명시적으로 부인합니다. 어떠한 "
+"경우에도 AMD는 본 문서에 포함된 정보의 사용으로 인해 발생하는 신뢰, 본 "
+"문서에 포함된 정보의 사용으로 인해 발생하는 직접적, 간접적, 특별 또는 기타 "
+"결과적 손해에 대해 어떠한 개인에게도 책임을 지지 않습니다. 이는 AMD가 그러한 "
+"손해의 가능성에 대해 명시적으로 통지받은 경우에도 마찬가지입니다."
 
 #: ../../about/license.md:127
 msgid ""
@@ -832,10 +1044,13 @@ msgid ""
 "publication are for identification purposes only and may be trademarks of"
 " their respective companies."
 msgstr ""
+"AMD, AMD Arrow 로고, ROCm 및 이들의 조합은 Advanced Micro Devices, Inc.의 "
+"상표입니다. 본 문서에 사용된 기타 제품명은 식별 목적으로만 사용되었으며, "
+"해당 회사의 상표일 수 있습니다."
 
 #: ../../about/license.md:132
 msgid "Package licensing"
-msgstr ""
+msgstr "패키지 라이선싱"
 
 #: ../../about/license.md:135
 msgid ""
@@ -849,6 +1064,15 @@ msgid ""
 "agreement. If you do not agree to the terms of this agreement, do not "
 "install, copy or use ROCprof Trace Decoder or the AOCC CPU Optimizations."
 msgstr ""
+"ROCprof 트레이스 디코더 및 AOCC CPU 최적화 기능은 바이너리 형태로 제공되며, "
+"ROCprof 트레이스 디코더의 경우 [GitHub](https://github.com/ROCm/rocprof-"
+"trace-decoder/blob/amd-mainline/LICENSE)에 명시된 라이선스 계약의 적용을 "
+"받으며, AOCC의 경우 [Developer Central](https://www.amd.com/en/developer/"
+"aocc.html)에 명시된 라이선스 계약이 적용됩니다. ROCprof 트레이스 디코더 또는 "
+"AOCC CPU 최적화 기능을 사용, 설치, 복사 또는 배포함으로써 귀하는 본 라이선스 "
+"계약의 약관에 동의하는 것으로 간주됩니다. 본 계약의 약관에 동의하지 않는 "
+"경우, ROCprof 트레이스 디코더 또는 AOCC CPU 최적화 기능을 설치, 복사 또는 "
+"사용하지 마십시오."
 
 #: ../../about/license.md:142
 msgid ""
@@ -856,6 +1080,9 @@ msgid ""
 " at the following location: `/opt/rocm/share/doc/<component-name>/` or in"
 " the locations specified in the preceding table."
 msgstr ""
+"나머지 ROCm 패키지의 경우, 다음 위치에서 라이선스 정보를 확인할 수 있습니다: "
+"` /opt/rocm/share/doc/<component-name>/ ` 또는 앞의 표에 명시된 위치에서 "
+"확인할 수 있습니다."
 
 #: ../../about/license.md:146
 msgid ""
@@ -863,28 +1090,32 @@ msgid ""
 "component (Code Object Manager) from the "
 "`/opt/rocm/share/doc/amd_comgr/LICENSE.txt` file."
 msgstr ""
+"예를 들어, ` amd_comgr ` 구성 요소(코드 객체 관리자)의 라이선스 정보는 ` /"
+"opt/rocm/share/doc/amd_comgr/LICENSE.txt ` 파일에서 확인할 수 있습니다."
 
 #: ../../about/release-notes.md:14
 msgid "ROCm 7.2.4 release notes"
-msgstr ""
+msgstr "ROCm 7.2.4 릴리스 노트"
 
 #: ../../about/release-notes.md:16
 msgid ""
 "ROCm 7.2.4 is a quality release focused on performance and stability "
 "fixes for AI inference workloads on AMD Instinct GPUs."
 msgstr ""
+"ROCm 7.2.4는 AMD Instinct GPU에서 실행되는 AI 추론 워크로드의 성능 및 안정성 "
+"개선에 중점을 둔 품질 개선 릴리스입니다."
 
 #: ../../about/release-notes.md:18 ../../about/release-notes.md:183
 msgid "Release highlights"
-msgstr ""
+msgstr "출시 주요 내용"
 
 #: ../../about/release-notes.md:20
 msgid "The following are the notable changes in ROCm 7.2.4."
-msgstr ""
+msgstr "다음은 ROCm 7.2.4의 주요 변경 사항입니다."
 
 #: ../../about/release-notes.md:22
 msgid "Reduced hipGraphLaunch latency for multi-list graphs"
-msgstr ""
+msgstr "다중 목록 그래프에 대한 hipGraphLaunch 지연 시간 감소"
 
 #: ../../about/release-notes.md:24
 msgid ""
@@ -892,10 +1123,13 @@ msgid ""
 "launch latency for workloads using `hipGraphLaunch` with multi-list graph"
 " topologies."
 msgstr ""
+"HIP 런타임의 그래프 디스패치 메커니즘이 최적화되어, 멀티리스트 그래프 "
+"토폴로지를 사용하는 워크로드에서 `` hipGraphLaunch ``를 호출할 때의 실행 "
+"지연 시간이 단축되었습니다."
 
 #: ../../about/release-notes.md:26
 msgid "Fixed H2D memory copy latency regression in CPX mode"
-msgstr ""
+msgstr "CPX 모드에서 발생한 H2D 메모리 복사 지연 시간 퇴행 현상 수정"
 
 #: ../../about/release-notes.md:28
 msgid ""
@@ -904,10 +1138,13 @@ msgid ""
 "inference workloads that run multiple HIP streams with concurrent memory "
 "copies."
 msgstr ""
+"CPX 모드에서 AMD Instinct MI300 시리즈 GPU의 HIP 런타임 동기화 동작이 "
+"수정되어, 동시 메모리 복사가 포함된 여러 HIP 스트림을 실행하는 추론 "
+"워크로드의 지연 시간이 이전 수준으로 복원되었습니다."
 
 #: ../../about/release-notes.md:30
 msgid "Reduced ROCprofiler-SDK profiling overhead"
-msgstr ""
+msgstr "ROCprofiler-SDK 프로파일링 오버헤드 감소"
 
 #: ../../about/release-notes.md:32
 msgid ""
@@ -918,10 +1155,15 @@ msgid ""
 "traces now more accurately reflect actual runtime behavior. Coverage may "
 "vary depending on model and parallelism settings."
 msgstr ""
+"ROCprofiler-SDK 백엔드를 사용하여 PyTorch`의 torch.profiler`로 추적한 vLLM "
+"워크로드의 프로파일링 안정성이 개선되었습니다. 이전에는 추적 결과에서 GPU "
+"커널 사이에 간헐적으로 나타나던 큰 유휴 간격이 일반적인 구성에서 상당히 "
+"줄어들었으며, 이제 추적 결과가 실제 런타임 동작을 더 정확하게 반영합니다. "
+"커버리지는 모델 및 병렬 처리 설정에 따라 달라질 수 있습니다."
 
 #: ../../about/release-notes.md:34
 msgid "Reduced copy overhead in MIGraphX concat operations"
-msgstr ""
+msgstr "MIGraphX 연결 연산에서 복사 오버헤드 감소"
 
 #: ../../about/release-notes.md:36
 msgid ""
@@ -930,10 +1172,13 @@ msgid ""
 "inference throughput at small batch sizes for the affected model class on"
 " AMD Instinct MI300X GPUs."
 msgstr ""
+"MIGraphX는 이제 동일한 텐서를 여러 번 연결하는 ONNX 모델을 인식하여 장치 "
+"측에서의 중복 복사를 방지함으로써, AMD Instinct MI300X GPU에서 해당 모델 "
+"클래스의 소규모 배치 크기에서 추론 처리량을 향상시킵니다."
 
 #: ../../about/release-notes.md:38 ../../about/release-notes.md:200
 msgid "User space, driver, and firmware dependent changes"
-msgstr ""
+msgstr "사용자 공간, 드라이버 및 펌웨어에 따른 변경 사항"
 
 #: ../../about/release-notes.md:40 ../../about/release-notes.md:202
 msgid ""
@@ -945,10 +1190,16 @@ msgid ""
 "bundling AMD’s firmware releases via the AMD Platform Level Data Model "
 "(PLDM) bundle, which includes the Integrated Firmware Image (IFWI)."
 msgstr ""
+"AMD 데이터 센터 GPU 제품용 소프트웨어를 사용하려면 GPU 및 베이스보드 펌웨어, "
+"AMD GPU 드라이버, ROCm 사용자 공간 소프트웨어 간에 상호 의존성이 있는 "
+"하드웨어 및 소프트웨어 스택을 유지 관리해야 합니다. AMD는 드라이버와 ROCm "
+"사용자 공간 구성 요소를 공개하는 반면, 서버 또는 인프라 공급업체는 통합 "
+"펌웨어 이미지(IFWI)를 포함하는 AMD 플랫폼 레벨 데이터 모델(PLDM) 번들을 통해 "
+"AMD의 펌웨어 릴리스를 묶어 GPU 및 베이스보드 펌웨어를 제공합니다."
 
 #: ../../about/release-notes.md:44 ../../about/release-notes.md:206
 msgid "GPU and baseboard firmware versioning might differ across GPU families."
-msgstr ""
+msgstr "GPU 및 베이스보드 펌웨어 버전은 GPU 제품군에 따라 다를 수 있습니다."
 
 #: ../../about/release-notes.md:158
 msgid ""
@@ -957,48 +1208,57 @@ msgid ""
 "ROCm 7.2.3, refer to the [ROCm 7.2.3 release notes](#rocm-7-2-3-release-"
 "notes) below."
 msgstr ""
+"ROCm 7.2.4에는 그 외의 중요한 변경 사항이나 기능 추가가 없습니다. ROCm "
+"7.2.3의 전체적인 변경 사항, 새로운 기능 및 개선 사항에 대해서는 아래의 [ROCm "
+"7.2.3 릴리스 노트](#rocm-7-2-3-release-notes)를 참조하십시오."
 
 #: ../../about/release-notes.md:161
 msgid "ROCm 7.2.3 release notes"
-msgstr ""
+msgstr "ROCm 7.2.3 릴리스 노트"
 
 #: ../../about/release-notes.md:163
 msgid ""
 "The release notes provide a summary of notable changes since the previous"
 " ROCm release."
 msgstr ""
+"이 릴리스 노트에는 이전 ROCm 릴리스 이후의 주요 변경 사항이 요약되어 "
+"있습니다."
 
 #: ../../about/release-notes.md:165
 msgid "[Release highlights](#id1)"
-msgstr ""
+msgstr "[출시 하이라이트](#id1)"
 
 #: ../../about/release-notes.md:167
 msgid ""
 "[Supported hardware, operating system, and virtualization changes"
 "](#supported-hardware-operating-system-and-virtualization-changes)"
 msgstr ""
+"[지원되는 하드웨어, 운영 체제 및 가상화 관련 변경 사항](#supported-hardware-"
+"operating-system-and-virtualization-changes)"
 
 #: ../../about/release-notes.md:169
 msgid ""
 "[User space, driver, and firmware dependent changes](#user-space-driver-"
 "and-firmware-dependent-changes)"
 msgstr ""
+"[사용자 공간, 드라이버 및 펌웨어에 따른 변경 사항](#user-space-driver-and-"
+"firmware-dependent-changes)"
 
 #: ../../about/release-notes.md:171
 msgid "[ROCm components versioning](#rocm-components)"
-msgstr ""
+msgstr "[ROCm 구성 요소 버전 관리](#rocm-components)"
 
 #: ../../about/release-notes.md:173
 msgid "[Detailed component changes](#detailed-component-changes)"
-msgstr ""
+msgstr "[자세한 구성 요소 변경 사항](#detailed-component-changes)"
 
 #: ../../about/release-notes.md:175
 msgid "[ROCm known issues](#rocm-known-issues)"
-msgstr ""
+msgstr "[ROCm 알려진 문제](#rocm-known-issues)"
 
 #: ../../about/release-notes.md:177
 msgid "[ROCm upcoming changes](#rocm-upcoming-changes)"
-msgstr ""
+msgstr "[ROCm 향후 변경 사항](#rocm-upcoming-changes)"
 
 #: ../../about/release-notes.md:180
 msgid ""
@@ -1007,6 +1267,9 @@ msgid ""
 "/radeon-ryzen/en/latest/index.html) documentation to verify compatibility"
 " and system requirements."
 msgstr ""
+"그래픽 작업 부하에 AMD Radeon™ GPU 또는 Ryzen™을 사용하는 경우, [Radeon 및 "
+"Ryzen에서 ROCm 사용](https://rocm.docs.amd.com/projects/radeon-ryzen/en/"
+"latest/index.html) 문서를 참조하여 호환성 및 시스템 요구 사항을 확인하십시오."
 
 #: ../../about/release-notes.md:185
 msgid ""
@@ -1014,20 +1277,23 @@ msgid ""
 "For changes to individual components, see [Detailed component changes"
 "](#detailed-component-changes)."
 msgstr ""
+"다음은 ROCm 7.2.3의 주요 새로운 기능 및 개선 사항입니다. 개별 구성 요소의 "
+"변경 사항에 대해서는 [구성 요소별 변경 사항 상세 정보](#detailed-component-"
+"changes)를 참조하십시오."
 
 #: ../../about/release-notes.md:188
 msgid "Supported hardware, operating system, and virtualization changes"
-msgstr ""
+msgstr "지원되는 하드웨어, 운영 체제 및 가상화 관련 변경 사항"
 
 #: ../../about/release-notes.md:190
 msgid ""
 "Hardware, operating system, and virtualization support remains unchanged "
 "in this release."
-msgstr ""
+msgstr "이번 릴리스에서는 하드웨어, 운영 체제 및 가상화 지원 사항에 변동이 없습니다."
 
 #: ../../about/release-notes.md:192
 msgid "For more information about:"
-msgstr ""
+msgstr "다음에 대한 자세한 정보는:"
 
 #: ../../about/release-notes.md:194
 msgid ""
@@ -1035,6 +1301,9 @@ msgid ""
 "(Linux)](https://rocm.docs.amd.com/projects/install-on-"
 "linux/en/docs-7.2.3/reference/system-requirements.html#supported-gpus)."
 msgstr ""
+"AMD 하드웨어의 경우, [지원되는 GPU (Linux)](https://rocm.docs.amd.com/"
+"projects/install-on-linux/en/docs-7.2.3/reference/system-"
+"requirements.html#supported-gpus)를 참조하십시오."
 
 #: ../../about/release-notes.md:196
 msgid ""
@@ -1045,6 +1314,10 @@ msgid ""
 "Linux](https://rocm.docs.amd.com/projects/install-on-"
 "linux/en/docs-7.2.3/)."
 msgstr ""
+"운영 체제에 대해서는 [지원되는 운영 체제](https://rocm.docs.amd.com/projects/"
+"install-on-linux/en/docs-7.2.3/reference/system-requirements.html#supported-"
+"operating-systems) 및 [Linux용 ROCm 설치](https://rocm.docs.amd.com/projects/"
+"install-on-linux/en/docs-7.2.3/)를 참조하십시오."
 
 #: ../../about/release-notes.md:198
 msgid ""
@@ -1053,10 +1326,13 @@ msgid ""
 "linux/en/docs-7.2.3/reference/system-requirements.html#virtualization-"
 "support)."
 msgstr ""
+"가상화 지원에 대해서는 [가상화 지원](https://rocm.docs.amd.com/projects/"
+"install-on-linux/en/docs-7.2.3/reference/system-"
+"requirements.html#virtualization-support)을 참조하십시오."
 
 #: ../../about/release-notes.md:319
 msgid "Improved profiling accuracy for vLLM workloads"
-msgstr ""
+msgstr "vLLM 워크로드에 대한 프로파일링 정확도 향상"
 
 #: ../../about/release-notes.md:321
 msgid ""
@@ -1067,20 +1343,28 @@ msgid ""
 "actual runtime behavior. Coverage may vary depending on model and "
 "parallelism settings; additional improvements are in progress."
 msgstr ""
+"ROCm 7.2.3은 PyTorch`를 사용하여 추적된 vLLM 워크로드에 대한 프로파일링 "
+"안정성을 개선했습니다. torch.profiler `. 이전에는 트레이스 내 GPU 커널 "
+"사이에 간헐적으로 나타나던 큰 유휴 간격이 일반적인 구성에서 상당히 "
+"줄어들었으며, 이제 트레이스가 실제 런타임 동작을 더 정확하게 반영합니다. "
+"커버리지는 모델 및 병렬 처리 설정에 따라 달라질 수 있으며, 추가 개선 작업이 "
+"진행 중입니다."
 
 #: ../../about/release-notes.md:323
 msgid "MIGraphX update"
-msgstr ""
+msgstr "MIGraphX 업데이트"
 
 #: ../../about/release-notes.md:325
 msgid ""
 "[MIGraphX](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/docs-7.2.3/index.html)"
 " has the following enhancements:"
 msgstr ""
+"[MIGraphX](https://rocm.docs.amd.com/projects/AMDMIGraphX/en/docs-7.2.3/"
+"index.html)에는 다음과 같은 개선 사항이 있습니다:"
 
 #: ../../about/release-notes.md:327
 msgid "Improved performance of the Gather operator"
-msgstr ""
+msgstr "Gather 연산자의 성능 개선"
 
 #: ../../about/release-notes.md:329
 msgid ""
@@ -1093,10 +1377,18 @@ msgid ""
 "`transpose`/`reshape`/`broadcast`/`slice`, enabling better optimization "
 "across different backends and data layouts."
 msgstr ""
+"유사한 임베딩 테이블에서 수행되는 여러 개의 독립적인 수집 연산을 단일 배치 "
+"연산으로 통합함으로써, 임베딩 집약적인 추론 워크로드의 성능이 "
+"향상되었습니다. 이제 크로스 임베딩(cross-embedding) 가더 연산자에 수평 융합"
+"(horizontal fusion)을 추가함으로써, 커널 실행 횟수를 줄이고 메모리 트래픽을 "
+"감소시켜 멀티 가더(multi-gather) 워크로드가 더 효율적으로 실행됩니다. 이러한 "
+"가더 연산자는 ` 전치(transpose) ` / ` 재구성(reshape) ` / ` 브로드캐스트"
+"(broadcast) ` / ` 슬라이스(slice) `를 사용하도록 업데이트되어, 다양한 백엔드 "
+"및 데이터 레이아웃 전반에 걸쳐 더 나은 최적화를 가능하게 합니다."
 
 #: ../../about/release-notes.md:331
 msgid "ONNX Runtime reliability improvement"
-msgstr ""
+msgstr "ONNX 런타임의 안정성 향상"
 
 #: ../../about/release-notes.md:333
 msgid ""
@@ -1105,10 +1397,13 @@ msgid ""
 "Execution Provider, with improved memory allocation and deallocation for "
 "multi-stream inference."
 msgstr ""
+"MIGraphX를 통해 가속화된 ONNX 런타임 워크로드는 이제 MIGraphX 실행 제공자의 "
+"외부 스트림 지원을 통해 더욱 안정적인 환경을 제공하며, 다중 스트림 추론을 "
+"위한 메모리 할당 및 해제 기능이 개선되었습니다."
 
 #: ../../about/release-notes.md:335
 msgid "ROCm documentation updates"
-msgstr ""
+msgstr "ROCm 문서 업데이트"
 
 #: ../../about/release-notes.md:337
 #, python-brace-format
@@ -1123,10 +1418,18 @@ msgid ""
 "xio/en/beta-0.1.0/index.html) and {fab}`github` [ROCm/rocm-"
 "xio](https://github.com/ROCm/rocm-xio) GitHub repository."
 msgstr ""
+"ROCm 문서가 ROCm XIO 문서로 업데이트되었습니다. ROCm XIO는 AMD GPU`의 "
+"__device__ ` 코드를 위한 가속기 주도 I/O(XIO) API를 제공합니다. 이를 통해 "
+"AMD GPU는 CPU의 개입 없이 하드웨어 장치에 대한 직접 I/O 작업을 수행할 수 "
+"있습니다. ROCm XIO는 2026년 4월 초기 액세스 소프트웨어 기술 미리보기로 처음 "
+"출시되었습니다. 실제 생산 환경의 워크로드를 실행하는 것은 권장되지 않습니다. "
+"자세한 내용은 [ROCm XIO 문서](https://rocm.docs.amd.com/projects/rocm-xio/en/"
+"beta-0.1.0/index.html) 및 {fab} ` github ` [ROCm/rocm-xio](https://"
+"github.com/ROCm/rocm-xio) GitHub 저장소를 참조하십시오."
 
 #: ../../about/release-notes.md:340
 msgid "ROCm components"
-msgstr ""
+msgstr "ROCm 구성 요소"
 
 #: ../../about/release-notes.md:342
 msgid ""
@@ -1134,19 +1437,24 @@ msgid ""
 " including any version changes from 7.2.2/7.2.1 to 7.2.3. Click the "
 "component's updated version to go to a list of its changes."
 msgstr ""
+"다음 표에는 ROCm 7.2.3의 ROCm 구성 요소 버전 목록이 나와 있으며, 7.2.2/"
+"7.2.1에서 7.2.3으로 변경된 버전 정보도 포함되어 있습니다. 구성 요소의 "
+"업데이트된 버전을 클릭하면 해당 변경 사항 목록으로 이동할 수 있습니다."
 
 #: ../../about/release-notes.md:345
 #, python-brace-format
 msgid "Click {fab}`github` to go to the component's source code on GitHub."
 msgstr ""
+"{fab}, `, github `을 클릭하면 GitHub에서 해당 컴포넌트의 소스 코드를 확인할 "
+"수 있습니다."
 
 #: ../../about/release-notes.md:670
 msgid "Detailed component changes"
-msgstr ""
+msgstr "구성 요소 변경 내역 상세 정보"
 
 #: ../../about/release-notes.md:672
 msgid "The following sections describe key changes to ROCm components."
-msgstr ""
+msgstr "다음 섹션에서는 ROCm 구성 요소의 주요 변경 사항을 설명합니다."
 
 #: ../../about/release-notes.md:675
 #, python-brace-format
@@ -1154,114 +1462,130 @@ msgid ""
 "For a historical overview of ROCm component updates, see the {doc}`ROCm "
 "consolidated changelog </release/changelog>`."
 msgstr ""
+"ROCm 구성 요소 업데이트에 대한 역사적 개요는 {doc} ` ROCm 통합 변경 내역 </"
+"release/changelog>`에서 확인할 수 있습니다."
 
 #: ../../about/release-notes.md:678
 msgid "**MIGraphX** (2.15.0)"
-msgstr ""
+msgstr "** MIGraphX ** (2.15.0)"
 
 #: ../../about/release-notes.md:680
 msgid "Added"
-msgstr ""
+msgstr "추가됨"
 
 #: ../../about/release-notes.md:682
 msgid ""
 "External stream support to the MIGraphX context, allowing external HIP "
 "streams to be used during execution."
 msgstr ""
+"MIGraphX 컨텍스트에 대한 외부 스트림 지원이 추가되어, 실행 중에 외부 HIP "
+"스트림을 사용할 수 있게 되었습니다."
 
 #: ../../about/release-notes.md:683
 msgid ""
 "Ability to return a vector for output alias, supporting operators like "
 "`make_tuple`."
 msgstr ""
+"출력 별칭으로 벡터를 반환할 수 있으며, ` make_tuple `와 같은 연산자를 "
+"지원합니다."
 
 #: ../../about/release-notes.md:685
 msgid "Changed"
-msgstr ""
+msgstr "변경됨"
 
 #: ../../about/release-notes.md:687
 msgid "Refactored `move_output_instructions_after` into the module class."
-msgstr ""
+msgstr "`의 move_output_instructions_after `를 모듈 클래스로 리팩토링했습니다."
 
 #: ../../about/release-notes.md:688
 msgid "Updated rocMLIR to fix `bert_squad` and `bert_tf` regressions."
 msgstr ""
+"`의 bert_squad ` 및 `의 bert_tf `에서 발생한 성능 저하 문제를 수정하기 위해 "
+"rocMLIR을 업데이트했습니다."
 
 #: ../../about/release-notes.md:690
 msgid "Optimized"
-msgstr ""
+msgstr "최적화됨"
 
 #: ../../about/release-notes.md:692
 msgid ""
 "Rewrote the `gather` operator to use "
 "`transpose`/`reshape`/`broadcast`/`slice` for improved performance."
 msgstr ""
+"성능 향상을 위해 `의 gather ` 연산자를 `의 transpose ` / `의 reshape ` / `의 "
+"broadcast ` / `의 slice `를 사용하도록 재작성했습니다."
 
 #: ../../about/release-notes.md:693
 msgid "Horizontally fuse cross-embedding `gather` operators."
-msgstr ""
+msgstr "`의 가로 방향 융합 크로스 임베딩과 `의 연산자를 결합합니다."
 
 #: ../../about/release-notes.md:694
 msgid "Improved tuning for Split-K."
-msgstr ""
+msgstr "Split-K의 튜닝이 개선되었습니다."
 
 #: ../../about/release-notes.md:695
 msgid ""
 "Removed extra assignments and inserts in `find_nop_reshapes` to reduce "
 "overhead."
 msgstr ""
+"`의 find_nop_reshapes(`)에서 불필요한 할당 및 삽입을 제거하여 오버헤드를 "
+"줄였습니다."
 
 #: ../../about/release-notes.md:697
 msgid "Resolved issues"
-msgstr ""
+msgstr "해결된 문제"
 
 #: ../../about/release-notes.md:699
 msgid "The following issues have been fixed:"
-msgstr ""
+msgstr "다음과 같은 문제가 수정되었습니다:"
 
 #: ../../about/release-notes.md:701
 msgid "`int` to `bf16`/`fp16` conversion errors."
-msgstr ""
+msgstr "` int `에서 `로의 bf16 ` / ` fp16 ` 변환 오류."
 
 #: ../../about/release-notes.md:702
 msgid "Comparison logic in `find_concat_op` to match the correct I/O."
-msgstr ""
+msgstr "`의 find_concat_op(`)에 있는 비교 로직을 통해 올바른 I/O를 일치시킵니다."
 
 #: ../../about/release-notes.md:703
 msgid ""
 "`shape_transform_descriptor::rebase` when flattening a broadcasted "
 "dimension."
 msgstr ""
+"` 브로드캐스트된 차원을 평탄화할 때 shape_transform_descriptor::rebase `를 "
+"호출합니다."
 
 #: ../../about/release-notes.md:704
 msgid "An error with `rewrite_reshapes`."
-msgstr ""
+msgstr "`의 rewrite_reshapes 함수에서 오류가 발생했습니다. `."
 
 #: ../../about/release-notes.md:705
 msgid "A gather rewrite crash by validating the strided view element count."
-msgstr ""
+msgstr "스트라이드 뷰의 요소 수를 검증하는 과정에서 발생하는 가더 재작성 오류."
 
 #: ../../about/release-notes.md:706
 msgid "A bug in gather rewrite with NHWC shapes."
-msgstr ""
+msgstr "NHWC 도형을 사용한 gather 재작성 기능의 버그."
 
 #: ../../about/release-notes.md:707
 msgid ""
 "A crash in rocMLIR with Inception v3 on RDNA3 architecture-based Radeon "
 "GPUs."
 msgstr ""
+"RDNA3 아키텍처 기반 Radeon GPU에서 Inception v3를 실행할 때 rocMLIR에서 "
+"발생하는 충돌."
 
 #: ../../about/release-notes.md:708
 msgid "Filter zero-argument operators during ONNX parsing to prevent errors."
-msgstr ""
+msgstr "ONNX 구문 분석 시 인수가 없는 연산자를 필터링하여 오류를 방지합니다."
 
 #: ../../about/release-notes.md:709
 msgid "Conflict for missing `no_broadcast` parameter on ROCm 7.2.x."
-msgstr ""
+msgstr "ROCm 7.2.x에서 ```의 `no_broadcast` 및 ``` 매개변수가 누락되어 발생하는 충돌."
 
 #: ../../about/release-notes.md:711
 msgid "ROCm known issues"
-msgstr ""
+msgstr "ROCm의 알려진 문제점"
 
 #: ../../about/release-notes.md:713
 #, python-brace-format
@@ -1271,10 +1595,14 @@ msgid ""
 " issues related to individual components, review the [Detailed component "
 "changes](#detailed-component-changes)."
 msgstr ""
+"ROCm의 알려진 문제는 {fab}, `, GitHub ` [GitHub](https://github.com/ROCm/"
+"ROCm/labels/Verified%20Issue)에 기재되어 있습니다. 개별 구성 요소와 관련된 "
+"알려진 문제에 대해서는 [구성 요소별 변경 사항 상세 정보](#detailed-component-"
+"changes)를 확인하시기 바랍니다."
 
 #: ../../about/release-notes.md:716
 msgid "Minor performance regression for MIGraphX with int8-quantized models"
-msgstr ""
+msgstr "int8 양자화 모델을 사용할 때 MIGraphX의 성능이 소폭 저하됨"
 
 #: ../../about/release-notes.md:718
 msgid ""
@@ -1286,20 +1614,28 @@ msgid ""
 "investigation and will be fixed in a future ROCm release. See [GitHub "
 "issue #6195](https://github.com/ROCm/ROCm/issues/6195)."
 msgstr ""
+"MIGraphX에서 int8 양자화 모델을 실행할 때 성능이 약간 저하될 수 있습니다. "
+"이러한 영향은 일반적으로 미미하며 정확성에는 영향을 미치지 않습니다. 그러나 "
+"피크 처리량에 민감한 워크로드의 경우, 양자화되지 않은 모델이나 다른 실행 "
+"경로에 비해 성능이 저하될 수 있습니다. 이 문제는 현재 조사 중이며, 향후 ROCm "
+"릴리스에서 수정될 예정입니다. [GitHub 이슈 #6195](https://github.com/ROCm/"
+"ROCm/issues/6195)를 참조하십시오."
 
 #: ../../about/release-notes.md:720
 msgid "ROCm upcoming changes"
-msgstr ""
+msgstr "ROCm의 향후 변경 사항"
 
 #: ../../about/release-notes.md:722
 msgid ""
 "The following changes to the ROCm software stack are anticipated for "
 "future releases."
 msgstr ""
+"향후 릴리스에서는 ROCm 소프트웨어 스택에 다음과 같은 변경 사항이 적용될 "
+"예정입니다."
 
 #: ../../about/release-notes.md:724
 msgid "ROCTracer, ROCProfiler, rocprof, and rocprofv2 deprecation"
-msgstr ""
+msgstr "ROCTracer, ROCProfiler, rocprof 및 rocprofv2의 사용 중단"
 
 #: ../../about/release-notes.md:726
 msgid ""
@@ -1309,6 +1645,10 @@ msgid ""
 "sdk/en/latest/) library and the (`rocprofv3`) tool to ensure continued "
 "support and access to new features."
 msgstr ""
+"ROCTracer, ROCProfiler, ` rocprof ` 및 ` rocprofv2 `는 더 이상 사용되지 "
+"않습니다. 지속적인 지원과 새로운 기능을 이용하기 위해서는 [ROCprofiler-SDK]"
+"(https://rocm.docs.amd.com/projects/rocprofiler-sdk/en/latest/) 라이브러리와 "
+"(` rocprofv3 `) 도구를 최신 버전으로 업그레이드할 것을 강력히 권장합니다."
 
 #: ../../about/release-notes.md:728
 msgid ""
@@ -1318,16 +1658,22 @@ msgid ""
 "tools](https://rocm.docs.amd.com/projects/rocprofiler-"
 "sdk/en/latest/conceptual/comparing-with-legacy-tools.html)."
 msgstr ""
+"사용 중단된 ROCProfiler 및 ROCTracer에 비해 ROCprofiler-SDK의 주요 기능 개선 "
+"사항과 장점에 대해 알아보려면 [ROCprofiler-SDK와 기존 ROCm 프로파일링 도구 "
+"비교](https://rocm.docs.amd.com/projects/rocprofiler-sdk/en/latest/"
+"conceptual/comparing-with-legacy-tools.html)."
 
 #: ../../about/release-notes.md:730
 msgid ""
 "It's anticipated that ROCTracer, ROCProfiler, `rocprof`, and `rocprofv2` "
 "will reach end of support (EoS) by the end of 2026 Q2."
 msgstr ""
+"ROCTracer, ROCProfiler(`), rocprof(`) 및 ` rocprofv2(`)는 2026년 2분기 "
+"말까지 지원 종료(EoS)될 것으로 예상됩니다."
 
 #: ../../about/release-notes.md:732
 msgid "ROCm SMI deprecation"
-msgstr ""
+msgstr "ROCm SMI 사용 중단"
 
 #: ../../about/release-notes.md:734
 msgid ""
@@ -1336,6 +1682,24 @@ msgid ""
 "transition, only critical bug fixes will be addressed and no further "
 "feature development will take place."
 msgstr ""
+"[ROCm SMI](https://github.com/ROCm/rocm_smi_lib)는 향후 ROCm 릴리스에서 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 "
+"단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계적으로 단계"
 
 #: ../../about/release-notes.md:739
 msgid ""
@@ -1346,10 +1710,16 @@ msgid ""
 "ongoing support. For more information on AMD SMI, see the [AMD SMI "
 "documentation](https://rocm.docs.amd.com/projects/amdsmi/en/latest/)."
 msgstr ""
+"프로젝트를 ROCm SMI의 후속 버전인 [AMD SMI](https://github.com/ROCm/rocm-"
+"systems/tree/develop/projects/amdsmi)로 전환할 것을 강력히 권장합니다. AMD "
+"SMI는 ROCm SMI의 모든 기능을 포함하고 있으며, 앞으로도 정기적인 업데이트, "
+"새로운 기능 및 지속적인 지원을 받을 예정입니다. AMD SMI에 대한 자세한 내용은 "
+"[AMD SMI 문서](https://rocm.docs.amd.com/projects/amdsmi/en/latest/)를 "
+"참조하십시오."
 
 #: ../../about/release-notes.md:745
 msgid "Changes to ROCm Object Tooling"
-msgstr ""
+msgstr "ROCm 객체 툴링의 변경 사항"
 
 #: ../../about/release-notes.md:747
 msgid ""
@@ -1364,4 +1734,11 @@ msgid ""
 "objdump](https://llvm.org/docs/CommandGuide/llvm-objdump.html) for more "
 "information."
 msgstr ""
-
+"ROCm Object Tooling 도구인 `` (roc-obj-ls), ``, `` (roc-obj-extract), `` 및 "
+"`` (roc-obj) ``는 ROCm 6.4에서 사용 중단되었으며, 향후 릴리스에서 제거될 "
+"예정입니다. ``의 llvm-objdump --offloading `` 도구 옵션에, 입력으로 전달된 "
+"오브젝트나 실행 파일 내에서 발견된 모든 clang-offload-bundles를 개별 코드 "
+"오브젝트로 추출하는 기능이 추가되었습니다.  ``의 llvm-objdump --offloading "
+"`` 도구 옵션은 `` --arch-name `` 옵션도 지원하며, 지정된 대상 아키텍처로 "
+"발견된 코드 오브젝트만 추출합니다. 자세한 내용은 [llvm-objdump](https://"
+"llvm.org/docs/CommandGuide/llvm-objdump.html)를 참조하십시오."
